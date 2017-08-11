@@ -41,7 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="Boutique Darou Salam - Site Officiel"/>
 <meta property="og:description" content="Bienvenue sur le site officiel de la boutique Darou Salam"/>
-<meta property="og:image" content="${baseUrl}/templates/fodder/images/banner2.jpg"/>
+<meta property="og:image" content="${baseUrl}/templates/fashion/images/banner2.jpg"/>
 </head>
 	
 <body>
