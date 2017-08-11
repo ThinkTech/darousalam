@@ -130,9 +130,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<script>
-		$('#myModal88').modal('show');
-	</script>
 	<div class="header">
 		<div class="container">
 			<div class="w3l_login">
