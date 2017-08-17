@@ -53,11 +53,11 @@ $(document).ready(function() {
 	$.each($("img"),function(index,element){
     	$(element).attr("src",$(element).data("src"));
     });	
+	$("body").css("opacity","1");
 });
 
 
 $(document).ready(function(){
-
 
 	/* ---- Countdown timer ---- */
 
@@ -77,5 +77,5 @@ $(document).ready(function(){
 		function(){ $(this).animate({ top: 3 }, 'fast'); },
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
 	);	
-
+    
 });

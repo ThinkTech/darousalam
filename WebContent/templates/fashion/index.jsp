@@ -6,13 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Habillements, Jeans, Fashion" />
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
-<link href="templates/fashion/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="templates/fashion/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="templates/fashion/css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="templates/fashion/css/jquery.countdown.css" />
-<link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
+<link href="templates/fashion/css/bundle.css" rel="stylesheet" type="text/css" media="all" />
+<link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<link href="templates/fashion/css/popuo-box.css" rel="stylesheet" type="text/css" property="" media="all" />
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="Boutique Darou Salam - Site Officiel"/>
@@ -1323,15 +1320,8 @@
 		</div>
 	</div>
 <!-- //footer -->
-<script src="templates/fashion/js/jquery.min.js"></script>
-<script type="text/javascript" src="templates/fashion/js/bootstrap-3.1.1.min.js"></script>
-<script src="templates/fashion/js/simpleCart.min.js"></script>
-<script src="templates/fashion/js/easyResponsiveTabs.js" type="text/javascript"></script>
-<script src="templates/fashion/js/jquery.magnific-popup.js" type="text/javascript"></script>
-<script src="templates/fashion/js/jquery.countdown.js"></script>
-<script src="templates/fashion/js/jquery.wmuSlider.js"></script> 
-<script type="text/javascript" src="templates/fashion/js/jquery.flexisel.js"></script>
+<script src="templates/fashion/js/bundle.js"></script> 
 <script type="text/javascript" src="js/metamorphosis.js"></script>
-<script type="text/javascript" src="templates/fashion/js/template.js"></script>
+<script type="text/javascript" src="templates/fashion/js/template.js" async defer></script>
 </body>
 </html>

@@ -1,20 +1,19 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html, body{
     font-size: 100%;
 	background:	#fff;
 	font-family:'Open Sans', sans-serif;
 }
+
+body {
+	opacity : 0;
+}
+
 p{
 	margin:0;
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Glegoo', serif;
+	font-family: 'Exo', serif;
 	margin:0;
 }
 ul,label{
@@ -503,7 +502,7 @@ ul.multi-column-dropdown h6 {
 .nav-tabs > li > a {
     font-size: 1em;
     color: #212121;
-    font-family: 'Glegoo', serif;
+    font-family: 'Exo', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 	border-radius: 0;
@@ -1549,7 +1548,7 @@ h3.other-nw {
 	text-decoration: none;
 }
 .panel_bottom li a{
-	font-family: 'Glegoo', serif;
+	font-family: 'Exo', serif;
 	font-size: .96em !important;
 }
 .panel_bottom li a:hover,.panel-title a:hover{	
