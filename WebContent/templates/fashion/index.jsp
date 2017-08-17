@@ -143,7 +143,7 @@
 								</div>
 							</ul>
 						</li>
-						<li><a>Mail Us</a></li>
+						<li><a>Contact Us</a></li>
 					</ul>
 				</div>
 			<div class="w3l_login">
