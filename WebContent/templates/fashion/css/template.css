@@ -204,7 +204,7 @@ ul.multi-column-dropdown h6 {
     color:#ff9b05;
     margin: 0 0 1em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #E4E4E4;
+    border-bottom: 1px solid #db703f;
     text-transform: capitalize;
 }
 .multi-column-dropdown li {
@@ -1333,15 +1333,15 @@ div#horizontalTab ul {
 	color:#212121 !important;
 }
 .register input[type="submit"]{
-	outline:none;
-	border:none;
-	background:#212121;
-	padding:10px 0;
-	color:#fff;
-	width:40%;
-	font-size:1em;
-	text-transform:uppercase;
-	margin:2em 0 0;
+	outline: none;
+    border: none;
+    background: #212121;
+    height: 38px;
+    color: #fff;
+    min-width: 26.2%;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 2em 0 0;
 }
 .register input[type="submit"]:hover{
 	background:#ff9b05;
