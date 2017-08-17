@@ -186,7 +186,7 @@ a.simpleCart_empty {
     border: none;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    color: #d8703f;
+    color: #333;
 }
 .navbar-default .navbar-nav > li > a:focus {
     color: #333 !important;
@@ -215,7 +215,7 @@ ul.multi-column-dropdown h6 {
     display: block;
     clear: both;
     line-height: 1.428571429;
-    color: #999 !important;
+    color: #333 !important;
     white-space: normal;
 	font-weight:500 !important;
 	text-decoration:none;
