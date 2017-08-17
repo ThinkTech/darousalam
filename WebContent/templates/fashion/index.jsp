@@ -2,41 +2,17 @@
 <html>
 <head>
 <title>Darou Salam</title>
-<!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Women's Fashion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
+<meta name="keywords" content="Habillements, Jeans, Fashion" />
+<link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script src="templates/fashion/js/jquery.min.js"></script>
-<!-- //js -->
-<!-- countdown -->
 <link rel="stylesheet" href="templates/fashion/css/jquery.countdown.css" />
-<!-- //countdown -->
-<!-- cart -->
-<script src="templates/fashion/js/simpleCart.min.js"></script>
-<!-- cart -->
-<!-- for bootstrap working -->
-<script type="text/javascript" src="templates/fashion/js/bootstrap-3.1.1.min.js"></script>
-<!-- //for bootstrap working -->
 <link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smooth-scrolling -->
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- //end-smooth-scrolling -->
+<link href="templates/fashion/css/popuo-box.css" rel="stylesheet" type="text/css" property="" media="all" />
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="Boutique Darou Salam - Site Officiel"/>
@@ -96,16 +72,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div> 			        					            	      
 								</div>	
 							</div>
-							<script src="templates/fashion/js/easyResponsiveTabs.js" type="text/javascript"></script>
-							<script type="text/javascript">
-								$(document).ready(function () {
-									$('#horizontalTab').easyResponsiveTabs({
-										type: 'default', //Types: default, vertical, accordion           
-										width: 'auto', //auto or any width like 600px
-										fit: true   // 100% fit in a container
-									});
-								});
-							</script>
 							<div id="OR" class="hidden-xs">
 								OR</div>
 						</div>
@@ -132,49 +98,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<div class="header">
 		<div class="container">
-			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-			</div>
-			<div class="w3l_logo">
-				<h1><a href="${path}">Darou Salam<span>For Fashion Lovers</span></a></h1>
-			</div>
-			<div class="search">
-				<input class="search_box" type="checkbox" id="search_box">
-				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
-				<div class="search_form">
-					<form action="#" method="post">
-						<input type="text" name="Search" placeholder="Search...">
-						<input type="submit" value="Send">
-					</form>
-				</div>
-			</div>
-			<div class="cart box_1">
-				<a>
-					<div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
-					<img src="templates/fashion/images/bag.png" alt="" />
-				</a>
-				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
-				<div class="clearfix"> </div>
-			</div>	
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<div class="navigation">
-		<div class="container">
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header nav_2">
-					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div> 
-				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="${path}" class="act">Home</a></li>	
+						<li><a>About Us</a></li>	
 						<!-- Mega Menu -->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
@@ -210,18 +136,56 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="col-sm-4">
 										<div class="w3ls_products_pos">
 											<h4>50%<i>Off/-</i></h4>
-											<img src="templates/fashion/images/1.jpg" alt=" " class="img-responsive" />
+											<img data-src="templates/fashion/images/1.jpg" alt=" " class="img-responsive" />
 										</div>
 									</div>
 									<div class="clearfix"></div>
 								</div>
 							</ul>
 						</li>
-						<li><a>About Us</a></li>
-						<li><a>Short Codes</a></li>
 						<li><a>Mail Us</a></li>
 					</ul>
 				</div>
+			<div class="w3l_login">
+				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+			</div>
+			<div class="w3l_logo">
+				<h1><a href="${path}">Darou Salam<span>For Fashion Lovers</span></a></h1>
+			</div>
+			<div class="search">
+				<input class="search_box" type="checkbox" id="search_box">
+				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
+				<div class="search_form">
+					<form action="#" method="post">
+						<input type="text" name="Search" placeholder="Search...">
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+			<div class="cart box_1">
+				<a>
+					<div class="total">
+					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+					<img data-src="templates/fashion/images/bag.png" alt="" />
+				</a>
+				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+				<div class="clearfix"> </div>
+			</div>	
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
 			</nav>
 		</div>
 	</div>
@@ -229,7 +193,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- banner -->
 	<div class="banner" id="home1">
 		<div class="container">
-			<h3>fashions fade, <span>style is eternal</span></h3>
+			
 		</div>
 	</div>
 <!-- //banner -->
@@ -244,28 +208,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</a>
 				</div>
 				<!-- pop-up-box -->    
-						<link href="templates/fashion/css/popuo-box.css" rel="stylesheet" type="text/css" property="" media="all" />
-						<script src="templates/fashion/js/jquery.magnific-popup.js" type="text/javascript"></script>
 					<!--//pop-up-box -->
 					<div id="small-dialog" class="mfp-hide">
 						<iframe src="https://player.vimeo.com/video/23259282?title=0&byline=0&portrait=0"></iframe>
 					</div>
-					<script>
-						$(document).ready(function() {
-						$('.popup-with-zoom-anim').magnificPopup({
-							type: 'inline',
-							fixedContentPos: false,
-							fixedBgPos: true,
-							overflowY: 'auto',
-							closeBtnInside: true,
-							preloader: false,
-							midClick: true,
-							removalDelay: 300,
-							mainClass: 'my-mfp-zoom-in'
-						});
-																						
-						});
-					</script>
 			</div>
 			<div class="col-md-7 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
@@ -281,14 +227,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/7.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/7.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -305,14 +251,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/7.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/7.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -329,14 +275,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/7.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/7.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -358,14 +304,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -382,14 +328,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -406,14 +352,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -435,14 +381,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -459,14 +405,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -483,14 +429,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -512,14 +458,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -536,14 +482,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -560,14 +506,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -589,14 +535,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -613,14 +559,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -637,14 +583,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
-										<img src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -674,7 +620,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/20.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/20.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look women's shirt</h4>
@@ -687,19 +633,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -732,7 +678,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/63.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/63.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look black women's jeans</h4>
@@ -745,19 +691,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -790,7 +736,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/23.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/23.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look women's Watch</h4>
@@ -803,19 +749,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -848,7 +794,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/24.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/24.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look women's Sandal</h4>
@@ -861,19 +807,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -906,7 +852,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/22.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/22.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look women's Necklace</h4>
@@ -919,19 +865,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -964,7 +910,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/35.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/35.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look women's Jacket</h4>
@@ -977,19 +923,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -1022,7 +968,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img src="templates/fashion/images/39.jpg" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/39.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4>a good look women's Long Skirt</h4>
@@ -1035,19 +981,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -1089,8 +1035,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="timer_wrap">
 					<div id="counter"> </div>
 				</div>
-				<script src="templates/fashion/js/jquery.countdown.js"></script>
-				<script src="templates/fashion/js/script.js"></script>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -1104,7 +1048,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3agile_special_deals_grids">
 				<div class="col-md-7 w3agile_special_deals_grid_left">
 					<div class="w3agile_special_deals_grid_left_grid">
-						<img src="templates/fashion/images/26.jpg" alt=" " class="img-responsive" />
+						<img data-src="templates/fashion/images/26.jpg" alt=" " class="img-responsive" />
 						<div class="w3agile_special_deals_grid_left_grid_pos1">
 							<h5>30%<span>Off/-</span></h5>
 						</div>
@@ -1117,7 +1061,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<img src="templates/fashion/images/1.png" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/1.png" alt=" " class="img-responsive" />
 										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
 											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
 											eum fugiat quo voluptas nulla pariatur</p>
@@ -1128,7 +1072,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<img src="templates/fashion/images/2.png" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/2.png" alt=" " class="img-responsive" />
 										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
 											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
 											eum fugiat quo voluptas nulla pariatur</p>
@@ -1139,7 +1083,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<img src="templates/fashion/images/3.png" alt=" " class="img-responsive" />
+										<img data-src="templates/fashion/images/3.png" alt=" " class="img-responsive" />
 										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
 											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
 											eum fugiat quo voluptas nulla pariatur</p>
@@ -1148,14 +1092,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</article>
 						</div>
-					</div>
-						<script src="templates/fashion/js/jquery.wmuSlider.js"></script> 
-						<script>
-							$('.example1').wmuSlider();         
-						</script> 
+					</div> 
 				</div>
 				<div class="col-md-5 w3agile_special_deals_grid_right">
-					<img src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
+					<img data-src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
 					<div class="w3agile_special_deals_grid_right_pos">
 						<h4>Women's <span>Special</span></h4>
 						<h5>save up <span>to</span> 30%</h5>
@@ -1174,14 +1114,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img src="templates/fashion/images/27.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/28.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/29.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/27.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/28.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/29.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/27.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/28.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/29.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/27.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/28.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/29.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1200,14 +1140,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img src="templates/fashion/images/31.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/32.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/33.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/34.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/31.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/32.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/33.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/34.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/31.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/32.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/33.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/34.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/31.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/32.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/33.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/34.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1226,14 +1166,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img src="templates/fashion/images/37.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/36.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/38.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/37.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/36.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/38.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/37.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/36.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/38.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/37.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/30.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/36.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/38.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1252,14 +1192,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img src="templates/fashion/images/40.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/41.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/42.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/43.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/40.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/41.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/42.jpg" alt=" " class="img-responsive" />
-							<img src="templates/fashion/images/43.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/40.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/41.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/42.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/43.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/40.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/41.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/42.jpg" alt=" " class="img-responsive" />
+							<img data-src="templates/fashion/images/43.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1287,50 +1227,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="sliderfig">
 				<ul id="flexiselDemo1">			
 					<li>
-						<img src="templates/fashion/images/4.png" alt=" " class="img-responsive" />
+						<img data-src="templates/fashion/images/4.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="templates/fashion/images/5.png" alt=" " class="img-responsive" />
+						<img data-src="templates/fashion/images/5.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="templates/fashion/images/6.png" alt=" " class="img-responsive" />
+						<img data-src="templates/fashion/images/6.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="templates/fashion/images/7.png" alt=" " class="img-responsive" />
+						<img data-src="templates/fashion/images/7.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="templates/fashion/images/46.jpg" alt=" " class="img-responsive" />
+						<img data-src="templates/fashion/images/46.jpg" alt=" " class="img-responsive" />
 					</li>
 				</ul>
-			</div>
-					<script type="text/javascript">
-							$(window).load(function() {
-								$("#flexiselDemo1").flexisel({
-									visibleItems: 4,
-									animationSpeed: 1000,
-									autoPlay: true,
-									autoPlaySpeed: 3000,    		
-									pauseOnHover: true,
-									enableResponsiveBreakpoints: true,
-									responsiveBreakpoints: { 
-										portrait: { 
-											changePoint:480,
-											visibleItems: 1
-										}, 
-										landscape: { 
-											changePoint:640,
-											visibleItems:2
-										},
-										tablet: { 
-											changePoint:768,
-											visibleItems: 3
-										}
-									}
-								});
-								
-							});
-					</script>
-					<script type="text/javascript" src="templates/fashion/js/jquery.flexisel.js"></script>
+			</div>	
 		</div>
 	</div>
 <!-- //top-brands -->
@@ -1404,16 +1316,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="footer-copy">
-			<div class="footer-copy1">
-				<div class="footer-copy-pos">
-					<a href="#home1" class="scroll"><img src="templates/fashion/images/arrow.png" alt=" " class="img-responsive" /></a>
-				</div>
-			</div>
+			<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 			<div class="container">
 				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 			</div>
 		</div>
 	</div>
 <!-- //footer -->
+<script src="templates/fashion/js/jquery.min.js"></script>
+<script type="text/javascript" src="templates/fashion/js/bootstrap-3.1.1.min.js"></script>
+<script src="templates/fashion/js/simpleCart.min.js"></script>
+<script src="templates/fashion/js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="templates/fashion/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<script src="templates/fashion/js/jquery.countdown.js"></script>
+<script src="templates/fashion/js/jquery.wmuSlider.js"></script> 
+<script type="text/javascript" src="templates/fashion/js/jquery.flexisel.js"></script>
+<script type="text/javascript" src="js/metamorphosis.js"></script>
+<script type="text/javascript" src="templates/fashion/js/template.js"></script>
 </body>
 </html>

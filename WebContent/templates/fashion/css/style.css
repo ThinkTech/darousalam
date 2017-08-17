@@ -32,14 +32,16 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 	-o-transition:.5s ease-in-out;
 }
 .header {
-    padding: 2em 0 0;
+    padding: 0em 0 0;
 }
 .w3l_login{
 	float:left;
 }
 .w3l_logo{
-	float:left;
-	margin-left:22em;
+	float: left;
+    margin-left: 22em;
+    position: relative;
+    top: 7px;
 }
 .w3l_logo h1 a{
 	font-size:1.1em;
@@ -51,7 +53,9 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
     font-size: .3em;
     text-transform: capitalize;
     letter-spacing: 13px;
-    padding-left: .5em;
+    padding-left: .4em;
+    position: relative;
+    top: 12px;
 }
 .w3l_login a {
     font-size: .8em;
@@ -116,7 +120,7 @@ label.icon-search {
     font-size: 14px;
     border: 1px solid #999;
     text-transform: uppercase;
-    padding: 10px 28px;
+    padding: 6px 16px;
 }
 .search_form input[type='submit']:hover{
 	background:#fff;
@@ -260,6 +264,8 @@ ul.multi-column-dropdown h6 {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #ff9b05;
+    font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color:#ff9b05;
@@ -269,11 +275,13 @@ ul.multi-column-dropdown h6 {
 	z-index: 100;
 }
 .navigation {
-    margin: 2em 0 0;
 	text-align:center;
 }
 .navbar-nav {
     float: none;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .navbar-nav > li:nth-child(1) {
     margin-left: 12em;
@@ -1095,7 +1103,7 @@ ul.wmuSliderPagination {
 }
 .w3agile_newsletter_right input[type="email"]{
 	outline: none;
-    padding: 10px;
+    padding: 6.45px;
     color: #212121;
     font-size: 14px;
     width: 70%;
@@ -2603,6 +2611,54 @@ td.invert-image a img {
     left: -.5em;
     top: 0.1em;
 }
+
+.scrollToTop {
+	background : #ff9b05;
+	border: 1px solid #fff;
+	z-index : 99;
+}
+
+.scrollToTop:hover, .scrollToTop:focus {
+	background : #3a0b03;
+}
+
+#confirm-dialog-container, #alert-dialog-container {
+    font-family: Tahoma;
+}
+
+#confirm-dialog-container > div, #alert-dialog-container > div {
+	border : 1px solid #ff9b05;
+}
+
+#confirm-dialog-container span:nth-child(1), #alert-dialog-container span:nth-child(1) {
+	background:#ff9b05;
+}
+
+#confirm-dialog-container a, #alert-dialog-container a,#alert-dialog-container span:nth-child(1) {
+	background : #ff9b05;
+	background-color : #ff9b05;
+}
+
+#confirm-dialog-container a:hover,#alert-dialog-container a:hover, #confirm-dialog-container a:focus,#alert-dialog-container a:focus {
+    color: #ff9b05;
+    background-color: #fff;
+    border: 1px solid;
+    text-decoration : none;
+    outline : none;
+}
+
+#confirm-dialog-container i, #alert-dialog-container i {
+	margin-top : 7px;
+}
+
+
+#loader {
+    border-top: 16px solid #ff3d00;
+    margin : auto;
+}
+
+
+
 /*-- //checkout --*/
 /*-----start-responsive-design------*/
 @media (max-width:1366px){
