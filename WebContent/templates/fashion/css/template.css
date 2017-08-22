@@ -659,6 +659,7 @@ ul.multi-column-dropdown h6 {
 	font-size:1.6em;
     color:#ff9b05;
     text-transform: capitalize;
+    margin-bottom: 5px;
 }
 .modal_body_right p{
 	margin:2em 0;
