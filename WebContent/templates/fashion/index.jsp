@@ -10,6 +10,7 @@
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="Boutique Darou Salam - Site Officiel"/>
@@ -31,7 +32,7 @@
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
-						<div class="col-md-8 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
+						<div class="col-md-6 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
 							<div class="sap_tabs">	
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
@@ -75,16 +76,10 @@
 						<div class="col-md-4 modal_body_right modal_body_right1">
 							<div class="row text-center sign-with">
 								<div class="col-md-12">
-									<h3 class="other-nw">
-										Sign in with</h3>
+									<h2 class="other-nw">Sign in with</h2>
 								</div>
 								<div class="col-md-12">
-									<ul class="social">
-										<li class="social_facebook"><a href="#" class="entypo-facebook"></a></li>
-										<li class="social_dribbble"><a href="#" class="entypo-dribbble"></a></li>
-										<li class="social_twitter"><a href="#" class="entypo-twitter"></a></li>
-										<li class="social_behance"><a href="#" class="entypo-behance"></a></li>
-									</ul>
+									<div id="loginDiv"></div>
 								</div>
 							</div>
 						</div>
@@ -1307,6 +1302,10 @@
 							<li><a href="#" class="google"> </a></li>
 							<li><a href="#" class="pinterest"> </a></li>
 						</ul>
+					</div>
+					<h4>Share This</h4>
+					<div class="agileits_social_button">
+						<div class="share-this sharethis-inline-share-buttons"></div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>

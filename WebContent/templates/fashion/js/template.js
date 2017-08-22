@@ -49,10 +49,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-	$('.example1').wmuSlider();
-	$.each($("img"),function(index,element){
-    	$(element).attr("src",$(element).data("src"));
-    });	
+	$('.example1').wmuSlider();	
 	$("body").css("opacity","1");
 });
 
@@ -77,5 +74,11 @@ $(document).ready(function(){
 		function(){ $(this).animate({ top: 3 }, 'fast'); },
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
 	);	
+	
+	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
+			"templates/fashion/js/social.js",
+			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
+	function() { 
+	});
     
 });

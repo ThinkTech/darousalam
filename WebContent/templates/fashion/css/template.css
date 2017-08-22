@@ -1176,7 +1176,7 @@ ul.wmuSliderPagination {
     background: url(../images/img-sp.png) no-repeat -6px -98px;
 }
 .w3_footer_grid h4{
-	margin:2em 0 1em;
+	margin:1em 0 1em;
 	font-size:1.2em;
 	color:#ff9b05;
 }
@@ -1334,11 +1334,11 @@ div#horizontalTab ul {
 }
 .register input[type="submit"]{
 	outline: none;
-    border: none;
+    border: 1px solid #ff9b05;
     background: #212121;
     height: 38px;
     color: #fff;
-    min-width: 26.2%;
+    width: 147px;
     font-size: 0.9em;
     text-transform: uppercase;
     margin: 2em 0 0;
@@ -1364,7 +1364,6 @@ h3.other-nw {
     font-size: 1.2em;
     color: #212121;
     text-align: right;
-    margin:3em 0 2em;
 }
 /* ---------- SOCIAL ---------- */
 
@@ -2652,11 +2651,28 @@ td.invert-image a img {
 
 
 #loader {
-    border-top: 16px solid #ff3d00;
+    border-top: 16px solid #ff9b05;
     margin : auto;
 }
 
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ff9b05;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+::-webkit-scrollbar-button {
+  background: #ff9b05;
+  height: 15px;
+  border-radius: 50%;
+}
 
 /*-- //checkout --*/
 /*-----start-responsive-design------*/
