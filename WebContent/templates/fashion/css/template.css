@@ -657,6 +657,7 @@ ul.multi-column-dropdown h6 {
 }
 .modal_body_right h4{
 	font-size:1.6em;
+	font-weight : bold;
     color:#ff9b05;
     text-transform: capitalize;
     margin-bottom: 5px;
@@ -1274,6 +1275,7 @@ ul.wmuSliderPagination {
 	color: #212121;
     font-size:1em;
     font-family : Exo;
+    font-weight : bold;
     text-transform: uppercase;
 	cursor: pointer;
 	padding:5px 30px;
@@ -1320,6 +1322,7 @@ h2.resp-accordion {
 }
 .modal-title {
     font-size: 1.5em;
+    font-weight : bold;
     color: #212121;
     padding-left: 1.5em;
 }
@@ -1347,10 +1350,11 @@ div#horizontalTab ul {
     background: #212121;
     height: 38px;
     color: #fff;
-    width: 147px;
-    font-size: 0.9em;
+    width: 150px;
+    font-size: 0.8em;
+    font-weight : bold;
     text-transform: uppercase;
-    margin: 2em 0 0;
+    margin: 1.2em 0 0;
 }
 .register input[type="submit"]:hover{
 	background:#ff9b05;
