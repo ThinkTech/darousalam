@@ -27,7 +27,7 @@
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 						&times;</button>
-					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user" aria-hidden="true"></i>Connexion</h4>
+					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user" aria-hidden="true"></i>My Account</h4>
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
@@ -75,7 +75,7 @@
 						<div class="col-md-4 modal_body_right modal_body_right1">
 							<div class="row text-center sign-with">
 								<div class="col-md-12">
-									<h2 class="other-nw">Sign in with</h2>
+									<h4 class="other-nw">Sign in with</h4>
 								</div>
 								<div class="col-md-12">
 									<div id="loginDiv"></div>
