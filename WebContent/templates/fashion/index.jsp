@@ -183,7 +183,9 @@
 <!-- banner -->
 	<div class="banner" id="home1">
 		<div class="container">
-		
+		  <div class="shopping">
+		    <a href="#products" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
+		   </div>
 		</div>
 	</div>
 <!-- //banner -->
@@ -193,16 +195,16 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Nous lançons prés de 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
+			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Nous lançons prés de 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			</p>
 		</div>
    </div>
 <!-- banner-bottom -->
-	<div class="container-bg banner-bottom">
+	<div id="products" class="container-bg banner-bottom">
 		<div class="container">
 		    <h3>Nos Articles</h3>
-		    <br><br><br>
+		    <br><br>
 			<div class="col-md-5 wthree_banner_bottom_left">
 				<div class="video-img">
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog">

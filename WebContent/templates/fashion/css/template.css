@@ -64,6 +64,27 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
     position: relative;
     top: 12px;
 }
+
+.banner div.shopping {
+	width : 200px;
+	padding-top: 30%;
+	margin : auto;
+}
+
+.banner a.scroll {
+    font-size: 1.1em;
+    padding: 9px;
+    color: #fefefe;
+    width: 152px;
+    margin-top: 49px;
+    border: 2px solid #fff;
+    border-radius: 38px;
+    background: #ff9b05;
+    font-weight: bold;
+    font-family: Exo;
+    text-align : center;
+}
+
 .w3l_login a {
    font-size: .8em;
     color: #212121;
