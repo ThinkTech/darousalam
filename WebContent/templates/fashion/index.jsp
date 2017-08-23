@@ -141,7 +141,7 @@
 				<a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="${path}">Darou Salam<span>For Fashion Lovers</span></a></h1>
+				<h1><a href="${path}">Boutique Darou Salam<span>For Fashion Lovers</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
@@ -195,6 +195,7 @@
 			<h3>À PROPOS</h3>
 			<p>
 			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! nous lançons jusqu'à 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
+			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne.
 			</p>
 		</div>
    </div>
