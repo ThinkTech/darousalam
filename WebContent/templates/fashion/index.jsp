@@ -100,11 +100,11 @@
 									<div class="col-sm-3">
 										<ul class="multi-column-dropdown">
 											<h6>Clothing</h6>
-											<li><a >Dresses<span>New</span></a></li>
-											<li><a>Sweaters</a></li>
-											<li><a>Shorts & Skirts</a></li>
+											<li><a >Robes<span>New</span></a></li>
+											<li><a>Chandails</a></li>
+											<li><a>Shorts et jupes</a></li>
 											<li><a>Jeans</a></li>
-											<li><a>Shirts & Tops<span>New</span></a></li>
+											<li><a>Chemises & Tops<span>New</span></a></li>
 										</ul>
 									</div>
 									<div class="col-sm-3">
@@ -148,8 +148,8 @@
 				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
 				<div class="search_form">
 					<form action="#" method="post">
-						<input type="text" name="Search" placeholder="Search...">
-						<input type="submit" value="Send">
+						<input type="text" name="Search" placeholder="Rechercher...">
+						<input type="submit" value="Envoyer">
 					</form>
 				</div>
 			</div>
@@ -194,7 +194,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Darou Salam est une boutique de prêt à porter offrant des milliers de tendances vêtements pour femmes et hommes. procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! nous lançons jusqu'à 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
+			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! nous lançons jusqu'à 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
 			</p>
 		</div>
    </div>
@@ -219,10 +219,10 @@
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
 						<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home">T-shirts</a></li>
-						<li role="presentation"><a href="#skirts" role="tab" id="skirts-tab" data-toggle="tab" aria-controls="skirts">Skirts</a></li>
-						<li role="presentation"><a href="#watches" role="tab" id="watches-tab" data-toggle="tab" aria-controls="watches">Watches</a></li>
-						<li role="presentation"><a href="#sandals" role="tab" id="sandals-tab" data-toggle="tab" aria-controls="sandals">Sandals</a></li>
-						<li role="presentation"><a href="#jewellery" role="tab" id="jewellery-tab" data-toggle="tab" aria-controls="jewellery">Jewellery</a></li>
+						<li role="presentation"><a href="#skirts" role="tab" id="skirts-tab" data-toggle="tab" aria-controls="skirts">Jupes</a></li>
+						<li role="presentation"><a href="#watches" role="tab" id="watches-tab" data-toggle="tab" aria-controls="watches">Montres</a></li>
+						<li role="presentation"><a href="#sandals" role="tab" id="sandals-tab" data-toggle="tab" aria-controls="sandals">Sandales</a></li>
+						<li role="presentation"><a href="#jewellery" role="tab" id="jewellery-tab" data-toggle="tab" aria-controls="jewellery">Bijoux</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
@@ -322,7 +322,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Skirt</a></h5>
+									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -346,7 +346,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Skirt</a></h5>
+									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -370,7 +370,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Skirt</a></h5>
+									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -399,7 +399,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Watch</a></h5>
+									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -423,7 +423,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Watch</a></h5>
+									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -447,7 +447,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Watch</a></h5>
+									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -476,7 +476,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Sandal</a></h5>
+									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -500,7 +500,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Sandal</a></h5>
+									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -524,7 +524,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Sandal</a></h5>
+									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -553,7 +553,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Jewellery</a></h5>
+									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -577,7 +577,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Jewellery</a></h5>
+									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -601,7 +601,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>Jewellery</a></h5>
+									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
 										<p><a class="item_add" href="#">Commander</a></p>
@@ -973,7 +973,7 @@
 										<img data-src="templates/fashion/images/39.jpg" alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's Long Skirt</h4>
+										<h4>a good look women's Long Jupe</h4>
 										<p>Ut enim ad minim veniam, quis nostrud 
 											exercitation ullamco laboris nisi ut aliquip ex ea 
 											commodo consequat.Duis aute irure dolor in 
@@ -1132,7 +1132,7 @@
 								</ul>
 							</div>
 						</div>
-						<h5><a>Skirts</a></h5>
+						<h5><a>Jupes</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
 							<p><a class="item_add" href="#">Commander</a></p>
@@ -1184,7 +1184,7 @@
 								</ul>
 							</div>
 						</div>
-						<h5><a>Dresses</a></h5>
+						<h5><a>Robes</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
 							<p><a class="item_add" href="#">Commander</a></p>
@@ -1288,11 +1288,11 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Categories</h3>
 					<ul class="info"> 
-						<li><a>Dresses</a></li>
-						<li><a>Sweaters</a></li>
-						<li><a>Shirts</a></li>
-						<li><a>Sarees</a></li>
-						<li><a>Shorts & Skirts</a></li>
+						<li><a>Robes</a></li>
+						<li><a>Chandails</a></li>
+						<li><a>Chemises</a></li>
+						<li><a>Sandales</a></li>
+						<li><a>Shorts et jupes</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
@@ -1318,6 +1318,10 @@
 			<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 			<div class="container">
 				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
+			</div>
+			<br>
+			<div class="payment-methods">
+			 <img data-src="templates/fashion/images/payment-methods.png">
 			</div>
 		</div>
 	</div>

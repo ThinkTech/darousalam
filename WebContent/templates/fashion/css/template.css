@@ -128,6 +128,7 @@ label.icon-search {
     border: 1px solid #999;
     text-transform: uppercase;
     padding: 6px 16px;
+    width : auto;
 }
 .search_form input[type='submit']:hover{
 	background:#fff;
@@ -1283,6 +1284,13 @@ ul.wmuSliderPagination {
 .footer-copy p a:hover{
 	color:#999;
 }
+
+.payment-methods {
+	width: 16%;
+    margin: auto;
+    margin-top: 53px;
+}
+
 /*-- //footer --*/
 /*-- login --*/
 /*-- sap --*/

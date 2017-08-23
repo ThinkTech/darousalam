@@ -2300,16 +2300,16 @@ $.magnificPopup.registerModule(RETINA_NS, {
 		$.each(['Days','Hours','Minutes','Seconds'],function(i){
 			var boxName;
 			if(this=="Days") {
-				boxName = "Days";
+				boxName = "Jours";
 			}
 			else if(this=="Hours") {
-				boxName = "Hours";
+				boxName = "Heures";
 			}
 			else if(this=="Minutes") {
 				boxName = "Minutes";
 			}
 			else {
-				boxName = "Seconds";
+				boxName = "Secondes";
 			}
 			$('<div class="count'+this+'">' +
 				'<span class="position">' +
