@@ -440,6 +440,15 @@ ul.multi-column-dropdown h6 {
     bottom: 45%;
     left: 72%;
 }
+
+#about p {
+	width: 76%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom,.team,.checkout,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
