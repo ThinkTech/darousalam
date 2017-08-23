@@ -93,17 +93,13 @@ function onLogoutHandler(eventObj) {
 
 function renderUI(res) {
 	if (res.user != null && res.user.isConnected) {
-		document.getElementById("name").innerHTML = res.user.nickname;
+		$("#name").html(res.user.nickname);
 		if (res.user.thumbnailURL.length > 0)
-			document.getElementById("photo").src = res.user.thumbnailURL;
+			$("#photo").attr("src",res.user.thumbnailURL);
 		else
-			document.getElementById("photo").src = "http://cdn.gigya.com/site/images/bsAPI/Placeholder.gif";
-		$("#profile").show();
-		$("#socialLogin").hide();
+			$("#photo").attr("src","http://cdn.gigya.com/site/images/bsAPI/Placeholder.gif");
+		$("#login .close").click();
 		user = res.user;
-	} else {
-		$("#profile").hide();
-		$("#socialLogin").show();
 	}
 }
 

@@ -20,14 +20,14 @@
 	
 <body>
 <!-- header -->
-	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login"
 		aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 						&times;</button>
-					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user" aria-hidden="true"></i>My Account</h4>
+					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h4>
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
@@ -35,17 +35,17 @@
 							<div class="sap_tabs">	
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
-										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
-										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
+										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Identification</span></li>
+										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Inscription</span></li>
 									</ul>		
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">			
-													<input name="Email" placeholder="Email Address" type="text" required="">						
-													<input name="Password" placeholder="Password" type="password" required="">										
+													<input name="Email" placeholder="email" type="text" required="">						
+													<input name="Password" placeholder="mot de passe" type="password" required="">										
 													<div class="sign-up">
-														<input type="submit" value="Sign in"/>
+														<input type="submit" value="Connexion"/>
 													</div>
 												</form>
 											</div>
@@ -56,12 +56,12 @@
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">			
-													<input placeholder="Name" name="Name" type="text" required="">
-													<input placeholder="Email Address" name="Email" type="email" required="">	
-													<input placeholder="Password" name="Password" type="password" required="">	
-													<input placeholder="Confirm Password" name="Password" type="password" required="">
+													<input placeholder="Name" name="Nom Complet" type="text" required="">
+													<input placeholder="email" name="Email" type="email" required="">	
+													<input placeholder="mot de passe" name="Password" type="password" required="">	
+													<input placeholder="confirmer" name="Password" type="password" required="">
 													<div class="sign-up">
-														<input type="submit" value="Create Account"/>
+														<input type="submit" value="Créér Mon Compte"/>
 													</div>
 												</form>
 											</div>
@@ -70,12 +70,12 @@
 								</div>	
 							</div>
 							<div id="OR" class="hidden-xs">
-								OR</div>
+								OU</div>
 						</div>
 						<div class="col-md-4 modal_body_right modal_body_right1">
 							<div class="row text-center sign-with">
 								<div class="col-md-12">
-									<h4 class="other-nw">Sign in with</h4>
+									<h4 class="other-nw"><i class="fa fa-sign-in" aria-hidden="true"></i>Se connecter avec</h4>
 								</div>
 								<div class="col-md-12">
 									<div id="loginDiv"></div>
@@ -91,10 +91,10 @@
 		<div class="container">
 		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a>About Us</a></li>	
+						<li><a>À PROPOS</a></li>	
 						<!-- Mega Menu -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Products <b class="caret"></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos Articles <b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="row">
 									<div class="col-sm-3">
@@ -134,11 +134,11 @@
 								</div>
 							</ul>
 						</li>
-						<li><a>Contact Us</a></li>
+						<li><a>Contact</a></li>
 					</ul>
 				</div>
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="${path}">Darou Salam<span>For Fashion Lovers</span></a></h1>
@@ -156,10 +156,10 @@
 			<div class="cart box_1">
 				<a>
 					<div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> articles)</div>
 					<img data-src="templates/fashion/images/bag.png" alt="" />
 				</a>
-				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+				<p><a href="javascript:;" class="simpleCart_empty">Panier Vide</a></p>
 				<div class="clearfix"> </div>
 			</div>	
 			<div class="clearfix"> </div>

@@ -1,3 +1,5 @@
+var user;
+
 jQuery(document).ready(function($) {
 	$(".scroll").click(function(event){		
 		event.preventDefault();
@@ -75,7 +77,7 @@ $(document).ready(function(){
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
 	);	
 	
-	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_bF78X3piMCvLEHtn8h_cNC2isP0mK7g2NZJGlumtBl8vqUxEhsFpGLxZIV9seo8k",
+	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			"templates/fashion/js/social.js",
 			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
 	function() { 
