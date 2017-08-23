@@ -309,7 +309,7 @@ ul.multi-column-dropdown h6 {
 .navbar-nav {
     float: none;
     text-align: center;
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 .navbar-nav > li:nth-child(1) {
@@ -469,6 +469,10 @@ ul.multi-column-dropdown h6 {
     text-align: justify;
     font-size: 1.2em;
     line-height: 2em;
+}
+
+#about p b {
+	color: #ff9b05;
 }
 
 /*-- //banner --*/
@@ -1171,6 +1175,7 @@ ul.wmuSliderPagination {
 .footer{
 	padding:4em 0;
 	background:#fff;
+	padding-bottom: 0em;
 }
 .w3_footer_grid h3{
 	color: #212121;
