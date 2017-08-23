@@ -245,7 +245,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -269,7 +269,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -293,7 +293,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -322,7 +322,7 @@
 									<h5><a>Skirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -346,7 +346,7 @@
 									<h5><a>Skirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -370,7 +370,7 @@
 									<h5><a>Skirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -399,7 +399,7 @@
 									<h5><a>Watch</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -423,7 +423,7 @@
 									<h5><a>Watch</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -447,7 +447,7 @@
 									<h5><a>Watch</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -476,7 +476,7 @@
 									<h5><a>Sandal</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -500,7 +500,7 @@
 									<h5><a>Sandal</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -524,7 +524,7 @@
 									<h5><a>Sandal</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -553,7 +553,7 @@
 									<h5><a>Jewellery</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -577,7 +577,7 @@
 									<h5><a>Jewellery</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -601,7 +601,7 @@
 									<h5><a>Jewellery</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Add to cart</a></p>
+										<p><a class="item_add" href="#">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -650,7 +650,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -708,7 +708,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -766,7 +766,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -824,7 +824,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -882,7 +882,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -940,7 +940,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -998,7 +998,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Add to cart</a></p>
+											<p><a class="item_add" href="#">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1026,8 +1026,8 @@
 	<div class="banner-bottom1">
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
-				<h3>Grand Opening Event With flat<span>20% <i>Discount</i></span></h3>
-				<a>Shop Now</a>
+				<h3>Une grande ouverture avec <span>une remise de 30% <i></i></span></h3>
+				<a>Commander Maintenant</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
 				<h4>hot deal</h4>
@@ -1132,7 +1132,7 @@
 						<h5><a>Skirts</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Add to cart</a></p>
+							<p><a class="item_add" href="#">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1158,7 +1158,7 @@
 						<h5><a>Jackets</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Add to cart</a></p>
+							<p><a class="item_add" href="#">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1184,7 +1184,7 @@
 						<h5><a>Dresses</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Add to cart</a></p>
+							<p><a class="item_add" href="#">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1210,7 +1210,7 @@
 						<h5><a>Jeans</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Add to cart</a></p>
+							<p><a class="item_add" href="#">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1268,23 +1268,22 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Contact</h3>
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Nord Foire, VDN</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@darousalam.com">info@darousalam.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+221 33 855 10 91</li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Information</h3>
 					<ul class="info"> 
-						<li><a>About Us</a></li>
-						<li><a>Contact Us</a></li>
-						<li><a>Short Codes</a></li>
-						<li><a>FAQ's</a></li>
-						<li><a>Special Products</a></li>
+						<li><a>À Propos</a></li>
+						<li><a>Nos Articles</a></li>
+						<li><a>Contact</a></li>
+						
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Category</h3>
+					<h3>Categories</h3>
 					<ul class="info"> 
 						<li><a>Dresses</a></li>
 						<li><a>Sweaters</a></li>
@@ -1294,12 +1293,8 @@
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Profile</h3>
-					<ul class="info"> 
-						<li><a>Summer Store</a></li>
-						<li><a>My Cart</a></li>
-					</ul>
-					<h4>Follow Us</h4>
+					<h3>Social</h3>
+					<h4>Suivez-Nous</h4>
 					<div class="agileits_social_button">
 						<ul>
 							<li><a href="#" class="facebook"> </a></li>
@@ -1308,7 +1303,7 @@
 							<li><a href="#" class="pinterest"> </a></li>
 						</ul>
 					</div>
-					<h4>Share This</h4>
+					<h4>Partagez</h4>
 					<div class="agileits_social_button">
 						<div class="share-this sharethis-inline-share-buttons"></div>
 					</div>
