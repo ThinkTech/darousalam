@@ -91,7 +91,7 @@
 		<div class="container">
 		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a>À PROPOS</a></li>	
+						<li><a class="scroll" href="#about">À PROPOS</a></li>	
 						<!-- Mega Menu -->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos Articles <b class="caret"></b></a>
@@ -126,7 +126,7 @@
 									</div>
 									<div class="col-sm-4">
 										<div class="w3ls_products_pos">
-											<h4>50%<i>Off/-</i></h4>
+											<h4>30%<i>Off/-</i></h4>
 											<img data-src="templates/fashion/images/1.jpg" alt=" " class="img-responsive" />
 										</div>
 									</div>
@@ -184,14 +184,22 @@
 <!-- banner -->
 	<div class="banner" id="home1">
 		<div class="container">
-			
+		
 		</div>
 	</div>
 <!-- //banner -->
 
-<!-- banner-bottom -->
-	<div class="banner-bottom">
+<!-- about -->
+	<div id="about" class="container-bg">
 		<div class="container">
+			<h3>À PROPOS</h3>
+		</div>
+   </div>
+<!-- banner-bottom -->
+	<div class="container-bg banner-bottom">
+		<div class="container">
+		    <h3>Nos Articles</h3>
+		    <br><br><br>
 			<div class="col-md-5 wthree_banner_bottom_left">
 				<div class="video-img">
 					<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
@@ -1044,7 +1052,7 @@
 							<h5>30%<span>Off/-</span></h5>
 						</div>
 						<div class="w3agile_special_deals_grid_left_grid_pos">
-							<h4>We Offer <span>Best Products</span></h4>
+							<h4>Nous Offrons <span>les meilleures articles</span></h4>
 						</div>
 					</div>
 					<div class="wmuSlider example1">
@@ -1088,8 +1096,8 @@
 				<div class="col-md-5 w3agile_special_deals_grid_right">
 					<img data-src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
 					<div class="w3agile_special_deals_grid_right_pos">
-						<h4>Women's <span>Special</span></h4>
-						<h5>save up <span>to</span> 30%</h5>
+						<h4>Special<span> Femmes</span></h4>
+						<h5>30% <span></span>Off</h5>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -1097,10 +1105,10 @@
 		</div>
 	</div>
 <!-- //special-deals -->
-<!-- new-products -->
-	<div class="new-products">
+<!-- container-bg -->
+	<div class="container-bg">
 		<div class="container">
-			<h3>New Products</h3>
+			<h3>Nouveaux Products</h3>
 			<div class="agileinfo_new_products_grids">
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
@@ -1210,11 +1218,11 @@
 			</div>
 		</div>
 	</div>
-<!-- //new-products -->
+<!-- //container-bg -->
 <!-- top-brands -->
 	<div class="top-brands">
 		<div class="container">
-			<h3>Top Brands</h3>
+			<h3>Top Marques</h3>
 			<div class="sliderfig">
 				<ul id="flexiselDemo1">			
 					<li>
@@ -1241,8 +1249,7 @@
 	<div class="newsletter">
 		<div class="container">
 			<div class="col-md-6 w3agile_newsletter_left">
-				<h3>Newsletter</h3>
-				<p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+				<h3>Abonnez-vous aux nouvelles</h3>
 			</div>
 			<div class="col-md-6 w3agile_newsletter_right">
 				<form action="#" method="post">
@@ -1260,7 +1267,6 @@
 			<div class="w3_footer_grids">
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Contact</h3>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
 					<ul class="address">
 						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
