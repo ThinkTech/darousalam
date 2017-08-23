@@ -46,7 +46,7 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_logo{
 	float: left;
-    margin-left: 22em;
+    margin-left: 15em;
     position: relative;
     top: 7px;
 }
@@ -84,7 +84,7 @@ a.act {
 	position: relative;
     display: inline-block;
     float: left;
-    margin:1.5em 0 0 9em;
+    margin:1.5em 0 0 3.5em;
 }
 label.icon-search {
     color: #212121;

@@ -159,7 +159,6 @@
 					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> articles)</div>
 					<img data-src="templates/fashion/images/bag.png" alt="" />
 				</a>
-				<p><a href="javascript:;" class="simpleCart_empty">Panier Vide</a></p>
 				<div class="clearfix"> </div>
 			</div>	
 			<div class="clearfix"> </div>
@@ -194,7 +193,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! nous lançons jusqu'à 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
+			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Nous lançons prés de 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			</p>
 		</div>
@@ -1112,7 +1111,7 @@
 <!-- container-bg -->
 	<div class="container-bg">
 		<div class="container">
-			<h3>Nouveaux Products</h3>
+			<h3>Nouveaux Articles</h3>
 			<div class="agileinfo_new_products_grids">
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
@@ -1298,7 +1297,7 @@
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Social</h3>
-					<h4>Suivez-Nous</h4>
+					<h4>Suivez-nous</h4>
 					<div class="agileits_social_button">
 						<ul>
 							<li><a href="#" class="facebook"> </a></li>
@@ -1317,12 +1316,15 @@
 		</div>
 		<div class="footer-copy">
 			<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-			<div class="container">
-				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
-			</div>
-			<br>
+			<br><br><br>
 			<div class="payment-methods">
 			 <img data-src="templates/fashion/images/payment-methods.png">
+			</div>
+			<br><br>
+			<p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
+			<br><br>
+			<div class="container">
+				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 			</div>
 		</div>
 	</div>
