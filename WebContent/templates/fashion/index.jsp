@@ -195,7 +195,7 @@
 			<h3>À PROPOS</h3>
 			<p>
 			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. procurez-vous notre énorme gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! nous lançons jusqu'à 10 nouveaux styles chaque mois alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
-			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne.
+			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			</p>
 		</div>
    </div>
