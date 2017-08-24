@@ -94,7 +94,7 @@
 						<li><a class="scroll" href="#about">À PROPOS</a></li>	
 						<!-- Mega Menu -->
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Nos Articles <b class="caret"></b></a>
+							<a class="dropdown-toggle" data-toggle="dropdown">Nos Articles <b class="caret"></b></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="row">
 									<div class="col-sm-3">
@@ -139,7 +139,7 @@
 					</ul>
 				</div>
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<a data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="${path}">Boutique Darou Salam<span>For Fashion Lovers</span></a></h1>
@@ -241,7 +241,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -249,7 +249,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -265,7 +265,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -273,7 +273,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -289,7 +289,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -297,7 +297,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -318,7 +318,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -326,7 +326,7 @@
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -342,7 +342,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -350,7 +350,7 @@
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -366,7 +366,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -374,7 +374,7 @@
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -395,7 +395,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -403,7 +403,7 @@
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -419,7 +419,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -427,7 +427,7 @@
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -443,7 +443,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -451,7 +451,7 @@
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -472,7 +472,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -480,7 +480,7 @@
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -496,7 +496,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -504,7 +504,7 @@
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -520,7 +520,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -528,7 +528,7 @@
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -549,7 +549,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -557,7 +557,7 @@
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -573,7 +573,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -581,7 +581,7 @@
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -597,7 +597,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -605,7 +605,7 @@
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>$320</span> <i class="item_price">$250</i></p>
-										<p><a class="item_add" href="#">Commander</a></p>
+										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -654,15 +654,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -712,15 +712,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -770,15 +770,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -828,15 +828,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -886,15 +886,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -944,15 +944,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -1002,15 +1002,15 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add" href="#">Commander</a></p>
+											<p><a class="item_add">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
 											<ul>
-												<li><a href="#"><span></span>Red</a></li>
-												<li><a href="#" class="brown"><span></span>Yellow</a></li>
-												<li><a href="#" class="purple"><span></span>Purple</a></li>
-												<li><a href="#" class="gray"><span></span>Violet</a></li>
+												<li><a><span></span>Red</a></li>
+												<li><a class="brown"><span></span>Yellow</a></li>
+												<li><a class="purple"><span></span>Purple</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
 											</ul>
 										</div>
 									</div>
@@ -1126,7 +1126,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1134,7 +1134,7 @@
 						<h5><a>Jupes</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Commander</a></p>
+							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1152,7 +1152,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1160,7 +1160,7 @@
 						<h5><a>Jackets</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Commander</a></p>
+							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1178,7 +1178,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1186,7 +1186,7 @@
 						<h5><a>Robes</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Commander</a></p>
+							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1204,7 +1204,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a href="#" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1212,7 +1212,7 @@
 						<h5><a>Jeans</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$320</span> <i class="item_price">$250</i></p>
-							<p><a class="item_add" href="#">Commander</a></p>
+							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1318,10 +1318,10 @@
 					<h4>Suivez-nous</h4>
 					<div class="agileits_social_button">
 						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
+							<li><a class="facebook"> </a></li>
+							<li><a class="twitter"> </a></li>
+							<li><a class="google"> </a></li>
+							<li><a class="pinterest"> </a></li>
 						</ul>
 					</div>
 					<h4>Partagez</h4>
@@ -1333,7 +1333,7 @@
 			</div>
 		</div>
 		<div class="footer-copy">
-			<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+			<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 			<br><br><br>
 			<div class="payment-methods">
 			 <img data-src="templates/fashion/images/payment-methods.png">

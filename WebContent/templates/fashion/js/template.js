@@ -79,7 +79,11 @@ $(document).ready(function(){
 	$('footer a').hover(
 		function(){ $(this).animate({ top: 3 }, 'fast'); },
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
-	);	
+	);
+	
+	$('.item_show').click(function(){
+		$(this).parent().parent().parent().find("li a").click();
+	});	
 	
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			"templates/fashion/js/social.js",

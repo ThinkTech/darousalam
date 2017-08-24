@@ -2717,10 +2717,19 @@ td.invert-image a img {
     top: 0.1em;
 }
 
+.item_add {
+	cursor : pointer;
+}
+
+.item_show {
+	
+}
+
 .scrollToTop {
 	background : #ff9b05;
 	border: 1px solid #fff;
 	z-index : 99;
+	cursor : pointer;
 }
 
 .scrollToTop:hover, .scrollToTop:focus {
