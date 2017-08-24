@@ -157,7 +157,7 @@
 			<div class="cart box_1">
 				<a>
 					<div class="total">
-					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> articles)</div>
+					<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> articles</div>
 					<img data-src="templates/fashion/images/bag.png" alt="" />
 				</a>
 				<div class="clearfix"> </div>

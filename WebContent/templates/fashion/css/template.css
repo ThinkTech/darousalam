@@ -189,7 +189,16 @@ label.icon-search span {
 .total {
   display: inline-block;
   vertical-align: middle;
+  font-family: Exo;
+  position: relative;
+  top: 4px;
 }
+
+.total span {
+  position: relative;
+  top: 1px;
+}
+
 .box_1 a img {
   margin: 3px 0 0 0px;
 }
