@@ -85,10 +85,10 @@ $(document).ready(function(){
 		$(this).parent().parent().parent().find("li a").click();
 	});	
 	
-	$(".cart a").click(function(){
+	$(".cart a,#cart .close").click(function(){
 		$("#cart").toggle();
-	});	
-	
+	});
+		
 	$(".checkout").click(function(){
 		const count = $("#cart ul li").length;
 		const message = "votre panier est vide";

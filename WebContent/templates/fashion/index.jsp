@@ -25,8 +25,7 @@
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-						&times;</button>
+					<span class="close" title="fermer" data-dismiss="modal" aria-hidden="true"></span>
 					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h4>
 				</div>
 				<div class="modal-body modal-body-sub">
@@ -164,7 +163,7 @@
 				<div id="cart" class="shoppingCart">
 					  <summary>
 					     <h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
-					     <span class="arrow"></span>
+					     <span class="close" title="fermer"></span>
 					   </summary>
 					   <div>
 					       <ul>
@@ -634,7 +633,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -692,7 +691,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -750,7 +749,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -808,7 +807,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -866,7 +865,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -924,7 +923,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -982,7 +981,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
 							</div>
 							<section>
 								<div class="modal-body">
