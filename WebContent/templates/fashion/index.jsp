@@ -1300,9 +1300,10 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Information</h3>
 					<ul class="info"> 
-						<li><a>À Propos</a></li>
-						<li><a>Nos Articles</a></li>
-						<li><a>Contact</a></li>
+						<li><a href="#about" class="scroll">À Propos</a></li>
+						<li><a href="#products" class="scroll">Nos Articles</a></li>
+						<li><a href="#schedules" class="scroll">Nos Horaires</a></li>
+						<li><a href="#contact" class="scroll">Contact</a></li>
 						
 					</ul>
 				</div>
