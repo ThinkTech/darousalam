@@ -90,49 +90,8 @@
 		<div class="container">
 		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a class="scroll" href="#about">À PROPOS</a></li>	
-						<!-- Mega Menu -->
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown">Nos Articles <b class="caret"></b></a>
-							<ul class="dropdown-menu multi-column columns-3">
-								<div class="row">
-									<div class="col-sm-3">
-										<ul class="multi-column-dropdown">
-											<h6>Clothing</h6>
-											<li><a >Robes<span>New</span></a></li>
-											<li><a>Chandails</a></li>
-											<li><a>Shorts et jupes</a></li>
-											<li><a>Jeans</a></li>
-											<li><a>Chemises & Tops<span>New</span></a></li>
-										</ul>
-									</div>
-									<div class="col-sm-3">
-										<ul class="multi-column-dropdown">
-											<h6>Ethnic Wear</h6>
-											<li><a>Salwars</a></li>
-											<li><a>Sarees<span>New</span></a></li>
-											<li><a><i>Summer Store</i></a></li>
-										</ul>
-									</div>
-									<div class="col-sm-2">
-										<ul class="multi-column-dropdown">
-											<h6>Foot Wear</h6>
-											<li><a>Flats</a></li>
-											<li><a>Sandals</a></li>
-											<li><a>Boots</a></li>
-											<li><a>Heels</a></li>
-										</ul>
-									</div>
-									<div class="col-sm-4">
-										<div class="w3ls_products_pos">
-											<h4>10%<i>Off/-</i></h4>
-											<img data-src="templates/fashion/images/1.jpg" alt=" " class="img-responsive" />
-										</div>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</ul>
-						</li>
+						<li><a href="#about" class="scroll">À PROPOS</a></li>
+						<li><a href="#products" class="scroll">Nos Articles</a></li>	
 						<li><a href="#schedules" class="scroll">Nos Horaires</a></li>
 						<li><a>Contact</a></li>
 					</ul>
