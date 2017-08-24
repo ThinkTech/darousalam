@@ -201,7 +201,7 @@
 		<div class="container">
 		  <br><br>
 		  <div class="col-md-5">
-				<h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>hot deal</h4>
+				<a href="#deal" class="scroll"><h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>hot deal</h4></a>
 				<h6>10% OFF</h6>
 				<div class="timer_wrap">
 					<div id="counterTop"> </div>
@@ -1041,9 +1041,9 @@
 	</div>
 <!-- //banner-bottom -->
 <!-- special-deals -->
-	<div class="special-deals">
+	<div id="deal" class="special-deals">
 		<div class="container">
-			<h2>Special Deals</h2>
+			<h2>Hot Deal</h2>
 			<div class="w3agile_special_deals_grids">
 				<div class="col-md-7 w3agile_special_deals_grid_left">
 					<div class="w3agile_special_deals_grid_left_grid">
@@ -1052,7 +1052,7 @@
 							<h5>10%<span>Off/-</span></h5>
 						</div>
 						<div class="w3agile_special_deals_grid_left_grid_pos">
-							<h4>Nous Offrons <span>les meilleures articles</span></h4>
+							<h4>Acheter nos <span>meilleures articles</span></h4>
 						</div>
 					</div>
 					<div class="wmuSlider example1">
@@ -1096,7 +1096,6 @@
 				<div class="col-md-5 w3agile_special_deals_grid_right">
 					<img data-src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
 					<div class="w3agile_special_deals_grid_right_pos">
-						<h4>Special<span> Femmes</span></h4>
 						<h5>10% <span></span>Off</h5>
 					</div>
 				</div>
@@ -1109,11 +1108,11 @@
 	<div class="banner-bottom1">
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
-				<h3>Nous vous offrons une offre alléchante <span>une remise de 10% <i></i></span></h3>
+				<h3>ne ratez pas notre offre alléchante <span>une remise de 10% <i></i></span></h3>
 				<a href="#products" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
-				<h4>hot deal</h4>
+				<h4>Offre Valable jusqu'au 03 Septembre</h4>
 				<div class="timer_wrap">
 					<div id="counter"> </div>
 				</div>

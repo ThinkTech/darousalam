@@ -71,7 +71,7 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 	margin : auto;
 }
 
-.banner a.scroll {
+.banner div.shopping a.scroll {
     font-size: 1.1em;
     padding: 11px;
     padding-right:13px;
@@ -712,7 +712,7 @@ ul.multi-column-dropdown h6 {
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom,.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
-	padding:5em 0;
+	padding:4em 0;
 }
 
 .banner-bottom {
@@ -1032,7 +1032,7 @@ ul.multi-column-dropdown h6 {
 	font-size:2em;
 	color:#212121;
 	position:relative;
-	padding-bottom:1em;
+	padding-bottom:1.5em;
 	text-align:center;
 }
 .special-deals h2:before,.container-bg h3:before,.top-brands h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before{
@@ -1288,18 +1288,19 @@ ul.wmuSliderPagination {
 }
 .agileinfo_banner_bottom1_grid_right{
 	text-align:center;
-	padding:8em 0 0;
+	padding:4em 0 0;
 }
 .agileinfo_banner_bottom1_grid_right h4{
-	padding: .3em .5em;
+	padding: 0.5em .5em;
     color: #fff;
     text-transform: uppercase;
     font-size: 1em;
     letter-spacing: 2px;
     background: #212121;
-    width: 20%;
+    width: 80%;
     margin: 0 auto;
-	border: 1px solid;
+    border: 1px solid;
+    white-space: nowrap;
 }
 /* -- timer -- */
 .timer_wrap{
