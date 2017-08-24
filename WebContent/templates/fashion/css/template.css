@@ -94,6 +94,7 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
     display: block;
     text-align: center;
     border: 1px solid #212121;
+    cursor : pointer;
 }
 .w3l_login a span{
 	top:1.3em;
@@ -200,7 +201,7 @@ label.icon-search span {
 }
 
 .box_1 a img {
-  margin: 3px 0 0 0px;
+  margin: 5px 0 0 0px;
 }
 .box_1 p {
 	margin: 0;
@@ -1100,6 +1101,8 @@ ul.wmuSliderPagination {
     letter-spacing: 2px;
     color: #ff9b05;
     padding: 0 45px 0 0;
+    top: -50px;
+    position: relative;
 }
 
 .agileinfo_banner_bottom1_grid_right{
