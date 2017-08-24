@@ -85,6 +85,29 @@ $(document).ready(function(){
 		$(this).parent().parent().parent().find("li a").click();
 	});	
 	
+	$(".cart a").click(function(){
+		$("#cart").toggle();
+	});	
+	
+	$(".checkout").click(function(){
+		const count = $("#cart ul li").length;
+		const message = "votre panier est vide";
+		if(!count) {
+			$("#cart").hide();
+			alert(message);
+		}else {
+			/*payment.done = false;
+		    const wizard = $("#checkout-wizard").css("height",$(document).height());
+		    const top = $("#shopping").offset().top;
+		    $('html,body').animate({scrollTop:top},100,function(){
+		    	$("> div",wizard).css("top",top+20);
+		    	 wizard.show();
+		    });
+		    $('body').css("overflow-y","hidden");*/
+		}
+		return false;
+	  });
+	
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			"templates/fashion/js/social.js",
 			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",

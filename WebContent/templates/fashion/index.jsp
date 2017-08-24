@@ -161,6 +161,22 @@
 					<img data-src="templates/fashion/images/bag.png" alt="" />
 				</a>
 				<div class="clearfix"> </div>
+				<div id="cart" class="shoppingCart">
+					  <summary>
+					     <h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
+					     <span class="arrow"></span>
+					   </summary>
+					   <div>
+					       <ul>
+					            
+					       </ul>
+					    </div>
+					    <div>
+					        <p>
+					            <a title="acheter" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Acheter</a> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
+					         </p>
+					     </div> 
+					    </div>
 			</div>	
 			<div class="clearfix"> </div>
 		</div>
