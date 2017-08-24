@@ -106,7 +106,41 @@ $(document).ready(function(){
 		    $('body').css("overflow-y","hidden");*/
 		}
 		return false;
-	  });
+	});
+	
+	$('.shop' ).on( 'click', function() {
+		$(this).closest(".modal-content").find(".close").click();
+		var total = 0;
+		const cart = $("#cart");
+		const ul = $("ul",cart);
+		const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+		var number = 1;
+		const price = 13500;
+		const name = $(this).data("name");
+        li.find('span span').html(number+" "+name).attr("title","prix : "+price);
+        const amount = number * parseInt(price);
+        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
+        li.find(".trash").click(function(){
+        	const message = "voulez-vous supprimer cet article?";
+    		confirm(message, function() {
+    			li.remove();
+    			$(".article-count").html(ul.find("li").length);
+    			$(".simpleCart_quantity").html(ul.find("li").length);
+    			total = 0;
+    			$.each($("li .price",ul),function(index,element){
+                	total += parseInt($(element).attr("amount"));
+                });
+                $(".total",cart).html(total.toLocaleString("fr-FR"));
+    		});
+    	});
+        ul.append(li);
+        $(".article-count").html(ul.find("li").length);
+        $(".simpleCart_quantity").html(ul.find("li").length);
+        $.each($("li .price",ul),function(index,element){
+        	total += parseInt($(element).attr("amount"));
+        });
+        $(".total",cart).html(total.toLocaleString("fr-FR"));
+	});
 	
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			"templates/fashion/js/social.js",

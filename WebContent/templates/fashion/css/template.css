@@ -179,8 +179,16 @@ label.icon-search span {
 }
 /*--//search--*/
 .box_1 {
-	float: right;
-	margin-top: 18px;
+	right: 20px;
+    margin-top: 11px;
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    padding: 18px;
+    padding-top: 2px;
+    padding-bottom: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
 }
 .box_1 a {
   color:#ff9b05;
@@ -219,16 +227,16 @@ a.simpleCart_empty {
 
 .shoppingCart{
       position:absolute;
-      margin-top:31px;
+      margin-top:25px;
       min-width : 300px;
-      border-radius:4px 4px 0 0;
       box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-      right : 100px;
+      right : 0px;
       display : none;
+      border : 1px solid #000;
 }
 
 .shoppingCart > div {
-	background: #fff;
+	background: #eee;
 }
 
 .shoppingCart summary{
@@ -258,24 +266,6 @@ a.simpleCart_empty {
 .shoppingCart:hover h4{
        color:#fff;
 }
-.arrow{
-       float:right;
-       width:0;
-       height:0;
-       margin-top:7px;
-       border-right:4px solid #000;
-       border-bottom:4px solid #000;
-       border-left:4px solid #000;
-       cursor : pointer;
-}
-.shoppingCart:hover .arrow{
-       border-bottom-color:#000;
-       transform:rotate(-180deg);
-}
-
-.shoppingCart .scroll{
-	float : right;
-}
 
 .shoppingCart ul{
        list-style:none;
@@ -286,7 +276,7 @@ a.simpleCart_empty {
        padding:10px 10px;
        overflow:hidden;
        height:auto;
-       background:#fff;
+       background:#eee;
        font-family : monospace;
        font-size : 13px;
 }
@@ -324,7 +314,7 @@ a.simpleCart_empty {
 }
 
 .shoppingCart li span span { 
-	width : 295px;
+	width : 215px;
 }
 
 .shoppingCart li strong {
@@ -336,9 +326,9 @@ a.simpleCart_empty {
 }
 
 .shoppingCart p {
-	padding: 10px 10px;
+	padding: 14px 10px;
     padding-bottom: 0px;
-    height: 38px;
+    height: 45px;
     overflow: hidden;
     background: #eee;
     font-family: Tahoma;
@@ -762,6 +752,7 @@ ul.multi-column-dropdown h6 {
 /*--banner-modal--*/
 .modal-open .modal {
     background: rgba(0, 0, 0, 0.48);
+    z-index: 99999;
 }
 .modal.bnr-modal {
 	padding: 0 1em !important;

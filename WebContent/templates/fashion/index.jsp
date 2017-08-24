@@ -125,7 +125,7 @@
 									</div>
 									<div class="col-sm-4">
 										<div class="w3ls_products_pos">
-											<h4>30%<i>Off/-</i></h4>
+											<h4>10%<i>Off/-</i></h4>
 											<img data-src="templates/fashion/images/1.jpg" alt=" " class="img-responsive" />
 										</div>
 									</div>
@@ -156,7 +156,7 @@
 			<div class="cart box_1">
 				<a>
 					<div class="total">
-					<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> articles</div>
+					<span  class="simpleCart_quantity">0</span> articles</div>
 					<img data-src="templates/fashion/images/bag.png" alt="" />
 				</a>
 				<div class="clearfix"> </div>
@@ -202,7 +202,7 @@
 		  <br><br>
 		  <div class="col-md-5">
 				<h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>hot deal</h4>
-				<h6>30% OFF</h6>
+				<h6>10% OFF</h6>
 				<div class="timer_wrap">
 					<div id="counterTop"> </div>
 				</div>
@@ -263,7 +263,7 @@
 									</div>
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -287,7 +287,7 @@
 									</div>
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -311,7 +311,7 @@
 									</div>
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -340,7 +340,7 @@
 									</div>
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -364,7 +364,7 @@
 									</div>
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -388,7 +388,7 @@
 									</div>
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -417,7 +417,7 @@
 									</div>
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -441,7 +441,7 @@
 									</div>
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -465,7 +465,7 @@
 									</div>
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -494,7 +494,7 @@
 									</div>
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -518,7 +518,7 @@
 									</div>
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -542,7 +542,7 @@
 									</div>
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -571,7 +571,7 @@
 									</div>
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -595,7 +595,7 @@
 									</div>
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -619,7 +619,7 @@
 									</div>
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$320</span> <i class="item_price">$250</i></p>
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show">Commander</a></p>
 									</div>
 								</div>
@@ -668,8 +668,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="shirt">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -726,8 +726,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="jean">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -784,8 +784,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="montre">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -842,8 +842,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="sandale">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -900,8 +900,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="bijou">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -958,8 +958,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="jacket">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1016,8 +1016,8 @@
 											<div class="clearfix"> </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>$320</span> <i class="item_price">$250</i></p>
-											<p><a class="item_add">Commander</a></p>
+											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+											<p><a class="item_add shop" data-name="jupe">Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1049,7 +1049,7 @@
 					<div class="w3agile_special_deals_grid_left_grid">
 						<img data-src="templates/fashion/images/26.jpg" alt=" " class="img-responsive" />
 						<div class="w3agile_special_deals_grid_left_grid_pos1">
-							<h5>30%<span>Off/-</span></h5>
+							<h5>10%<span>Off/-</span></h5>
 						</div>
 						<div class="w3agile_special_deals_grid_left_grid_pos">
 							<h4>Nous Offrons <span>les meilleures articles</span></h4>
@@ -1097,7 +1097,7 @@
 					<img data-src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
 					<div class="w3agile_special_deals_grid_right_pos">
 						<h4>Special<span> Femmes</span></h4>
-						<h5>30% <span></span>Off</h5>
+						<h5>10% <span></span>Off</h5>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -1109,7 +1109,7 @@
 	<div class="banner-bottom1">
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
-				<h3>Nous vous offrons une offre alléchante <span>une remise de 30% <i></i></span></h3>
+				<h3>Nous vous offrons une offre alléchante <span>une remise de 10% <i></i></span></h3>
 				<a href="#products" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
@@ -1148,7 +1148,7 @@
 						</div>
 						<h5><a>Jupes</a></h5>
 						<div class="simpleCart_shelfItem">
-							<p><span>$320</span> <i class="item_price">$250</i></p>
+							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
@@ -1174,7 +1174,7 @@
 						</div>
 						<h5><a>Jackets</a></h5>
 						<div class="simpleCart_shelfItem">
-							<p><span>$320</span> <i class="item_price">$250</i></p>
+							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
@@ -1200,7 +1200,7 @@
 						</div>
 						<h5><a>Robes</a></h5>
 						<div class="simpleCart_shelfItem">
-							<p><span>$320</span> <i class="item_price">$250</i></p>
+							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
@@ -1226,7 +1226,7 @@
 						</div>
 						<h5><a>Jeans</a></h5>
 						<div class="simpleCart_shelfItem">
-							<p><span>$320</span> <i class="item_price">$250</i></p>
+							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show">Commander</a></p>
 						</div>
 					</div>
