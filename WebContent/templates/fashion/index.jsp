@@ -204,7 +204,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Chaque mois, Nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
+			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Chaque mois, Nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			Nous acceptons les paiements par carte <b>Visa</b>, <b>MasterCard</b>, <b>American Express</b> et <b>Discover</b>, tout comme aussi, vous pouvez utiliser <b>PayPal</b>, <b>Orange Money</b> ou <b>Tigo Cash</b> pour faire vos achats.
 			Notre service de livraison reste à votre disposition pour vous faciliter les choses et nos frais de livraison varient en fonction de votre domiciliation. 
@@ -1037,25 +1037,6 @@
 		</div>
 	</div>
 <!-- //banner-bottom -->
-
-<!-- banner-bottom1 -->
-	<div class="banner-bottom1">
-		<div class="agileinfo_banner_bottom1_grids">
-			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
-				<h3>Une grande ouverture avec <span>une remise de 30% <i></i></span></h3>
-				<a>Commander Maintenant</a>
-			</div>
-			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
-				<h4>hot deal</h4>
-				<div class="timer_wrap">
-					<div id="counter"> </div>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //banner-bottom1 -->
-
 <!-- special-deals -->
 	<div class="special-deals">
 		<div class="container">
@@ -1121,6 +1102,23 @@
 		</div>
 	</div>
 <!-- //special-deals -->
+<!-- banner-bottom1 -->
+	<div class="banner-bottom1">
+		<div class="agileinfo_banner_bottom1_grids">
+			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
+				<h3>Nous vous offrons une offre alléchante avec <span>une remise de 30% <i></i></span></h3>
+				<a href="#products" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
+			</div>
+			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
+				<h4>hot deal</h4>
+				<div class="timer_wrap">
+					<div id="counter"> </div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //banner-bottom1 -->
 <!-- container-bg -->
 	<div class="container-bg">
 		<div class="container">
