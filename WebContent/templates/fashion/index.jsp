@@ -68,8 +68,7 @@
 									</div> 			        					            	      
 								</div>	
 							</div>
-							<div id="OR" class="hidden-xs">
-								OU</div>
+						<div id="OR" class="hidden-xs">OU</div>
 						</div>
 						<div class="col-md-4 modal_body_right modal_body_right1">
 							<div class="row text-center sign-with">
