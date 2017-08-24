@@ -184,6 +184,13 @@
 <!-- banner -->
 	<div class="banner" id="home1">
 		<div class="container">
+		  <br><br>
+		  <div class="col-md-5">
+				<h4>hot deal</h4>
+				<div class="timer_wrap">
+					<div id="counterTop"> </div>
+				</div>
+			</div>
 		  <div class="shopping">
 		    <a href="#products" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 		   </div>

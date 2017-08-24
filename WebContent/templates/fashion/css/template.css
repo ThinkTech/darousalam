@@ -342,6 +342,20 @@ ul.multi-column-dropdown h6 {
 	-ms-background-size:cover;
 	min-height:700px;
 }
+
+.banner .countDays, .banner .countHours, .banner  .countMinutes, .banner .countSeconds {
+    padding-left: 15px;
+}
+
+.banner .countdownHolder {
+    font: 53px/0.8 'Roboto Condensed', sans-serif;
+}
+
+.banner h4 {
+	color: #fff;
+    font-size: 4em;
+}
+
 .banner10{
 	background:url(../images/b1.jpg) no-repeat 0px 0px;
 	background-size:cover;

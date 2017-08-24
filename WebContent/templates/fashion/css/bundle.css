@@ -6949,14 +6949,14 @@ button.close {
 		width: 65px;
 		height: 65px;
 	}
-	#counter {
+	#counter,#counterTop {
 		padding-top: 0;
 		height: 65px;
 	}
 	.boxName {
 		display: block;
     }
-	#counter {
+	#counter,#counterTop {
 		font-size: 45px;
 	}
 }
