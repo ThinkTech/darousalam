@@ -73,9 +73,10 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 
 .banner a.scroll {
     font-size: 1.1em;
-    padding: 9px;
+    padding: 11px;
+    padding-right:13px;
     color: #fefefe;
-    width: 152px;
+    width: 160px;
     margin-top: 49px;
     border: 2px solid #fff;
     border-radius: 38px;
@@ -353,7 +354,25 @@ ul.multi-column-dropdown h6 {
 
 .banner h4 {
 	color: #fff;
-    font-size: 4em;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner h4 .fa {
+	position : relative;
+	top : -3px;
+}
+
+.banner h6 {
+	position: relative;
+    top: 12px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff9b05;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 .banner10{
@@ -477,7 +496,7 @@ ul.multi-column-dropdown h6 {
     left: 72%;
 }
 
-#about p {
+#about p, #schedules p {
 	width: 76%;
     margin: auto;
     text-align: justify;

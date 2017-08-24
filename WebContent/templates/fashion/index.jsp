@@ -134,7 +134,7 @@
 								</div>
 							</ul>
 						</li>
-						<li><a>Nos Horaires</a></li>
+						<li><a href="#schedules" class="scroll">Nos Horaires</a></li>
 						<li><a>Contact</a></li>
 					</ul>
 				</div>
@@ -186,7 +186,8 @@
 		<div class="container">
 		  <br><br>
 		  <div class="col-md-5">
-				<h4>hot deal</h4>
+				<h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>hot deal</h4>
+				<h6>30% OFF</h6>
 				<div class="timer_wrap">
 					<div id="counterTop"> </div>
 				</div>
@@ -1275,6 +1276,15 @@
 		</div>
 	</div>
 <!-- //newsletter -->
+<!-- about -->
+	<div id="schedules" class="container-bg">
+		<div class="container">
+			<h3>Nos Horaires</h3>
+			<p>
+			Nous sommes ouverts du lundi au dimanche et nos horaires d'ouverture sont les suivantes.
+			</p>
+		</div>
+   </div>
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
