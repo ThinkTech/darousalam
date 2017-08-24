@@ -207,6 +207,7 @@
 			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Chaque mois, Nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			Nous acceptons les paiements par carte <b>Visa</b>, <b>MasterCard</b>, <b>American Express</b> et <b>Discover</b>, tout comme aussi, vous pouvez utiliser <b>PayPal</b>, <b>Orange Money</b> ou <b>Tigo Cash</b> pour faire vos achats.
+			Notre service de livraison reste à votre disposition pour vous faciliter les choses et nos frais de livraison varient en fonction de votre domiciliation. 
 			</p>
 		</div>
    </div>
@@ -1283,6 +1284,15 @@
 			<p>
 			Nous sommes ouverts du lundi au dimanche et nos horaires d'ouverture sont les suivantes.
 			</p>
+			<ol>
+			  <li>Lundi : 10H - 19H 30</li>
+			  <li>Mardi : 10H - 19H 30</li>
+			  <li>Mercredi : 10H - 19H 30</li>
+			  <li>Jeudi : 10H - 19H 30</li>
+			  <li>Vendredi : 10H - 19H 30</li>
+			  <li>Samedi : 10H - 19H 30</li>
+			  <li>Dimanche : 10H - 19H 30</li>
+			</ol>
 		</div>
    </div>
 <!-- footer -->

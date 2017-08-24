@@ -505,6 +505,18 @@ ul.multi-column-dropdown h6 {
     line-height: 2em;
 }
 
+#schedules ol {
+	width : 200px;
+	margin : auto;
+	margin-top : 15px;
+}
+
+#schedules ol li{
+	line-height: 1.6em;
+    font-weight: bold;
+}
+
+
 #about p b {
 	color: #ff9b05;
 }
