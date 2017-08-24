@@ -219,7 +219,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Darou Salam est une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Chaque mois, Nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
+			Bienvenue chez Darou Salam, une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore ! Chaque mois, Nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			Nous acceptons les paiements par carte <b>Visa</b>, <b>MasterCard</b>, <b>American Express</b> et <b>Discover</b>, tout comme aussi, vous pouvez utiliser <b>PayPal</b>, <b>Orange Money</b> ou <b>Tigo Cash</b> pour faire vos achats.
 			Notre service de livraison reste entièrement à votre disposition pour vous faciliter les choses et nos frais de livraison varient en fonction de votre domiciliation. 
@@ -1319,7 +1319,7 @@
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
-					<h3>Categories</h3>
+					<h3>Nos Articles</h3>
 					<ul class="info"> 
 						<li><a>Robes</a></li>
 						<li><a>Chandails</a></li>
