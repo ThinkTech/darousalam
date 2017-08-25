@@ -741,7 +741,7 @@ a.simpleCart_empty {
     margin : auto;
     height : 220px;
     background: #fefefe;
-    border: 1px solid #ff3d00;
+    border: 1px solid #ff9b05;
     border-radius: 6px;
     outline: 0;
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
@@ -754,9 +754,9 @@ a.simpleCart_empty {
 }
 
 #order-confirmation h1 {
-	font-size: 1.25em;
+	font-size: 1.2em;
     padding: 10px;
-    background: #fe3c00;
+    background: #ff9b05;
     color: white;
     font-family : Exo;
     font-weight : bold;
@@ -765,12 +765,13 @@ a.simpleCart_empty {
 #order-confirmation p {
 	font-size: 0.9em;
     padding: 9px;
-    line-height: 2em;
     padding-bottom: 13px;
+    line-height: 2em;
     vertical-align: top;
     text-align: justify;
     width: 95%;
     margin: auto;
+    font-family: Exo;
 }
 
 #order-confirmation p .fa {
@@ -779,7 +780,7 @@ a.simpleCart_empty {
     top: 4px;
     margin-right: 5px;
     margin-left: -8px;
-    color: #fd3b00;
+    color: #ff9b05;
 }
 
 #order-confirmation a {
@@ -790,7 +791,7 @@ a.simpleCart_empty {
     display : inline-block;
     border: 2px solid #fff;
     border-radius: 38px;
-    background: #ff3d00;
+    background: #ff9b05;
     font-weight : bold;
     margin-right : 3px;
     text-align : center;

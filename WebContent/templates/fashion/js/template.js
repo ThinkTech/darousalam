@@ -14,11 +14,13 @@ const saveOrder = function() {
 	const wizard = $("#checkout-wizard").fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 		$("#cart ul li").remove();
-		$(".article-count").html(0);
 		$(".simpleCart_quantity").html(0);
         $('body').css("overflow-y","auto");
 	});
 	const form = $("form",wizard);
+	$('html,body').animate({scrollTop:0},100,function(){
+		$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
+	});
 	/*app.post(form.attr("action"),form.serialize(),function(response) {
 		$('html,body').animate({scrollTop:0},100,function(){
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
@@ -216,7 +218,6 @@ $(document).ready(function(){
         	const message = "voulez-vous supprimer cet article?";
     		confirm(message, function() {
     			li.remove();
-    			$(".article-count").html(ul.find("li").length);
     			$(".simpleCart_quantity").html(ul.find("li").length);
     			total = 0;
     			$.each($("li .price",ul),function(index,element){
@@ -226,12 +227,15 @@ $(document).ready(function(){
     		});
     	});
         ul.append(li);
-        $(".article-count").html(ul.find("li").length);
         $(".simpleCart_quantity").html(ul.find("li").length);
         $.each($("li .price",ul),function(index,element){
         	total += parseInt($(element).attr("amount"));
         });
         $(".total",cart).html(total.toLocaleString("fr-FR"));
+        $("#confirmation-close").click(function(){
+        	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+		    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
+		 });
 	});
 	
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
