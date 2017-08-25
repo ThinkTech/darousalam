@@ -1232,9 +1232,6 @@
 				<div class="col-md-7 w3agile_special_deals_grid_left">
 					<div class="w3agile_special_deals_grid_left_grid">
 						<img data-src="templates/fashion/images/26.jpg" alt=" " class="img-responsive" />
-						<div class="w3agile_special_deals_grid_left_grid_pos1">
-							<h5>10%<span>Off/-</span></h5>
-						</div>
 						<div class="w3agile_special_deals_grid_left_grid_pos">
 							<h4>Acheter nos <span>meilleures articles</span></h4>
 						</div>
@@ -1293,7 +1290,7 @@
 	<div class="banner-bottom1">
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
-				<h3>ne ratez pas notre offre alléchante <span>une remise de 10% <i></i></span></h3>
+				<h3>ne ratez surtout pas cette offre alléchante <span>une remise de 10% <i></i></span></h3>
 				<a href="#products" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">

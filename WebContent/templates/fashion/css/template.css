@@ -1551,7 +1551,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3agile_special_deals_grid_right_pos{
 	position:absolute;
-	top: 8%;
+	top: 5%;
     left: 20%;
 }
 .w3agile_special_deals_grid_right_pos h4,.w3agile_special_deals_grid_right_pos h5{
@@ -1579,7 +1579,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3agile_special_deals_grid_left_grid_pos{
 	position:absolute;
-	top: 50%;
+	top: 10%;
     left: 10%;
 }
 .w3agile_special_deals_grid_left_grid_pos h4{
