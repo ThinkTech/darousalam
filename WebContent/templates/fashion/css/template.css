@@ -59,7 +59,7 @@ select {
 	background:#fff;
 	font-size:14px;
 	color:#3a0b03;
-	border:1px solid #ff4d00;
+	border: 1px solid #b1b1b1
 	border-radius: 5px;
 	font-family : Exo;
 }
@@ -206,7 +206,7 @@ label.icon-search span {
 /*--//search--*/
 .box_1 {
 	right: 20px;
-    margin-top: 11px;
+    margin-top: 0px;
     position: fixed;
     z-index: 9999;
     background: #fff;
@@ -595,10 +595,11 @@ a.simpleCart_empty {
 
 .checkout-wizard-content .register input[type="text"], .checkout-wizard-content .register input[type="email"], .checkout-wizard-content .register input[type="password"] {
    outline: none;
-    border:1px solid #ff9b05;
+    border: 1px solid #b1b1b1;
     background: #fff;
     padding: 4px;
-    margin-bottom: 8px;
+    margin-top : 2px;
+    margin-bottom: 12px;
     color: #212121;
     width: 100%;
     font-size: 14px;
@@ -675,7 +676,7 @@ a.simpleCart_empty {
     padding-left: 15px;
     padding-bottom: 5px;
     width: 40%;
-    border: 1px solid #ff9b05;
+    border: 1px solid #b1b1b1;
     margin-top : 27px;
 }
 
@@ -741,7 +742,7 @@ a.simpleCart_empty {
     margin : auto;
     height : 220px;
     background: #fff;
-    border: 1px solid #ff9b05;
+    border: 1px solid #b1b1b1
     border-radius: 6px;
     outline: 0;
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
@@ -1267,7 +1268,7 @@ ul.multi-column-dropdown h6 {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color:#ff9b05;
 	color:#fff;
-	border: 1px solid #ff9b05;
+	border: 1px solid #b1b1b1
 }
 .nav-tabs > li > a:hover {
     border: none;
@@ -2108,7 +2109,7 @@ div#horizontalTab ul {
 }
 .register input[type="submit"]{
 	outline: none;
-    border: 1px solid #ff9b05;
+    border: 1px solid #b1b1b1
     background: #212121;
     height: 38px;
     color: #fff;
