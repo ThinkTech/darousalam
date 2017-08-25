@@ -350,6 +350,7 @@ a.simpleCart_empty {
     font-size: 13px;
     font-family : Exo;
     white-space : nowrap;
+    color: #000;
 }
 
 .shoppingCart p span:first-child {
