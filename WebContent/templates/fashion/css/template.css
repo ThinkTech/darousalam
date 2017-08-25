@@ -262,7 +262,7 @@ a.simpleCart_empty {
 }
 
 .shoppingCart > div {
-	background: #eee;
+	background: #ECECEC;
 }
 
 .shoppingCart summary{
@@ -302,13 +302,13 @@ a.simpleCart_empty {
        padding:10px 10px;
        overflow:hidden;
        height:auto;
-       background:#eee;
+       background:#ECECEC;
        font-family : monospace;
        font-size : 13px;
 }
 
 .shoppingCart li:nth-child(odd){ 
-	background : #eee;
+	background : #ECECEC;
 }
 
 .shoppingCart:hover li{
@@ -356,7 +356,7 @@ a.simpleCart_empty {
     padding-bottom: 0px;
     height: 45px;
     overflow: hidden;
-    background: #eee;
+    background: #ECECEC;
     font-family: Tahoma;
     font-size: 13px;
     border-top: 1px solid #ffa709;
@@ -364,7 +364,7 @@ a.simpleCart_empty {
 
 .shoppingCart:hover p {
 	text-shadow: 0 -1px #fff;
-	background: #eee;
+	background: #ECECEC;
 	border-top: 1px solid #ffa709;
 }
 
@@ -424,6 +424,7 @@ a.simpleCart_empty {
 #checkout-wizard fieldset{
 	padding: 1em;
     color: #3a0b03;
+    background : #fff;
     font-size: 19px;
     line-height: 1.8em;
     width: 85%;
@@ -434,9 +435,9 @@ a.simpleCart_empty {
     min-height : 340px;
 	box-shadow: 
 		inset 0 0 0 16px #fff, 
-		inset 0 0 0 17px #ffa709, 
+		inset 0 0 0 17px #fff, 
 		inset 0 0 0 18px #fff, 
-		inset 0 0 0 19px #ffa709, 
+		inset 0 0 0 19px #fff, 
 		inset 0 0 0 20px #fff, 
 		inset 0 0 0 21px #ffa709;
 }
@@ -464,7 +465,7 @@ a.simpleCart_empty {
     margin-left: auto;
     margin-right: auto;
     width: 82%;
-    background: #fcf8e3;
+    background: #ECECEC;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 6px;
@@ -535,7 +536,7 @@ a.simpleCart_empty {
 	padding : 20px;
 	width : 100%;
 	position: relative;
-    background : #fcf8e3;
+    background : #ECECEC;
 }
 
 
@@ -670,13 +671,12 @@ a.simpleCart_empty {
 }
 
 .shipping-address {
-	background: #fcf8e3;
     padding: 10px;
     padding-left: 15px;
     padding-bottom: 5px;
     width: 40%;
     border: 1px solid #ff9b05;
-    margin-top : 15px;
+    margin-top : 27px;
 }
 
 .shipping-address a {
@@ -740,7 +740,7 @@ a.simpleCart_empty {
 	width : 500px;
     margin : auto;
     height : 220px;
-    background: #fefefe;
+    background: #fff;
     border: 1px solid #ff9b05;
     border-radius: 6px;
     outline: 0;
@@ -826,7 +826,7 @@ a.simpleCart_empty {
 }
 .easyWizardSteps li.current {color: #fff;background: #ff9b05;}
 .easyWizardButtons {overflow:hidden;}
-.easyWizardButtons button, .easyWizardButtons .submit {cursor:pointer}
+.easyWizardButtons button, .easyWizardButtons .submit {margin-top : 20px;cursor:pointer}
 .easyWizardButtons .prev {
 	float: left;
     position: relative;
@@ -1174,7 +1174,7 @@ ul.multi-column-dropdown h6 {
 	width : 300px;
 	margin : auto;
 	margin-top : 50px;
-	background : #eee;
+	background : #ECECEC;
 	padding : 20px;
 	padding-left : 40px;
 	list-style-position: inside;
@@ -3437,7 +3437,7 @@ td.invert-image a img {
 }
 
 ::-webkit-scrollbar-track {
-  background: #eee;
+  background: #ECECEC;
 }
 
 ::-webkit-scrollbar-button {
