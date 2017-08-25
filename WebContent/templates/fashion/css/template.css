@@ -485,7 +485,6 @@ a.simpleCart_empty {
 
 .checkout-wizard-content fieldset > div {
 	margin-left : 20px;
-	font-size : 0.9em;
 }
 
 .checkout-wizard-content fieldset h4 {
@@ -503,6 +502,7 @@ a.simpleCart_empty {
 	line-height : 4em;
 	width : 100%;
 	display : block;
+	white-space : nowrap;
 }
 
 .checkout-wizard-content fieldset > div > span > span{
