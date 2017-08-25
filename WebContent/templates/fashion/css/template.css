@@ -283,6 +283,7 @@ a.simpleCart_empty {
 .shoppingCart > div:first-of-type {
 	min-height: 100px;
 }
+
 .shoppingCart h4{
     float: left;
     color: #fff;
@@ -290,9 +291,6 @@ a.simpleCart_empty {
     font-family: Exo;
     font-weight: bold;
     font-size: 1.2em;
-}
-.shoppingCart:hover h4{
-       color:#fff;
 }
 
 .shoppingCart ul{
