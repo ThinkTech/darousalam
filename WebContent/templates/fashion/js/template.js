@@ -15,6 +15,7 @@ const saveOrder = function() {
 		$("form",wizard).easyWizard('goToStep', 1);
 		$("#cart ul li").remove();
 		$(".simpleCart_quantity").html(0);
+		$("#cart .total").html(0);
         $('body').css("overflow-y","auto");
 	});
 	const form = $("form",wizard);
