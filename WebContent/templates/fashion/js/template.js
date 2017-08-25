@@ -241,6 +241,7 @@ $(document).ready(function(){
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			"templates/fashion/js/social.js","templates/fashion/js/visa.js",
 			"https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
+			"https://www.google.com/recaptcha/api.js",
 			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
 	function() { 
 	});

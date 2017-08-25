@@ -59,6 +59,9 @@
 													<input placeholder="email" name="Email" type="email" required="">	
 													<input placeholder="mot de passe" name="Password" type="password" required="">	
 													<input placeholder="confirmer" name="Password" type="password" required="">
+													<div class="captcha">
+		     											<div class="g-recaptcha" data-sitekey="6LfcIBwUAAAAAMpRV6hzY9LHZJWbGyO4k668VXP1"></div>
+		    										</div> 
 													<div class="sign-up">
 														<input type="submit" value="Créér Mon Compte"/>
 													</div>

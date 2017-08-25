@@ -126,6 +126,12 @@ select {
 .w3l_login a span{
 	top:1.3em;
 }
+
+.captcha {
+	margin-top : 15px;
+	height : 80px;
+}
+
 a.act {
     color: #ff9b05 !important;
 }
@@ -5012,8 +5018,10 @@ td.invert-image a img {
 	.review_grids {
 		margin: 0.5em 0 0;
 	}
+	.captcha{max-width:286px;width:286px;overflow:hidden}
 }
 @media (max-width:320px){
+	.captcha{max-width:286px;width:286px;overflow:hidden}
 	.modal-dialog {
 		width: 290px;
 	}
