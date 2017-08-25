@@ -1260,18 +1260,19 @@ ul.multi-column-dropdown h6 {
     font-weight: 400;
 }
 .nav-tabs > li > a {
-    font-size: 1em;
+    font-size: 0.96em;
     color: #212121;
     font-family: 'Exo', serif;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-	border-radius: 0;
-	border: none;
+    border-radius: 0;
+    border: none;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color:#ff9b05;
 	color:#fff;
-	border: 1px solid #b1b1b1
+	border: 1px solid #ff9b05;
 }
 .nav-tabs > li > a:hover {
     border: none;
@@ -1315,13 +1316,14 @@ ul.multi-column-dropdown h6 {
 }
 .simpleCart_shelfItem p a{
     font-size: 14px;
-    color:#212121;
+    color: #fff;
     margin: 0;
     text-decoration: none;
     text-transform: uppercase;
     padding: .5em 2em;
     border: 1px solid;
     border-radius: 25px;
+    background: #ff9b05;
 }
 .simpleCart_shelfItem p a:hover{
 	background:#ff9b05;
