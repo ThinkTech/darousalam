@@ -227,6 +227,7 @@ a .total {
   display: inline-block;
   vertical-align: middle;
   font-family: Exo;
+  font-weight : bold;
   position: relative;
   top: 4px;
 }
@@ -1515,6 +1516,7 @@ ul.multi-column-dropdown h6 {
 /*-- special-deals --*/
 .special-deals h2,.container-bg h3,.top-brands h3,.w3l_related_products h3,.team h3,.mail h3{
 	font-size:2em;
+	font-weight : bold;
 	color:#212121;
 	position:relative;
 	padding-bottom:1.5em;
@@ -1551,7 +1553,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3agile_special_deals_grid_right_pos{
 	position:absolute;
-	top: 5%;
+	top: 4%;
     left: 20%;
 }
 .w3agile_special_deals_grid_right_pos h4,.w3agile_special_deals_grid_right_pos h5{
@@ -1560,6 +1562,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3agile_special_deals_grid_right_pos h4{
 	color:#ffffff;
+	font-weight : bold;
 }
 .w3agile_special_deals_grid_right_pos h4 span{
 	font-weight:700;
@@ -1586,6 +1589,7 @@ ul.multi-column-dropdown h6 {
 	text-transform:uppercase;
 	font-size:2em;
 	color:#fff;
+	font-weight : bold;
 }
 .w3agile_special_deals_grid_left_grid_pos h4 span{
 	display:block;
@@ -1737,6 +1741,7 @@ ul.wmuSliderPagination {
     color: #212121;
     text-transform: lowercase;
     margin-bottom: 4em;
+    font-weight : bold;
 }
 .agileinfo_banner_bottom1_grid_left h3 span{
 	display: block;
@@ -1753,6 +1758,7 @@ ul.wmuSliderPagination {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1em;
+    font-weight : bold;
     letter-spacing: 2px;
     color: #ff9b05;
     padding: 0 45px 0 0;
@@ -1780,6 +1786,7 @@ ul.wmuSliderPagination {
     color: #fff;
     text-transform: uppercase;
     font-size: 1em;
+    font-weight : bold;
     letter-spacing: 2px;
     background: #212121;
     width: 80%;
