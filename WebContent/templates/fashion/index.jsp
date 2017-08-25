@@ -160,7 +160,7 @@
 		  <br><br>
 		  <div class="col-md-5">
 				<a href="#deal" class="scroll"><h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>hot deal</h4></a>
-				<h6>10% OFF</h6>
+				<h6>Remise de 10%</h6>
 				<div class="timer_wrap">
 					<div id="counterTop"> </div>
 				</div>
