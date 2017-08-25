@@ -2109,7 +2109,7 @@ div#horizontalTab ul {
 }
 .register input[type="submit"]{
 	outline: none;
-    border: 1px solid #b1b1b1
+    border: 1px solid #b1b1b1;
     background: #212121;
     height: 38px;
     color: #fff;
