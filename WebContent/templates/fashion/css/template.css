@@ -19,6 +19,7 @@ html, body{
 
 body {
 	opacity : 0;
+	overflow-x : hidden;
 }
 
 .container-bg {
@@ -479,6 +480,7 @@ a.simpleCart_empty {
     margin: 22px;
     font-size : 1em;
     font-family : Tahoma;
+    font-weight : bold;
 }
 
 .checkout-wizard-content fieldset > div {
@@ -3524,6 +3526,77 @@ td.invert-image a img {
 	.banner7 {
 		background-position: -150px 0px;
 	}
+	
+	.delivery h3 {
+    font-size: 1.3em;
+  }
+  .delivery b {
+    font-size: 1em;
+  }
+  .shoppingCart li span span {
+    width: 211px;
+    font-size: 11px;
+  }
+  .shoppingCart li strong {
+    font-size: 11px;
+    position: relative;
+    top: 1px;
+  }
+  .shoppingCart p span {
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .checkout {
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  .shoppingCart h4 {
+    font-size: 1.1em;
+  }
+  
+  .checkout-wizard-content .register {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-top: -22px;
+  }
+  .checkout-wizard-content fieldset > div {
+    font-size: 0.8em;
+  }
+  .checkout-wizard-content fieldset > div > h5 {
+    font-size: 11.4px;
+  }
+  .checkout-wizard-content fieldset h6 {
+    font-size: 12.5px;
+  }
+  .checkout-wizard-content fieldset h4 {
+    font-size: 14px;
+  }
+  .shopping-amount > span {
+    font-size: 0.88em;
+  }
+  .easyWizardSteps li {
+    font-size: 1em;
+  }
+  .wizard-title {
+    font-size: 1.34em;
+  }
+  #order-confirmation p {
+    font-size: 0.82em;
+ }
+ #order-confirmation a {
+    font-size: 0.9em;
+    padding: 9px;
+ }
+ #order-confirmation h1 {
+    font-size: 1.15em;
+ }
+ #order-confirmation > div {
+    height: 210px;
+ }
+ .box_1 {
+    right: 150px;
+ }
 }
 @media (max-width: 1080px){
 	.modal-body-sub {
@@ -3531,9 +3604,6 @@ td.invert-image a img {
 	}
 	.w3l_logo {
 		margin-left: 13em;
-	}
-	.search {
-		margin: 1.5em 0 0 7em;
 	}
 	.navbar-nav > li:nth-child(1) {
 		margin-left: 6em;
