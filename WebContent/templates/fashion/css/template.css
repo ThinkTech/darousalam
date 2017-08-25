@@ -60,7 +60,7 @@ select {
 	background:#fff;
 	font-size:14px;
 	color:#3a0b03;
-	border: 1px solid #b1b1b1
+	border: 1px solid #ff9b05;
 	border-radius: 5px;
 	font-family : Exo;
 }
@@ -579,7 +579,7 @@ a.simpleCart_empty {
 
 .checkout-wizard-content .register input[type="text"], .checkout-wizard-content .register input[type="email"], .checkout-wizard-content .register input[type="password"] {
    outline: none;
-    border: 1px solid #b1b1b1;
+    border: 1px solid #ff9b05;
     background: #fff;
     padding: 4px;
     margin-top : 2px;
@@ -660,7 +660,7 @@ a.simpleCart_empty {
     padding-left: 15px;
     padding-bottom: 5px;
     width: 40%;
-    border: 1px solid #b1b1b1;
+    border: 1px solid #ff9b05;
     margin-top : 27px;
 }
 
@@ -726,7 +726,7 @@ a.simpleCart_empty {
     margin : auto;
     height : 220px;
     background: #fff;
-    border: 1px solid #b1b1b1
+    border: 1px solid #ff9b05
     border-radius: 6px;
     outline: 0;
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
@@ -2101,7 +2101,7 @@ div#horizontalTab ul {
 }
 .register input[type="submit"]{
 	outline: none;
-    border: 1px solid #b1b1b1;
+    border: 1px solid #ff9b05;
     background: #212121;
     height: 38px;
     color: #fff;
