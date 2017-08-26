@@ -16,7 +16,7 @@ const saveOrder = function() {
 		$("#cart ul li").remove();
 		$(".simpleCart_quantity").html(0);
 		$("#cart .total").html(0);
-        $('body').css("overflow-y","auto");
+        $('html,body').css("overflow-y","auto");
 	});
 	const form = $("form",wizard);
 	$('html,body').animate({scrollTop:0},100,function(){
@@ -115,14 +115,14 @@ $(document).ready(function(){
 		    	$("> div",wizard).css("top",top+20);
 		    	 wizard.show();
 		    });
-		    $('body').css("overflow-y","hidden");
+		    $('html,body').css("overflow-y","hidden");
 		}
 		return false;
 	});
 	
 	$(".wizard-close").click(function(){
 		const wizard = $("#checkout-wizard").fadeOut(100);
-		$('body').css("overflow-y","auto");
+		$('html,body').css("overflow-y","auto");
 	  });
 	  const form = $(".checkout-wizard-steps > form");
 	  form.easyWizard({
