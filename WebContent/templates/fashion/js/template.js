@@ -112,11 +112,13 @@ $(document).ready(function(){
 			payment.done = false;
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = cart.offset().top;
+		    page.wait({top : top +50});
 		    head.load("templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
 			  function() {
 		    	 $('html,body').animate({scrollTop:top},100,function(){
 				    	$("> div",wizard).css("top",top+20);
-				    	 wizard.show();
+				    	page.release();
+				    	wizard.show();
 				 });
 				 $('html,body').css("overflow-y","hidden");
 			  });
