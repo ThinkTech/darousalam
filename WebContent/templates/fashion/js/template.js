@@ -44,20 +44,6 @@ $(document).ready(function () {
 		fit: true  
 	});
 });
-$(document).ready(function() {
-	$('.popup-with-zoom-anim').magnificPopup({
-		type: 'inline',
-		fixedContentPos: false,
-		fixedBgPos: true,
-		overflowY: 'auto',
-		closeBtnInside: true,
-		preloader: false,
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-zoom-in'
-	});
-																	
-});
 
 $(document).ready(function() {
 	$("#flexiselDemo1").flexisel({
@@ -105,16 +91,6 @@ $(document).ready(function(){
 
 
 	/* ---- Animations ---- */
-
-	$('#links a').hover(
-		function(){ $(this).animate({ left: 3 }, 'fast'); },
-		function(){ $(this).animate({ left: 0 }, 'fast'); }
-	);
-
-	$('footer a').hover(
-		function(){ $(this).animate({ top: 3 }, 'fast'); },
-		function(){ $(this).animate({ top: 0 }, 'fast'); }
-	);
 	
 	$('.item_show').click(function(){
 		$(this).parent().parent().parent().find("li a").click();
