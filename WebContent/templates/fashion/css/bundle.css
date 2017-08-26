@@ -5727,7 +5727,7 @@ a.list-group-item-danger.active:focus {
 }
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .modal-dialog {
   position: relative;
