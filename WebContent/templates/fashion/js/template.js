@@ -108,6 +108,7 @@ $(document).ready(function(){
 			cart.hide();
 			alert(message);
 		}else {
+			cart.hide();
 			payment.done = false;
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = cart.offset().top;
