@@ -90,12 +90,12 @@
 	</div>
 	<div class="header">
 		<div class="container">
-		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+		    <div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#about" class="scroll">À PROPOS</a></li>
-						<li><a href="#products" class="scroll">Nos Articles</a></li>	
-						<li><a href="#schedules" class="scroll">Nos Horaires</a></li>
-						<li><a>Contact</a></li>
+						<li><a href="#about" class="scroll" title="à propos">À PROPOS</a></li>
+						<li><a href="#products" class="scroll" title="nos articles">Nos Articles</a></li>	
+						<li><a href="#schedules" class="scroll" title="nos horaires">Nos Horaires</a></li>
+						<li><a title="contact">Contact</a></li>
 					</ul>
 				</div>
 			<div class="w3l_login">
