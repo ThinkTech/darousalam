@@ -90,7 +90,17 @@ $(document).ready(function(){
 	});
 
 
-	/* ---- Animations ---- */
+	$("#myTab li a").click(function(){
+		const link = $(this);
+		const id = link.attr("href");
+		if(!link.data("loaded")) {
+		 link.attr("data-loaded","true");
+		 $.each($(id+" img"),function(index,element){
+			const src = $(element).data("src");
+			if(src) $(element).attr("src",src);
+		  });
+		}
+	});	
 	
 	$('.item_show').click(function(){
 		$(this).parent().parent().parent().find("li a").click();

@@ -488,7 +488,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-									  <img data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+									  <img data-delay="true" data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
 									  <div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -505,7 +505,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -522,7 +522,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -544,7 +544,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -561,7 +561,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -578,7 +578,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -600,7 +600,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -617,7 +617,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -634,7 +634,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -656,7 +656,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -673,7 +673,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -690,7 +690,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>

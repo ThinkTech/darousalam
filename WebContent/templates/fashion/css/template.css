@@ -1366,6 +1366,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3_hs_bottom ul li a{
 	display: block;
+	cursor : pointer;
 }
 .w3_hs_bottom ul li a,.flex_ecommerce a{
 	font-size:1em;
