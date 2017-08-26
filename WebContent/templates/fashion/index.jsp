@@ -118,7 +118,7 @@
 				<a>
 					<div class="total">
 					<span  class="simpleCart_quantity">0</span> articles</div>
-					<img data-src="templates/fashion/images/bag.png" alt="" />
+					<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
 				</a>
 				<div class="clearfix"> </div>
 				<div id="cart" class="shoppingCart">
@@ -180,7 +180,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Bienvenue chez Darou Salam, une boutique de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore! Chaque mois, nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
+			Bienvenue chez Darou Salam, une chaîne de boutiques de prêt à porter offrant les meilleurs tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore! Chaque mois, nous lançons prés de 10 nouveaux styles alors peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			Nous acceptons les paiements par carte <b>Visa</b>, <b>MasterCard</b>, <b>American Express</b> et <b>Discover</b>, tout comme aussi, vous pouvez utiliser <b>PayPal</b>, <b>Orange Money</b> ou <b>Tigo Cash</b> pour faire vos achats.
 			Notre service de livraison reste entièrement à votre disposition pour vous faciliter les choses et nos frais de livraison varient en fonction de votre domiciliation. 
@@ -436,7 +436,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -444,7 +444,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -453,7 +453,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -461,7 +461,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -470,7 +470,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -478,7 +478,7 @@
 									<h5><a>T-Shirt</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -492,7 +492,7 @@
 									  <div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -500,7 +500,7 @@
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -509,7 +509,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -517,7 +517,7 @@
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -526,7 +526,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -534,7 +534,7 @@
 									<h5><a>Jupe</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -548,7 +548,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -556,7 +556,7 @@
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -565,7 +565,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -573,7 +573,7 @@
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -582,7 +582,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -590,7 +590,7 @@
 									<h5><a>Montre</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -604,7 +604,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -612,7 +612,7 @@
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -621,7 +621,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -629,7 +629,7 @@
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -638,7 +638,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -646,7 +646,7 @@
 									<h5><a>Sandale</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -660,7 +660,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -668,7 +668,7 @@
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -677,7 +677,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -685,7 +685,7 @@
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -694,7 +694,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -702,7 +702,7 @@
 									<h5><a>Bijou</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-										<p><a class="item_add item_show">Commander</a></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -751,7 +751,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="shirt">Commander</a></p>
+											<p><a class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -809,7 +809,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="jean">Commander</a></p>
+											<p><a class="item_add shop" data-name="jean"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -867,7 +867,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="montre">Commander</a></p>
+											<p><a class="item_add shop" data-name="montre"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -925,7 +925,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="sandale">Commander</a></p>
+											<p><a class="item_add shop" data-name="sandale"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -983,7 +983,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="bijou">Commander</a></p>
+											<p><a class="item_add shop" data-name="bijou"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1041,7 +1041,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="jacket">Commander</a></p>
+											<p><a class="item_add shop" data-name="jacket"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1099,7 +1099,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="jupe">Commander</a></p>
+											<p><a class="item_add shop" data-name="jupe"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1213,7 +1213,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1221,7 +1221,7 @@
 						<h5><a>Jupes</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-							<p><a class="item_add item_show">Commander</a></p>
+							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1232,7 +1232,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1240,7 +1240,7 @@
 						<h5><a>Jackets</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-							<p><a class="item_add item_show">Commander</a></p>
+							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1251,7 +1251,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1259,7 +1259,7 @@
 						<h5><a>Robes</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-							<p><a class="item_add item_show">Commander</a></p>
+							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 						</div>
 					</div>
 				</div>
@@ -1270,7 +1270,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1278,7 +1278,7 @@
 						<h5><a>Jeans</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-							<p><a class="item_add item_show">Commander</a></p>
+							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 						</div>
 					</div>
 				</div>
