@@ -26,9 +26,10 @@ body {
     background:#BEE5E2;
 }
 
-.fa {
+a i.fa,.fa {
 	margin-right : 5px;
 }
+
 
 p{
 	margin:0;
