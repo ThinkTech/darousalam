@@ -111,11 +111,14 @@ $(document).ready(function(){
 			payment.done = false;
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = cart.offset().top;
-		    $('html,body').animate({scrollTop:top},100,function(){
-		    	$("> div",wizard).css("top",top+20);
-		    	 wizard.show();
-		    });
-		    $('html,body').css("overflow-y","hidden");
+		    head.load("templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
+			  function() {
+		    	 $('html,body').animate({scrollTop:top},100,function(){
+				    	$("> div",wizard).css("top",top+20);
+				    	 wizard.show();
+				 });
+				 $('html,body').css("overflow-y","hidden");
+			  });
 		}
 		return false;
 	});
@@ -216,8 +219,7 @@ $(document).ready(function(){
 	});
 	
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-			"templates/fashion/js/social.js","templates/fashion/js/visa.js",
-			"https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
+			"templates/fashion/js/social.js",
 			"https://www.google.com/recaptcha/api.js",
 			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
 	function() { 
