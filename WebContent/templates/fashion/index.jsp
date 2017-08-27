@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Darou Salam</title>
+<title>Darou Salam Fashion</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Habillements, Jeans, Fashion" />
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
-<link href="templates/fashion/css/bundle.css" rel="stylesheet" type="text/css" media="all" />
+<link href="templates/fashion/css/bundle.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -102,7 +102,7 @@
 				<a data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="${path}">Boutique Darou Salam<span>For Fashion Lovers</span></a></h1>
+				<h1><a href="${path}">Darou Salam Fashion<span>For Fashion Lovers</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
