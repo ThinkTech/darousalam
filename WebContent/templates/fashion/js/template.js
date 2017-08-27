@@ -9,7 +9,7 @@ const animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
 				'bounceInRight', 'bounceInUp' ];
 
-const loadImages = function(div) {
+const loadImages = function(div,callback) {
 	if(!div.data("loaded")) {
 		div.attr("data-loaded","true");
 	    $.each($("img",div),function(index,element){
@@ -22,6 +22,7 @@ const loadImages = function(div) {
 				});
 			}
 	    });
+	    if(callback) callback();
 	  }
 };
 
@@ -51,12 +52,20 @@ $(document).ready(function(){
 	$("body").css("opacity",1);
 	
 	$(".w3l_login a").click(function(event){
-		page.wait();
-		head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-		  "templates/fashion/js/social.js",
-		  "https://www.google.com/recaptcha/api.js",function(){
-			page.release();
-		});
+		if(!$(this).data("loaded")) {
+			$(this).attr("data-loaded","true");
+			page.wait();
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default',            
+				width: 'auto', 
+				fit: true  
+			});
+			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+			  "templates/fashion/js/social.js",
+			  "https://www.google.com/recaptcha/api.js",function(){
+				page.release();
+			});
+		}
 	});
 	
 	$(".scroll").click(function(event){		
@@ -71,20 +80,7 @@ $(document).ready(function(){
 	$('#counterTop').countdown({
 		timestamp : (new Date()).getTime() + 11*24*60*60*1000
 	});
-	
-	$('#counter').countdown({
-		timestamp : (new Date()).getTime() + 11*24*60*60*1000
-	});
 
-	$("#myTab li a").click(function(){
-		const link = $(this);
-		const id = link.attr("href");
-		loadImages($(id));
-	});	
-	
-	$('.item_show').click(function(){
-		$(this).parent().parent().parent().find("li a").click();
-	});	
 	
 	$(".cart a,#cart .close").click(function(){
 		$("#cart").toggle();
@@ -117,13 +113,8 @@ $(document).ready(function(){
 		}
 		return false;
 	});
-	
-	$(".wizard-close").click(function(){
-		const wizard = $("#checkout-wizard").fadeOut(100);
-		$('html,body').css("overflow-y","auto");
-	  });
-	  const form = $(".checkout-wizard-steps > form");
-	  form.easyWizard({
+	const form = $(".checkout-wizard-steps > form");
+	form.easyWizard({
 	    prevButton: "Pr\u0117c\u0117dent",
 	    nextButton: "Suivant",
 	    submitButtonText: "Terminer",
@@ -171,89 +162,73 @@ $(document).ready(function(){
 	    	}
 	    	return false;
 	    }
-	  });
-	  form.find("select[name='method']").click(function(){
-		form.find("input[name='payment'][value='online']").prop("checked",true);
-	  });
-	  $("#checkout-wizard").hide();	
-	
-	$('.shop' ).on( 'click', function() {
-		$(this).closest(".modal-content").find(".close").click();
-		var total = 0;
-		const cart = $("#cart");
-		const ul = $("ul",cart);
-		const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
-		var number = 1;
-		const price = 13500;
-		const name = $(this).data("name");
-        li.find('span span').html(number+" "+name).attr("title","prix : "+price);
-        const amount = number * parseInt(price);
-        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
-        li.find(".trash").click(function(){
-        	const message = "voulez-vous supprimer cet article?";
-    		confirm(message, function() {
-    			li.remove();
-    			$(".simpleCart_quantity").html(ul.find("li").length);
-    			total = 0;
-    			$.each($("li .price",ul),function(index,element){
-                	total += parseInt($(element).attr("amount"));
-                });
-                $(".total",cart).html(total.toLocaleString("fr-FR"));
-    		});
-    	});
-        ul.append(li);
-        ul.scrollTop(li.position().top);
-        $(".simpleCart_quantity").html(ul.find("li").length);
-        $.each($("li .price",ul),function(index,element){
-        	total += parseInt($(element).attr("amount"));
-        });
-        $(".total",cart).html(total.toLocaleString("fr-FR"));
 	});
-	
+    form.find("select[name='method']").click(function(){
+		form.find("input[name='payment'][value='online']").prop("checked",true);
+	});
+	$("#checkout-wizard").hide();	
+	$(".wizard-close").click(function(){
+		  const wizard = $("#checkout-wizard").fadeOut(100);
+			$('html,body').css("overflow-y","auto");
+	});	
 	$("#confirmation-close").click(function(){
     	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ animations[Math.floor(Math.random() * animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
-	 });
-	
-	$("#flexiselDemo1").flexisel({
-		visibleItems: 4,
-		animationSpeed: 1000,
-		autoPlay: true,
-		autoPlaySpeed: 3000,    		
-		pauseOnHover: true,
-		enableResponsiveBreakpoints: true,
-		responsiveBreakpoints: { 
-			portrait: { 
-				changePoint:480,
-				visibleItems: 1
-			}, 
-			landscape: { 
-				changePoint:640,
-				visibleItems:2
-			},
-			tablet: { 
-				changePoint:768,
-				visibleItems: 3
-			}
-		}
 	});
-	
-	$('.wmuSlider').wmuSlider();	
-	
-	$('#horizontalTab').easyResponsiveTabs({
-		type: 'default',            
-		width: 'auto', 
-		fit: true  
-	});
-	
 	$(window).scroll(function(){
 		  div = $("#home");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div);  
+			loadImages(div,function(){
+				$("#myTab li a").click(function(){
+					const link = $(this);
+					const id = link.attr("href");
+					loadImages($(id));
+				});	
+				$('.item_show').click(function(){
+					$(this).parent().parent().parent().find("li a").click();
+				});	
+				$('.shop' ).on( 'click', function() {
+					$(this).closest(".modal-content").find(".close").click();
+					var total = 0;
+					const cart = $("#cart");
+					const ul = $("ul",cart);
+					const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+					var number = 1;
+					const price = 13500;
+					const name = $(this).data("name");
+			        li.find('span span').html(number+" "+name).attr("title","prix : "+price);
+			        const amount = number * parseInt(price);
+			        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
+			        li.find(".trash").click(function(){
+			        	const message = "voulez-vous supprimer cet article?";
+			    		confirm(message, function() {
+			    			li.remove();
+			    			$(".simpleCart_quantity").html(ul.find("li").length);
+			    			total = 0;
+			    			$.each($("li .price",ul),function(index,element){
+			                	total += parseInt($(element).attr("amount"));
+			                });
+			                $(".total",cart).html(total.toLocaleString("fr-FR"));
+			    		});
+			    	});
+			        ul.append(li);
+			        ul.scrollTop(li.position().top);
+			        $(".simpleCart_quantity").html(ul.find("li").length);
+			        $.each($("li .price",ul),function(index,element){
+			        	total += parseInt($(element).attr("amount"));
+			        });
+			        $(".total",cart).html(total.toLocaleString("fr-FR"));
+				});
+			});  
 		  }
 		  div = $("#deal");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div);  
+			loadImages(div,function(){
+				$('.wmuSlider').wmuSlider();
+				$('#counter').countdown({
+					timestamp : (new Date()).getTime() + 11*24*60*60*1000
+				});
+			});  
 		  }
 		  div = $("#new-products");
 		  if($(this).scrollTop() >= div.position().top-400) {
@@ -261,7 +236,30 @@ $(document).ready(function(){
 		  }
 		  div = $("#top-brands");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div);  
+			loadImages(div,function(){
+				$("#flexiselDemo1").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: { 
+						portrait: { 
+							changePoint:480,
+							visibleItems: 1
+						}, 
+						landscape: { 
+							changePoint:640,
+							visibleItems:2
+						},
+						tablet: { 
+							changePoint:768,
+							visibleItems: 3
+						}
+					}
+				});
+			});  
 		  }
 		  div = $("#footer");
 		  if($(this).scrollTop() >= div.position().top-400) {
