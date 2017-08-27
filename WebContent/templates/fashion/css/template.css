@@ -112,6 +112,7 @@ select {
     font-weight: bold;
     font-family: Exo;
     text-align : center;
+    user-select : none;
 }
 
 .w3l_login a {
@@ -229,6 +230,7 @@ label.icon-search span {
   font-size: 1em;
   margin: 0;
   cursor : pointer;
+  user-select : none;
 }
 
 .box_1 a .glyphicon {
@@ -790,6 +792,7 @@ a.simpleCart_empty {
     text-align : center;
     cursor : pointer;
     font-family : Exo;
+    user-select : none;
 }
 
 
@@ -819,7 +822,7 @@ a.simpleCart_empty {
 }
 .easyWizardSteps li.current {color: #fff;background: #ff9b05;}
 .easyWizardButtons {overflow:hidden;}
-.easyWizardButtons button, .easyWizardButtons .submit {margin-top : 20px;cursor:pointer}
+.easyWizardButtons button, .easyWizardButtons .submit {margin-top : 20px;cursor:pointer;user-select : none;}
 .easyWizardButtons .prev {
 	float: left;
     position: relative;
@@ -3390,10 +3393,7 @@ td.invert-image a img {
 
 .item_add {
 	cursor : pointer;
-}
-
-.item_show {
-	
+	user-select : none;
 }
 
 .scrollToTop {
