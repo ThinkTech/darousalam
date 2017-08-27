@@ -1,6 +1,6 @@
 var user;
 const payment = {};
-const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
+const animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'rollIn', 'zoomIn', 'slideInUp', 'bounceInUp', 'pulse',
 				'rubberBand', 'shake', 'headshake', 'jackInTheBox',
 				'flash', 'swing', 'fadeInUpBig', 'rotateInDownLeft',
@@ -64,7 +64,7 @@ $(document).ready(function(){
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},600);
 	});
 	
-	$(".w3l_logo h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+	$(".w3l_logo h1").addClass("animated "+ animations[Math.floor(Math.random() * animations.length)]);
 	$(".banner a h4").addClass("animated zoomIn");
 	$(".banner h6").addClass("animated zoomIn");
 	
@@ -211,7 +211,7 @@ $(document).ready(function(){
 	});
 	
 	$("#confirmation-close").click(function(){
-    	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
+    	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ animations[Math.floor(Math.random() * animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 	 });
 	
