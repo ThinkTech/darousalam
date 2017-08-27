@@ -9,6 +9,16 @@ const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
 				'bounceInRight', 'bounceInUp' ];
 
+const loadImages = function(div) {
+	if(!div.data("loaded")) {
+		div.attr("data-loaded","true");
+	    $.each($("img",div),function(index,element){
+			const src = $(element).data("src");
+			if(src) $(element).attr("src",src);
+	    });
+	  }
+};
+
 const saveOrder = function() {
 	const wizard = $("#checkout-wizard").fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
@@ -55,13 +65,7 @@ $(document).ready(function(){
 	$("#myTab li a").click(function(){
 		const link = $(this);
 		const id = link.attr("href");
-		if(!link.data("loaded")) {
-		 link.attr("data-loaded","true");
-		 $.each($(id+" img"),function(index,element){
-			const src = $(element).data("src");
-			if(src) $(element).attr("src",src);
-		  });
-		}
+		loadImages($(id));
 	});	
 	
 	$('.item_show').click(function(){
@@ -230,5 +234,27 @@ $(document).ready(function(){
 			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
 	function() { 
 	});
-    
+	
+	$(window).scroll(function(){
+		  div = $("#home");
+		  if($(this).scrollTop() >= div.position().top-100) {
+			loadImages(div);  
+		  }
+		  div = $("#deal");
+		  if($(this).scrollTop() >= div.position().top-100) {
+			loadImages(div);  
+		  }
+		  div = $("#new-products");
+		  if($(this).scrollTop() >= div.position().top-100) {
+			loadImages(div);  
+		  }
+		  div = $("#top-brands");
+		  if($(this).scrollTop() >= div.position().top-100) {
+			loadImages(div);  
+		  }
+		  div = $("#footer");
+		  if($(this).scrollTop() >= div.position().top-100) {
+			loadImages(div);  
+		  }
+	});
 });

@@ -432,7 +432,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -449,7 +449,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -459,14 +459,14 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
-									<div class="simpleCart_shelfItem">
+	 								<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1129,7 +1129,7 @@
 			<div class="w3agile_special_deals_grids">
 				<div class="col-md-7 w3agile_special_deals_grid_left">
 					<div class="w3agile_special_deals_grid_left_grid">
-						<img data-src="templates/fashion/images/26.jpg" alt=" " class="img-responsive" />
+						<img data-delay="true" data-src="templates/fashion/images/26.jpg" alt=" " class="img-responsive" />
 						<div class="w3agile_special_deals_grid_left_grid_pos">
 							<h4>Acheter nos <span>meilleures articles</span></h4>
 						</div>
@@ -1139,7 +1139,7 @@
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<img data-src="templates/fashion/images/1.png" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/1.png" alt=" " class="img-responsive" />
 										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
 											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
 											eum fugiat quo voluptas nulla pariatur</p>
@@ -1150,7 +1150,7 @@
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<img data-src="templates/fashion/images/2.png" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/2.png" alt=" " class="img-responsive" />
 										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
 											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
 											eum fugiat quo voluptas nulla pariatur</p>
@@ -1161,7 +1161,7 @@
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<img data-src="templates/fashion/images/3.png" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/3.png" alt=" " class="img-responsive" />
 										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
 											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
 											eum fugiat quo voluptas nulla pariatur</p>
@@ -1173,7 +1173,7 @@
 					</div> 
 				</div>
 				<div class="col-md-5 w3agile_special_deals_grid_right">
-					<img data-src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
+					<img data-delay="true" data-src="templates/fashion/images/25.jpg" alt=" " class="img-responsive" />
 					<div class="w3agile_special_deals_grid_right_pos">
 					    <h4>Notre Offre</h4>
 						<h5>10% <span></span>Off</h5>
@@ -1202,14 +1202,14 @@
 	</div>
 <!-- //banner-bottom1 -->
 <!-- container-bg -->
-	<div class="container-bg">
+	<div id="new-products" class="container-bg">
 		<div class="container">
 			<h3>Nouveaux Articles</h3>
 			<div class="agileinfo_new_products_grids">
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img data-src="templates/fashion/images/27.jpg" alt=" " class="img-responsive" />
+							<img data-delay="true" data-src="templates/fashion/images/27.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1228,7 +1228,7 @@
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img data-src="templates/fashion/images/31.jpg" alt=" " class="img-responsive" />
+							<img data-delay="true" data-src="templates/fashion/images/31.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1247,7 +1247,7 @@
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img data-src="templates/fashion/images/37.jpg" alt=" " class="img-responsive" />
+							<img data-delay="true" data-src="templates/fashion/images/37.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1266,7 +1266,7 @@
 				<div class="col-md-3 agileinfo_new_products_grid">
 					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 						<div class="hs-wrapper hs-wrapper1">
-							<img data-src="templates/fashion/images/40.jpg" alt=" " class="img-responsive" />
+							<img data-delay="true" data-src="templates/fashion/images/40.jpg" alt=" " class="img-responsive" />
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
@@ -1288,25 +1288,25 @@
 	</div>
 <!-- //container-bg -->
 <!-- top-brands -->
-	<div class="top-brands">
+	<div id="top-brands" class="top-brands">
 		<div class="container">
 			<h3>Top Marques</h3>
 			<div class="sliderfig">
 				<ul id="flexiselDemo1">			
 					<li>
-						<img data-src="templates/fashion/images/4.png" alt=" " class="img-responsive" />
+						<img data-delay="true" data-src="templates/fashion/images/4.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img data-src="templates/fashion/images/5.png" alt=" " class="img-responsive" />
+						<img data-delay="true" data-src="templates/fashion/images/5.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img data-src="templates/fashion/images/6.png" alt=" " class="img-responsive" />
+						<img data-delay="true" data-src="templates/fashion/images/6.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img data-src="templates/fashion/images/7.png" alt=" " class="img-responsive" />
+						<img data-delay="true" data-src="templates/fashion/images/7.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img data-src="templates/fashion/images/46.jpg" alt=" " class="img-responsive" />
+						<img data-delay="true" data-src="templates/fashion/images/46.jpg" alt=" " class="img-responsive" />
 					</li>
 				</ul>
 			</div>	
@@ -1347,7 +1347,7 @@
 		</div>
    </div>
 <!-- footer -->
-	<div class="footer">
+	<div id="footer" class="footer">
 		<div class="container">
 			<div class="w3_footer_grids">
 				<div class="col-md-3 w3_footer_grid">
@@ -1401,7 +1401,7 @@
 			<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 			<br><br><br>
 			<div class="payment-methods">
-			 <img data-src="templates/fashion/images/payment-methods.png">
+			 <img data-delay="true" data-src="templates/fashion/images/payment-methods.png">
 			</div>
 			<br><br>
 			<p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
