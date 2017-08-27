@@ -186,6 +186,7 @@ $(document).ready(function(){
     		});
     	});
         ul.append(li);
+        ul.scrollTop(li.position().top);
         $(".simpleCart_quantity").html(ul.find("li").length);
         $.each($("li .price",ul),function(index,element){
         	total += parseInt($(element).attr("amount"));
