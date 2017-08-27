@@ -18,7 +18,9 @@ const loadImages = function(div,callback) {
 			if(src) {
 				$(element).attr("src",src);
 				$(element).load(function(){
-					$(this).removeClass("loading");
+					$(element).removeClass("loading");
+				}).each(function() {
+					  if(this.complete) $(this).load();
 				});
 			}
 	    });
@@ -175,6 +177,28 @@ $(document).ready(function(){
     	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ animations[Math.floor(Math.random() * animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 	});
+	$("#flexiselDemo1").flexisel({
+		visibleItems: 4,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,    		
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+		responsiveBreakpoints: { 
+			portrait: { 
+				changePoint:480,
+				visibleItems: 1
+			}, 
+			landscape: { 
+				changePoint:640,
+				visibleItems:2
+			},
+			tablet: { 
+				changePoint:768,
+				visibleItems: 3
+			}
+		}
+	});
 	$(window).scroll(function(){
 		  div = $("#home");
 		  if($(this).scrollTop() >= div.position().top-400) {
@@ -236,30 +260,7 @@ $(document).ready(function(){
 		  }
 		  div = $("#top-brands");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div,function(){
-				$("#flexiselDemo1").flexisel({
-					visibleItems: 4,
-					animationSpeed: 1000,
-					autoPlay: true,
-					autoPlaySpeed: 3000,    		
-					pauseOnHover: true,
-					enableResponsiveBreakpoints: true,
-					responsiveBreakpoints: { 
-						portrait: { 
-							changePoint:480,
-							visibleItems: 1
-						}, 
-						landscape: { 
-							changePoint:640,
-							visibleItems:2
-						},
-						tablet: { 
-							changePoint:768,
-							visibleItems: 3
-						}
-					}
-				});
-			});  
+			loadImages(div);  
 		  }
 		  div = $("#footer");
 		  if($(this).scrollTop() >= div.position().top-400) {

@@ -308,7 +308,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=VISA" />
+										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -323,7 +323,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=MASTERCARD" />
+										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -338,7 +338,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=AMEX" />
+										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -353,7 +353,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png?cardBrands=DISCOVER" />
+										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -493,7 +493,7 @@
 									  <div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -510,7 +510,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -527,7 +527,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -549,7 +549,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -566,7 +566,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -583,7 +583,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -605,7 +605,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -622,7 +622,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -639,7 +639,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -661,7 +661,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -678,7 +678,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -695,7 +695,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 												</li>
 											</ul>
 										</div>
@@ -753,354 +753,6 @@
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 											<p><a class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="modal video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal1">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
-							</div>
-							<section>
-								<div class="modal-body">
-									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/63.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-7 modal_body_right">
-										<h4>a good look black women's jeans</h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
-											exercitation ullamco laboris nisi ut aliquip ex ea 
-											commodo consequat.Duis aute irure dolor in 
-											reprehenderit in voluptate velit esse cillum dolore 
-											eu fugiat nulla pariatur. Excepteur sint occaecat 
-											cupidatat non proident, sunt in culpa qui officia 
-											deserunt mollit anim id est laborum.</p>
-										<div class="rating">
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="jean"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="modal video-modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
-							</div>
-							<section>
-								<div class="modal-body">
-									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/23.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's Watch</h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
-											exercitation ullamco laboris nisi ut aliquip ex ea 
-											commodo consequat.Duis aute irure dolor in 
-											reprehenderit in voluptate velit esse cillum dolore 
-											eu fugiat nulla pariatur. Excepteur sint occaecat 
-											cupidatat non proident, sunt in culpa qui officia 
-											deserunt mollit anim id est laborum.</p>
-										<div class="rating">
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="montre"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="modal video-modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModal3">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
-							</div>
-							<section>
-								<div class="modal-body">
-									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/24.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's Sandal</h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
-											exercitation ullamco laboris nisi ut aliquip ex ea 
-											commodo consequat.Duis aute irure dolor in 
-											reprehenderit in voluptate velit esse cillum dolore 
-											eu fugiat nulla pariatur. Excepteur sint occaecat 
-											cupidatat non proident, sunt in culpa qui officia 
-											deserunt mollit anim id est laborum.</p>
-										<div class="rating">
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="sandale"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="modal video-modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModal4">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
-							</div>
-							<section>
-								<div class="modal-body">
-									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/22.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's Necklace</h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
-											exercitation ullamco laboris nisi ut aliquip ex ea 
-											commodo consequat.Duis aute irure dolor in 
-											reprehenderit in voluptate velit esse cillum dolore 
-											eu fugiat nulla pariatur. Excepteur sint occaecat 
-											cupidatat non proident, sunt in culpa qui officia 
-											deserunt mollit anim id est laborum.</p>
-										<div class="rating">
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="bijou"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="modal video-modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModal5">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
-							</div>
-							<section>
-								<div class="modal-body">
-									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/35.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's Jacket</h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
-											exercitation ullamco laboris nisi ut aliquip ex ea 
-											commodo consequat.Duis aute irure dolor in 
-											reprehenderit in voluptate velit esse cillum dolore 
-											eu fugiat nulla pariatur. Excepteur sint occaecat 
-											cupidatat non proident, sunt in culpa qui officia 
-											deserunt mollit anim id est laborum.</p>
-										<div class="rating">
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="jacket"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-				<div class="modal video-modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModal6">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<span class="close" data-dismiss="modal" aria-label="Close"></span>						
-							</div>
-							<section>
-								<div class="modal-body">
-									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/39.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's Long Jupe</h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
-											exercitation ullamco laboris nisi ut aliquip ex ea 
-											commodo consequat.Duis aute irure dolor in 
-											reprehenderit in voluptate velit esse cillum dolore 
-											eu fugiat nulla pariatur. Excepteur sint occaecat 
-											cupidatat non proident, sunt in culpa qui officia 
-											deserunt mollit anim id est laborum.</p>
-										<div class="rating">
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="jupe"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 										<h5>Color</h5>
 										<div class="color-quality">
@@ -1214,7 +866,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1233,7 +885,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1252,7 +904,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
@@ -1271,7 +923,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
 									</li>
 								</ul>
 							</div>
