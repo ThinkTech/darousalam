@@ -1229,6 +1229,7 @@ ul.multi-column-dropdown h6 {
 .modal-open .modal {
     background: rgba(0, 0, 0, 0.48);
     z-index: 99999;
+   margin-left: -15px;
 }
 .modal.bnr-modal {
 	padding: 0 1em !important;
@@ -2139,6 +2140,20 @@ h3.other-nw {
     color: #212121;
     text-align: right;
 }
+
+.loading {
+	border: 16px solid #eee;
+    border-top: 16px solid #ff9b05;
+    margin: auto;
+    border-radius: 50%;
+    width: 90px;
+    max-width: 90px;
+    height: 90px;
+    max-height: 90px;
+    margin: auto;
+    animation: spin 1s linear infinite;
+}
+
 /* ---------- SOCIAL ---------- */
 
 .social {
@@ -3422,6 +3437,7 @@ td.invert-image a img {
 
 
 #loader {
+	border: 16px solid #eee;
     border-top: 16px solid #ff9b05;
     margin : auto;
 }

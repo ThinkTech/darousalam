@@ -1134,7 +1134,7 @@
 							<h4>Acheter nos <span>meilleures articles</span></h4>
 						</div>
 					</div>
-					<div class="wmuSlider example1">
+					<div class="wmuSlider">
 						<div class="wmuSliderWrapper">
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
