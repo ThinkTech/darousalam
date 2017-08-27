@@ -2144,7 +2144,6 @@ h3.other-nw {
 .loading {
 	border: 16px solid #eee;
     border-top: 16px solid #ff9b05;
-    margin: auto;
     border-radius: 50%;
     width: 90px;
     max-width: 90px;
