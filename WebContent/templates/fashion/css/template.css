@@ -2151,6 +2151,8 @@ h3.other-nw {
     max-height: 90px;
     margin: auto;
     animation: spin 1s linear infinite;
+    position: relative;
+    top: 20%;
 }
 
 /* ---------- SOCIAL ---------- */
