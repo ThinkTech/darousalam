@@ -1334,7 +1334,7 @@
 		<div class="container">
 			<h3>Nos Horaires</h3>
 			<p>
-			Nous sommes ouverts du lundi au dimanche et nos horaires d'ouverture sont les suivantes.
+			Nous sommes ouverts du lundi au samedi et nos horaires d'ouverture sont les suivantes.
 			</p>
 			<ol>
 			  <li>Lundi : 10H - 19H 30</li>
@@ -1343,7 +1343,6 @@
 			  <li>Jeudi : 10H - 19H 30</li>
 			  <li>Vendredi : 10H - 19H 30</li>
 			  <li>Samedi : 10H - 19H 30</li>
-			  <li>Dimanche : 10H - 19H 30</li>
 			</ol>
 		</div>
    </div>

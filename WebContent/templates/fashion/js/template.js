@@ -9,7 +9,6 @@ const items = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
 				'bounceInRight', 'bounceInUp' ];
 
-
 const saveOrder = function() {
 	const wizard = $("#checkout-wizard").fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
@@ -31,56 +30,20 @@ const saveOrder = function() {
 	});*/
 };
 
-jQuery(document).ready(function($) {
+$(document).ready(function(){
+
+	$("body").css("opacity",1);
+	
 	$(".scroll").click(function(event){		
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},600);
 	});
-});
-$(document).ready(function () {
-	$('#horizontalTab').easyResponsiveTabs({
-		type: 'default',            
-		width: 'auto', 
-		fit: true  
-	});
-});
-
-$(document).ready(function() {
-	$("#flexiselDemo1").flexisel({
-		visibleItems: 4,
-		animationSpeed: 1000,
-		autoPlay: true,
-		autoPlaySpeed: 3000,    		
-		pauseOnHover: true,
-		enableResponsiveBreakpoints: true,
-		responsiveBreakpoints: { 
-			portrait: { 
-				changePoint:480,
-				visibleItems: 1
-			}, 
-			landscape: { 
-				changePoint:640,
-				visibleItems:2
-			},
-			tablet: { 
-				changePoint:768,
-				visibleItems: 3
-			}
-		}
-	});
-	$('.example1').wmuSlider();	
-	$("body").css("opacity","1");
-});
-
-
-$(document).ready(function(){
-
+	
 	$(".w3l_logo h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 	$(".banner a h4").addClass("animated zoomIn");
 	$(".banner h6").addClass("animated zoomIn");
 	
-	/* ---- Countdown timer ---- */
-
+	
 	$('#counterTop').countdown({
 		timestamp : (new Date()).getTime() + 11*24*60*60*1000
 	});
@@ -228,6 +191,37 @@ $(document).ready(function(){
         	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 		    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 		 });
+	});
+	
+	$("#flexiselDemo1").flexisel({
+		visibleItems: 4,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,    		
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+		responsiveBreakpoints: { 
+			portrait: { 
+				changePoint:480,
+				visibleItems: 1
+			}, 
+			landscape: { 
+				changePoint:640,
+				visibleItems:2
+			},
+			tablet: { 
+				changePoint:768,
+				visibleItems: 3
+			}
+		}
+	});
+	
+	$('.example1').wmuSlider();	
+	
+	$('#horizontalTab').easyResponsiveTabs({
+		type: 'default',            
+		width: 'auto', 
+		fit: true  
 	});
 	
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
