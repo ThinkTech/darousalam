@@ -44,6 +44,15 @@ $(document).ready(function(){
 
 	$("body").css("opacity",1);
 	
+	$(".w3l_login a").click(function(event){
+		page.wait();
+		head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+		  "templates/fashion/js/social.js",
+		  "https://www.google.com/recaptcha/api.js",function(){
+			page.release();
+		});
+	});
+	
 	$(".scroll").click(function(event){		
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},600);
@@ -52,7 +61,6 @@ $(document).ready(function(){
 	$(".w3l_logo h1").addClass("animated "+ items[Math.floor(Math.random() * items.length)]);
 	$(".banner a h4").addClass("animated zoomIn");
 	$(".banner h6").addClass("animated zoomIn");
-	
 	
 	$('#counterTop').countdown({
 		timestamp : (new Date()).getTime() + 11*24*60*60*1000
@@ -89,7 +97,9 @@ $(document).ready(function(){
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = cart.offset().top;
 		    page.wait({top : top +50});
-		    head.load("templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
+		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+					"templates/fashion/js/social.js",
+					"https://www.google.com/recaptcha/api.js","templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
 			  function() {
 		    	 $('html,body').animate({scrollTop:top},100,function(){
 				    	$("> div",wizard).css("top",top+20);
@@ -97,7 +107,7 @@ $(document).ready(function(){
 				    	wizard.show();
 				 });
 				 $('html,body').css("overflow-y","hidden");
-			  });
+		    });
 		}
 		return false;
 	});
@@ -229,12 +239,6 @@ $(document).ready(function(){
 		fit: true  
 	});
 	
-	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-			"templates/fashion/js/social.js",
-			"https://www.google.com/recaptcha/api.js",
-			"https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",
-	function() { 
-	});
 	
 	$(window).scroll(function(){
 		  div = $("#home");
@@ -255,7 +259,8 @@ $(document).ready(function(){
 		  }
 		  div = $("#footer");
 		  if($(this).scrollTop() >= div.position().top-100) {
-			loadImages(div);  
+			loadImages(div);
+			head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons");
 		  }
 	});
 });
