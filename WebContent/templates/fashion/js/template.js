@@ -279,8 +279,12 @@ $(document).ready(function(){
 		  }
 		  div = $("#footer");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div);
-			head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons");
+			loadImages(div,function(){
+				$(".share-this").addClass("loading");
+				head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons",function(){
+					$(".share-this").removeClass("loading");
+				});
+			});
 		  }
 	});
 });
