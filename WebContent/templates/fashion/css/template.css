@@ -767,6 +767,7 @@ a.simpleCart_empty {
     width: 95%;
     margin: auto;
     font-family: sans-serif;
+     user-select : none;
 }
 
 #order-confirmation p .fa {
