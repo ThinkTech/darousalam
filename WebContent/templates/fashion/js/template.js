@@ -209,8 +209,23 @@ $(document).ready(function(){
 					loadImages($(id));
 				});	
 				$('.item_show').click(function(){
-					$(this).parent().parent().parent().find("li a").click();
+					const link = $(this).parent().parent().parent().find("li a");
+					const target = link.data("target");
+					const src = link.closest(".hs-wrapper").find("img").attr("src");
+					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+					$(".modal_body_left img",$(target)).attr("src",src);
+					$(".modal_body_right h4",$(target)).html(item);
+					link.click();
 				});	
+	            $(".w3_hs_bottom a").click(function(){
+	            	const link = $(this);
+	            	const target = link.data("target");
+					const src = link.closest(".hs-wrapper").find("img").attr("src");
+					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+					$(".modal_body_left img",$(target)).attr("src",src);
+					$(".modal_body_right h4",$(target)).html(item);
+					$(".shop").data("name",item);
+	            });
 				$('.shop' ).on( 'click', function() {
 					$(this).closest(".modal-content").find(".close").click();
 					var total = 0;

@@ -721,10 +721,10 @@
 							<section>
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
-										<img data-src="templates/fashion/images/20.jpg" alt=" " class="img-responsive" />
+										<img alt=" " class="img-responsive" />
 									</div>
 									<div class="col-md-7 modal_body_right">
-										<h4>a good look women's shirt</h4>
+										<h4></h4>
 										<p>Ut enim ad minim veniam, quis nostrud 
 											exercitation ullamco laboris nisi ut aliquip ex ea 
 											commodo consequat.Duis aute irure dolor in 
@@ -734,19 +734,19 @@
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img  data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img  data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<img  data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img  data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="rating-left">
-												<img data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<img  data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -871,7 +871,7 @@
 								</ul>
 							</div>
 						</div>
-						<h5><a>Jupes</a></h5>
+						<h5><a>Jupe</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -890,7 +890,7 @@
 								</ul>
 							</div>
 						</div>
-						<h5><a>Jackets</a></h5>
+						<h5><a>Jacket</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -909,7 +909,7 @@
 								</ul>
 							</div>
 						</div>
-						<h5><a>Robes</a></h5>
+						<h5><a>Robe</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -928,7 +928,7 @@
 								</ul>
 							</div>
 						</div>
-						<h5><a>Jeans</a></h5>
+						<h5><a>Jean</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
