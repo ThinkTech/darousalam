@@ -242,23 +242,23 @@ $(document).ready(function(){
 	
 	$(window).scroll(function(){
 		  div = $("#home");
-		  if($(this).scrollTop() >= div.position().top-100) {
+		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div);  
 		  }
 		  div = $("#deal");
-		  if($(this).scrollTop() >= div.position().top-100) {
+		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div);  
 		  }
 		  div = $("#new-products");
-		  if($(this).scrollTop() >= div.position().top-100) {
+		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div);  
 		  }
 		  div = $("#top-brands");
-		  if($(this).scrollTop() >= div.position().top-100) {
+		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div);  
 		  }
 		  div = $("#footer");
-		  if($(this).scrollTop() >= div.position().top-100) {
+		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div);
 			head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons");
 		  }
