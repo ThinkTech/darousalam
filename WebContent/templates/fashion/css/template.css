@@ -2004,6 +2004,7 @@ ul.multi-column-dropdown h6 {
 	position : relative;
 	top : 1px;
 	font-size: 14px;
+	border : 1px solid #ff9b05;
 }
 
 /*-- //Ratings --*/
