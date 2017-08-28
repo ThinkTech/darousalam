@@ -2045,11 +2045,11 @@ ul.multi-column-dropdown h6 {
 /*-- //banner-bottom --*/
 /*-- special-deals --*/
 .special-deals h2,.container-bg h3,.top-brands h3,.w3l_related_products h3,.team h3,.mail h3{
-	font-size:2em;
+	font-size:2.5em;
 	font-weight : bold;
 	color:#212121;
 	position:relative;
-	padding-bottom:1.5em;
+	padding-bottom:1em;
 	text-align:center;
 }
 .special-deals h2:before,.container-bg h3:before,.top-brands h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before{
@@ -2087,7 +2087,7 @@ ul.multi-column-dropdown h6 {
 	font-size:2em;
 }
 .w3agile_special_deals_grid_right_pos h4{
-	color:#ffffff;
+	color:#000;
 	font-weight : bold;
 }
 .w3agile_special_deals_grid_right_pos h4 span{
@@ -2095,7 +2095,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3agile_special_deals_grid_right_pos h5{
 	font-weight: 700;
-    color: #212121;
+    color: #ff9b05;
     padding-left: 5em;
     margin: .5em 0 0;
 }
@@ -2114,7 +2114,7 @@ ul.multi-column-dropdown h6 {
 .w3agile_special_deals_grid_left_grid_pos h4{
 	text-transform:uppercase;
 	font-size:2em;
-	color:#fff;
+	color:#ff9b05;
 	font-weight : bold;
 }
 .w3agile_special_deals_grid_left_grid_pos h4 span{
