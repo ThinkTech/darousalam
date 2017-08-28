@@ -2123,6 +2123,8 @@ ul.multi-column-dropdown h6 {
 .w3agile_special_deals_grid_left_grid{
     position: relative;
     overflow: hidden;
+    background : #eee;
+    min-height : 200px;
 }
 .w3agile_special_deals_grid_left_grid img {
     transition: all 1s;
