@@ -2931,14 +2931,29 @@ select.select_item {
 }
 .nbs-flexisel-nav-left {
 	left:-5%;
-	top:27% !important;
-	background:url(../images/left-arrow.png) no-repeat 0px 0px;
+	top:10% !important;
 }
+
+.nbs-flexisel-nav-left:before {
+	content : "<";
+	color : #000;
+	font-size : 3em;
+	font-weight : bold;
+}
+
 .nbs-flexisel-nav-right {
 	right:-5%;
-	top:27% !important;
-	background:url(../images/right-arrow.png) no-repeat 0px 0px;
+	top:10% !important;
 }
+
+.nbs-flexisel-nav-right:before {
+	content : ">";
+	color : #000;
+	font-size : 3em;
+	font-weight : bold;
+}
+
+
 /*--//flexisel--*/
 .w3l_related_products_grid{
 	position:relative;
