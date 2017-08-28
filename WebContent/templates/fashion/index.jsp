@@ -205,7 +205,7 @@
 			</h4>
 			<span title="fermer l'assistant" class="wizard-close">&nbsp;</span>
 			<div class="checkout-wizard-steps">
-				<form action="saveOrder" method="post">
+				<form action="commerce/saveOrder" method="post">
 					<section class="step" data-step-title="Identification">
 						<fieldset>
 							<div id="socialLogin">

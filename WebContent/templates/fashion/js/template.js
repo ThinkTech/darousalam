@@ -37,17 +37,16 @@ const saveOrder = function() {
 		$("#cart .total").html(0);
         $('html,body').css("overflow-y","auto");
 	});
+	page.wait({top : wizard.position().top});
 	const form = $("form",wizard);
-	$('html,body').animate({scrollTop:0},100,function(){
-		$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
-	});
-	/*app.post(form.attr("action"),form.serialize(),function(response) {
+	app.post(form.attr("action"),form.serialize(),function(response) {
+		page.release();
 		$('html,body').animate({scrollTop:0},100,function(){
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 		});
 	}, function(error) {
 		alert("error");
-	});*/
+	});
 };
 
 $(document).ready(function(){
