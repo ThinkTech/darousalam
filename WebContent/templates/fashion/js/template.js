@@ -216,6 +216,7 @@ $(document).ready(function(){
 					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 					$(".modal_body_left img",$(target)).attr("src",src);
 					$(".modal_body_right h4",$(target)).html(item);
+					$("input",$(target)).val("1");
 					link.click();
 				});	
 	            $(".w3_hs_bottom a").click(function(){
@@ -225,19 +226,21 @@ $(document).ready(function(){
 					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 					$(".modal_body_left img",$(target)).attr("src",src);
 					$(".modal_body_right h4",$(target)).html(item);
+					$("input",$(target)).val("1");
 					$(".shop").data("name",item);
 	            });
 				$('.shop' ).on( 'click', function() {
-					$(this).closest(".modal-content").find(".close").click();
+					const content = $(this).closest(".modal-content"); 
+					content.find(".close").click();
 					var total = 0;
 					const cart = $("#cart");
 					const ul = $("ul",cart);
 					const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
-					var number = 1;
+					const number = content.find("input").val();
 					const price = 13500;
 					const name = $(this).data("name");
 			        li.find('span span').html(number+" "+name).attr("title","prix : "+price);
-			        const amount = number * parseInt(price);
+			        const amount = parseInt(number) * parseInt(price);
 			        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
 			        li.find(".trash").click(function(){
 			        	const message = "voulez-vous supprimer cet article?";

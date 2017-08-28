@@ -1778,7 +1778,7 @@ ul.multi-column-dropdown h6 {
 .modal-open .modal {
     background: rgba(0, 0, 0, 0.48);
     z-index: 99999;
-   margin-left: -15px;
+   margin-left: -25px;
 }
 .modal.bnr-modal {
 	padding: 0 1em !important;
@@ -1992,10 +1992,32 @@ ul.multi-column-dropdown h6 {
 .starRating:not(:hover) > :checked ~ label:before{
   opacity : 1;
 }
+
+.modal-dialog .options > div {
+	display : inline-block;
+	margin-right : 60px;
+	vertical-align: top;
+}
+
+.modal-dialog input {
+	width : 60px;
+	position : relative;
+	top : 2px;
+	font-size: 14px;
+}
+
 /*-- //Ratings --*/
-.color-quality ul li {
+
+.sizes ul {
+	margin-top : -6px;
+}
+
+.sizes ul li,.color-quality ul li {
     display: inline-block;
-    margin-right: .5em;
+    margin-right: .3em;
+    font-weight : bold;
+    font-size: 14px;
+    color: #999;
 }
 .color-quality ul li a {
     font-size: 14px;

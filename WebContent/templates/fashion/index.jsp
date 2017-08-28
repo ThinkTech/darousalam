@@ -748,17 +748,35 @@
 											</div>
 											<div class="clearfix"> </div>
 										</div>
-										<h5>Couleur</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Rouge</a></li>
-												<li><a class="brown"><span></span>Bleu</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
+										<div class="options">
+										     <div>
+												<h5>Couleur</h5>
+												<div class="color-quality">
+													<ul>
+														<li><a><span></span>Rouge</a></li>
+														<li><a class="brown"><span></span>Bleu</a></li>
+														<li><a class="gray"><span></span>Violet</a></li>
+													</ul>
+												</div>
+											  </div>
+											   <div>
+												<h5>Taille</h5>
+												<div class="sizes">
+													<ul>
+														<li>XS</li>
+														<li>S</li>
+														<li>M</li>
+														<li>L</li>
+														<li>XL</li>
+														<li>XXL</li>
+														<li>XXXL</li>
+													</ul>
+												</div>
+											  </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><a class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+											<p><input  type="number" value="1" min="1"/>&nbsp;<a class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 									</div>
 									<div class="clearfix"> </div>
