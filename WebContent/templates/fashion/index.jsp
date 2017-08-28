@@ -8,8 +8,6 @@
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/bundle.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
-<link href='//fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
@@ -99,14 +97,14 @@
 					</ul>
 				</div>
 			<div class="w3l_login">
-				<a data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<a data-toggle="modal" data-target="#login"><i class="fa fa-user" aria-hidden="true"></i></a>
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="${path}">Darou Salam Fashion<span>For Fashion Lovers</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
-				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
+				<label class="icon-search" for="search_box"><i class="fa fa-search" aria-hidden="true"></i></label>
 				<div class="search_form">
 					<form action="#" method="post">
 						<input type="text" name="Search" placeholder="Rechercher...">
@@ -118,7 +116,7 @@
 				<a>
 					<div class="total">
 					<span  class="simpleCart_quantity">0</span> articles</div>
-					<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 				</a>
 				<div class="clearfix"> </div>
 				<div id="cart" class="shoppingCart">
@@ -437,7 +435,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -454,7 +452,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -471,7 +469,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -493,7 +491,7 @@
 									  <div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -510,7 +508,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -527,7 +525,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -549,7 +547,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -566,7 +564,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -583,7 +581,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -605,7 +603,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -622,7 +620,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -639,7 +637,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -661,7 +659,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -678,7 +676,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -695,7 +693,7 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -734,19 +732,19 @@
 											deserunt mollit anim id est laborum.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<img  data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<img  data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<img  data-src="templates/fashion/images/star-.png" alt=" " class="img-responsive" />
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<img  data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<img  data-src="templates/fashion/images/star.png" alt=" " class="img-responsive" />
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -866,7 +864,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 									</li>
 								</ul>
 							</div>
@@ -885,7 +883,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 									</li>
 								</ul>
 							</div>
@@ -904,7 +902,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 									</li>
 								</ul>
 							</div>
@@ -923,7 +921,7 @@
 							<div class="w3_hs_bottom w3_hs_bottom_sub">
 								<ul>
 									<li>
-										<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+										<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
 									</li>
 								</ul>
 							</div>
@@ -975,7 +973,7 @@
 			<div class="col-md-6 w3agile_newsletter_right">
 				<form action="#" method="post">
 					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="submit" value="" />
+					<input type="submit" value="Abonner" />
 				</form>
 			</div>
 			<div class="clearfix"> </div>
@@ -1006,9 +1004,9 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Contact</h3>
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Nord Foire, VDN</li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@darousalam.com">info@darousalam.com</a></li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+221 33 855 10 91</li>
+						<li><i class="fa fa-map-marker" aria-hidden="true"></i>Nord Foire, VDN</li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@darousalam.com">info@darousalam.com</a></li>
+						<li><i class="fa fa-mobile" aria-hidden="true"></i>+221 33 855 10 91</li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
