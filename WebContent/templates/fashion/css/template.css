@@ -1006,6 +1006,10 @@ a.simpleCart_empty {
     border: 2px solid #fff;
 }
 
+.shoppingCart a.checkout .fa {
+	top : 0px;
+}
+
 .checkout:focus {
 	color : #fff;
 }
