@@ -1032,12 +1032,9 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Social</h3>
 					<h4>Suivez-nous</h4>
-					<div class="agileits_social_button">
+					<div class="social agileits_social_button">
 						<ul>
-							<li><a class="facebook"> </a></li>
-							<li><a class="twitter"> </a></li>
-							<li><a class="google"> </a></li>
-							<li><a class="pinterest"> </a></li>
+							<li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 					<h4>Partagez</h4>
