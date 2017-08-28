@@ -30,24 +30,24 @@ const loadImages = function(div,callback) {
 };
 
 const saveOrder = function() {
-	const wizard = $("#checkout-wizard").fadeOut(100,function(){
+	const wizard = $("#checkout-wizard");
+	const form = $("form",wizard);
+	app.post(form.attr("action"),form.serialize(),function(response) {
+		$('html,body').animate({scrollTop:0},100,function(){
+			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
+		});
+	}, function(error) {
+		alert("error");
+	});
+	wizard.fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 		$("#cart ul li").remove();
 		$(".simpleCart_quantity").html(0);
 		$("#cart .total").html(0);
         $('html,body').css("overflow-y","auto");
 	});
-	page.wait({top : wizard.position().top});
-	const form = $("form",wizard);
-	app.post(form.attr("action"),form.serialize(),function(response) {
-		page.release();
-		$('html,body').animate({scrollTop:0},100,function(){
-			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
-		});
-	}, function(error) {
-		page.release();
-		alert("error");
-	});
+	const top = $("#cart").position().top;
+	page.wait({top : top});
 };
 
 $(document).ready(function(){
