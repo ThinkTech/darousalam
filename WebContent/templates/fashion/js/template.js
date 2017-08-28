@@ -17,6 +17,7 @@ const loadImages = function(div,callback) {
 			const src = $(element).data("src");
 			if(src) {
 				$(element).attr("src",src);
+				$(element).removeAttr("data-src");
 				$(element).load(function(){
 					$(element).removeClass("loading");
 				}).each(function() {
