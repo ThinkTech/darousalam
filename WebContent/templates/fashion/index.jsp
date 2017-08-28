@@ -748,18 +748,17 @@
 											</div>
 											<div class="clearfix"> </div>
 										</div>
+										<h5>Couleur</h5>
+										<div class="color-quality">
+											<ul>
+												<li><a><span></span>Rouge</a></li>
+												<li><a class="brown"><span></span>Bleu</a></li>
+												<li><a class="gray"><span></span>Violet</a></li>
+											</ul>
+										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 											<p><a class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-										</div>
-										<h5>Color</h5>
-										<div class="color-quality">
-											<ul>
-												<li><a><span></span>Red</a></li>
-												<li><a class="brown"><span></span>Yellow</a></li>
-												<li><a class="purple"><span></span>Purple</a></li>
-												<li><a class="gray"><span></span>Violet</a></li>
-											</ul>
 										</div>
 									</div>
 									<div class="clearfix"> </div>

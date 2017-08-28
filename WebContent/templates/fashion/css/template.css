@@ -930,14 +930,17 @@ a.simpleCart_empty {
        background:#ECECEC;
        font-family : monospace;
        font-size : 13px;
+       border-bottom: 1px solid #f5dfbf;
 }
 
 .shoppingCart li a {
 	color: #495860;
-	font-size : 12px;
-	text-decoration: none;
-	border-color: #666;
-	margin-left : 5px;
+    font-size: 12px;
+    text-decoration: none;
+    border-color: #666;
+    margin-left: 5px;
+    position: relative;
+    top: -3px;
 }
 
 .shoppingCart li span {
@@ -1934,12 +1937,12 @@ ul.multi-column-dropdown h6 {
 .modal_body_right_cart p {
     font-size: 1.2em !important;
     color: #212121;
-	margin: 0em 0 1em !important;
+	margin: 1em 0 1em !important;
 }
 .modal_body_right h5{
 	font-size: 1em;
     color: #212121;
-    margin: 3em 0 1em;
+    margin: 2em 0 1em;
 }
 /*-- Ratings --*/
 .rating-left {
