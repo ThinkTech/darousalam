@@ -705,6 +705,11 @@ select {
     top: 12px;
 }
 
+.modal_body_right h4.other-nw {
+    font-size: 1.5em;
+    margin-bottom: 41px;
+}
+
 .banner div.shopping {
 	width : 200px;
 	padding-top: 30%;
