@@ -11,8 +11,8 @@
 <link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
-<meta property="og:title" content="Darou Salam Fashion- Site Officiel"/>
-<meta property="og:description" content="Bienvenue sur le site officiel de la boutique Darou Salam"/>
+<meta property="og:title" content="Darou Salam Fashion"/>
+<meta property="og:description" content="Vêtements pour femmes et hommes | Achats en ligne"/>
 <meta property="og:image" content="${baseUrl}/templates/fashion/images/banner2.jpg"/>
 </head>
 	
