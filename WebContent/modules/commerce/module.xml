@@ -1,0 +1,6 @@
+<module>
+  <type>front-end</type>
+  <actions>
+   	<action url="saveOrder" method="saveOrder"/>
+  </actions>
+</module>
