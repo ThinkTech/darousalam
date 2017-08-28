@@ -85,9 +85,14 @@ $(document).ready(function(){
 	});
 
 	
-	$(".cart a,#cart .close").click(function(){
+	$(".cart a").click(function(){
 		$("#cart").toggle();
 	});
+	
+	$("#cart .close").click(function(){
+		$("#cart").slideUp(100);
+	});
+	
 		
 	$(".checkout").click(function(){
 		const cart = $("#cart"); 
