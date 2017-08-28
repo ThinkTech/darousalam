@@ -45,6 +45,7 @@ const saveOrder = function() {
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 		});
 	}, function(error) {
+		page.release();
 		alert("error");
 	});
 };
