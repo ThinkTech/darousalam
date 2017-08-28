@@ -93,7 +93,6 @@ $(document).ready(function(){
 		$("#cart").slideUp(100);
 	});
 	
-		
 	$(".checkout").click(function(){
 		const cart = $("#cart"); 
 		const count = $("ul li",cart).length;
