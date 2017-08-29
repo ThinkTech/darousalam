@@ -1762,7 +1762,7 @@ ul.multi-column-dropdown h6 {
 #products .container > div.wthree_banner_bottom_right {
 	background: #e6dfdf;
     padding: 30px;
-    border : 1px solid #d0cac2;
+    border : 1px dotted #d0cac2;
 }
 
 #products .container .gender {
@@ -1780,8 +1780,7 @@ ul.multi-column-dropdown h6 {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #fff;
-    padding-bottom: 1.25px;
+  border-bottom: 1px dotted #000;
 }
 
 #products .nav>li>a {
@@ -1789,10 +1788,10 @@ ul.multi-column-dropdown h6 {
 }
 
 .nav-tabs>li {
-    background: #fff;
+    background: #000;
     font-size: 0.9em;
     margin-right: 10px;
-    border : 1px solid #d0cac2;
+    border : 1px dotted #d0cac2;
     border-bottom : none;
 }
 
@@ -1852,7 +1851,7 @@ ul.multi-column-dropdown h6 {
 }
 .nav-tabs > li > a {
     font-size: 1em;
-    color: #000;
+    color: #fff;
     font-family: 'Exo', serif;
     text-transform: uppercase;
     letter-spacing: 0px;
