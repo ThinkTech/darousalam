@@ -1364,7 +1364,7 @@
 			<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 			<br><br><br>
 			<div class="payment-methods">
-			 <img data-delay="true" data-src="templates/fashion/images/payment-methods.png">
+			 <img  data-src="templates/fashion/images/payment-methods.png"/>
 			</div>
 			<br><br>
 			<p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
