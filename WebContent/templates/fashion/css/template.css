@@ -1783,7 +1783,7 @@ ul.multi-column-dropdown h6 {
 
 .nav-tabs {
   border-bottom: 1px dotted #000;
-  padding-bottom : 0.7em;
+  padding-bottom : 1em;
 }
 
 #products .nav>li>a {
@@ -1873,7 +1873,7 @@ ul.multi-column-dropdown h6 {
 	text-align: center;
 }
 .agile_ecommerce_tabs {
-    padding: 1.2em 0 0;
+    padding: 0.3em 0 0;
 }
 .agile_ecommerce_tab_left h5{
 	margin:2em 0 0;
