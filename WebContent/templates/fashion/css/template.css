@@ -1760,7 +1760,7 @@ ul.multi-column-dropdown h6 {
 }
 
 #products .container > div.wthree_banner_bottom_right {
-	background: #f7f7f7;
+	background: #e6dfdf;
     padding: 30px;
     border : 1px solid #d0cac2;
 }
@@ -1780,7 +1780,7 @@ ul.multi-column-dropdown h6 {
 }
 
 .nav-tabs {
-   border-bottom : 1px solid #d0cac2;
+   border-bottom : 1px solid #fff;
 }
 
 #products .nav>li>a {
@@ -1817,7 +1817,7 @@ ul.multi-column-dropdown h6 {
 }
 
 .modal-content {
-	background : #f7f7f7;
+	background : #e6dfdf;
 }
 
 /*--banner-modal--*/
