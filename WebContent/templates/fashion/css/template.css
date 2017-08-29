@@ -1762,6 +1762,8 @@ ul.multi-column-dropdown h6 {
 #products .container > div.wthree_banner_bottom_right {
 	background: #f7f7f7;
     padding: 20px;
+    padding-top : 25px;
+    padding-left : 10px;
     border : 1px solid #d0cac2;
 }
 
