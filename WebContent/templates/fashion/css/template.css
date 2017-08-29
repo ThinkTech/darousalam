@@ -954,7 +954,7 @@ a.simpleCart_empty {
 }
 
 .shoppingCart li span span { 
-	width : 195px;
+	width : 185px;
 }
 
 .shoppingCart li strong {
@@ -3976,7 +3976,7 @@ td.invert-image a img {
     font-size: 1em;
   }
   .shoppingCart li span span {
-    width: 190px;
+    width: 180px;
     font-size: 11px;
   }
   .shoppingCart li strong {
