@@ -1762,7 +1762,7 @@ ul.multi-column-dropdown h6 {
 #products .container > div.wthree_banner_bottom_right {
 	background: #f7f7f7;
     padding: 20px;
-    border : 1px solid #ff9b05;
+    border : 1px solid #d0cac2;
 }
 
 #products .container .gender {
@@ -1779,12 +1779,18 @@ ul.multi-column-dropdown h6 {
 	margin-top : -15px;
 }
 
+.nav-tabs {
+   border-bottom : 1px solid #d0cac2;
+}
+
+
 .nav-tabs>li {
     background: #fff;
     font-size: 0.9em;
     margin-right: 5px;
-    border : 1px solid #ff9b05;
+    border : 1px solid #d0cac2;
     border-bottom : none;
+    color : #ff9b05;
 }
 
 .nav-tabs > li.active {
@@ -1854,15 +1860,12 @@ ul.multi-column-dropdown h6 {
 .nav-tabs > li > a:hover {
     border: none;
 }
-.nav-tabs {
-    border-bottom: 1px solid #ff9b05;
-}
 .agile_ecommerce_tab_left {
     padding-left: 0;
 	text-align: center;
 }
 .agile_ecommerce_tabs {
-    padding: 1.5em 0 0;
+    padding: 1.1em 0 0;
 }
 .agile_ecommerce_tab_left h5{
 	margin:2em 0 0;
