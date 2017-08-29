@@ -2101,6 +2101,7 @@ ul.multi-column-dropdown h6 {
 	padding-bottom:1em;
 	margin-top: -10px;
 	text-align:center;
+	text-transform: uppercase;
 }
 .special-deals h2:before,.container-bg h3:before,.top-brands h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before{
 	content: '';
