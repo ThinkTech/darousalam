@@ -1783,6 +1783,7 @@ ul.multi-column-dropdown h6 {
 
 .nav-tabs {
   border-bottom: 1px dotted #000;
+  padding-bottom : 0.7em;
 }
 
 #products .nav>li>a {
@@ -1794,12 +1795,11 @@ ul.multi-column-dropdown h6 {
     font-size: 0.9em;
     margin-right: 10px;
     border : 1px dotted #d0cac2;
-    border-bottom : none;
+    border-radius : 5px;
 }
 
 .nav-tabs > li.active {
 	background-color: #ff9b05;
-	border : none;
 }
 
 /*-- //banner --*/
