@@ -1767,7 +1767,7 @@ ul.multi-column-dropdown h6 {
 
 #products .container .gender {
 	margin-left: -2px;
-	margin-top : 40px;
+	margin-top : 25px;
 	margin-bottom: 25px;
     font-size: 2em;
     font-weight: bold;
@@ -1791,10 +1791,13 @@ ul.multi-column-dropdown h6 {
     background: #fff;
     font-size: 0.9em;
     margin-right: 10px;
+    border : 1px solid #d0cac2;
+    border-bottom : none;
 }
 
 .nav-tabs > li.active {
 	background-color: #ff9b05;
+	border : none;
 }
 
 /*-- //banner --*/
