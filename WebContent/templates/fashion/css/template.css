@@ -1759,6 +1759,38 @@ ul.multi-column-dropdown h6 {
 	color: #ff9b05;
 }
 
+#products .container > div.wthree_banner_bottom_right {
+	background: #f7f7f7;
+    padding: 20px;
+    border : 1px solid #ff9b05;
+}
+
+#products .container .gender {
+	margin-left: 11px;
+	margin-top : 50px;
+	margin-bottom: 25px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family : Exo;
+    color: #ff9b05;
+}
+
+#products .container .gender:first-of-type {
+	margin-top : -15px;
+}
+
+.nav-tabs>li {
+    background: #fff;
+    font-size: 0.9em;
+    margin-right: 5px;
+    border : 1px solid #ff9b05;
+    border-bottom : none;
+}
+
+.nav-tabs > li.active {
+	background-color: #ff9b05;
+}
+
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom,.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
@@ -1830,7 +1862,7 @@ ul.multi-column-dropdown h6 {
 	text-align: center;
 }
 .agile_ecommerce_tabs {
-    padding: 2em 0 0;
+    padding: 1.5em 0 0;
 }
 .agile_ecommerce_tab_left h5{
 	margin:2em 0 0;
@@ -2056,6 +2088,7 @@ ul.multi-column-dropdown h6 {
 	color:#212121;
 	position:relative;
 	padding-bottom:1em;
+	margin-top: -10px;
 	text-align:center;
 }
 .special-deals h2:before,.container-bg h3:before,.top-brands h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before{

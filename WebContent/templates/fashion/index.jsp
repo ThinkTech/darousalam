@@ -416,18 +416,18 @@
 	<div id="products" class="container-bg banner-bottom">
 		<div class="container">
 		    <h3>Nos Articles</h3>
-		    <br><br>
+		    <h4 class="gender"><i class="fa fa-female" aria-hidden="true"></i>Pour Femmes</h4>
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home">T-shirts</a></li>
-						<li role="presentation"><a href="#skirts" role="tab" id="skirts-tab" data-toggle="tab" aria-controls="skirts">Jupes</a></li>
-						<li role="presentation"><a href="#watches" role="tab" id="watches-tab" data-toggle="tab" aria-controls="watches">Montres</a></li>
-						<li role="presentation"><a href="#sandals" role="tab" id="sandals-tab" data-toggle="tab" aria-controls="sandals">Sandales</a></li>
-						<li role="presentation"><a href="#jewellery" role="tab" id="jewellery-tab" data-toggle="tab" aria-controls="jewellery">Bijoux</a></li>
+						<li role="presentation" class="active"><a href="#home-tab-women" id="home-tab-women-link" role="tab" data-toggle="tab" aria-controls="home">T-shirts</a></li>
+						<li role="presentation"><a href="#skirts-tab-women" role="tab" id="skirts-tab-women-link" data-toggle="tab" aria-controls="skirts">Jupes</a></li>
+						<li role="presentation"><a href="#watches-tab-women" role="tab" id="watches-tab-women-link" data-toggle="tab" aria-controls="watches">Montres</a></li>
+						<li role="presentation"><a href="#sandals-tab-women" role="tab" id="sandals-tab-women-link" data-toggle="tab" aria-controls="sandals">Sandales</a></li>
+						<li role="presentation"><a href="#jewellery-tab-women" role="tab" id="jewellery-tab-women-link" data-toggle="tab" aria-controls="jewellery">Bijoux</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
-						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+						<div role="tabpanel" class="tab-pane fade active in" id="home-tab-women" aria-labelledby="home-tab">
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
@@ -483,7 +483,7 @@
 								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="skirts" aria-labelledby="skirts-tab">
+						<div role="tabpanel" class="tab-pane fade" id="skirts-tab-women" aria-labelledby="skirts-tab">
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
@@ -539,7 +539,7 @@
 								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="watches" aria-labelledby="watches-tab">
+						<div role="tabpanel" class="tab-pane fade" id="watches-tab-women" aria-labelledby="watches-tab">
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
@@ -595,7 +595,7 @@
 								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="sandals" aria-labelledby="sandals-tab">
+						<div role="tabpanel" class="tab-pane fade" id="sandals-tab-women" aria-labelledby="sandals-tab">
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
@@ -651,7 +651,7 @@
 								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="jewellery" aria-labelledby="jewellery-tab">
+						<div role="tabpanel" class="tab-pane fade" id="jewellery-tab-women" aria-labelledby="jewellery-tab">
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
@@ -709,7 +709,308 @@
 						</div>
 					</div>
 				</div>
-					<!--modal-video-->
+			</div>
+			<div class="clearfix"> </div>
+			<h4 class="gender"><i class="fa fa-male" aria-hidden="true"></i>Pour Hommes</h4>
+			<div class="col-md-12 wthree_banner_bottom_right">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs-men">
+					<ul id="myTabMen" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-tab-men" id="home-tab-men-link" role="tab" data-toggle="tab" aria-controls="home">T-shirts</a></li>
+						<li role="presentation"><a href="#skirts-tab-men" role="tab" id="skirts-tab-men-link" data-toggle="tab" aria-controls="skirts">Jupes</a></li>
+						<li role="presentation"><a href="#watches-tab-men" role="tab" id="watches-tab-men-link" data-toggle="tab" aria-controls="watches">Montres</a></li>
+						<li role="presentation"><a href="#sandals-tab-men" role="tab" id="sandals-tab-men-link" data-toggle="tab" aria-controls="sandals">Sandales</a></li>
+						<li role="presentation"><a href="#jewellery-tab-men" role="tab" id="jewellery-tab-men-link" data-toggle="tab" aria-controls="jewellery">Bijoux</a></li>
+					</ul>
+					<div id="myTabMenContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade active in" id="home-tab-men" aria-labelledby="home-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>T-Shirt</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>T-Shirt</a></h5>
+	 								<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>T-Shirt</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="skirts-tab-men" aria-labelledby="skirts-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+									  <img data-delay="true" data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+									  <div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									  </div>
+									<h5><a>Jupe</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Jupe</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Jupe</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="watches-tab-men" aria-labelledby="watches-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Montre</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Montre</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Montre</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="sandals-tab-men" aria-labelledby="sandals-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Sandale</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Sandale</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Sandale</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="jewellery-tab-men" aria-labelledby="jewellery-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Bijou</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Bijou</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Bijou</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	
+		<!--modal-video-->
 				<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
@@ -785,10 +1086,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+				
 <!-- //banner-bottom -->
 <!-- special-deals -->
 	<div id="deal" class="special-deals">

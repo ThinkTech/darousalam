@@ -205,10 +205,10 @@ $(document).ready(function(){
 		}
 	});
 	$(window).scroll(function(){
-		  div = $("#home");
+		  div = $("#home-tab-women");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div,function(){
-				$("#myTab li a").click(function(){
+				$(".nav-tabs li a").click(function(){
 					const link = $(this);
 					const id = link.attr("href");
 					loadImages($(id));
@@ -268,6 +268,12 @@ $(document).ready(function(){
 				});
 			});  
 		  }
+		  
+		  div = $("#home-tab-men");
+		  if($(this).scrollTop() >= div.position().top-400) {
+			loadImages(div);
+		  }
+		  
 		  div = $("#deal");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div,function(){
