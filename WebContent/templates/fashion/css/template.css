@@ -1783,7 +1783,7 @@ ul.multi-column-dropdown h6 {
    border-bottom : 1px solid #d0cac2;
 }
 
-.nav>li>a {
+#products .nav>li>a {
     padding: 6px 20px;
 }
 
