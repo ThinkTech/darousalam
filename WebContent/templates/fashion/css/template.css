@@ -2400,6 +2400,11 @@ ul.wmuSliderPagination {
 .sliderfig {
     margin: 0em 0 0;
 }
+
+#new-products {
+	background : #e6dfdf;
+}
+
 /*-- newsletter --*/
 .newsletter{
 	background:#ECECEC;
