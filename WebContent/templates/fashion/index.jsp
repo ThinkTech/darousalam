@@ -420,7 +420,7 @@
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home-tab-women" id="home-tab-women-link" role="tab" data-toggle="tab" aria-controls="home">T-shirts</a></li>
+						<li role="presentation" class="active"><a href="#home-tab-women" id="home-tab-women-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-circle" aria-hidden="true"></i>T-shirts</a></li>
 						<li role="presentation"><a href="#skirts-tab-women" role="tab" id="skirts-tab-women-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-circle" aria-hidden="true"></i>Jupes</a></li>
 						<li role="presentation"><a href="#watches-tab-women" role="tab" id="watches-tab-women-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-circle" aria-hidden="true"></i>Montres</a></li>
 						<li role="presentation"><a href="#sandals-tab-women" role="tab" id="sandals-tab-women-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-circle" aria-hidden="true"></i>Sandales</a></li>
