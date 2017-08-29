@@ -1761,13 +1761,12 @@ ul.multi-column-dropdown h6 {
 
 #products .container > div.wthree_banner_bottom_right {
 	background: #f7f7f7;
-    padding: 20px;
-    padding-left : 10px;
+    padding: 30px;
     border : 1px solid #d0cac2;
 }
 
 #products .container .gender {
-	margin-left: 11px;
+	margin-left: -2px;
 	margin-top : 40px;
 	margin-bottom: 25px;
     font-size: 2em;
@@ -1784,13 +1783,14 @@ ul.multi-column-dropdown h6 {
    border-bottom : 1px solid #d0cac2;
 }
 
+.nav>li>a {
+    padding: 6px 20px;
+}
 
 .nav-tabs>li {
     background: #fff;
     font-size: 0.9em;
-    margin-right: 5px;
-    border : 1px solid #d0cac2;
-    border-bottom : none;
+    margin-right: 10px;
 }
 
 .nav-tabs > li.active {
