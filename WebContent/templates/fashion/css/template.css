@@ -1761,7 +1761,7 @@ ul.multi-column-dropdown h6 {
 
 #products .container > div.wthree_banner_bottom_right {
 	background: #e6dfdf;
-    padding: 30px;
+    padding: 20px;
     padding-bottom : 20px;
     border : 1px dotted #d0cac2;
     border-radius : 5px;
@@ -1771,10 +1771,10 @@ ul.multi-column-dropdown h6 {
 	margin-left: -2px;
 	margin-top : 25px;
 	margin-bottom: 25px;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
     font-family : Exo;
-    color: #ff9b05;
+    color: #000;
 }
 
 #products .container .gender:first-of-type {
