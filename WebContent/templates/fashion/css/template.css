@@ -1780,7 +1780,8 @@ ul.multi-column-dropdown h6 {
 }
 
 .nav-tabs {
-   border-bottom : 1px solid #fff;
+  border-bottom: 1px solid #fff;
+    padding-bottom: 1.25px;
 }
 
 #products .nav>li>a {
@@ -1804,6 +1805,10 @@ ul.multi-column-dropdown h6 {
 /*-- banner-bottom --*/
 .banner-bottom,.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
 	padding:4em 0;
+}
+
+.special-deals {
+	padding:1.5em 0;
 }
 
 .banner-bottom {
