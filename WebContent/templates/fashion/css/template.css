@@ -898,7 +898,7 @@ a.simpleCart_empty {
 .shoppingCart summary{
       padding:12px 16px 14px 4px;
       overflow:hidden;
-      background:#FFC107;
+      background:#ff9b05;
 }
 
 .shoppingCart .close{
@@ -1006,7 +1006,7 @@ a.simpleCart_empty {
     padding-left: 10px;
     padding-right: 10px;
     line-height: 16px;
-    background: #FFC107;
+    background: #ff9b05;
     font-family: Exo;
     font-weight: bold;
     border-radius: 4px;
