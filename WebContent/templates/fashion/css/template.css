@@ -1804,6 +1804,11 @@ ul.multi-column-dropdown h6 {
     padding: 6px 11px;
 }
 
+.nav .fa {
+	position : relative;
+	top : 2px;
+}
+
 .product-view {
 	padding : 10px;
 	min-width : 300px;
