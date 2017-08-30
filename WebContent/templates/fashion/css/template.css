@@ -1809,6 +1809,12 @@ ul.multi-column-dropdown h6 {
 	background-color: #ff9b05;
 }
 
+.agileinfo_new_products_grids .rating,.agile_ecommerce_tabs .rating{
+    margin: auto;
+    width: 100px;
+    margin-top: 15px;
+}
+
 /*-- //banner --*/
 /*-- banner-bottom --*/
 .banner-bottom,.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{

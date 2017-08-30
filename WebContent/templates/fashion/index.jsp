@@ -441,6 +441,24 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -458,6 +476,24 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 	 								<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -475,6 +511,24 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -497,6 +551,24 @@
 										</div>
 									  </div>
 									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -514,6 +586,24 @@
 										</div>
 									</div>
 									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -531,6 +621,24 @@
 										</div>
 									</div>
 									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -553,6 +661,24 @@
 										</div>
 									</div>
 									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -570,6 +696,24 @@
 										</div>
 									</div>
 									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -587,6 +731,24 @@
 										</div>
 									</div>
 									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -609,6 +771,24 @@
 										</div>
 									</div>
 									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -626,6 +806,24 @@
 										</div>
 									</div>
 									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -643,6 +841,24 @@
 										</div>
 									</div>
 									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -665,6 +881,24 @@
 										</div>
 									</div>
 									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -682,6 +916,24 @@
 										</div>
 									</div>
 									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -699,6 +951,24 @@
 										</div>
 									</div>
 									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -736,6 +1006,24 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -753,6 +1041,24 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 	 								<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -770,6 +1076,24 @@
 										</div>
 									</div>
 									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -792,6 +1116,24 @@
 										</div>
 									  </div>
 									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -809,6 +1151,24 @@
 										</div>
 									</div>
 									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -826,6 +1186,24 @@
 										</div>
 									</div>
 									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -848,6 +1226,24 @@
 										</div>
 									</div>
 									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -865,6 +1261,24 @@
 										</div>
 									</div>
 									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -882,6 +1296,24 @@
 										</div>
 									</div>
 									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -904,6 +1336,24 @@
 										</div>
 									</div>
 									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -921,6 +1371,24 @@
 										</div>
 									</div>
 									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -938,6 +1406,24 @@
 										</div>
 									</div>
 									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -960,6 +1446,24 @@
 										</div>
 									</div>
 									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -977,6 +1481,24 @@
 										</div>
 									</div>
 									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -994,6 +1516,24 @@
 										</div>
 									</div>
 									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -1185,6 +1725,24 @@
 							</div>
 						</div>
 						<h5><a>Jupe</a></h5>
+						<div class="rating">
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -1204,6 +1762,24 @@
 							</div>
 						</div>
 						<h5><a>Jacket</a></h5>
+						<div class="rating">
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -1223,6 +1799,24 @@
 							</div>
 						</div>
 						<h5><a>Robe</a></h5>
+						<div class="rating">
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
@@ -1242,6 +1836,24 @@
 							</div>
 						</div>
 						<h5><a>Jean</a></h5>
+						<div class="rating">
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="rating-left">
+							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 						<div class="simpleCart_shelfItem">
 							<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
 							<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
