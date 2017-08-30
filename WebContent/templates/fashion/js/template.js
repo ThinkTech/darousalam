@@ -233,7 +233,7 @@ $(document).ready(function(){
 					$("input",$(target)).val("1");
 					$(".shop").data("name",item);
 	            });
-				$('.shop' ).on( 'click', function() {
+				$('.shop' ).on('click', function() {
 					const content = $(this).closest(".modal-content"); 
 					content.find(".close").click();
 					var total = 0;

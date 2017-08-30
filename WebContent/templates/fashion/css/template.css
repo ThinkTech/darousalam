@@ -638,6 +638,11 @@ body {
     background:#BEE5E2;
 }
 
+a:focus, a:hover {
+    color: initial;
+    text-decoration: none;
+}
+
 a i.fa,.fa {
 	margin-right : 5px;
 }
@@ -1756,33 +1761,39 @@ ul.multi-column-dropdown h6 {
 #products .container > div.wthree_banner_bottom_right {
 	background: #f7f7f7;
     padding: 20px;
-    padding-bottom : 20px;
     border : 1px dotted #d0cac2;
     border-radius : 5px;
 }
 
 #products .container .gender {
 	margin-left: -2px;
-	margin-top : 25px;
-	margin-bottom: 25px;
-    font-size: 2em;
+	margin-top : 20px;
+	margin-bottom: 20px;
+    font-size: 1.5em;
     font-weight: bold;
     font-family : Exo;
-    color: #000;
+    color: #fff;
     text-transform : uppercase;
+    background: #000;
+    padding: 10px;
+    border-radius: 5px;
+    border : 1px dotted #d0cac2;
 }
 
+#products .container .gender .fa {
+	position : relative;
+	top : -1px;
+}
 #products .container .gender:first-of-type {
 	margin-top : -15px;
 }
 
 .nav-tabs {
-  border-bottom: 1px dotted #000;
-  padding-bottom : 1em;
+  border-bottom: none;
 }
 
 #products .nav>li>a {
-    padding: 6px 20px;
+    padding: 6px 10px;
 }
 
 .nav-tabs>li {
