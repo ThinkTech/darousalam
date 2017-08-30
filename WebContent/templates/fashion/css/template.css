@@ -1761,7 +1761,7 @@ ul.multi-column-dropdown h6 {
 #products .container > div.wthree_banner_bottom_right {
     padding: 20px;
     padding-left: 0px;
-    margin-left: -3px;
+    margin-left: -2px;
     padding-top: 0px;
     padding-bottom: 10px;
 }
@@ -1783,12 +1783,19 @@ ul.multi-column-dropdown h6 {
 	position : relative;
 	top : -1px;
 }
+
+#products .container .gender .fa-female {
+	left : -2px;
+	margin-right : 1px;
+}
+
 #products .container .gender:first-of-type {
 	margin-top : 0px;
 }
 
 .nav-tabs {
   border-bottom: none;
+  margin-top: -5px;
 }
 
 #products .nav>li>a {
