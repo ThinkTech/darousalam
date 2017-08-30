@@ -1815,6 +1815,10 @@ ul.multi-column-dropdown h6 {
 	margin-bottom : 10px;
 }
 
+.product-view > div img {
+	max-height : 200px;
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     border: none;
 }

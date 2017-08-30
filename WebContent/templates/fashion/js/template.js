@@ -235,7 +235,7 @@ $(document).ready(function(){
 	            });
 				$('.shop' ).on('click', function() {
 					const content = $(this).closest(".modal-content");
-					const src = $(".modal_body_left img",content).attr("src");
+					const src = $("#myModal .modal_body_left img").attr("src");
 					content.find(".close").click();
 					var total = 0;
 					const cart = $("#cart");
@@ -248,7 +248,7 @@ $(document).ready(function(){
 			        span.data("src",src);
 			        span.mouseover(function(){
 			        	const div = $(".product-view");
-			        	div.css("top",cart.position().top+50);
+			        	div.css("top",cart.position().top);
 			        	div.css("left",cart.position().left-cart.width()+100);
 			        	$("img",div).attr("src",$(this).data("src"));
 			        	div.show();
