@@ -12,7 +12,7 @@ function onVisaCheckoutReady(){
   },
   settings: {
 	  locale: "fr_FR",
-	  displayName: "La Boutique Darou Salam",
+	  displayName: "Darou Salam Fashion",
 	  websiteUrl: "http://darousalam.mircloud.host",
 	  shipping: {
 		  collectShipping : "false"
