@@ -1184,7 +1184,7 @@ a.simpleCart_empty {
 .checkout-wizard-content #loginDiv {
 	display : inline-block;
 	vertical-align: top;
-	width: 330px;
+	width: 260px;
     height: 100px;
 }
 
@@ -1333,7 +1333,7 @@ a.simpleCart_empty {
 }
 
 .shopping-amount > span > span:first-of-type{
-	width: 146px;
+	width: 196px;
     margin-right: 5px;
     display: inline-block;
     text-align: right;
@@ -1359,7 +1359,7 @@ a.simpleCart_empty {
     margin : auto;
     height : 220px;
     background: #fff;
-    border: 1px solid #ff9b05
+    border: 1px solid #ff9b05;
     border-radius: 6px;
     outline: 0;
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
@@ -4109,6 +4109,9 @@ td.invert-image a img {
  }
 }
 @media (max-width: 1080px){
+	.shopping-amount > span > span:first-of-type {
+      width: 146px; 
+    }
 	.modal-body-sub {
 		padding: 2em 3em !important;
 	}
