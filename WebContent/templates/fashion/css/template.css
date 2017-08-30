@@ -1812,7 +1812,20 @@ ul.multi-column-dropdown h6 {
 .agileinfo_new_products_grids .rating,.agile_ecommerce_tabs .rating{
     margin: auto;
     width: 100px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.agileinfo_new_products_grids .simpleCart_shelfItem,.agile_ecommerce_tabs .simpleCart_shelfItem {
+   background: #eee;
+   height: 100px;
+   padding-top: 2px;
+   margin-top : 5px;
+}
+
+.agileinfo_new_products_grids .simpleCart_shelfItem p a, .agile_ecommerce_tabs .simpleCart_shelfItem p a{
+   position : relative;
+   top : -8px;
 }
 
 /*-- //banner --*/
