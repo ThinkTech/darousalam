@@ -53,7 +53,7 @@
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">			
-													<input placeholder="Nom Complet" name="nom" type="text" required="">
+													<input placeholder="nom complet" name="nom" type="text" required="">
 													<input placeholder="email" name="email" type="email" required="">	
 													<input placeholder="mot de passe" name="password" type="password" required="">	
 													<input placeholder="confirmer" name="password" type="password" required="">

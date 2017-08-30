@@ -1864,6 +1864,7 @@ ul.multi-column-dropdown h6 {
     background: rgba(0, 0, 0, 0.48);
     z-index: 99999;
    margin-left: -25px;
+   margin-top: -5px;
 }
 .modal.bnr-modal {
 	padding: 0 1em !important;
