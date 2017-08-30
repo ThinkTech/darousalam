@@ -1784,7 +1784,7 @@ ul.multi-column-dropdown h6 {
 	top : -1px;
 }
 
-#products .container .gender .fa-female {
+.gender .fa-female,.gender .fa-child {
 	left : -2px;
 	margin-right : 1px;
 }

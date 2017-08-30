@@ -274,6 +274,11 @@ $(document).ready(function(){
 			loadImages(div);
 		  }
 		  
+		  div = $("#home-tab-child");
+		  if($(this).scrollTop() >= div.position().top-400) {
+			loadImages(div);
+		  }
+		  
 		  div = $("#deal");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div,function(){

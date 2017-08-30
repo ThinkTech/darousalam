@@ -178,7 +178,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Bienvenue chez <strong>Darou Salam Fashion</strong>, une boutique de prêt à porter offrant les meilleures tendances vêtements pour femmes et hommes. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore, 
+			Bienvenue chez <strong>Darou Salam Fashion</strong>, une boutique de prêt à porter offrant les meilleures tendances vêtements pour femmes, hommes et enfants. Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore, 
 			à un prix défiant toute compétition. Chaque mois, nous lançons prés de 10 nouveaux styles donc peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			Nous acceptons les paiements par espèces, par carte <b>Visa</b>, <b>MasterCard</b>, <b>American Express</b> et <b>Discover</b>, tout comme aussi, vous pouvez utiliser <b>PayPal</b>, <b>Tigo Cash</b> ou <b>Orange Money</b> pour faire vos achats.
@@ -1545,6 +1545,573 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="clearfix"> </div>
+			<h4 class="gender"><i class="fa fa-child" aria-hidden="true"></i>Pour Enfants</h4>
+			<div class="col-md-12 wthree_banner_bottom_right">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs-men">
+					<ul id="myTabMen" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-tab-child" id="home-tab-child-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-circle" aria-hidden="true"></i>T-shirts</a></li>
+						<li role="presentation"><a href="#skirts-tab-child" role="tab" id="skirts-tab-child-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-circle" aria-hidden="true"></i>Jupes</a></li>
+						<li role="presentation"><a href="#watches-tab-child" role="tab" id="watches-tab-child-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-circle" aria-hidden="true"></i>Montres</a></li>
+						<li role="presentation"><a href="#sandals-tab-child" role="tab" id="sandals-tab-child-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-circle" aria-hidden="true"></i>Sandales</a></li>
+						<li role="presentation"><a href="#jewellery-tab-child" role="tab" id="jewellery-tab-child-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-circle" aria-hidden="true"></i>Bijoux</a></li>
+					</ul>
+					<div id="myTabMenContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade active in" id="home-tab-child" aria-labelledby="home-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+	 								<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>T-Shirt</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="skirts-tab-child" aria-labelledby="skirts-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+									  <img data-delay="true" data-src="templates/fashion/images/8.jpg" alt=" " class="img-responsive" />
+									  <div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									  </div>
+									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/9.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/10.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Jupe</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="watches-tab-child" aria-labelledby="watches-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/11.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/12.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/13.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Montre</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="sandals-tab-child" aria-labelledby="sandals-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/14.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/15.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/16.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Sandale</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="jewellery-tab-child" aria-labelledby="jewellery-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/17.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/18.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img data-delay="true" data-src="templates/fashion/images/19.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a data-toggle="modal" data-target="#myModal"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a>Bijou</a></h5>
+									<div class="rating">
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="rating-left">
+												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="clearfix"> </div>
+									</div>
+									<div class="simpleCart_shelfItem">
+										<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
+										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
 			
 			<div class="clearfix"> </div>
 		</div>
