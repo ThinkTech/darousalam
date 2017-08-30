@@ -420,11 +420,11 @@
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home-tab-women" id="home-tab-women-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-circle" aria-hidden="true"></i>T-shirts</a></li>
-						<li role="presentation"><a href="#skirts-tab-women" role="tab" id="skirts-tab-women-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-circle" aria-hidden="true"></i>Jupes</a></li>
-						<li role="presentation"><a href="#watches-tab-women" role="tab" id="watches-tab-women-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-circle" aria-hidden="true"></i>Montres</a></li>
-						<li role="presentation"><a href="#sandals-tab-women" role="tab" id="sandals-tab-women-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-circle" aria-hidden="true"></i>Sandales</a></li>
-						<li role="presentation"><a href="#jewellery-tab-women" role="tab" id="jewellery-tab-women-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-circle" aria-hidden="true"></i>Bijoux</a></li>
+						<li role="presentation" class="active"><a href="#home-tab-women" id="home-tab-women-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-star" aria-hidden="true"></i>T-shirts</a></li>
+						<li role="presentation"><a href="#skirts-tab-women" role="tab" id="skirts-tab-women-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-star" aria-hidden="true"></i>Jupes</a></li>
+						<li role="presentation"><a href="#watches-tab-women" role="tab" id="watches-tab-women-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-star" aria-hidden="true"></i>Montres</a></li>
+						<li role="presentation"><a href="#sandals-tab-women" role="tab" id="sandals-tab-women-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-star" aria-hidden="true"></i>Sandales</a></li>
+						<li role="presentation"><a href="#jewellery-tab-women" role="tab" id="jewellery-tab-women-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-star" aria-hidden="true"></i>Bijoux</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active in" id="home-tab-women" aria-labelledby="home-tab">
@@ -985,11 +985,11 @@
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs-men">
 					<ul id="myTabMen" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home-tab-men" id="home-tab-men-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-circle" aria-hidden="true"></i>T-shirts</a></li>
-						<li role="presentation"><a href="#skirts-tab-men" role="tab" id="skirts-tab-men-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-circle" aria-hidden="true"></i>Jupes</a></li>
-						<li role="presentation"><a href="#watches-tab-men" role="tab" id="watches-tab-men-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-circle" aria-hidden="true"></i>Montres</a></li>
-						<li role="presentation"><a href="#sandals-tab-men" role="tab" id="sandals-tab-men-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-circle" aria-hidden="true"></i>Sandales</a></li>
-						<li role="presentation"><a href="#jewellery-tab-men" role="tab" id="jewellery-tab-men-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-circle" aria-hidden="true"></i>Bijoux</a></li>
+						<li role="presentation" class="active"><a href="#home-tab-men" id="home-tab-men-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-star" aria-hidden="true"></i>T-shirts</a></li>
+						<li role="presentation"><a href="#skirts-tab-men" role="tab" id="skirts-tab-men-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-star" aria-hidden="true"></i>Jupes</a></li>
+						<li role="presentation"><a href="#watches-tab-men" role="tab" id="watches-tab-men-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-star" aria-hidden="true"></i>Montres</a></li>
+						<li role="presentation"><a href="#sandals-tab-men" role="tab" id="sandals-tab-men-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-star" aria-hidden="true"></i>Sandales</a></li>
+						<li role="presentation"><a href="#jewellery-tab-men" role="tab" id="jewellery-tab-men-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-star" aria-hidden="true"></i>Bijoux</a></li>
 					</ul>
 					<div id="myTabMenContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active in" id="home-tab-men" aria-labelledby="home-tab">
@@ -1551,11 +1551,11 @@
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs-men">
 					<ul id="myTabMen" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home-tab-child" id="home-tab-child-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-circle" aria-hidden="true"></i>T-shirts</a></li>
-						<li role="presentation"><a href="#skirts-tab-child" role="tab" id="skirts-tab-child-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-circle" aria-hidden="true"></i>Jupes</a></li>
-						<li role="presentation"><a href="#watches-tab-child" role="tab" id="watches-tab-child-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-circle" aria-hidden="true"></i>Montres</a></li>
-						<li role="presentation"><a href="#sandals-tab-child" role="tab" id="sandals-tab-child-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-circle" aria-hidden="true"></i>Sandales</a></li>
-						<li role="presentation"><a href="#jewellery-tab-child" role="tab" id="jewellery-tab-child-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-circle" aria-hidden="true"></i>Bijoux</a></li>
+						<li role="presentation" class="active"><a href="#home-tab-child" id="home-tab-child-link" role="tab" data-toggle="tab" aria-controls="home"><i class="fa fa-star" aria-hidden="true"></i>T-shirts</a></li>
+						<li role="presentation"><a href="#skirts-tab-child" role="tab" id="skirts-tab-child-link" data-toggle="tab" aria-controls="skirts"><i class="fa fa-star" aria-hidden="true"></i>Jupes</a></li>
+						<li role="presentation"><a href="#watches-tab-child" role="tab" id="watches-tab-child-link" data-toggle="tab" aria-controls="watches"><i class="fa fa-star" aria-hidden="true"></i>Montres</a></li>
+						<li role="presentation"><a href="#sandals-tab-child" role="tab" id="sandals-tab-child-link" data-toggle="tab" aria-controls="sandals"><i class="fa fa-star" aria-hidden="true"></i>Sandales</a></li>
+						<li role="presentation"><a href="#jewellery-tab-child" role="tab" id="jewellery-tab-child-link" data-toggle="tab" aria-controls="jewellery"><i class="fa fa-star" aria-hidden="true"></i>Bijoux</a></li>
 					</ul>
 					<div id="myTabMenContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active in" id="home-tab-child" aria-labelledby="home-tab">
