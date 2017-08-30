@@ -725,7 +725,7 @@ select {
     font-size: 1.1em;
     padding: 11px;
     padding-right:13px;
-    color: #fefefe;
+    color: #fff;
     width: 160px;
     margin-top: 49px;
     border: 2px solid #fff;
@@ -2459,12 +2459,18 @@ ul.wmuSliderPagination {
 	float: left;
 	width: 100%;
 	font-size: 14px;
-    color: #fff;
+    color: #000;
 	font-style:italic;
 	font-weight: 500;
 	clear: both;
 	padding: 2px;
 }
+
+.digit {
+	color : #000;
+	font-weight : bold;
+}
+
 /* -- //timer -- */
 /*-- //banner-bottom1 --*/
 .sliderfig {
