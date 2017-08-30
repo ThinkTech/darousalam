@@ -1759,17 +1759,17 @@ ul.multi-column-dropdown h6 {
 }
 
 #products .container > div.wthree_banner_bottom_right {
-	background: #f7f7f7;
     padding: 20px;
-    padding-bottom : 10px;
-    border : 1px solid #000;
-    border-radius : 5px;
+    padding-left: 0px;
+    margin-left: -3px;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 #products .container .gender {
 	margin-left: -2px;
 	margin-top : 15px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
     font-size: 1.5em;
     font-weight: bold;
     font-family : Exo;
@@ -1786,7 +1786,7 @@ ul.multi-column-dropdown h6 {
 	top : -1px;
 }
 #products .container .gender:first-of-type {
-	margin-top : -15px;
+	margin-top : 0px;
 }
 
 .nav-tabs {
@@ -1800,7 +1800,7 @@ ul.multi-column-dropdown h6 {
 .nav-tabs>li {
     background: #000;
     font-size: 0.9em;
-    margin-right: 10px;
+    margin-right: 5px;
     border : 1px solid #fff;
     border-radius : 5px;
 }
