@@ -1802,6 +1802,19 @@ ul.multi-column-dropdown h6 {
     padding: 6px 11px;
 }
 
+.product-view {
+	padding : 10px;
+	min-width : 300px;
+	min-height : 300px;
+	border : 1px solid #000;
+	position : absolute;
+	display : none;
+}
+
+.product-view > div:nth-child(1) {
+	margin-bottom : 10px;
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     border: none;
 }
