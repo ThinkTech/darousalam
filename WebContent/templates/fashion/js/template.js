@@ -235,7 +235,7 @@ $(document).ready(function(){
 	            });
 				$('.shop' ).on('click', function() {
 					const content = $(this).closest(".modal-content");
-					const src = $(".modal_body_left img").attr("src");
+					const src = $(".modal_body_left img",content).attr("src");
 					content.find(".close").click();
 					var total = 0;
 					const cart = $("#cart");
