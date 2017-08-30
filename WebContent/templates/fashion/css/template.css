@@ -1777,8 +1777,6 @@ ul.multi-column-dropdown h6 {
     text-transform : uppercase;
     background: #000;
     padding: 10px;
-    border-radius: 5px;
-    border : 1px dotted #d0cac2;
 }
 
 #products .container .gender .fa {
@@ -1801,8 +1799,6 @@ ul.multi-column-dropdown h6 {
     background: #000;
     font-size: 0.9em;
     margin-right: 5px;
-    border : 1px solid #fff;
-    border-radius : 5px;
 }
 
 .nav-tabs > li.active {
