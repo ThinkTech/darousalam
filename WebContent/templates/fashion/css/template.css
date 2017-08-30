@@ -644,7 +644,7 @@ a:focus, a:hover {
 }
 
 a i.fa,.fa {
-	margin-right : 5px;
+	margin-right : 3px;
 }
 
 
@@ -1781,13 +1781,14 @@ ul.multi-column-dropdown h6 {
 
 .gender .fa {
 	position : relative;
-	left : 2px;
+	left : 4px;
 	top : -1px;
-	margin-right : 10px;
+	margin-right : 12px;
 }
 
 .gender .fa-female, .gender .fa-child {
-	margin-right : 8px;
+	left : 3px;
+	margin-right : 9px;
 }
 
 #products .container .gender:first-of-type {
@@ -4000,7 +4001,11 @@ td.invert-image a img {
 		background-position: -155px 0px;
 	}
 	.agileinfo_banner_bottom1_grid_right h4 {
-		width: 30%;
+		width: 95%;
+        font-size: 12px;
+	}
+	.w3_footer_grid h3 {
+        font-size: 1em;
 	}
 	.banner-bottom, .team, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .container-bg, .banner-bottom1, .top-brands, .dresses, .w3l_related_products {
 		padding: 4em 0;
@@ -4224,9 +4229,13 @@ td.invert-image a img {
   .countDays, .countHours, .countMinutes, .countSeconds {
     display: inline-block;
     width: 74px;
-    height: 79px;
+    height: 74px;
     margin-right: -8px;
   }
+  #about p, #schedules p {
+    font-size: 16px;
+ }
+  
 }
 @media (max-width: 1024px){
 	.nbs-flexisel-nav-right {
