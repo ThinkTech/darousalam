@@ -1333,7 +1333,7 @@ a.simpleCart_empty {
 }
 
 .shopping-amount > span > span:first-of-type{
-	width: 194px;
+	width: 146px;
     margin-right: 5px;
     display: inline-block;
     text-align: right;
@@ -1908,7 +1908,7 @@ ul.multi-column-dropdown h6 {
     font-weight: 400;
 }
 .nav-tabs > li > a {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #fff;
     font-family: monospace;
     text-transform: uppercase;
@@ -2435,7 +2435,7 @@ ul.wmuSliderPagination {
 	width: 90px;
     height: 90px;
     background:#FF9B05;
-	border-radius: 500px;
+    border-radius : 10%;
 }
 .points {
 	float: left;
@@ -4119,7 +4119,7 @@ td.invert-image a img {
 		padding: 10px 10px;
 	}
 	.nav-tabs > li > a {
-		font-size: .9em;
+		font-size: 1.2em;
 	}
 	.w3_hs_bottom ul, .flex_ecommerce {
 		padding: 4em 0 0;
@@ -4212,6 +4212,21 @@ td.invert-image a img {
 	.agile_ecommerce_tab_left h5 a {
 		font-size: 1.15em;
 	}
+	.box_1 {
+     right: 100px;
+   }
+  .checkout-wizard-content p {
+    font-size: 13px;
+  }
+  .boxName {
+    font-size: 11px;
+  }
+  .countDays, .countHours, .countMinutes, .countSeconds {
+    display: inline-block;
+    width: 74px;
+    height: 79px;
+    margin-right: -8px;
+  }
 }
 @media (max-width: 1024px){
 	.nbs-flexisel-nav-right {
@@ -4223,6 +4238,9 @@ td.invert-image a img {
 	.agile_ecommerce_tab_left h5 a {
 		font-size: 1.1em;
 	}	
+	.search {
+		margin: 1.5em 0 0 2em;
+	}
 }
 @media (max-width:991px){
 	.w3l_logo h1 a {
