@@ -2822,6 +2822,7 @@ h3.other-nw {
 	white-space : nowrap;
 	margin-bottom : 15px;
 	color : #ff9b05;
+	font-weight : bold;
 }
 
 #contact-form textarea {
@@ -2848,6 +2849,8 @@ h3.other-nw {
   outline:none;
   cursor: pointer;
   height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #flexiselDemo2{
