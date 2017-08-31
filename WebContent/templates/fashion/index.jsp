@@ -2415,13 +2415,13 @@
 						<h5><a>Jean</a></h5>
 						<div class="rating">
 							<div class="rating-left">
-								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+								<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
 							</div>
 							<div class="rating-left">
-								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+								<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
 							</div>
 							<div class="rating-left">
-								<a><i class="fa fa-star" aria-hidden="true"></i></a>
+								<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
 							</div>
 							<div class="rating-left">
 							   <a><i class="fa fa-star-o" aria-hidden="true"></i></a>
