@@ -719,6 +719,7 @@ select {
 	width : 200px;
 	padding-top: 30%;
 	margin : auto;
+	display : inline-block;
 }
 
 .banner div.shopping a.scroll {
@@ -735,6 +736,21 @@ select {
     font-family: Exo;
     text-align: center;
     user-select: none;
+}
+
+.banner .wmuSlider {
+	display: inline-block;
+    width: 30%;
+    position : absolute;
+    right : 0px;
+}
+
+.banner .w3agile_special_deals_grid_left_grid1 {
+	background : transparent;
+}
+
+.banner .w3agile_special_deals_grid_left_grid1 p {
+	color : #fff;
 }
 
 .w3l_login a {

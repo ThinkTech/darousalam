@@ -51,6 +51,8 @@ const saveOrder = function() {
 };
 
 $(document).ready(function(){
+	
+	$('.wmuSlider').wmuSlider();
 
 	$("body").css("opacity",1);
 	
@@ -337,7 +339,6 @@ $(document).ready(function(){
 		  div = $("#deal");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div,function(){
-				$('.wmuSlider').wmuSlider();
 				$('#counter').countdown({
 					timestamp : (new Date()).getTime() + 11*24*60*60*1000
 				});
