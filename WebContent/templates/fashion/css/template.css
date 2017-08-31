@@ -2693,12 +2693,12 @@ div#horizontalTab ul {
 .register input[type="submit"]{
 	outline: none;
     border: 1px solid #ff9b05;
-    background: #212121;
+    background: #fff;
     height: 38px;
-    color: #fff;
+    color: #000;
     width: 150px;
     font-size: 0.8em;
-    font-weight : bold;
+    font-weight: bold;
     text-transform: uppercase;
     margin: 1.2em 0 0;
 }
