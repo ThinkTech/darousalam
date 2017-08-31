@@ -1939,7 +1939,7 @@ ul.multi-column-dropdown h6 {
     width: 103.3%;
 }
 .agile_ecommerce_tab_left h5{
-	margin:2em 0 0;
+	margin:1.3em 0 0;
 }
 .agile_ecommerce_tab_left h5 a{
 	font-size: 1.2em;
@@ -3898,7 +3898,7 @@ td.invert-image a img {
 }
 
 .scrollToTop:hover, .scrollToTop:focus {
-	background : #414141;
+	background : #000;
 }
 
 #confirm-dialog-container, #alert-dialog-container {
