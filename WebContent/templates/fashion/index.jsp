@@ -184,6 +184,7 @@
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
+									    <h4>Prix Abordable</h4>
 										<p>Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore, à un prix défiant toute compétition</p>
 									</div>
 								</div>
@@ -191,6 +192,7 @@
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
+									    <h4>Style Unique</h4>
 										<p>Chaque mois, nous lançons prés de 10 nouveaux styles donc peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons</p>
 									</div>
 								</div>
@@ -198,7 +200,8 @@
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
-										<p>Nos frais de livraison varient en fonction de votre domiciliation. Pour toute commande dont le montant est supérieur à 50 000 CFA, la livraison est gratuite</p>
+									    <h4>Livraison Gratuite</h4>
+										<p>Nos frais de livraison varient en fonction de votre domiciliation. Pour toute commande dont le montant est supérieur à <b>50 000 CFA</b>, la livraison est gratuite</p>
 									</div>
 								</div>
 							</article>
