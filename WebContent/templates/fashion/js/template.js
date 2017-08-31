@@ -204,6 +204,45 @@ $(document).ready(function(){
 			}
 		}
 	});
+	$(".contact").click(function(event){
+		const div = $("#contact-form");
+		if(div.is(":hidden")) {
+		  var top = $(this).offset().top+60;
+		  top = top < window.innerHeight ? top : top-300;
+		  div.css("top",top);
+		  div.show();
+		  $("html, body").animate({ scrollTop: div.position().top }, 500);
+		  $("input:first",div).focus();
+		}else {
+			div.hide();
+		}
+	});
+    const contactForm = $("#contact-form > form");
+	contactForm.submit(function(event){
+		event.preventDefault();
+		var valid = true;
+        $('input,textarea',contactForm).each(function(index,element) {
+        	const val = $(element).val();
+			if(val.trim() == '') {
+				const message = $(this).next().attr("data-info");
+				alert(message,function(){
+					$(element).focus();
+				});
+			    return valid = false;
+			}
+        });
+        if(!valid) return valid;
+		$.ajax({
+			url: contactForm.attr('action'),
+			type : 'POST',
+			data : contactForm.serialize()
+		}).done(function(data){
+			$("input[type=text],input[type=email],textarea",contactForm).val("");
+		});
+	});
+	$("#contact-form img").click(function(){
+		$(this).parent().fadeOut();
+	});
 	$(window).scroll(function(){
 		  div = $("#home-tab-women");
 		  if($(this).scrollTop() >= div.position().top-400) {
@@ -313,6 +352,13 @@ $(document).ready(function(){
 			loadImages(div,function(){
 				head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons");
 			});  
+		  }
+		  div = $("#contact-form");
+		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
+				if(!div.is(":hidden")) {
+				  var top = $(this).scrollTop()+20;
+				  div.css("top",top);
+				}
 		  }
 	});
 });

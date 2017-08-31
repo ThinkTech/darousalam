@@ -93,7 +93,7 @@
 						<li><a href="#about" class="scroll" title="à propos">À PROPOS</a></li>
 						<li><a href="#products" class="scroll" title="nos articles">Nos Articles</a></li>	
 						<li><a href="#schedules" class="scroll" title="nos horaires">Nos Horaires</a></li>
-						<li><a title="contact">Contact</a></li>
+						<li><a class="contact" title="contact">Contact</a></li>
 					</ul>
 				</div>
 			<div class="w3l_login">
@@ -2501,6 +2501,21 @@
 			</ol>
 		</div>
    </div>
+   <div id="contact-form">
+     <img class="close" src="templates/fashion/images/close.png"/>
+     <h1><i class="fa fa-envelope"></i>Contact</h1>
+     <form  action="contact" method="post">
+		  <input id="name" name="mail.author"  type="text" placeholder="nom complet">
+		  <i data-info="entrer votre nom"></i>	  
+		  <input id="email" name="mail.address" type="email" placeholder="email">
+		  <i data-info="entrer votre email"></i>
+	   	  <input id="subject" name="mail.subject" type="text" placeholder="sujet">
+	   	  <i data-info="entrer votre sujet"></i>
+		  <textarea id="message" name="mail.content"  placeholder="votre message"></textarea>
+		  <i data-info="entrer votre message"></i>
+		  <input id="submit" type="submit" value="Envoyer">
+	</form>
+   </div> 
 <!-- footer -->
 	<div id="footer" class="footer">
 		<div class="container">
@@ -2519,7 +2534,7 @@
 						<li><a href="#about" class="scroll">À Propos</a></li>
 						<li><a href="#products" class="scroll">Nos Articles</a></li>
 						<li><a href="#schedules" class="scroll">Nos Horaires</a></li>
-						<li><a href="#contact" class="scroll">Contact</a></li>
+						<li><a class="contact">Contact</a></li>
 						
 					</ul>
 				</div>
