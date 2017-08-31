@@ -2614,7 +2614,7 @@ ul.wmuSliderPagination {
 }
 .footer-copy p{
 	margin:4em 0 0;
-	text-align:center;
+	text-align:left;
 	color:#999;
 	line-height:1.8em;
 }
@@ -2626,11 +2626,16 @@ ul.wmuSliderPagination {
 	color:#999;
 }
 
-.payment-methods {
-	width: 16%;
-    margin: auto;
-    margin-top: 53px;
+.footer-copy {
+	width : 75%;
+	margin : auto;
 }
+
+.footer-copy div {
+	width : 30%;
+	display : inline-block;
+}
+
 
 /*-- //footer --*/
 /*-- login --*/

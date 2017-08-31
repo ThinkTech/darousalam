@@ -339,7 +339,7 @@
 											Visa</b>
 									</h4>
 									<ol>
-										<li>Cliquer sur le bouton Visa Checkout.</li>
+										<li>Cliquer sur terminer ou sur le bouton Visa Checkout.</li>
 										<li>Effectuer le paiement de votre commande.</li>
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
@@ -2594,15 +2594,14 @@
 		</div>
 		<div class="footer-copy">
 			<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
-			<br><br><br>
 			<div class="payment-methods">
 			 <img  data-src="templates/fashion/images/payment-methods.png"/>
 			</div>
-			<br><br>
-			<p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
-			<br><br>
-			<div class="container">
+			<div>
 				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
+			</div>
+			<div>
+			 <p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
 			</div>
 		</div>
 	</div>

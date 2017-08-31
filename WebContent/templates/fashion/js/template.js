@@ -159,9 +159,7 @@ $(document).ready(function(){
 	    		  const select = form.find("select[name='method']")
 	    		  const val = select.val();
 	    		  if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-	    			  alert("vous devez effectuer le paiement de votre commande",function(){
-			    			$(".v-button").click();
-			    	  });  
+	    			  $(".v-button").click(); 
 	    		  }else {
 	    			  saveOrder();
 	    		  }    		  
@@ -283,7 +281,7 @@ $(document).ready(function(){
 						var total = 0;
 						const cart = $("#cart");
 						const ul = $("ul",cart);
-						const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+						const li = $('<li><img width="60px" height="100%"/><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 						const number = content.find("input").val();
 						const price = 13500;
 						const name = $(this).data("name");
