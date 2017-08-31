@@ -281,7 +281,7 @@ $(document).ready(function(){
 						var total = 0;
 						const cart = $("#cart");
 						const ul = $("ul",cart);
-						const li = $('<li><img width="60px" height="100%"/><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+						const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 						const number = content.find("input").val();
 						const price = 13500;
 						const name = $(this).data("name");
