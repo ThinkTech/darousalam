@@ -234,50 +234,53 @@ $(document).ready(function(){
 					$(".shop").data("name",item);
 	            });
 				$('.shop' ).on('click', function() {
-					const content = $(this).closest(".modal-content");
-					const src = $("#myModal .modal_body_left img").attr("src");
-					content.find(".close").click();
-					var total = 0;
-					const cart = $("#cart");
-					const ul = $("ul",cart);
-					const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
-					const number = content.find("input").val();
-					const price = 13500;
-					const name = $(this).data("name");
-			        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
-			        span.data("src",src);
-			        span.mouseover(function(){
-			        	const div = $(".product-view");
-			        	div.css("top",cart.position().top);
-			        	div.css("left",cart.position().left-cart.width()+100);
-			        	$("img",div).attr("src",$(this).data("src"));
-			        	div.show();
-			        });
-			        span.mouseout(function(){
-			        	const div = $(".product-view");
-			        	div.hide();
-			        });
-			        const amount = parseInt(number) * parseInt(price);
-			        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
-			        li.find(".trash").click(function(){
-			        	const message = "voulez-vous supprimer cet article?";
-			    		confirm(message, function() {
-			    			li.remove();
-			    			$(".simpleCart_quantity").html(ul.find("li").length);
-			    			total = 0;
-			    			$.each($("li .price",ul),function(index,element){
-			                	total += parseInt($(element).attr("amount"));
-			                });
-			                $(".total",cart).html(total.toLocaleString("fr-FR"));
-			    		});
-			    	});
-			        ul.append(li);
-			        ul.scrollTop(li.position().top);
-			        $(".simpleCart_quantity").html(ul.find("li").length);
-			        $.each($("li .price",ul),function(index,element){
-			        	total += parseInt($(element).attr("amount"));
-			        });
-			        $(".total",cart).html(total.toLocaleString("fr-FR"));
+					if(!$(this).attr("disabled")) {
+						$(this).attr("disabled", "disabled");
+						const content = $(this).closest(".modal-content");
+						const src = $("#myModal .modal_body_left img").attr("src");
+						content.find(".close").click();
+						var total = 0;
+						const cart = $("#cart");
+						const ul = $("ul",cart);
+						const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+						const number = content.find("input").val();
+						const price = 13500;
+						const name = $(this).data("name");
+				        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
+				        span.attr("data-src",src);
+				        span.mouseover(function(){
+				        	const div = $(".product-view");
+				        	div.css("top",cart.position().top);
+				        	div.css("left",cart.position().left-cart.width()+100);
+				        	$("img",div).attr("src",$(this).data("src"));
+				        	div.show();
+				        });
+				        span.mouseout(function(){
+				        	$(".product-view").hide();
+				        });
+				        const amount = parseInt(number) * parseInt(price);
+				        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
+				        li.find(".trash").click(function(){
+				        	const message = "voulez-vous supprimer cet article?";
+				    		confirm(message, function() {
+				    			li.remove();
+				    			$(".simpleCart_quantity").html(ul.find("li").length);
+				    			total = 0;
+				    			$.each($("li .price",ul),function(index,element){
+				                	total += parseInt($(element).attr("amount"));
+				                });
+				                $(".total",cart).html(total.toLocaleString("fr-FR"));
+				    		});
+				    	});
+				        ul.append(li);
+				        ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
+				        $(".simpleCart_quantity").html(ul.find("li").length);
+				        $.each($("li .price",ul),function(index,element){
+				        	total += parseInt($(element).attr("amount"));
+				        });
+				        $(".total",cart).html(total.toLocaleString("fr-FR"));
+				        $(this).removeAttr("disabled");
+					}
 				});
 			});  
 		  }
