@@ -976,6 +976,8 @@ a.simpleCart_empty {
 
 .shoppingCart li span span { 
 	width : 185px;
+	position : relative;
+	top : 2px;
 }
 
 .shoppingCart li strong {
