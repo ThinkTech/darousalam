@@ -1839,6 +1839,31 @@ ul.multi-column-dropdown h6 {
 	border : 1px solid #000;
 	position : absolute;
 	display : none;
+	background: #f7f7f7;
+}
+
+.product-view p {
+	padding: 14px 10px;
+    padding-bottom: 0px;
+    height: 45px;
+    overflow: hidden;
+    background: #ECECEC;
+    font-family: Tahoma;
+    font-size: 13px;
+    border-top: 1px solid #ffa709;
+}
+
+.product-view p span {
+	display: block;
+	font-weight: bold;
+    font-size: 13px;
+    font-family : Exo;
+    white-space : nowrap;
+    color: #000;
+}
+
+.product-view p span:first-child {
+	float: right;
 }
 
 .product-view > div:nth-child(1) {

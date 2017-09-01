@@ -133,8 +133,9 @@
 					        <p>
 					            <a title="acheter" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Acheter</a> <span>Total : <strong class="total">0</strong> <strong>CFA</strong></span>
 					         </p>
-					     </div> 
-				<div class="product-view">
+					    </div> 
+			    </div>
+			    <div class="product-view">
 			         <div>
 			            <img/>
 			         </div>
@@ -143,7 +144,6 @@
 			            <p><span>XL</span>Taille</p>
 			            <p><span>13500</span>Prix</p>
 			         </div>
-			    </div>
 			    </div>
 			</div>	
 			<div class="clearfix"> </div>

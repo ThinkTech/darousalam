@@ -173,6 +173,9 @@ $(document).ready(function(){
     form.find("select[name='method']").click(function(){
 		form.find("input[name='payment'][value='online']").prop("checked",true);
 	});
+    form.find("section:nth-child(2) label").click(function(){
+		$(this).prev().prop("checked",true);
+	});
 	$("#checkout-wizard").hide();	
 	$(".wizard-close").click(function(){
 		  const wizard = $("#checkout-wizard").fadeOut(100);
@@ -291,8 +294,8 @@ $(document).ready(function(){
 				        span.attr("data-src",src);
 				        span.mouseover(function(){
 				        	const div = $(".product-view");
-				        	div.css("top",cart.position().top);
-				        	div.css("left",cart.position().left-cart.width()+100);
+				        	div.css("top",cart.position().top+50);
+				        	div.css("left",cart.position().left-cart.width()-50);
 				        	$("img",div).attr("src",$(this).data("src"));
 				        	div.show();
 				        });
