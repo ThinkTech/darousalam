@@ -295,7 +295,11 @@ $(document).ready(function(){
 				        span.mouseover(function(){
 				        	const div = $(".product-view");
 				        	div.css("top",cart.position().top+50);
-				        	div.css("left",cart.position().left-cart.width()-50);
+				        	if(div.css("position")=="fixed") {
+				        		div.css("left",10);
+				        	}else {
+				        	    div.css("left",cart.position().left-cart.width()-50);
+				        	}
 				        	$("img",div).attr("src",$(this).data("src"));
 				        	div.show();
 				        });

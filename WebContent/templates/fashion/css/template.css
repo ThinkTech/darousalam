@@ -979,6 +979,7 @@ a.simpleCart_empty {
 	display: block;
 	float: left;
 	font-size : 12px;
+	text-align: left;
 }
 
 .shoppingCart li span span { 
@@ -1041,6 +1042,7 @@ a.simpleCart_empty {
     font-weight: bold;
     border-radius: 4px;
     border: 2px solid #fff;
+    float: left;
 }
 
 .shoppingCart a.checkout .fa {
@@ -3896,8 +3898,10 @@ td.invert-image a img {
 		min-height: 425px;
 	}
 	.modal_body_right h4 {
-		font-size:1.2em;
-	}
+       font-size: 2em;
+       margin-top: 20px;
+       margin-bottom: 10px;
+    }
 	.modal_body_right p {
 		margin: 1em 0;
 	}
@@ -3944,7 +3948,6 @@ td.invert-image a img {
 	.resp-tab-item {font-size: 0.8em;}
 }
 @media (max-width:767px){
-	
 	.w3ls_products_pos img {
 		margin: 0 auto;
 	}
@@ -3959,15 +3962,12 @@ td.invert-image a img {
 	.navbar-nav > li > a {
 		padding: 15px 0px !important;
 	}
-	.hidden-xs {
-		display: block !important;
-	}
 	.row {
 		margin: 0;
 	}
 	.navbar-nav > li {
      display : inline-block;
-     margin-right : 3em;
+     margin-right : 2em;
    }
 }
 @media (max-width:736px){
@@ -3985,11 +3985,16 @@ td.invert-image a img {
 	}
 }
 @media (max-width:667px){
+	.banner,#about,#top-brands,#footer,#schedules,.w3agile_special_deals_grids {display:none}
+	.navbar-nav > li > a {font-size: 14px}
+	.navbar-nav > li:nth-child(1) {display:none;}
+	.navbar-nav > li:nth-child(3) {display:none;}
+	#navigation{margin-top: -20px;}
 	.modal-dialog {
 		width: 630px;
 	}
 	.w3l_logo h1 a {
-		font-size: .8em;
+		font-size: .9em;
 	}
 	.w3l_logo h1 a span {
 		letter-spacing: 9.5px;
@@ -3997,21 +4002,38 @@ td.invert-image a img {
 	.w3l_logo {
 		margin-left: 5em;
 	}
+	.box_1 {right: 40px;}
 	.search_box:checked~.search_form {
 		width: 440px;
 	}
-	.search_form input[type='text'] {
-		width: 321px;
+	#products .container .gender {
+	    font-size : 1.1em;
 	}
+	.resp-tab-item {font-size: 0.65em;width: 119px;}
+    .register input[type="submit"]{font-size: 0.65em;}
+	.search_form input[type='text'] {width: 300px;}
+	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
+     font-size: 11px;
+    }
 	.nav > li > a {
 		padding: 10px 14px;
 	}
 	.agile_ecommerce_tabs {
 		padding: 1em 0 0;
 	}
-	.banner h3 {
-		width: 55%;
+	.w3l_logo {
+		margin-left: 9em;
+		margin-top: -10px;
 	}
+	.product-view{position : fixed}
+	.checkout-wizard-content .register {
+        width: 80%;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .shipping-address,.shopping-payment{width:90%}
+    .easyWizardSteps li {width: 154px;}
 }
 @media (max-width:640px){
 	.modal-title {
@@ -4020,9 +4042,6 @@ td.invert-image a img {
 	}
 	.modal-body-sub {
 		padding: 2em 1em !important;
-	}
-	.w3l_logo {
-		margin-left: 9em;
 	}
 	.search {
 		float: right;
@@ -4034,13 +4053,6 @@ td.invert-image a img {
 	}
 	a.simpleCart_empty {
 		text-align: center;
-	}
-	.banner h3 {
-		width: 50%;
-		font-size: 1.2em;
-	}
-	.banner {
-		min-height: 355px;
 	}
 	.nav-tabs > li > a {
 		font-size: .9em;
@@ -4059,6 +4071,7 @@ td.invert-image a img {
 	}
 	.special-deals h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.6em;
+	    margin-top: 10px;
 	}
 	.w3agile_special_deals_grid_right {
 		width: 72%;
@@ -4114,47 +4127,15 @@ td.invert-image a img {
 	.flex_ecommerce {
 		padding: 10em 0 0 !important;
 	}
-	.review_grids input[type="text"], .review_grids input[type="email"], .review_grids textarea {
-		width: 48.2%;
-	}
-	.banner10 h2 {
-		font-size: 2em;
-	}
-	.banner10 {
-		min-height: 185px;
-	}
-	.banner3 {
-		background-position: -135px 0px;
-	}
-	.banner6 {
-		background-position: -140px 0px;
-	}
-	.modal-dialog {
-		width: 595px;
-	}
-	.banner7 {
-		background-position: -165px 0px;
-	}
-	.team-bottom h3 {
-		font-size: 1.3em;
-	}
-	.agile_mail_grids {
-		margin: 2em 0 0;
-	}
-	.contact-left input[type="text"], .contact-left input[type="email"] {
-		width: 32.7%;
-	}
+	
 	.modal_body_left {
 		float: none;
 		width: 100%;
 	}
+	#contact-form {left: 11%;}
 	.modal_body_left img{
 		margin:0 auto;
-	}
-	.modal_body_right {
-		float: none;
-		width: 100%;
-		margin: 2em 0 0;
+		max-height: 200px;
 	}
 	.modal_body_left1 {
 		float: left !important;

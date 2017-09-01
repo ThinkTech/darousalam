@@ -28,7 +28,7 @@
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
-						<div class="col-md-6 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:1.7em;">
+						<div class="col-md-6 modal_body_left modal_body_left1">
 							<div class="sap_tabs">	
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
@@ -88,7 +88,7 @@
 	</div>
 	<div class="header">
 		<div class="container">
-		    <div id="#navigation">
+		    <div id="navigation">
 					<ul class="nav navbar-nav">
 						<li><a href="#about" class="scroll" title="à propos">À PROPOS</a></li>
 						<li><a href="#products" class="scroll" title="nos articles">Nos Articles</a></li>	
