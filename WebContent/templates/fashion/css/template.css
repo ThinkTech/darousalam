@@ -4209,6 +4209,7 @@ td.invert-image a img {
 	.resp-tab-item {width: 146px;}
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {width:70%}
 	#contact-form {width: 380px;}
+	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
 	.modal-dialog {
@@ -4764,7 +4765,7 @@ td.invert-image a img {
 		font-size: .6em;
 	}
 	.box_1 {
-		margin-top: 25px;
+		margin-top: 65px;
 		float: left;
 	}
 	.search {
@@ -4881,6 +4882,7 @@ td.invert-image a img {
 	}
 	.special-deals h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.2em;
+		margin-top: 23px;
 	}
 	.banner2 {
 		background-position: -105px 0px;
