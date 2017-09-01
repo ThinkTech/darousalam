@@ -2942,6 +2942,8 @@ h3.other-nw {
 }
 .nbs-flexisel-container {
 	position: relative;
+	width: 95%;
+    margin: auto;
 	max-width: 100%;
 }
 .nbs-flexisel-ul {
@@ -2976,7 +2978,7 @@ h3.other-nw {
 	z-index: 100;
 }
 .nbs-flexisel-nav-left {
-	left:-5%;
+	left:-4%;
 	top:10% !important;
 }
 
