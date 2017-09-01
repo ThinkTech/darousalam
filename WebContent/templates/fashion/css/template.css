@@ -4155,6 +4155,7 @@ td.invert-image a img {
 	.mail h3:before {
 		left: 25% !important;
 	}
+	.modal_body_right {width: 100%;}
 }
 @media (max-width: 600px){
 	.modal-dialog {
@@ -4198,6 +4199,16 @@ td.invert-image a img {
 	.simpleCart_shelfItem p a {
 		padding: .5em 1.9em;
 	}
+	#deal,.banner-bottom1 {display:none}
+	.easyWizardSteps li {width: 110px;font-size: 10px;}
+	.checkout-wizard-content p {font-size: 9px;}
+	.checkout-wizard-content fieldset label {font-size: 10px;width: 84px;}
+	#order-confirmation > div {width: 430px;}
+	#order-confirmation p {font-size: 0.8em;}
+	.box_1 {right: 10px;}
+	.resp-tab-item {width: 146px;}
+	.register input[type="text"], .register input[type="email"], .register input[type="password"] {width:70%}
+	#contact-form {width: 380px;}
 }
 @media (max-width:480px){
 	.modal-dialog {
@@ -4234,9 +4245,6 @@ td.invert-image a img {
 	.nav-tabs > li {
 		float: none;
 		text-align: center;
-	}
-	.nav-tabs > li > a {
-		background: #f5f5f5;
 	}
 	.agile_ecommerce_tab_left {
 		float: none;
