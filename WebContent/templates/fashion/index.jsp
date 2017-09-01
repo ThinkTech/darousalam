@@ -179,7 +179,8 @@
 		  <div class="shopping">
 		    <a href="#products" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 		   </div>
-		   	<div class="wmuSlider">
+		    <div class="bannerSlider">
+		   	 <div class="wmuSlider">
 						<div class="wmuSliderWrapper">
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
@@ -206,7 +207,8 @@
 								</div>
 							</article>
 						</div>
-					</div>
+				</div>
+			 </div>
 		</div>
 	</div>
 <!-- //banner -->
@@ -454,7 +456,7 @@
 	<div id="products" class="container-bg banner-bottom">
 		<div class="container">
 		    <h3>Nos Articles</h3>
-		    <h4 class="gender"><i class="fa fa-female" aria-hidden="true"></i>Pour Femmes</h4>
+		    <h4 id="gender-female" class="gender"><i class="fa fa-female" aria-hidden="true"></i>Pour Femmes</h4>
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
@@ -1019,7 +1021,7 @@
 				</div>
 			</div>
 			<div class="clearfix"> </div>
-			<h4 class="gender"><i class="fa fa-male" aria-hidden="true"></i>Pour Hommes</h4>
+			<h4 id="gender-male" class="gender"><i class="fa fa-male" aria-hidden="true"></i>Pour Hommes</h4>
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs-men">
 					<ul id="myTabMen" class="nav nav-tabs" role="tablist">
@@ -1585,7 +1587,7 @@
 			</div>
 			
 			<div class="clearfix"> </div>
-			<h4 class="gender"><i class="fa fa-child" aria-hidden="true"></i>Pour Enfants</h4>
+			<h4 id="gender-child" class="gender"><i class="fa fa-child" aria-hidden="true"></i>Pour Enfants</h4>
 			<div class="col-md-12 wthree_banner_bottom_right">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs-men">
 					<ul id="myTabMen" class="nav nav-tabs" role="tablist">
@@ -2534,12 +2536,12 @@
      <h1><i class="fa fa-envelope"></i>Contact</h1>
      <form  action="contact" method="post">
 		  <input id="name" name="mail.author"  type="text" placeholder="nom complet">
-		  <i data-info="entrer votre nom"></i>	  
+		  <i data-info="entrer votre nom complet"></i>	  
 		  <input id="email" name="mail.address" type="email" placeholder="email">
 		  <i data-info="entrer votre email"></i>
 	   	  <input id="subject" name="mail.subject" type="text" placeholder="sujet">
 	   	  <i data-info="entrer votre sujet"></i>
-		  <textarea id="message" name="mail.content"  placeholder="votre message"></textarea>
+		  <textarea id="message" name="mail.content"  placeholder="message"></textarea>
 		  <i data-info="entrer votre message"></i>
 		  <input id="submit" type="submit" value="Envoyer">
 	</form>
@@ -2552,7 +2554,7 @@
 					<h3>Contact</h3>
 					<ul class="address">
 						<li><i class="fa fa-map-marker" aria-hidden="true"></i>Nord Foire, VDN</li>
-						<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@darousalam.com">info@darousalam.com</a></li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@darousalamfashion.com">info@darousalamfashion.com</a></li>
 						<li><i class="fa fa-mobile" aria-hidden="true"></i>+221 33 855 10 91</li>
 					</ul>
 				</div>
@@ -2569,11 +2571,9 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Nos Articles</h3>
 					<ul class="info"> 
-						<li><a>Robes</a></li>
-						<li><a>Chandails</a></li>
-						<li><a>Chemises</a></li>
-						<li><a>Sandales</a></li>
-						<li><a>Shorts et jupes</a></li>
+						<li><a href="#gender-female" class="scroll"><i class="fa fa-female" aria-hidden="true"></i>Pour Femmes</a></li>
+						<li><a href="#gender-male" class="scroll"><i class="fa fa-male" aria-hidden="true"></i>Pour Hommes</a></li>
+						<li><a href="#gender-child" class="scroll"><i class="fa fa-child" aria-hidden="true"></i>Pour Enfants</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">

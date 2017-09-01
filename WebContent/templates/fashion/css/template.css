@@ -738,12 +738,14 @@ select {
     user-select: none;
 }
 
-.banner .wmuSlider {
+.banner .bannerSlider {
 	display: inline-block;
     width: 30%;
-    position : absolute;
-    right : 0px;
+    position: relative;
+    float: right;
+    right: -80px;
 }
+
 
 .banner .w3agile_special_deals_grid_left_grid1 {
 	background : transparent;
@@ -1637,6 +1639,7 @@ ul.multi-column-dropdown h6 {
 /*-- w3layouts --*/
 	background-size:cover;
 	min-height:700px;
+	vertical-align : top;
 }
 
 .banner .countDays, .banner .countHours, .banner  .countMinutes, .banner .countSeconds {

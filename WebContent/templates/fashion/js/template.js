@@ -260,6 +260,7 @@ $(document).ready(function(){
 					$(".modal_body_left img",$(target)).attr("src",src);
 					$(".modal_body_right h4",$(target)).html(item);
 					$("input",$(target)).val("1");
+					$(".shop").data("name",item).removeAttr("disabled");
 					link.click();
 				});	
 	            $(".w3_hs_bottom a").click(function(){
@@ -269,13 +270,14 @@ $(document).ready(function(){
 					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 					$(".modal_body_left img",$(target)).attr("src",src);
 					$(".modal_body_right h4",$(target)).html(item);
-					$("input",$(target)).val("1");
-					$(".shop").data("name",item);
+					("input",$(target)).val("1");
+					$(".shop").data("name",item).removeAttr("disabled");
 	            });
-				$('.shop' ).on('click', function() {
-					if(!$(this).attr("disabled")) {
-						$(this).attr("disabled", "disabled");
-						const content = $(this).closest(".modal-content");
+				$('.shop').on('click', function() {
+					const link = $(this);
+					if(!link.attr("disabled")) {
+						link.attr("disabled", "disabled");
+						const content = link.closest(".modal-content");
 						const src = $("#myModal .modal_body_left img").attr("src");
 						content.find(".close").click();
 						var total = 0;
@@ -284,7 +286,7 @@ $(document).ready(function(){
 						const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 						const number = content.find("input").val();
 						const price = 13500;
-						const name = $(this).data("name");
+						const name = link.data("name");
 				        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
 				        span.attr("data-src",src);
 				        span.mouseover(function(){
@@ -318,7 +320,6 @@ $(document).ready(function(){
 				        	total += parseInt($(element).attr("amount"));
 				        });
 				        $(".total",cart).html(total.toLocaleString("fr-FR"));
-				        $(this).removeAttr("disabled");
 					}
 				});
 			});  
