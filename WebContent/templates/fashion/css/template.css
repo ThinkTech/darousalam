@@ -1975,7 +1975,7 @@ ul.multi-column-dropdown h6 {
 }
 
 .modal_body_left img {
-	min-height : 200px
+	max-height : 375px
 }
 
 .nav-tabs > li > a {
