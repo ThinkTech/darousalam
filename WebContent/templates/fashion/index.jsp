@@ -471,7 +471,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/53.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -506,7 +506,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/54.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -541,7 +541,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/21.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1036,7 +1036,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/53.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1071,7 +1071,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/54.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1106,7 +1106,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/21.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1602,7 +1602,7 @@
 							<div class="agile_ecommerce_tabs">
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/6.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/53.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1637,7 +1637,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/4.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/54.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -1672,7 +1672,7 @@
 								</div>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/5.jpg" alt=" " class="img-responsive" />
+										<img data-delay="true" data-src="templates/fashion/images/21.jpg" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
@@ -2168,6 +2168,9 @@
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
 										<img alt=" " class="img-responsive" />
+										<div class="zoom">
+										  <a title="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+										</div>
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4></h4>
@@ -2224,7 +2227,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span>15000 CFA</span> <i class="item_price">13 500 CFA</i></p>
-											<p><input  type="number" value="1" min="1"/>&nbsp;<a class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+											<p><input  type="number" value="1" min="1"/>&nbsp;<a title="commander" class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 									</div>
 									<div class="clearfix"> </div>

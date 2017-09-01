@@ -1874,6 +1874,19 @@ ul.multi-column-dropdown h6 {
 	max-height : 200px;
 }
 
+.zoom {
+	width: 30px;
+    margin: auto;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.zoom a {
+	color: #ff9b05;
+	cursor : pointer;
+	display : block;
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     border: none;
 }
@@ -1960,6 +1973,11 @@ ul.multi-column-dropdown h6 {
     font-size: 1em;
     font-weight: 400;
 }
+
+.modal_body_left img {
+	min-height : 200px
+}
+
 .nav-tabs > li > a {
     font-size: 1.4em;
     color: #fff;
