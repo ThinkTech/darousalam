@@ -3487,7 +3487,7 @@ td.invert-image a img {
 	
 }
 @media (max-width: 1280px){
-	.modal-open .modal {margin-left: 0px;}
+	.modal-open .modal {width: 98%;margin: auto;}
 	.banner .bannerSlider {right : 0px}
 	.agileinfo_banner_bottom1_grid_left {
 		background-position: -155px 0px;
