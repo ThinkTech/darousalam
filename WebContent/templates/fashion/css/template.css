@@ -915,7 +915,7 @@ a.simpleCart_empty {
       margin-top:25px;
       min-width : 300px;
       box-shadow:0 2px 3px 1px rgba(0,0,0,0);
-      right : 0px;
+      right : -3px;
       display : none;
       border : 1px solid #000;
 }
@@ -1078,7 +1078,7 @@ a.simpleCart_empty {
     margin: auto;
     text-align: justify;
     font-family: Tahoma;
-    min-height : 340px;
+    min-height : 310px;
 	box-shadow: 
 		inset 0 0 0 16px #fff, 
 		inset 0 0 0 17px #fff, 
@@ -1836,6 +1836,7 @@ ul.multi-column-dropdown h6 {
 
 #products .nav>li>a {
     padding: 6px 11px;
+    text-align : left;
 }
 
 .nav .fa {

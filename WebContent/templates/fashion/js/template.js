@@ -89,7 +89,9 @@ $(document).ready(function(){
 
 	
 	$(".cart a").click(function(){
-		$("#cart").toggle();
+		const cart = $("#cart");
+		cart.css("top",-50);
+		cart.toggle();
 	});
 	
 	$("#cart .close").click(function(){
@@ -291,7 +293,7 @@ $(document).ready(function(){
 						const name = link.data("name");
 				        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
 				        span.attr("data-src",src);
-				        span.click(function(){
+				        span.on("touchstart",function(){
 				        	const div = $(".product-view");
 				        	div.css("top",cart.position().top+50);
 				        	if(div.css("position")=="fixed") {
