@@ -2879,7 +2879,6 @@ h3.other-nw {
 }
 
 
-
 #contact-form {
   position: absolute;
   width: 500px;
@@ -3402,7 +3401,7 @@ td.invert-image a img {
 .scrollToTop {
 	background : #ff9b05;
 	border: 1px solid #fff;
-	z-index : 99;
+	z-index : 99999999;
 	cursor : pointer;
 }
 

@@ -107,7 +107,8 @@ $(document).ready(function(){
 			alert(message);
 		}else {
 			payment.done = false;
-		    const wizard = $("#checkout-wizard").css("height",$(document).height());
+			const height = $(document).height() + $("#footer").height();
+		    const wizard = $("#checkout-wizard").css("height",height);
 		    const top = cart.offset().top;
 		    cart.hide();
 		    page.wait({top : top +50});
@@ -376,9 +377,10 @@ $(document).ready(function(){
 		  div = $("#contact-form");
 		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
 				if(!div.is(":hidden")) {
-				  var top = $(this).scrollTop()+20;
+				  const top = $(this).scrollTop()+20;
 				  div.css("top",top);
 				}
 		  }
+		  
 	});
 });
