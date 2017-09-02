@@ -1995,7 +1995,8 @@ ul.multi-column-dropdown h6 {
 }
 
 .modal_body_left img {
-	max-height : 375px
+	max-height : 375px;
+	min-height : 200px;
 }
 
 .nav-tabs > li > a {
