@@ -4187,7 +4187,7 @@ td.invert-image a img {
 		width: 560px;
 	}
 	.register input[type="submit"] {
-		width: 70%;
+		width: 68%;
 	}
 	.nav > li > a {
 		padding: 10px 11px;
@@ -4202,6 +4202,7 @@ td.invert-image a img {
 	.register input[type="submit"] {height:30px}
 	.register input[type="text"],.checkout-left-basket ul li,.agileinfo_banner_bottom1_grid_left h3,.search_form input[type='text'], .register input[type="email"], .register input[type="password"] {
 		font-size: 13px;
+		width : 68%;
 	}
 	.captcha {height : 60px;}
 }
