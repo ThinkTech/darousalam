@@ -1842,11 +1842,13 @@ ul.multi-column-dropdown h6 {
 .product-view {
 	padding : 10px;
 	min-width : 300px;
+	max-width : 300px;
 	min-height : 300px;
 	border : 1px solid #000;
 	position : absolute;
 	display : none;
 	background: #f7f7f7;
+	z-index: 999;
 }
 
 .product-view p {
@@ -4173,6 +4175,7 @@ td.invert-image a img {
 	.w3l_logo {
 		margin-left: 7em;
 	}
+	.wizard-title {font-size: 16px;}
 }
 @media (max-width:568px){
 	.modal-dialog {
@@ -4730,10 +4733,19 @@ td.invert-image a img {
 	.review_grids {
 		margin: 0.5em 0 0;
 	}
-	.captcha{max-width:286px;width:286px;overflow:hidden}
+	select {width:90%;display:block;}
+	.easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit {width:70px;font-size:11px}
+	.shipping-address, .shopping-payment {width: 88%;overflow: hidden;}
+	.checkout-wizard-content fieldset > div > h5 {font-size: 9px;}
+	.checkout-wizard-content fieldset h4 {font-size: 10px;}
+	.checkout-wizard-content fieldset h6 {font-size: 9px;}
+	.checkout-wizard-content fieldset > div {margin-left: 9px;}
+	#order-confirmation > div {width: 80%;}
+	#order-confirmation p {font-size: 10px;}
+	#order-confirmation a {font-size: 10px;padding: 9px;width : 100px;}
+	#order-confirmation > div div {width: 220px;}
 }
 @media (max-width:320px){
-	.captcha{max-width:286px;width:286px;overflow:hidden}
 	.modal-dialog {
 		width: 290px;
 	}

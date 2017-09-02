@@ -44,7 +44,6 @@ const saveOrder = function() {
 		$("#cart ul li").remove();
 		$(".simpleCart_quantity").html(0);
 		$("#cart .total").html(0);
-        $('html,body').css("overflow-y","auto");
 	});
 	const top = $("#cart").position().top;
 	page.wait({top : top});
@@ -117,7 +116,6 @@ $(document).ready(function(){
 				    	page.release();
 				    	wizard.show();
 				 });
-				 $('html,body').css("overflow-y","hidden");
 		    });
 		}
 		return false;
@@ -179,7 +177,6 @@ $(document).ready(function(){
 	$("#checkout-wizard").hide();	
 	$(".wizard-close").click(function(){
 		  const wizard = $("#checkout-wizard").fadeOut(100);
-			$('html,body').css("overflow-y","auto");
 	});	
 	$("#confirmation-close").click(function(){
     	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ animations[Math.floor(Math.random() * animations.length)]);
@@ -293,6 +290,17 @@ $(document).ready(function(){
 				        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
 				        span.attr("data-src",src);
 				        span.mouseover(function(){
+				        	const div = $(".product-view");
+				        	div.css("top",cart.position().top+50);
+				        	if(div.css("position")=="fixed") {
+				        		div.css("left",10);
+				        	}else {
+				        	    div.css("left",cart.position().left-cart.width()-50);
+				        	}
+				        	$("img",div).attr("src",$(this).data("src"));
+				        	div.show();
+				        });
+				        span.click(function(){
 				        	const div = $(".product-view");
 				        	div.css("top",cart.position().top+50);
 				        	if(div.css("position")=="fixed") {
