@@ -12,7 +12,7 @@
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="Darou Salam Fashion"/>
-<meta property="og:description" content="Vêtements pour femmes, hommes et enfants | Achats en ligne"/>
+<meta property="og:description" content="Habillement pour femmes, hommes et enfants | Achats en ligne"/>
 <meta property="og:image" content="${baseUrl}/templates/fashion/images/banner2.jpg"/>
 </head>
 	
