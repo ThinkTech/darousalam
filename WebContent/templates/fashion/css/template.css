@@ -1208,7 +1208,7 @@ a.simpleCart_empty {
 }
 
 
-.checkout-wizard-content #loginDiv {
+.checkout-wizard-content .gigya {
 	display : inline-block;
 	vertical-align: top;
 	width: 260px;

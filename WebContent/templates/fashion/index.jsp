@@ -236,7 +236,9 @@
 							<div id="socialLogin">
 								<p>Identifier vous rapidement avec les réseaux sociaux ou
 									avec votre compte client.</p>
-								<div id="loginDiv"></div>
+								<div class="gigya">
+								  <div id="loginDiv"></div>
+								</div>
 								<div id="or">OU</div>
 								<div class="register">
 									<a title="créér un compte"><i class="fa fa-user"
