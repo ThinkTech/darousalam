@@ -4579,6 +4579,7 @@ td.invert-image a img {
 		float: none;
 		margin: 1.5em 0 0;
 	}
+	#contact-form {width: 300px;left: 10px;}
 }
 @media (max-width:384px){
 	.modal-dialog {
@@ -4779,7 +4780,7 @@ td.invert-image a img {
 		padding: 10px 15px;
 	}
 	.search_form input[type='text'] {
-		width: 196px;
+		width: 160px;
 	}
 	.navbar-toggle {
 		margin-top: 0;
