@@ -4158,6 +4158,8 @@ td.invert-image a img {
 		left: 25% !important;
 	}
 	.modal_body_right {width: 100%;}
+	.modal_body_left,.modal_body_right > p{display:none}
+	.modal_body_right h4 {font-size: 1.1em;margin-top: -20px;margin-bottom: 15px;}
 }
 @media (max-width: 600px){
 	.modal-dialog {
@@ -4761,9 +4763,6 @@ td.invert-image a img {
 	.register input[type="submit"] {
 		width: 100%;
 		margin: 1em 0 0;
-	}
-	.modal_body_right {
-		margin: 1em 0 2em;
 	}
 	h3.other-nw {
 		font-size: 1em;
