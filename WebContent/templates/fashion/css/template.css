@@ -711,7 +711,8 @@ select {
 
 .modal_body_right h4.other-nw {
     font-size: 1.5em;
-    margin-bottom: 41px;
+    margin-bottom: 10px;
+    margin-top : 10px;
 }
 
 .banner div.shopping {
@@ -1128,6 +1129,7 @@ a.simpleCart_empty {
 
 .checkout-wizard-content fieldset > div {
 	margin-left : 20px;
+	margin-top: 10px;
 }
 
 .checkout-wizard-content fieldset h4 {
@@ -1199,7 +1201,7 @@ a.simpleCart_empty {
 .wizard-close {
 	float: right;
     position: relative;
-    top: 0px;
+    top: 2px;
     right: 15px;
     cursor: pointer;
     width : 32px;
@@ -1212,7 +1214,7 @@ a.simpleCart_empty {
 	display : inline-block;
 	vertical-align: top;
 	width: 260px;
-    height: 100px;
+	height : 30px;
 }
 
 .checkout-wizard-content div#or {
@@ -1321,7 +1323,6 @@ a.simpleCart_empty {
     padding-bottom: 5px;
     width: 40%;
     border: 1px solid #ff9b05;
-    margin-top : 27px;
 }
 
 .shipping-address a {
@@ -1354,7 +1355,7 @@ a.simpleCart_empty {
 }
 
 .shopping-amount > span {
-	line-height : 1.7em;
+	line-height : 1.2em;
 	width : 100%;
 	display : block;
 	font-size : 0.92em;
@@ -1459,6 +1460,8 @@ a.simpleCart_empty {
 #order-confirmation a .fa {
 	margin-right : 5px;
 }
+
+.captcha {margin-bottom:15px}
 
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
 .easyWizardSteps li {
@@ -1956,6 +1959,13 @@ ul.multi-column-dropdown h6 {
 
 .modal-content {
 	background : #e6dfdf;
+	padding-bottom: 20px;
+	padding-top : 0px;
+}
+
+.modal-header .close {
+    margin-top: 5px; 
+    margin-right: 0px;
 }
 
 /*--banner-modal--*/
@@ -2704,7 +2714,7 @@ ul.wmuSliderPagination {
 /*-- sap --*/
 .sap_tabs {
   margin: 0 auto;
-  -webkit-appearance: none;
+  width : 94%;
 }
 .resp-tab-item{
 	border:none;
@@ -2720,6 +2730,7 @@ ul.wmuSliderPagination {
 	display: inline-block;
 	list-style: none;
 	outline: none;
+	width : 45%;
 	border:1px solid #ff9b05;
 	transition: all 0.3s ease-out;
 	-webkit-appearance: none;
@@ -2744,11 +2755,8 @@ h2.resp-accordion {
    display: block;
 }
 /*-- //sap --*/
-.modal-body-sub {
-    padding: 0.5em;
-    padding-left: 2em;
-    padding-bottom: 3em;
-}
+.modal-body-sub {padding: 0em 0em !important;}
+
 .modal-title {
     font-size: 1.5em;
     font-weight: bold;
@@ -2760,16 +2768,13 @@ h2.resp-accordion {
 	outline:none;
 	border:1px solid #ff9b05;
 	background:#fff;
-	padding:10px;
+	padding:7px;
 	color:#212121;
 	width:100%;
 	font-size:14px;
 }
 .register input[type="password"],.register input[type="email"]{
 	margin:1em 0 0;
-}
-div#horizontalTab ul {
-    padding-bottom: 1.5em;
 }
 ::-webkit-input-placeholder{
 	color:#212121 !important;
@@ -3591,9 +3596,6 @@ td.invert-image a img {
 	.shopping-amount > span > span:first-of-type {
       width: 146px; 
     }
-	.modal-body-sub {
-		padding: 2em 3em !important;
-	}
 	.w3l_logo {
 		margin-left: 13em;
 	}
@@ -3734,6 +3736,7 @@ td.invert-image a img {
 	#contact-form {left: 25%;}
 }
 @media (max-width:991px){
+	.register input[type="submit"],.resp-tab-item{font-size : 12px;width:150px}
 	.w3_footer_grid ul li {font-size: 15px;}
 	#about p, #schedules p {width: 100%;}
 	.banner .w3agile_special_deals_grid_left_grid1 p {height: 123px;overflow: hidden;font-size: 12px;}
@@ -3760,14 +3763,6 @@ td.invert-image a img {
 	}
 	.banner h3 {
 		font-size: 1.4em;
-	}
-	.modal_body_left1 {
-		float: left;
-		width: 65% !important;
-	}
-	.modal_body_right1 {
-		float: right;
-		width: 35% !important;
 	}
 	.nav > li > a {
 		padding: 10px 24px;
@@ -3944,8 +3939,6 @@ td.invert-image a img {
 	.banner a h4 {font-size: 2em;}
 	.banner h6 {font-size: 1.5em;}
 	.banner div.shopping a.scroll {font-size: 1em;}
-	.sap_tabs {width: 100%;}
-	.modal-body-sub {padding: 2em 0em !important;}
 	.modal_body_left1 {width: 50% !important;}
 	.modal_body_right1 {width: 48% !important;}
 	.resp-tab-item {font-size: 0.8em;}
@@ -3997,7 +3990,7 @@ td.invert-image a img {
 		width: 630px;
 	}
 	.w3l_logo h1 a {
-		font-size: .9em;
+		font-size: 25px;
 	}
 	.w3l_logo h1 a span {
 		letter-spacing: 9.5px;
@@ -4032,13 +4025,13 @@ td.invert-image a img {
 	.checkout-wizard-content .register {
         width: 80%;
         margin-left: 0px;
-        margin-top: -6px;
+        margin-top: 16px;
         margin-bottom: 15px;
     }
     .shipping-address,.shopping-payment{width:90%}
     .easyWizardSteps li {height: 25px;width: 50px;font-size :0px;padding-top: 3px; position: relative;top: 4px;}
     .easyWizardSteps li span{font-size : 14px;}
-    .checkout-wizard-content p{font-size:9px;margin:0;margin-left:10px;margin-top:10px}
+    .checkout-wizard-content p{font-size:9px;margin:0;margin-left:10px;margin-top:10px;margin-right:5px}
     .checkout-wizard-content .register input[type="text"], .checkout-wizard-content .register input[type="email"], .checkout-wizard-content .register input[type="password"] {
       padding: 0px;
       padding-left: 2px;
@@ -4061,23 +4054,18 @@ td.invert-image a img {
     }
     .checkout-wizard-steps {padding: 0px;}
     .shopping-payment ol {margin-left: 9px;}
+    .modal-open .modal{margin-top:-40px}
 }
 @media (max-width:640px){
 	.modal-title {
 		font-size: 1.3em;
 		padding-left: 1em;
 	}
-	.modal-body-sub {
-		padding: 0em 1em !important;
-	}
-	.modal_body_right h4.other-nw {
-      margin-bottom: 15px;
-      font-size : 1.2em; 
+    .modal_body_right h4.other-nw {
+      margin-bottom: 6px;
+      font-size: 14px;
     }
-    div#horizontalTab ul {
-     padding-bottom: 0.5em;
-    }
-    .checkout-wizard-content {width: 98%;}
+    .checkout-wizard-content {width: 98%;padding:0px}
 	.search {
 		float: right;
 	}
@@ -4211,6 +4199,11 @@ td.invert-image a img {
 		margin-left: 7em;
 	}
 	.wizard-title {font-size: 16px;}
+	.register input[type="submit"] {height:30px}
+	.register input[type="text"],.checkout-left-basket ul li,.agileinfo_banner_bottom1_grid_left h3,.search_form input[type='text'], .register input[type="email"], .register input[type="password"] {
+		font-size: 13px;
+	}
+	.captcha {height : 60px;}
 }
 @media (max-width:568px){
 	.modal-dialog {
@@ -4218,9 +4211,6 @@ td.invert-image a img {
 	}
 	.resp-tab-item {
 		padding: 5px 28px;
-	}
-	.modal_body_left1 {
-		padding-right: 2em !important;
 	}
 	.w3l_logo {
 		margin-left: 6em;
@@ -4244,7 +4234,6 @@ td.invert-image a img {
 	#order-confirmation p {font-size: 0.8em;}
 	.box_1 {right: 10px;}
 	.resp-tab-item {width: 119px;}
-	.register input[type="text"], .register input[type="email"], .register input[type="password"] {width:70%}
 	#contact-form {width: 380px;}
 	.hs-wrapper {height: 250px;}
 	.shopping-amount {margin-top: 10px;}
@@ -4543,7 +4532,7 @@ td.invert-image a img {
 		top: 0.7em;
 	}
 	.w3l_logo h1 a {
-		font-size: .7em;
+		font-size: 18px;
 	}
 	.w3l_logo h1 a span {
 		letter-spacing: 6.5px;
@@ -4627,12 +4616,6 @@ td.invert-image a img {
 	.modal-title {
 		font-size: 1.2em;
 		padding-left: 0em;
-	}
-	.modal-body-sub {
-		padding: 1em 1em !important;
-	}
-	.resp-tab-item {
-		font-size: 14px;
 	}
 	.modal_body_left1 {
 		padding-right: 0em !important;
@@ -4735,7 +4718,6 @@ td.invert-image a img {
 	}
 }
 @media (max-width:375px){
-	.sap_tabs {margin-top: -20px;}
 	.wthree_banner_bottom_left,.w3ls_about_grid_left,.wthree_banner_bottom_right,.w3agile_special_deals_grid_left,.w3agile_special_deals_grid_right,.w3agile_newsletter_right,.w3agile_newsletter_left {
 		padding: 0;
 	}
@@ -4795,14 +4777,8 @@ td.invert-image a img {
 	.modal-dialog {
 		width: 290px;
 	}
-	.register input[type="text"],.checkout-left-basket ul li,.agileinfo_banner_bottom1_grid_left h3,.search_form input[type='text'], .register input[type="email"], .register input[type="password"] {
-		font-size: 13px;
-	}
 	.checkout-left-basket h4 {
 		font-size: 1em;
-	}
-	div#horizontalTab ul {
-		padding-bottom: 0.5em;
 	}
 	.register input[type="submit"] {
 		margin: 1em 0 0;
