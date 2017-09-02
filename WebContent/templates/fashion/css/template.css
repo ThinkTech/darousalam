@@ -2865,7 +2865,6 @@ h3.other-nw {
 #contact-form .close {
 	border : none;
 	float : right;
-	margin-right : -30px;
 	cursor : pointer;
 }
 
@@ -2888,7 +2887,7 @@ h3.other-nw {
   z-index: 9999999999999;
   display : none;
   left : 50%;
-  padding: 10px 46px 40px 30px;
+  padding: 10px;
   border : 1px solid;
 }
 
@@ -4235,7 +4234,7 @@ td.invert-image a img {
 	#order-confirmation p {font-size: 0.8em;}
 	.box_1 {right: 10px;}
 	.resp-tab-item {width: 119px;}
-	#contact-form {width: 380px;}
+	#contact-form {width: 380px;padding: 5px;}
 	.hs-wrapper {height: 250px;}
 	.shopping-amount {margin-top: 10px;}
 	.shopping-amount b{font-size: 11px;}
@@ -4608,7 +4607,7 @@ td.invert-image a img {
 		float: none;
 		margin: 1.5em 0 0;
 	}
-	#contact-form {width: 300px;left: 10px;}
+	#contact-form {width: 300px;left: 10px;padding: 5px;}
 }
 @media (max-width:384px){
 	.modal-dialog {
