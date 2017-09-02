@@ -4765,7 +4765,7 @@ td.invert-image a img {
 	#order-confirmation p {font-size: 10px;}
 	#order-confirmation a {font-size: 10px;padding: 9px;width : 100px;}
 	#order-confirmation > div div {width: 220px;}
-	.captcha{max-width:180px;width:180px;overflow:hidden}
+	.captcha{max-width:220px;width:220px;overflow:hidden}
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
       padding: 6px;
       margin-bottom : -10px;
