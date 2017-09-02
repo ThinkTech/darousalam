@@ -1061,8 +1061,8 @@ a.simpleCart_empty {
 	width: 100%;
     height: 100%;
     position: absolute;
+    top : 0;
     z-index: 99999;
-    top : 0px;
     background: rgba(100, 100, 100, 0.5);
 }
 
@@ -1340,6 +1340,7 @@ a.simpleCart_empty {
 	font-size: 13px;
     line-height: 1.7em;
     font-family: Exo;
+    text-align : left;
 }
 
 .shopping-payment h4 {
@@ -1959,7 +1960,6 @@ ul.multi-column-dropdown h6 {
 
 /*--banner-modal--*/
 .modal-open .modal {
-    background: rgba(0, 0, 0, 0.48);
     z-index: 99999;
    margin-left: -25px;
 }
@@ -2592,6 +2592,7 @@ ul.wmuSliderPagination {
 	padding:4em 0;
 	background:#fff;
 	padding-bottom: 0em;
+	clear : both;
 }
 .w3_footer_grid h3{
 	color: #ff9b05;
@@ -4035,7 +4036,29 @@ td.invert-image a img {
         margin-bottom: 15px;
     }
     .shipping-address,.shopping-payment{width:90%}
-    .easyWizardSteps li {width: 154px;}
+    .easyWizardSteps li {height:10px;width: 10px;font-size :0px;padding-top: 3px; position: relative;top: 4px;}
+    .easyWizardSteps li span{font-size : 10px;}
+    .checkout-wizard-content p{font-size:9px;margin:0;margin-left:10px;margin-top:10px}
+    .checkout-wizard-content .register input[type="text"], .checkout-wizard-content .register input[type="email"], .checkout-wizard-content .register input[type="password"] {
+      padding: 0px;
+      padding-left: 2px;
+      font-size: 11px;
+      margin-bottom: 4px;
+    }
+    .checkout-wizard-content .register a, .checkout-wizard-content .register a:visited {
+      font-size: 11px;
+    }
+    .easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit,.checkout-wizard-content .register input[type="button"] {
+      height: 35px;
+      width: 85px;
+      font-size: 13px;
+    }
+    checkout-wizard-content fieldset label {
+      font-size: 12px;
+      width: 94px;
+    }
+    .checkout-wizard-steps {padding: 0px;}
+    .shopping-payment ol {margin-left: 9px;}
 }
 @media (max-width:640px){
 	.modal-title {
@@ -4205,8 +4228,7 @@ td.invert-image a img {
 		padding: .5em 1.9em;
 	}
 	#deal,.banner-bottom1 {display:none}
-	.easyWizardSteps li {width: 110px;font-size: 10px;}
-	.checkout-wizard-content p {font-size: 9px;}
+	.checkout-wizard-content p {font-size: 9px;line-height: 15px;}
 	.checkout-wizard-content fieldset label {font-size: 10px;width: 84px;}
 	#order-confirmation > div {width: 430px;}
 	#order-confirmation p {font-size: 0.8em;}
@@ -4215,6 +4237,8 @@ td.invert-image a img {
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {width:70%}
 	#contact-form {width: 380px;}
 	.hs-wrapper {height: 250px;}
+	.shopping-amount {margin-top: 10px;}
+	.shopping-amount b{font-size: 11px;}
 }
 @media (max-width:480px){
 	.modal-dialog {
@@ -4735,7 +4759,7 @@ td.invert-image a img {
 	.review_grids {
 		margin: 0.5em 0 0;
 	}
-	select {width:90%;display:block;}
+	#checkout-wizard select {width:90%;display:block;padding: 9px 10px;}
 	.easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit {width:70px;font-size:11px}
 	.shipping-address, .shopping-payment {width: 88%;overflow: hidden;}
 	.checkout-wizard-content fieldset > div > h5 {font-size: 9px;}

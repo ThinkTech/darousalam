@@ -102,10 +102,10 @@ $(document).ready(function(){
 			cart.hide();
 			alert(message);
 		}else {
-			cart.hide();
 			payment.done = false;
 		    const wizard = $("#checkout-wizard").css("height",$(document).height());
 		    const top = cart.offset().top;
+		    cart.hide();
 		    page.wait({top : top +50});
 		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 					"templates/fashion/js/social.js",
@@ -147,7 +147,7 @@ $(document).ready(function(){
 	    		$("."+val+"-payment",currentStep).show();
 	    	}
 	    },
-	    beforeSubmit: function(wizardObj) {
+	    beforeSubmit: function() {
 	    	if(payment.done) {
 		    	saveOrder();
 	    	}else {
@@ -157,7 +157,7 @@ $(document).ready(function(){
 	    		  const select = form.find("select[name='method']")
 	    		  const val = select.val();
 	    		  if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-	    			  $(".v-button").click(); 
+	    			  $("."+val+"-payment .v-button").click(); 
 	    		  }else {
 	    			  saveOrder();
 	    		  }    		  
@@ -290,17 +290,6 @@ $(document).ready(function(){
 				        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
 				        span.attr("data-src",src);
 				        span.mouseover(function(){
-				        	const div = $(".product-view");
-				        	div.css("top",cart.position().top+50);
-				        	if(div.css("position")=="fixed") {
-				        		div.css("left",10);
-				        	}else {
-				        	    div.css("left",cart.position().left-cart.width()-50);
-				        	}
-				        	$("img",div).attr("src",$(this).data("src"));
-				        	div.show();
-				        });
-				        span.click(function(){
 				        	const div = $(".product-view");
 				        	div.css("top",cart.position().top+50);
 				        	if(div.css("position")=="fixed") {

@@ -296,8 +296,8 @@
 										de livraison</b>
 								</h4>
 								<h5>
-									<span><i class="fa fa-map-marker" aria-hidden="true"></i>HLM
-										2 Rue 14 N°503</span> <span>derrière la Mosquée</span>
+									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Nord
+										Foire, VDN</span> <span>derrière la Mosquée</span>
 								</h5>
 								<h5>
 									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Région
@@ -330,8 +330,8 @@
 										<li>Effectuer le paiement de votre commande.</li>
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
-									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
+										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -345,8 +345,8 @@
 										<li>Effectuer le paiement de votre commande.</li>
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
-									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
+										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -360,8 +360,8 @@
 										<li>Effectuer le paiement de votre commande.</li>
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
-									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
+										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -375,8 +375,8 @@
 										<li>Effectuer le paiement de votre commande.</li>
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
-									<img alt="Visa Checkout" class="v-button" role="button"
-										src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
+										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -2534,6 +2534,7 @@
 		  <input id="submit" type="submit" value="Envoyer">
 	</form>
    </div> 
+   <div class="clearfix"> </div>
 <!-- footer -->
 	<div id="footer" class="footer">
 		<div class="container">
@@ -2593,6 +2594,7 @@
 			</div>
 		</div>
 	</div>
+	 <div class="clearfix"> </div>
 <!-- //footer -->
 <i id="offline-message" data-info="pas de connexion internet"></i>
 <script src="templates/fashion/js/bundle.js"></script> 
