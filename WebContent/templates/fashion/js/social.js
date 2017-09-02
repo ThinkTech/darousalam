@@ -1,6 +1,7 @@
 gigya.socialize.showLoginUI({
+	version : 2,
 	height : 100,
-	width : 260,
+	width : "100%",
 	enabledProviders : 'facebook,twitter,googleplus,linkedin,yahoo,instagram',
 	showTermsLink : false // remove 'Terms' link
 	,
@@ -13,8 +14,9 @@ gigya.socialize.showLoginUI({
 	cid : ''
 });
 gigya.socialize.showLoginUI({
+	version : 2,
 	height : 100,
-	width : 260,
+	width : "100%",
 	enabledProviders : 'facebook,twitter,googleplus,linkedin,yahoo,instagram',
 	showTermsLink : false // remove 'Terms' link
 	,

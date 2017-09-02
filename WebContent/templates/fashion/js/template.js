@@ -53,7 +53,9 @@ $(document).ready(function(){
 	
 	$('.wmuSlider').wmuSlider();
 
-	$("body").css("opacity",1);
+	$("body").css("opacity",1).click(function(){
+		$(".product-view").hide();
+	});
 	
 	$(".w3l_login a").click(function(event){
 		if(!$(this).data("loaded")) {
@@ -289,6 +291,18 @@ $(document).ready(function(){
 						const name = link.data("name");
 				        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
 				        span.attr("data-src",src);
+				        span.click(function(){
+				        	const div = $(".product-view");
+				        	div.css("top",cart.position().top+50);
+				        	if(div.css("position")=="fixed") {
+				        		div.css("left",10);
+				        	}else {
+				        	    div.css("left",cart.position().left-cart.width()-50);
+				        	}
+				        	$("img",div).attr("src",$(this).data("src"));
+				        	div.show();
+				        	return false;
+				        });
 				        span.mouseover(function(){
 				        	const div = $(".product-view");
 				        	div.css("top",cart.position().top+50);
