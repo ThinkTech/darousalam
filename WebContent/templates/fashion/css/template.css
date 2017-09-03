@@ -880,7 +880,7 @@ label.icon-search span {
 
 .box_1 a .fa {
    position: relative;
-   top: 4.4px;
+   top: 3.5px;
 }
 
 a .total {
@@ -1329,7 +1329,6 @@ a .total {
 
 .shopping-payment ol {
 	margin-left : 38px;
-	display : none;
 }
 
 .shopping-payment li {
@@ -3628,6 +3627,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
+	.shopping-payment ol {display : none;}
 	.shopping-payment{margin-top:-9px}
 	.modal-title {
 		font-size: 1.3em;
