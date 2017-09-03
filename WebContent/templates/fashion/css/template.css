@@ -770,7 +770,7 @@ select {
 
 .sign-up a, .sign-up a:visited {
 	color: #ff9b05;
-    font-size: 12px;
+    font-size: 13px;
     display: block;
     position: relative;
     top: 10px;
@@ -2023,9 +2023,11 @@ a .total {
 }
 .modal_body_right h5{
 	font-size: 1em;
-    color: #212121;
+    color: #ff9b05;
     margin: 2em 0 1em;
+    font-weight : bold;
 }
+
 /*-- Ratings --*/
 .rating-left {
     float: left;
@@ -2075,8 +2077,8 @@ a .total {
 
 .modal-dialog .options > div {
 	display : inline-block;
-	margin-right : 60px;
 	vertical-align: top;
+	margin-right : 60px;
 	margin-top: -25px;
 }
 
@@ -2095,15 +2097,20 @@ a .total {
 }
 
 .sizes ul li,.color-quality ul li {
-    display: inline-block;
-    margin-right: .3em;
-    font-weight : bold;
-    font-size: 14px;
-    color: #999;
+   display: inline-block;
+    margin-right: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+}
+.sizes ul li {
+    background: #fff;
+    padding: 4px;
+    border: 1px solid;
 }
 .color-quality ul li a {
     font-size: 14px;
-    color: #999;
+    color: #000;
     text-decoration: none;
 }
 .color-quality ul li a span {
@@ -3621,6 +3628,7 @@ div#horizontalTab1 ul {
     .shopping-payment ol {margin-left: 9px;}
     .modal-open .modal{margin-top:-40px}
     .shopping-payment li {font-size: 9px;}
+    .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
 	.shopping-payment{margin-top:-9px}
@@ -4128,12 +4136,6 @@ div#horizontalTab1 ul {
 		min-height: 255px;
 		padding:4.5em 0 0 !important;
 	}
-	.modal-body {
-		padding: 0em 1em 1em;
-	}
-	.close1, .close2, .close3 {
-		right: 160px;
-	}
 	.w3agile_special_deals_grid_left_grid_pos1 {
 		width: 60px;
 		height: 60px;
@@ -4312,19 +4314,10 @@ div#horizontalTab1 ul {
 		font-size: 1.2em;
 		line-height: 1.5em;
 	}
-	.modal-body {
-		padding: 0em 1em 2em;
-	}
-	.close1, .close2, .close3 {
-		right: 139px;
-	}
-	.resp-tab-item {
+    .resp-tab-item {
 		padding: 5px 19px;
 		display : block;
 		font-size : 11px;
-	}
-	.review_grids {
-		margin: 0.5em 0 0;
 	}
 	#checkout-wizard select {width:90%;display:block;padding: 9px 10px;}
 	.easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit {width:70px;font-size:11px}
@@ -4343,6 +4336,8 @@ div#horizontalTab1 ul {
       margin-bottom : -10px;
 	}
 	.modal_body_right1 {padding-bottom: 0em;margin-left: -31px;}
+	.modal-dialog .options > div {margin-right : 0px;}
+   .modal-dialog .options > div:nth-child(2) h5 {margin-top: 40px;}
 }
 @media (max-width:320px){
 	.resp-tab-item {width: 119px;font-size:10px}
@@ -4473,9 +4468,6 @@ div#horizontalTab1 ul {
 	}
 	.w3ls_dresses_grid_right_grid2_left h3 {
 		font-size: 1em;
-	}
-	.modal-body {
-		padding: 0em 1em 0em;
 	}
 	.special-deals h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.2em;
