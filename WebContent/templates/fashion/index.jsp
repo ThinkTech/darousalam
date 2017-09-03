@@ -43,6 +43,7 @@
 													<input name="Password" placeholder="mot de passe" type="password" required="">										
 													<div class="sign-up">
 														<input type="submit" value="Connexion"/>
+														<a title="mot de passe oublié"><i class="fa fa-key" aria-hidden="true"></i>mot de passe oublié?</a>
 													</div>
 												</form>
 											</div>

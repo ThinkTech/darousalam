@@ -773,6 +773,15 @@ select {
     cursor : pointer;
 }
 
+
+.sign-up a, .sign-up a:visited {
+	color: #ff9b05;
+    font-size: 12px;
+    display: block;
+    position: relative;
+    top: 10px;
+    cursor : pointer;
+}
 .captcha {
 	margin-top : 15px;
 	height : 80px;
