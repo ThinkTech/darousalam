@@ -358,11 +358,13 @@ $(document).ready(function(){
 		  
 		  div = $("#deal");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div,function(){
+			if(div.is(":visible")) {
+			  loadImages(div,function(){
 				$('#counter').countdown({
 					timestamp : (new Date()).getTime() + 11*24*60*60*1000
 				});
-			});  
+			  });  
+		    }
 		  }
 		  div = $("#new-products");
 		  if($(this).scrollTop() >= div.position().top-400) {
@@ -370,9 +372,11 @@ $(document).ready(function(){
 		  }
 		  div = $("#top-brands");
 		  if($(this).scrollTop() >= div.position().top-400) {
-			loadImages(div,function(){
-				head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons");
-			});  
+			if(div.is(":visible")) {
+				loadImages(div,function(){
+					head.load("https://platform-api.sharethis.com/js/sharethis.js#property=590f03b42c145800128d5487&product=inline-share-buttons");
+				}); 
+			}
 		  }
 		  div = $("#contact-form");
 		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
