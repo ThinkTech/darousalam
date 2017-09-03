@@ -32,8 +32,8 @@
 							<div class="sap_tabs">	
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
-										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Identification</span></li>
-										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Inscription</span></li>
+										<li class="resp-tab-item tab_item-1" aria-controls="tab_item-0"><span>Identification</span></li>
+										<li class="resp-tab-item tab_item-2" aria-controls="tab_item-1"><span>Inscription</span></li>
 									</ul>		
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">

@@ -39,14 +39,14 @@ const saveOrder = function() {
 	}, function(error) {
 		alert("error");
 	});
+	const top = $("> div",wizard).position().top;
 	wizard.fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 		$("#cart ul li").remove();
 		$(".simpleCart_quantity").html(0);
 		$("#cart .total").html(0);
 	});
-	const top = $("#cart").position().top;
-	page.wait({top : top});
+	page.wait({top : top+50});
 };
 
 $(document).ready(function(){
@@ -72,6 +72,14 @@ $(document).ready(function(){
 				page.release();
 			});
 		}
+	});
+	
+	$(".tab_item-1").click(function(){
+		$("#login .modal_body_right").removeClass("social-login");
+	});
+	
+	$(".tab_item-2").click(function(){
+		$("#login .modal_body_right").addClass("social-login");
 	});
 	
 	$(".scroll").click(function(event){		
