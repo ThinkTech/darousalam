@@ -34,6 +34,9 @@ const saveOrder = function() {
 	const form = $("form",wizard);
 	app.post(form.attr("action"),form.serialize(),function(response) {
 		$('html,body').animate({scrollTop:0},100,function(){
+			$("#cart ul li").remove();
+			$(".simpleCart_quantity").html(0);
+			$("#cart .total").html(0);
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 		});
 	}, function(error) {
@@ -42,9 +45,6 @@ const saveOrder = function() {
 	const top = $("> div",wizard).position().top;
 	wizard.fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
-		$("#cart ul li").remove();
-		$(".simpleCart_quantity").html(0);
-		$("#cart .total").html(0);
 	});
 	page.wait({top : top+50});
 };
