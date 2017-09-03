@@ -381,6 +381,12 @@ $(document).ready(function(){
 				  div.css("top",top);
 				}
 		  }
-		  
+		  div = $("#checkout-wizard");
+		  if($(this).scrollTop() > div.offset().top || div.offset().top > $(this).scrollTop()) {
+				if(!div.is(":hidden")) {
+				  const top = $(this).scrollTop()+20;
+				  $("> div",div).css("top",top);
+				}
+		  }
 	});
 });
