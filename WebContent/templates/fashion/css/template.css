@@ -3627,6 +3627,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
+	.banner{background:none}
 	.shopping-payment ol {display : none;}
 	.shopping-payment{margin-top:-9px}
 	.modal-title {

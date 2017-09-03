@@ -334,7 +334,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
-										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -349,7 +349,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
-										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -364,7 +364,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
-										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -379,7 +379,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
-										data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
 										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
@@ -2587,7 +2587,7 @@
 		<div class="footer-copy">
 			<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 			<div class="payment-methods">
-			 <img  data-src="templates/fashion/images/payment-methods.png"/>
+			 <img data-delay="true" data-src="templates/fashion/images/payment-methods.png"/>
 			</div>
 			<div>
 				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>

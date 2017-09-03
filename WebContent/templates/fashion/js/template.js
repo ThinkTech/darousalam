@@ -351,6 +351,7 @@ $(document).ready(function(){
 				        $(".total",cart).html(total.toLocaleString("fr-FR"));
 					}
 				});
+				loadImages($("#checkout-wizard"));
 			});  
 		  }
 		  
@@ -379,6 +380,12 @@ $(document).ready(function(){
 			loadImages(div);  
 		  }
 		  div = $("#top-brands");
+		  if($(this).scrollTop() >= div.position().top-400) {
+			if(div.is(":visible")) {
+				loadImages(div); 
+			}
+		  }
+		  div = $("#footer");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			if(div.is(":visible")) {
 				loadImages(div,function(){
