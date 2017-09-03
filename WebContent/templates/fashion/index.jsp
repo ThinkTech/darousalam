@@ -2585,7 +2585,6 @@
 			</div>
 		</div>
 		<div class="footer-copy">
-			<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 			<div class="payment-methods">
 			 <img data-delay="true" data-src="templates/fashion/images/payment-methods.png"/>
 			</div>
@@ -2597,6 +2596,7 @@
 			</div>
 		</div>
 	</div>
+	<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 	 <div class="clearfix"> </div>
 <!-- //footer -->
 <i id="offline-message" data-info="pas de connexion internet"></i>
