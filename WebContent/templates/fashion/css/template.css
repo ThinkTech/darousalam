@@ -688,6 +688,7 @@ select {
 .w3l_login{
 	float:left;
 }
+
 .w3l_logo{
 	float: left;
     margin-left: 15em;
@@ -3477,6 +3478,11 @@ td.invert-image a img {
 	border: 1px solid #ff9b05;
 	color : #ff9b05;
 }
+
+.gigya-login-providers-container, .gigya-login-providers-container td, .gigya-login-providers-container th, .gigya-login-providers-container tr {
+	background : transparent;
+}
+
 
 /*-- //checkout --*/
 /*-----start-responsive-design------*/
