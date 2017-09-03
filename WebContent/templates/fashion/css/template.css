@@ -1680,11 +1680,8 @@ a .total {
 }
 
 #products .container > div.wthree_banner_bottom_right {
-    padding: 20px;
-    padding-left: 0px;
+    padding: 0;
     margin-left: -2px;
-    padding-top: 0px;
-    padding-bottom: 10px;
 }
 
 #products .container .gender {
@@ -3848,8 +3845,11 @@ div#horizontalTab1 ul {
 		margin-left: 4em;
 	}
 	.nav-tabs > li {
-		float: none;
-		text-align: center;
+		text-align: left;
+	    display: inline-block;
+	    width: 50%;
+	    margin: 0;
+	    padding: 0;
 	}
 	.agile_ecommerce_tab_left {
 		float: none;
@@ -3860,9 +3860,6 @@ div#horizontalTab1 ul {
 	}
 	.w3_hs_bottom ul, .flex_ecommerce {
 		padding: 7em 0 0;
-	}
-	.wthree_banner_bottom_right {
-		margin: 2em 0 0;
 	}
 	.agileinfo_banner_bottom1_grid_left {
 		min-height: 240px;
@@ -4357,7 +4354,7 @@ div#horizontalTab1 ul {
 		font-size: .6em;
 	}
 	.box_1 {
-		margin-top: 65px;
+		margin-top: 98px;
 		float: left;
 	}
 	.search {
@@ -4470,7 +4467,7 @@ div#horizontalTab1 ul {
 		font-size: 1em;
 	}
 	.special-deals h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
-		font-size: 1.2em;
+		font-size: 1.3em;
 		margin-top: 23px;
 	}
 	.banner2 {
