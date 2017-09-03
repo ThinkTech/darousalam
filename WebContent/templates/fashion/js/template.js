@@ -242,7 +242,7 @@ $(document).ready(function(){
 		$(this).parent().fadeOut();
 	});
 	$(window).scroll(function(){
-		  div = $("#home-tab-women");
+		  var div = $("#home-tab-women");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			loadImages(div,function(){
 				$(".nav-tabs li a").click(function(){
@@ -393,7 +393,7 @@ $(document).ready(function(){
 				}
 		  }
 	});
-	div = $("#top-brands");
+	var div = $("#top-brands");
 	if(div.is(":visible")){
 		$("#flexiselDemo1").flexisel({
 			visibleItems: 4,
