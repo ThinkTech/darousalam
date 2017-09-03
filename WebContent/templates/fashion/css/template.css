@@ -1342,6 +1342,7 @@ a.simpleCart_empty {
 
 .shopping-payment ol {
 	margin-left : 38px;
+	display : none;
 }
 
 .shopping-payment li {
@@ -4062,6 +4063,7 @@ td.invert-image a img {
     .checkout-wizard-steps {padding: 0px;}
     .shopping-payment ol {margin-left: 9px;}
     .modal-open .modal{margin-top:-40px}
+    .shopping-payment li {font-size: 9px;}
 }
 @media (max-width:640px){
 	.shopping-payment{margin-top:-9px}
