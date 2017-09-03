@@ -1455,8 +1455,6 @@ a .total {
 	margin-right : 5px;
 }
 
-.captcha {margin-bottom:15px}
-
 .easyWizardSteps {list-style:none;width:auto;margin:0;padding:0;text-align:center;}
 .easyWizardSteps li {
 	font-size: 1.1em;
@@ -3656,9 +3654,6 @@ div#horizontalTab1 ul {
 	.header {
 		padding: 1em 0 0;
 	}
-	.dropdown-menu.columns-3 {
-		min-width: auto;
-	}
 	.w3_hs_bottom ul, .flex_ecommerce {
 		padding: 5em 0 0;
 	}
@@ -3702,21 +3697,6 @@ div#horizontalTab1 ul {
 	.footer-copy-pos {
 		right: 4%;
 	}
-	.w3ls_dresses_grid_right_left {
-		width: 77%;
-	}
-	select.select_item {
-		width: 100%;
-	}
-	.w3ls_dresses_grid_right_grid2_right {
-		width: 40%;
-	}
-	.agileinfo_new_products_grid_dresses {
-		padding-left: 0 !important;
-	}
-	.agileinfo_new_products_grid_dresses:nth-child(2) {
-		margin-bottom: 0;
-	}
 	.w3_hs_bottom_sub1 ul {
 		padding: 6.5em 0 0 !important;
 	}
@@ -3756,6 +3736,7 @@ div#horizontalTab1 ul {
 	.modal_body_right h4 {font-size: 1.1em;margin-top: -20px;margin-bottom: 15px;}
 }
 @media (max-width: 600px){
+	.captcha{margin-bottom:20px}
 	.modal-dialog {
 		width: 560px;
 	}
@@ -3862,38 +3843,6 @@ div#horizontalTab1 ul {
 	.w3_hs_bottom ul, .flex_ecommerce {
 		padding: 7em 0 0;
 	}
-	.agileinfo_banner_bottom1_grid_left {
-		min-height: 240px;
-	}
-	.agileinfo_banner_bottom1_grid_left h3 span {
-		font-size: 2em;
-	}
-	.agileinfo_banner_bottom1_grid_left {
-		padding: 3em 2em 0 0;
-	}
-	.agileinfo_banner_bottom1_grid_right h4 {
-		width: 30%;
-	}
-	.special-deals h2:before, .container-bg h3:before, .top-brands h3:before, .w3l_related_products h3:before, .team h3:before, .mail h3:before {
-		left: 7%;
-		width: 20%;
-	}
-	.special-deals h2:after, .container-bg h3:after, .top-brands h3:after, .w3l_related_products h3:after, .team h3:after, .mail h3:after {
-		right: 36%;
-		width: 20%;
-	}
-	.w3agile_special_deals_grids,.agileinfo_new_products_grids {
-		margin: 1em 0 0;
-	}
-	.w3agile_special_deals_grid_left_grid_pos h4 {
-		font-size: 1.5em;
-	}
-	.wmuSliderPagination {
-		left: 44%;
-	}
-	.w3agile_special_deals_grid_right {
-		width: 100%;
-	}
 	.agileinfo_new_products_grid {
 		width: 100%;
 		float: none;
@@ -3920,177 +3869,7 @@ div#horizontalTab1 ul {
 	.w3agile_newsletter_right input[type="email"] {
 		width: 82%;
 	}
-	.w3_footer_grid h3 {
-		font-size: 1.2em;
-	}
-	.w3_footer_grid {
-		float: none;
-		width: 100%;
-	}
-	.agileinfo_new_products_grid:nth-child(3) {
-		margin: 0 0 2em;
-	}
-	.w3_footer_grid:nth-child(2) {
-		margin: 2em 0;
-	}
-	.w3_footer_grid:nth-child(3) {
-		margin:0em 0 2em;
-	}
-	.w3_footer_grid h3 {
-		margin-bottom: 1em;
-	}
-	ul.multi-column-dropdown h6 {
-		font-size: 1.3em;
-	}
-	ul.multi-column-dropdown {
-		width: 70%;
-	}
-	.banner1 h2, .banner2 h2, .banner3 h2, .banner4 h2, .banner5 h2, .banner6 h2, .banner7 h2, .banner8 h2, .banner9 h2 {
-		padding: 2em 0 0 1em;
-		font-size: 1.2em;
-	}
-	.banner1, .banner2, .banner3, .banner4, .banner5, .banner6, .banner7, .banner8, .banner9 {
-		min-height: 190px;
-	}
-	.nbs-flexisel-item > img {
-		margin: 0 auto;
-	}
-	.w3ls_dresses_grid_left_grid h3 {
-		font-size: 1.3em;
-	}
-	.w3ls_dresses_grid_left_grid h3:before {
-		width: 16%;
-	}
-	.w3ls_dresses_grid_left_grid_sub {
-		padding: 1em 1.5em 1em;
-	}
-	.dresses_img_hover_pos {
-		right: 11%;
-	}
-	.w3ls_dresses_grid_right_left {
-		width: 100%;
-	}
-	.agileinfo_new_products_grid_dresses {
-		width: 100% !important;
-	}
-	.dresses_grid_pos {
-		right: 26%;
-	}
-	.w3_hs_bottom_sub1 ul {
-		padding: 7.5em 0 0 !important;
-	}
-	.w3ls_dresses_grid_right_grid3:nth-child(6) {
-		margin: 0;
-	}
-	.w3l_related_products h3:before {
-		left: 3% !important;
-	}
-	#flexiselDemo2 {
-		margin: 1em 0 0;
-	}
-	.single-right h3,.additional_info_grid h3,.review_grids h5 {
-		font-size: 1.3em;
-	}
-	.color-quality-right {
-		margin-left: 4em;
-	}
-	.occasional {
-		margin: 2em 0;
-	}
-	.additional_info_grid {
-		padding: 1em;
-	}
-	.additional_info_sub_grid_rightl {
-		width: 100%;
-		float: none;
-	}
-	.additional_info_sub_grid_left {
-		padding: 0;
-	}
-	.additional_info_sub_grid_rightr {
-		width: 100%;
-		float: none;
-		margin: 1em 0 0;
-	}
-	.review_grids input[type="text"], .review_grids input[type="email"], .review_grids textarea {
-		width: 100%;
-	}
-	.review_grids input[type="email"] {
-		margin: 1em 0 0;
-	}
-	.banner3 {
-		background-position: -80px 0px;
-	}
-	.banner6 {
-		background-position: -100px 0px;
-	}
-	.typo {
-		padding: 0 0 2em;
-	}
-	.w3l_faq_grid h3 {
-		font-size: 1em;
-	}
-	.mail h3:before {
-		left: 15% !important;
-	}
-	.agile_mail_grids {
-		margin: 1em 0 0;
-	}
-	.contact-left h4 {
-		font-size: 1.2em;
-	}
-	.contact-left input[type="text"], .contact-left input[type="email"] {
-		width: 100%;
-	}
-	.contact-left input[type="email"] {
-		margin:1.5em 0;
-	}
-	.contact-left textarea {
-		min-height: 150px;
-	}
-	.contact-left input[type="submit"] {
-		width: 55%;
-	}
-	.contact-bottom iframe {
-		min-height: 200px;
-	}
-	.timetable_sub th, .timetable_sub td {
-		display: block;
-	}
-	.timetable_sub th {
-		border-right: none;
-		border-bottom: none;
-	}
-	tr.rem1, tr.rem2, tr.rem3 {
-		border: 1px solid #D7D7D7;
-		padding-bottom: 2em;
-		display: block;
-		border-top: none;
-	}
-	.timetable_sub td {
-		border: none;
-	}
-	.close1, .close2, .close3 {
-		right: 190px;
-		top: -4px;
-	}
-	.timetable_sub th:nth-child(1) {
-		border-left: none;
-	}
-	.checkout-left-basket {
-		width: 100%;
-		float: none;
-	}
-	.checkout-right-basket {
-		float: none;
-		margin: 3em 0 0 0em;
-	}
-	.checkout-right-basket a {
-		padding: 10px 55px;
-	}
-	.entry.value-minus, .entry.value-plus,.entry.value {
-		margin: 0 auto !important;
-	}
+	
 	.single-left {
 		width: 100%;
 	}
@@ -4133,40 +3912,6 @@ div#horizontalTab1 ul {
 	.agileinfo_banner_bottom1_grid_right {
 		min-height: 255px;
 		padding:4.5em 0 0 !important;
-	}
-	.w3agile_special_deals_grid_left_grid_pos1 {
-		width: 60px;
-		height: 60px;
-	}
-	.w3agile_special_deals_grid_left_grid_pos1 h5 {
-		font-size: 1em;
-		padding: 1em 0 0;
-	}
-	.w3agile_special_deals_grid_left_grid_pos h4 {
-		font-size: 1.2em;
-	}
-	.w3agile_special_deals_grid_right_pos h4, .w3agile_special_deals_grid_right_pos h5 {
-		font-size: 1.5em;
-	}
-	.special-deals h2:before, .container-bg h3:before, .top-brands h3:before, .w3l_related_products h3:before, .team h3:before, .mail h3:before {
-		left: 1%;
-	}
-	.w3ls_dresses_grid_left_grid_sub {
-		width: 80%;
-	}
-	.w3ls_dresses_grid_right_grid2_left {
-		float: none;
-	}
-	.w3ls_dresses_grid_right_grid2_right {
-		width: 75%;
-		float: none;
-		margin: 1em 0 0;
-	}
-	.w3l_related_products h3:before {
-		left: -1% !important;
-	}
-	td.invert-image a img {
-		width: 45%;
 	}
 	.color-quality-left {
 		float: none;
@@ -4211,23 +3956,11 @@ div#horizontalTab1 ul {
 	.box_1 {
 		margin-top: 60px;
 	}
-	.banner h3 {
-		font-size: 1em;
-	}
-	.banner {
-		min-height: 310px;
-	}
 	.search_box:checked~.search_form {
 		width: 340px;
 	}
 	.search_form input[type='text'] {
 		width: 221px;
-	}
-	.banner1 h2, .banner2 h2, .banner3 h2, .banner4 h2, .banner5 h2, .banner6 h2, .banner7 h2, .banner8 h2, .banner9 h2 {
-		font-size: 1em;
-	}
-	.banner1, .banner2, .banner3, .banner4, .banner5, .banner6, .banner7, .banner8, .banner9 {
-		min-height: 150px;
 	}
 	.special-deals h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.4em;
@@ -4243,32 +3976,9 @@ div#horizontalTab1 ul {
 	.resp-tab-item {
 		padding: 5px 21px;
 	}
-	.review_grids input[type="submit"] {
-		font-size: 14px;
-		width: 100%;
-	}
-	.banner7 {
-		background-position: -75px 0px;
-	}
 	.checkout h3 {
 		margin: 0 0 2em;
 		line-height: 1.5em;
-	}
-	.banner10 h2 {
-		font-size:1.5em;
-	}
-	.banner10 {
-		min-height: 140px;
-	}
-	.wthree_team_grid {
-		float: none;
-		width: 100%;
-	}
-	.wthree_team_grid:nth-child(2) {
-		margin: 2em 0;
-	}
-	.wthree_team_grid:nth-child(4) {
-		margin: 2em 0 0;
 	}
 	.navbar-nav > li > a {
 		font-size: 13px;
@@ -4290,6 +4000,7 @@ div#horizontalTab1 ul {
 	}
 }
 @media (max-width:375px){
+	.captcha{margin-bottom:0px}
 	.wthree_banner_bottom_left,.w3ls_about_grid_left,.wthree_banner_bottom_right,.w3agile_special_deals_grid_left,.w3agile_special_deals_grid_right,.w3agile_newsletter_right,.w3agile_newsletter_left {
 		padding: 0;
 	}
@@ -4298,12 +4009,6 @@ div#horizontalTab1 ul {
 	}
 	.agileinfo_banner_bottom1_grid_right h4 {
 		width: 40%;
-	}
-	ul.multi-column-dropdown h6 {
-		font-size: 1.1em;
-	}
-	ul.multi-column-dropdown {
-		width: 100%;
 	}
 	.modal-dialog {
 		width: 348px;
@@ -4371,138 +4076,23 @@ div#horizontalTab1 ul {
 	.search_form input[type='text'] {
 		width: 160px;
 	}
-	.navbar-toggle {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-	.banner h3 {
-		width: 90%;
-	}
-	.banner h3 {
-		margin: 6em 0 0;
-	}
-	.banner {
-		min-height: 280px;
-	}
-	.agileinfo_banner_bottom1_grid_left {
-		padding: 2em 1em 0 0;
-	}
-	.agileinfo_banner_bottom1_grid_right h4 {
-		width: 50%;
-		margin-bottom:1em;
-	}
-	.agileinfo_banner_bottom1_grid_right {
-		min-height: 215px;
-		padding: 3.5em 0 0 !important;
-	}
-	.w3agile_special_deals_grid_right_pos h4, .w3agile_special_deals_grid_right_pos h5 {
-		font-size: 1.3em;
-	}
 	.modal_body_right p {
 		font-size: 13px !important;
 	}
 	.modal_body_right h4 {
 		font-size: 1.1em;
 	}
-	.sliderfig {
-		margin: 1em 0 0;
-	}
-	.w3_footer_grid {
-		padding: 0;
-	}
-	.wmuSliderPagination {
-		left: 41%;
-	}
-	.agileinfo_banner_bottom1_grid_left a, .team-bottom a {
-		font-size: 14px;
-	}
-	.top-brands img {
-		width: 60%;
-	}
-	.w3_footer_grid ul li,.contact-left ul li,.contact-left input[type="text"], .contact-left input[type="email"],.contact-left textarea,.occasional label,.review_grids input[type="text"], .review_grids input[type="email"], .review_grids textarea,.breadcrumb_dress ul li,.panel-body ul li a,.ecommerce_color ul li a,select.select_item,.color-quality ul li a {
-		font-size: 13px;
-	}
-	.w3_footer_grid h3 {
-		font-size: 1em;
-	}
-	.footer {
-		padding: 2em 0;
-	}
-	.dropdown-menu.columns-3 {
-		padding: 10px 0px;
-	}
-	.banner1 h2, .banner2 h2, .banner3 h2, .banner4 h2, .banner5 h2, .banner6 h2, .banner7 h2, .banner8 h2, .banner9 h2 {
-		font-size: .84em;
-	}
-	.banner1, .banner2, .banner3, .banner4, .banner5, .banner6, .banner7, .banner8, .banner9 {
-		min-height: 135px;
-	}
-	.w3ls_dresses_grid_left_grid h3 {
-		font-size: 1.2em;
-		padding-left: 3em;
-	}
-	.w3ls_dresses_grid_left,.w3ls_dresses_grid_right_left {
-		padding: 0;
-	}
-	.w3ls_dresses_grid_left_grid_sub {
-		width: 100%;
-	}
-	.dresses_img_hover_pos h4 {
-		font-size: 1.2em;
-	}
-	.dresses_img_hover_pos h4 span {
-		width: 55px;
-		height: 55px;
-		line-height: 3;
-	}
-	.w3ls_dresses_grid_right {
-		margin: 1em 0 0;
-	}
-	.w3ls_dresses_grid_right_left:nth-child(2) {
-		margin: 1em auto 0;
-	}
-	.w3ls_dresses_grid_right_grid1_pos h3, .w3ls_dresses_grid_right_grid1_pos1 h3 {
-		font-size: 1.2em;
-	}
-	.w3ls_dresses_grid_right_grid2_left h3 {
-		font-size: 1em;
-	}
+	
 	.special-deals h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.3em;
 		margin-top: 23px;
 	}
-	.banner2 {
-		background-position: -105px 0px;
-	}
-	.banner4 {
-		background-position: -95px 0px;
-	}
-	.banner6 {
-		background-position: -57px 0px;
-	}
-	.single-right h3, .additional_info_grid h3, .review_grids h5 {
-		font-size: 1.1em;
-	}
-	.single-right {
-		padding: 0;
-	}
+
 	.description h5 {
 		font-size: .9em;
 	}
 	.color-quality-left h5, .color-quality-right h5, .occasional h5 {
 		font-size: .8em;
-	}
-	.w3l_faq_grid h3 {
-		font-size: 14px;
-	}
-	.wthree_team_grids p {
-		margin: 2em auto 0;
-	}
-	.team-bottom h3 {
-		font-size: 1em;
-	}
-	.faq {
-		padding: 2em 0 0;
 	}
 	.grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
 		font-size: 1.2em;
@@ -4510,8 +4100,5 @@ div#horizontalTab1 ul {
 	.contact-left input[type="submit"] {
 		width: 100%;
 		font-size: 14px;
-	}
-	.close1, .close2, .close3 {
-		right: 111px;
 	}
 }
