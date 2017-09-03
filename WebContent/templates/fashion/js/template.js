@@ -51,7 +51,11 @@ const saveOrder = function() {
 
 $(document).ready(function(){
 	
-	$('.wmuSlider').wmuSlider();
+	$('.wmuSlider').each(function(index,element){
+		if($(element).is(":visible")){
+			$(element).wmuSlider();
+		}
+	});
 
 	$("body").css("opacity",1).click(function(){
 		$(".product-view").hide();
@@ -91,10 +95,13 @@ $(document).ready(function(){
 	$(".banner a h4").addClass("animated zoomIn");
 	$(".banner h6").addClass("animated zoomIn");
 	
-	$('#counterTop').countdown({
-		timestamp : (new Date()).getTime() + 11*24*60*60*1000
-	});
-
+	const counterTop = $('#counterTop');
+	
+	if(counterTop.is(":visible")){
+		counterTop.countdown({
+			timestamp : (new Date()).getTime() + 11*24*60*60*1000
+		});	
+	}
 	
 	$(".cart a").click(function(){
 		const cart = $("#cart");
@@ -194,28 +201,6 @@ $(document).ready(function(){
 	$("#confirmation-close").click(function(){
     	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ animations[Math.floor(Math.random() * animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
-	});
-	$("#flexiselDemo1").flexisel({
-		visibleItems: 4,
-		animationSpeed: 1000,
-		autoPlay: true,
-		autoPlaySpeed: 3000,    		
-		pauseOnHover: true,
-		enableResponsiveBreakpoints: true,
-		responsiveBreakpoints: { 
-			portrait: { 
-				changePoint:480,
-				visibleItems: 1
-			}, 
-			landscape: { 
-				changePoint:640,
-				visibleItems:2
-			},
-			tablet: { 
-				changePoint:768,
-				visibleItems: 3
-			}
-		}
 	});
 	$(".contact").click(function(event){
 		const div = $("#contact-form");
@@ -382,7 +367,30 @@ $(document).ready(function(){
 		  div = $("#top-brands");
 		  if($(this).scrollTop() >= div.position().top-400) {
 			if(div.is(":visible")) {
-				loadImages(div); 
+				loadImages(div,function(){
+					$("#flexiselDemo1").flexisel({
+						visibleItems: 4,
+						animationSpeed: 1000,
+						autoPlay: true,
+						autoPlaySpeed: 3000,    		
+						pauseOnHover: true,
+						enableResponsiveBreakpoints: true,
+						responsiveBreakpoints: { 
+							portrait: { 
+								changePoint:480,
+								visibleItems: 1
+							}, 
+							landscape: { 
+								changePoint:640,
+								visibleItems:2
+							},
+							tablet: { 
+								changePoint:768,
+								visibleItems: 3
+							}
+						}
+					});
+				}); 
 			}
 		  }
 		  div = $("#footer");
