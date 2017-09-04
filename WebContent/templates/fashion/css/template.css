@@ -1847,9 +1847,14 @@ a .total {
     border: none;
 }
 
+.modal_body_left1 {
+	padding-bottom: 10px;
+}
+
 .modal-content {
 	background : #e6dfdf;
 	padding-top : 0px;
+	padding-bottom: 5px;
 }
 
 .modal-header .close {
@@ -3811,10 +3816,6 @@ div#horizontalTab1 ul {
 	}
 	.hidden-xs {
 		display: none !important;
-	}
-	.modal_body_left1 {
-		padding-right: 2em !important;
-		padding-bottom: 2em;
 	}
 	h3.other-nw {
 		margin:0em 0 2em;
