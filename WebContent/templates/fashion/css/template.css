@@ -1849,7 +1849,6 @@ a .total {
 
 .modal-content {
 	background : #e6dfdf;
-	padding-bottom: 20px;
 	padding-top : 0px;
 }
 
@@ -1870,7 +1869,7 @@ a .total {
     padding:0em 2em 2em;
 }
 .modal-dialog {
-    margin: 3.8em auto 0;
+    margin: 5px auto 0;
 }
 .modal-header {
     border: none;
@@ -3548,9 +3547,6 @@ div#horizontalTab1 ul {
 	}
 	.nav > li > a {
 		padding: 10px 21px;
-	}
-	.modal-dialog {
-		margin: 3em auto 0;
 	}
 	.w3l_logo {
 		margin-left: 6em;
