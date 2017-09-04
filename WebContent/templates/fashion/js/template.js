@@ -402,7 +402,7 @@ $(document).ready(function(){
 		  div = $("#checkout-wizard");
 		  if(top > div.offset().top || div.offset().top > $(this).scrollTop()) {
 				if(!div.is(":hidden")) {
-				  const top = $(this).scrollTop()+20;
+				  const top = $(this).scrollTop();
 				  $("> div",div).css("top",top);
 				}
 		  }

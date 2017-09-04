@@ -3604,7 +3604,7 @@ div#horizontalTab1 ul {
         margin-top: 16px;
         margin-bottom: 15px;
     }
-    .shipping-address,.shopping-payment{width:90%}
+    .shipping-address,.shopping-payment{width:90%;padding:5px}
     .easyWizardSteps li {height: 25px;width: 50px;font-size :0px;padding-top: 3px; position: relative;top: 4px;}
     .easyWizardSteps li span{font-size : 14px;}
     .checkout-wizard-content p{font-size:9px;margin:0;margin-left:10px;margin-top:10px;margin-right:5px}
