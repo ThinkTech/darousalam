@@ -335,8 +335,6 @@
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
-									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
-										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
 								<div class="payment mastercard-payment">
 									<h4>
@@ -350,8 +348,6 @@
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
-									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
-										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
 								<div class="payment express-payment">
 									<h4>
@@ -365,8 +361,6 @@
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
-									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
-										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
 								<div class="payment discover-payment">
 									<h4>
@@ -380,8 +374,6 @@
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
-									<a class="v-learn v-learn-default" href="#" data-locale="fr_FR"><i
-										class="fa fa-question" aria-hidden="true"></i>Aide</a>
 								</div>
 								<div class="payment orange-payment">
 									<h4>
@@ -427,6 +419,7 @@
 										montant de votre commande en espèces, plus les frais de
 										livraison.</h6>
 								</div>
+							</div>
 								<div class="shopping-amount">
 									<span><span>Commande : </span><span><b>30 000 CFA</b></span></span> 
 									<span><span>Frais de livraison : </span><span><b>1 500 CFA</b></span></span> 

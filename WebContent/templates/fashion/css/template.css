@@ -4033,7 +4033,9 @@ div#horizontalTab1 ul {
 	#order-confirmation > div {height: 190px;}
 }
 @media (max-width:375px){
-	.checkout-wizard-content{height:315px}
+	.checkout-wizard-content fieldset > div > span {line-height: 1em;}
+	.checkout-wizard-content fieldset label {top: -2px}
+	.checkout-wizard-content{height:320px}
 	.simpleCart_shelfItem p a {font-size: 11px;}
 	.shoppingCart ul{height : 120px;}
 	.shoppingCart li {padding: 3px 3px;}
@@ -4069,7 +4071,8 @@ div#horizontalTab1 ul {
        margin-bottom: 0px;
        margin-top: 5px;
     }
-	#checkout-wizard select {width:90%;display:block;padding: 9px 10px;}
+	#checkout-wizard select {width:90%;display:block;padding: 9px 10px;margin-top: 10px;
+    margin-bottom: 10px;}
 	.easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit {width:70px;font-size:11px}
 	.shipping-address, .shopping-payment {width: 88%;overflow: hidden;}
 	.checkout-wizard-content fieldset > div > h5 {font-size: 9px;}
