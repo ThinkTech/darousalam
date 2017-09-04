@@ -395,15 +395,15 @@ $(document).ready(function(){
 		  div = $("#contact-form");
 		  if(top > div.offset().top || div.offset().top > $(this).scrollTop()) {
 				if(!div.is(":hidden")) {
-				  const top = $(this).scrollTop()+20;
-				  div.css("top",top);
+				  const top = $(this).scrollTop();
+				  div.css("top",top+5);
 				}
 		  }
 		  div = $("#checkout-wizard");
 		  if(top > div.offset().top || div.offset().top > $(this).scrollTop()) {
 				if(!div.is(":hidden")) {
 				  const top = $(this).scrollTop();
-				  $("> div",div).css("top",top);
+				  $("> div",div).css("top",top+5);
 				}
 		  }
 	});
