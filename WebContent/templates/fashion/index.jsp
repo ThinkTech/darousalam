@@ -744,6 +744,7 @@
    <div class="clearfix"> </div>
 <!-- footer -->
 	<div id="footer" class="footer">
+	   <a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 		<div class="container">
 			<div class="w3_footer_grids">
 				<div class="col-md-3 w3_footer_grid">
@@ -800,7 +801,6 @@
 			</div>
 		</div>
 	</div>
-	<a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
 	 <div class="clearfix"> </div>
 <!-- //footer -->
 <i id="offline-message" data-info="pas de connexion internet"></i>
