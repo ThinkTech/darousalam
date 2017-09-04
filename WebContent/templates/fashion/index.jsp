@@ -428,10 +428,9 @@
 										livraison.</h6>
 								</div>
 								<div class="shopping-amount">
-									<span><span>Commande : </span><span><b>30 000
-												FCFA</b></span></span> <span><span>Frais de livraison : </span><span><b>1
-												500 FCFA</b></span></span> <span><span>Total : </span><span><b>31
-												500 FCFA</b></span></span>
+									<span><span>Commande : </span><span><b>30 000 CFA</b></span></span> 
+									<span><span>Frais de livraison : </span><span><b>1 500 CFA</b></span></span> 
+									<span><span>Total : </span><span><b>31 500 CFA</b></span></span>
 								</div>
 							</div>
 						</fieldset>
