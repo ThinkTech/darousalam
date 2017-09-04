@@ -1851,6 +1851,10 @@ a .total {
 	padding-bottom: 10px;
 }
 
+.modal_body_right {
+    min-height: 100px;
+}
+
 .modal-content {
 	background : #e6dfdf;
 	padding-top : 0px;
