@@ -666,18 +666,6 @@ body a:hover{
 	text-decoration:none;
 }
 
-select {
-	outline:none;
-	padding:12px 10px;
-	width:47.66%;
-	background:#fff;
-	font-size:14px;
-	color:#3a0b03;
-	border: 1px solid #ff9b05;
-	border-radius: 5px;
-	font-family : Exo;
-}
-
 .w3l_login{
 	float:left;
 }
@@ -1054,6 +1042,20 @@ a .total {
 	color : #fff;
 }
 
+#checkout-wizard select {
+	outline:none;
+	padding:12px 10px;
+	width:47.66%;
+	background:#fff;
+	font-size:14px;
+	color:#3a0b03;
+	border: 1px solid #ff9b05;
+	border-radius: 5px;
+	font-family : Exo;
+	margin-bottom : 30px;
+}
+
+
 #checkout-wizard {
 	width: 100%;
     height: 100%;
@@ -1065,6 +1067,7 @@ a .total {
 
 #checkout-wizard fieldset{
 	padding: 1em;
+	padding-bottom : 20px;
     color: #3a0b03;
     background : #fff;
     font-size: 19px;
@@ -1074,7 +1077,7 @@ a .total {
     margin: auto;
     text-align: justify;
     font-family: Tahoma;
-    min-height : 225px;
+    min-height : 320px;
 	box-shadow: 
 		inset 0 0 0 16px #fff, 
 		inset 0 0 0 17px #fff, 
@@ -1138,7 +1141,7 @@ a .total {
 }
 
 .checkout-wizard-content fieldset > div > span {
-	line-height : 4em;
+	line-height : 2em;
 	width : 100%;
 	display : block;
 	white-space : nowrap;
@@ -1174,7 +1177,7 @@ a .total {
 
 .checkout-wizard-steps {
 	clear : both;
-	padding : 20px;
+	padding : 0px;
 	width : 100%;
 	position: relative;
 }
@@ -1344,8 +1347,9 @@ a .total {
 }
 
 .shopping-amount {
-   margin-top : 25px; 
    font-family : monospace;	
+   float: right;
+    margin-right: 15px;
 }
 
 .shopping-amount > span {
@@ -1478,7 +1482,6 @@ a .total {
     cursor: pointer;
     width: 80px;
     border-radius: 2px;
-    margin-bottom: 20px;
     border: 2px solid #fff;
     border-radius: 5px;
     background: #ff9b05;
@@ -4033,6 +4036,7 @@ div#horizontalTab1 ul {
 	#order-confirmation > div {height: 190px;}
 }
 @media (max-width:375px){
+	#checkout-wizard fieldset {min-height : 225px;}
 	.checkout-wizard-content fieldset > div > span {line-height: 1em;}
 	.checkout-wizard-content fieldset label {top: -2px}
 	.checkout-wizard-content{height:320px}
@@ -4071,7 +4075,7 @@ div#horizontalTab1 ul {
        margin-bottom: 0px;
        margin-top: 5px;
     }
-	#checkout-wizard select {width:90%;display:block;padding: 9px 10px;margin-top: 10px;
+	#checkout-wizard select {font-size:11px;width:90%;display:block;padding: 9px 10px;margin-top: 10px;
     margin-bottom: 10px;}
 	.easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit {width:70px;font-size:11px}
 	.shipping-address, .shopping-payment {width: 88%;overflow: hidden;}

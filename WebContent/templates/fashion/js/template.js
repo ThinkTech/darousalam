@@ -50,6 +50,10 @@ const saveOrder = function() {
 
 page.displayProducts = function() {
 	app.get("commerce/products",function(products){
+		$("body").css("opacity",1).click(function(){
+			$(".product-view").hide();
+		});
+		page.wait();
 		page.render($("#products"),products,function(div){
 			const details = $("#product-details");
 			$.each($(".tabs",div),function(index,element){
@@ -152,23 +156,21 @@ page.displayProducts = function() {
 			        $(".total",cart).html(total.toLocaleString("fr-FR"));
 				}
 			});
-			$("body").css("opacity",1).click(function(){
-				$(".product-view").hide();
-			});
 			page.loadImages($("#checkout-wizard"));
+			page.release();
 		});
 	});
 };
 
 $(document).ready(function(){
 	
-	page.displayProducts();
-	
 	$('.wmuSlider').each(function(index,element){
 		if($(element).is(":visible")){
 			$(element).wmuSlider();
 		}
 	});
+	
+	page.displayProducts();
 	
 	$(".w3l_login a").click(function(event){
 		if(!$(this).data("loaded")) {
