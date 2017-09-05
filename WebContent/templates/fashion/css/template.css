@@ -1342,7 +1342,7 @@ a .total {
 }
 
 .shopping-payment h4 {
-	margin-top: 8px;
+	margin-top: 11px;
     line-height: 1em;
 }
 
@@ -4036,7 +4036,7 @@ div#horizontalTab1 ul {
 	#order-confirmation > div {height: 190px;}
 }
 @media (max-width:375px){
-	#checkout-wizard fieldset {min-height : 225px;}
+	#checkout-wizard fieldset {min-height : 230px;}
 	.checkout-wizard-content fieldset > div > span {line-height: 1em;}
 	.checkout-wizard-content fieldset label {top: -2px}
 	.checkout-wizard-content{height:320px}
