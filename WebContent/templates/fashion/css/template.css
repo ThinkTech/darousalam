@@ -947,6 +947,10 @@ a .total {
        border-bottom: 1px solid #f5dfbf;
 }
 
+.shoppingCart li:nth-child(odd){
+	background : #eee;
+}
+
 .shoppingCart li a {
 	color: #495860;
     font-size: 11px;
