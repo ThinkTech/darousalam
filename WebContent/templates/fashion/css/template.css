@@ -3909,6 +3909,7 @@ div#horizontalTab1 ul {
 	    padding-bottom: 3px;
 	}
 	#order-confirmation > div {height: 190px;}
+	#contact-form {width: 98%;padding: 5px;left:1%}
 	#contact-form input {margin-bottom: 4px;padding: 3px;font-size: 13px;}
 	#contact-form textarea {height:80px;margin-bottom: 4px;padding: 5px;padding: 3px;}
 	#contact-form #submit {font-size: 12px;height: 40px;}
