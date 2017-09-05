@@ -287,7 +287,9 @@ $(document).ready(function(){
 	    },
 	    beforeSubmit: function() {
 	    	if(payment.done) {
-		    	saveOrder();
+	    		confirm("\u00E9tes-vous sur de vouloir faire cet achat?",function(){
+	    			saveOrder();
+	    		})
 	    	}else {
 	    		const radio = form.find("input[name='payment'][value='online']");
 	    		const checked = radio.is(":checked");
