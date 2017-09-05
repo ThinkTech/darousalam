@@ -4021,19 +4021,10 @@ div#horizontalTab1 ul {
 	.navbar-nav > li > a {
 		padding: 10px 0px !important;
 	}
-	.team-bottom h3 {
-		font-size: 1.1em;
-	}
-	.team-bottom p {
-		margin: 1.5em auto 2em;
-	}
-	.contact-left {
-		padding: 0;
-	}
-	.close1, .close2, .close3 {
-		right: 145px;
-	}
 	#order-confirmation > div {height: 190px;}
+	#contact-form input {margin-bottom: 4px;padding: 3px;font-size: 13px;}
+	#contact-form textarea {height:80px;margin-bottom: 4px;padding: 5px;padding: 3px;}
+	#contact-form #submit {font-size: 12px;height: 40px;}
 }
 @media (max-width:375px){
 	#checkout-wizard fieldset {min-height : 230px;}
@@ -4101,7 +4092,7 @@ div#horizontalTab1 ul {
 	.modal_body_right1 {padding-bottom: 0em;margin-left: -31px;}
 	.modal-dialog .options > div {margin-right : 0px;display:block}
    .modal_body_right h4.other-nw {margin-top:5px;margin-bottom: 0px;font-size: 11px;}
-   .sign-up a, .sign-up a:visited {font-size: 11px;}
+   .sign-up a, .sign-up a:visited {font-size: 10px;}
 }
 @media (max-width:320px){
 	.modal-dialog {
