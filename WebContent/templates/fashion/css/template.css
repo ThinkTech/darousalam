@@ -3825,6 +3825,9 @@ div#horizontalTab1 ul {
 	.shopping-amount b{font-size: 11px;}
 }
 @media (max-width:480px){
+	.w3l_logo h1 a {
+    font-size: .6em;
+    }
 	.social-login{display:none}
 	.modal-dialog {
 		width: 92%;
@@ -3986,9 +3989,6 @@ div#horizontalTab1 ul {
 	}
 	.modal_body_right1 {
 		padding-bottom: 0em;
-	}
-	.w3l_logo h1 a {
-		font-size: .6em;
 	}
 	.box_1 {
 		margin-top: 98px;
