@@ -940,41 +940,38 @@ a .total {
        overflow-y : auto;
 }
 .shoppingCart li{
-       padding:10px 10px;
+       padding:10px 5px;
        overflow:hidden;
        height:auto;
        font-family : monospace;
-       font-size : 13px;
        border-bottom: 1px solid #f5dfbf;
 }
 
 .shoppingCart li a {
 	color: #495860;
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: none;
     border-color: #666;
-    margin-left: 5px;
+    margin-left: -5px;
     position: relative;
-    top: -3px;
+    top: -5px;
 }
 
 .shoppingCart li span {
 	display: block;
 	float: left;
-	font-size : 12px;
+	font-size : 11px;
 	text-align: left;
 }
 
 .shoppingCart li span span { 
 	width : 185px;
-	position : relative;
-	top : 2px;
 }
 
 .shoppingCart li strong {
 	display: block;
     float: right;
-    font-size: 12.5px;
+    font-size: 11px;
     font-weight: bold;
     font-family: Exo;
 }
@@ -3106,15 +3103,6 @@ div#horizontalTab1 ul {
   .delivery b {
     font-size: 1em;
   }
-  .shoppingCart li span span {
-    width: 180px;
-    font-size: 11px;
-  }
-  .shoppingCart li strong {
-    font-size: 11px;
-    position: relative;
-    top: 1px;
-  }
   .shoppingCart p span {
     font-weight: bold;
     font-size: 11px;
@@ -3831,6 +3819,7 @@ div#horizontalTab1 ul {
 	.shopping-amount b{font-size: 11px;}
 }
 @media (max-width:480px){
+	.shoppingCart li span span {width: 195px;}
 	.w3l_logo h1 a {
     font-size: .6em;
     }
