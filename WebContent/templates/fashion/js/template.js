@@ -98,7 +98,7 @@ page.displayProducts = function() {
 					var total = 0;
 					const cart = $("#cart");
 					const ul = $("ul",cart);
-					const li = $('<li><span><span></span> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+					const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 					const number = content.find("input").val();
 					const price = 13500;
 					const name = link.data("name");
@@ -130,6 +130,18 @@ page.displayProducts = function() {
 			        span.mouseout(function(){
 			        	$(".product-view").hide();
 			        });
+			        li.find(".eye").click(function(){
+			        	const div = $(".product-view");
+			        	div.css("top",cart.position().top+50);
+			        	if(div.css("position")=="fixed") {
+			        		div.css("left",10);
+			        	}else {
+			        	    div.css("left",cart.position().left-cart.width()-50);
+			        	}
+			        	$("img",div).attr("src",span.data("src"));
+			        	div.show();
+			        	return false;
+			    	});
 			        const amount = parseInt(number) * parseInt(price);
 			        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
 			        li.find(".trash").click(function(){
