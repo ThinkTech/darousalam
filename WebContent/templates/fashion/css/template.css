@@ -1391,6 +1391,8 @@ a .total {
     outline: 0;
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     margin : auto;
+    height: auto;
+    padding-bottom: 10px;
 }
 
 #order-confirmation > div div {
@@ -3162,9 +3164,6 @@ div#horizontalTab1 ul {
  #order-confirmation h1 {
     font-size: 1.15em;
  }
- #order-confirmation > div {
-    height: 210px;
- }
  .box_1 {
     right: 150px;
  }
@@ -3911,7 +3910,6 @@ div#horizontalTab1 ul {
 	    padding-top: 3px;
 	    padding-bottom: 3px;
 	}
-	#order-confirmation > div {height: 190px;}
 	#contact-form {width: 98%;padding: 5px;left:1%}
 	#contact-form input {margin-bottom: 4px;padding: 3px;font-size: 13px;}
 	#contact-form textarea {height:80px;margin-bottom: 4px;padding: 5px;padding: 3px;}
