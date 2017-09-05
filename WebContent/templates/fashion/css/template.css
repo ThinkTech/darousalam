@@ -851,15 +851,14 @@ label.icon-search span {
     margin-top: 0px;
     position: fixed;
     z-index: 999;
-    background: #fff;
+    background: #ff9b05;
     padding: 18px;
     padding-top: 2px;
     padding-bottom: 12px;
-    border: 1px solid #ff9b05;
     border-radius: 4px;
 }
 .box_1 a {
-  color:#ff9b05;
+  color:#fff;
   font-size: 1em;
   margin: 0;
   cursor : pointer;
