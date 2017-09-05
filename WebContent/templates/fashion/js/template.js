@@ -50,9 +50,6 @@ const saveOrder = function() {
 
 page.displayProducts = function() {
 	app.get("commerce/products",function(products){
-		$("body").css("opacity",1).click(function(){
-			$(".product-view").hide();
-		});
 		page.wait();
 		page.render($("#products"),products,function(div){
 			const details = $("#product-details");
@@ -168,6 +165,10 @@ $(document).ready(function(){
 		if($(element).is(":visible")){
 			$(element).wmuSlider();
 		}
+	});
+	
+	$("body").css("opacity",1).click(function(){
+		$(".product-view").hide();
 	});
 	
 	page.displayProducts();
