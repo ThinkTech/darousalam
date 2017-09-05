@@ -3912,7 +3912,7 @@ div#horizontalTab1 ul {
 	}
 	#contact-form {width: 98%;padding: 5px;left:1%}
 	#contact-form input {margin-bottom: 4px;padding: 3px;font-size: 13px;}
-	#contact-form textarea {height:80px;margin-bottom: 4px;padding: 5px;padding: 3px;}
+	#contact-form textarea {font-size: 13px;height:80px;margin-bottom: 4px;padding: 5px;padding: 3px;}
 	#contact-form #submit {font-size: 12px;height: 40px;}
 	#checkout-wizard fieldset {min-height : 230px;}
 	.checkout-wizard-content fieldset > div > span {line-height: 1em;}
