@@ -295,7 +295,7 @@ $(document).ready(function(){
 	    		  const select = form.find("select[name='method']")
 	    		  const val = select.val();
 	    		  if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-	    			  $("."+val+"-payment .v-button").trigger("click"); 
+	    			  $("."+val+"-payment .v-button",form).trigger("click"); 
 	    		  }else {
 	    			  saveOrder();
 	    		  }    		  
