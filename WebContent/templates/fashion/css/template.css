@@ -3812,7 +3812,14 @@ div#horizontalTab1 ul {
 		padding: .5em 1.9em;
 	}
 	#deal,.banner-bottom1 {display:none}
-	.checkout-wizard-content p {font-size: 10px;line-height: 12px;margin-top: 4px;margin-left: 2px;}
+	.checkout-wizard-content p {
+	    font-size: 11px;
+	    line-height: 15px;
+	    margin-top: 4px;
+	    width: 93%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
 	.checkout-wizard-content fieldset label {font-size: 10px;width: 84px;}
 	#order-confirmation > div {width: 430px;}
 	#order-confirmation p {font-size: 0.8em;}
