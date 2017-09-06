@@ -55,7 +55,7 @@ p{
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Exo', serif;
+	font-family: 'Open Sans', serif;
 	margin:0;
 }
 ul,label{
@@ -114,7 +114,7 @@ body a:hover{
     border-radius: 38px;
     background: #fff;
     font-weight: bold;
-    font-family: Exo;
+    font-family: Open Sans;
     text-align: center;
     user-select: none;
 }
@@ -1559,6 +1559,7 @@ a .total {
 	margin-top: -10px;
 	text-align:center;
 	text-transform: uppercase;
+	font-family : Open Sans;
 }
 .special-deals h2:before,.container-bg h3:before,.top-brands h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before{
 	content: '';
@@ -2035,7 +2036,7 @@ ul.wmuSliderPagination {
 	border:none;
 	color: #212121;
     font-size:1em;
-    font-family : Exo;
+    font-family : Open Sans;
     font-weight : bold;
     text-transform: uppercase;
 	cursor: pointer;
