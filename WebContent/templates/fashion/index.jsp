@@ -442,7 +442,7 @@
 	       </div>
 		    <h3>Nos Articles</h3>
 		    {#.}
-		    <h4 id="{type}" class="gender"><i class="fa fa-{type}" aria-hidden="true"></i>Pour {label}s</h4>
+		    <h4 id="{type}" class="gender"><i class="fa fa-{type}" aria-hidden="true"></i>Pour {label}</h4>
 			<div  class="col-md-12 wthree_banner_bottom_right">
 				<div class="tabs">
 					<ul  class="nav nav-tabs">
@@ -756,7 +756,6 @@
 					<h3>Information</h3>
 					<ul class="info"> 
 						<li><a href="#about" class="scroll">À Propos</a></li>
-						<li><a href="#products" class="scroll">Nos Articles</a></li>
 						<li><a href="#schedules" class="scroll">Nos Horaires</a></li>
 						<li><a class="contact">Contact</a></li>
 						
