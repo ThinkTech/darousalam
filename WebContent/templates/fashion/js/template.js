@@ -7,7 +7,7 @@ page.animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'rotateInDownRight', 'rotateInUpLeft', 'rotateInUpRight',
 				'zoomInDown', 'zoomInLeft', 'zoomInRight', 'zoomInUp',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
-				'bounceInRight', 'bounceInUp' ];
+				'bounceInRight'];
 page.loadImages = function(div,callback) {
 	if(!div.data("loaded")) {
 		div.attr("data-loaded","true");
