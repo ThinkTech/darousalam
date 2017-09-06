@@ -436,10 +436,15 @@
 	<div id="products" class="container-bg banner-bottom">	
 	  <template  type="text/x-dust-template">
 	    <div class="container">
+	       <div class="genders">
+	          {#.}
+	          <a  data-href="{type}"><i class="fa fa-{type}" aria-hidden="true"></i></a>
+	          {/.}
+	       </div>
 		    <h3>Nos Articles</h3>
 		    {#.}
-		    <h4 id="gender-{type}" class="gender"><i class="fa fa-{type}" aria-hidden="true"></i>Pour {label}s</h4>
-			<div class="col-md-12 wthree_banner_bottom_right">
+		    <h4 id="{type}" class="gender"><i class="fa fa-{type}" aria-hidden="true"></i>Pour {label}s</h4>
+			<div  class="col-md-12 wthree_banner_bottom_right">
 				<div class="tabs">
 					<ul  class="nav nav-tabs">
 					    {#categories}

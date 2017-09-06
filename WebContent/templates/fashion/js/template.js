@@ -86,7 +86,10 @@ page.displayProducts = function() {
 	            });
 	            $(".nav-tabs li:first",tabs).addClass("active");
 			});
-			$(".tabs:first .nav-tabs li:first a",div).click();
+			$(".genders a",div).click(function(){
+				const target = "#"+$(this).data("href");
+				$('html,body').animate({scrollTop:$(target).offset().top},600);
+			});
 			$('.shop',details).on('click', function() {
 				const link = $(this);
 				if(!link.attr("disabled")) {
@@ -166,7 +169,9 @@ page.displayProducts = function() {
 			});
 		});
 	});
-	page.loadImages($("#checkout-wizard"));
+	setTimeout(function(){
+		page.loadImages($("#checkout-wizard"));	
+	},10000);
 };
 
 $(document).ready(function(){
