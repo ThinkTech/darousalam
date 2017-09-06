@@ -1233,16 +1233,13 @@ a .total {
 
 /*-- //banner --*/
 /*-- banner-bottom --*/
-.banner-bottom,.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
+.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
 	padding:4em 0;
 }
 
-.special-deals {
-	padding:1.5em 0;
-}
-
-.banner-bottom {
-	background-color : #fff;
+.banner-bottom{
+	padding:2em 0;
+	background : #fff;
 }
 
 .modal-body iframe {
