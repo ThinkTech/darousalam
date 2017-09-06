@@ -38,7 +38,7 @@ body {
     background:#BEE5E2;
 }
 
-.header {padding-bottom: 50px;width:100%;overflow:hidden}
+.header {padding-bottom: 50px;}
 
 a:focus, a:hover {
     color: initial;
