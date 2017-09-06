@@ -280,8 +280,8 @@
 										<option value="express">American Express</option>
 										<option value="discover">Discover</option>
 										<option value="paypal">PayPal</option>
-										<option value="orange">Orange Money</option>
 										<option value="tigo">Tigo Cash</option>
+										<option value="orange">Orange Money</option>
 								</select>
 								</span> <span><input name="payment" value="delivery"
 									type="radio" checked><label>Payer à la
