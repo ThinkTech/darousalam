@@ -3091,7 +3091,7 @@ div#horizontalTab1 ul {
 		width: 72%;
 	}
 	.banner-bottom, .team, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .container-bg, .banner-bottom1, .top-brands, .dresses, .w3l_related_products {
-		padding: 2em 0;
+		padding: 1em 0;
 	}
 	.agileinfo_new_products_grid {
 		width: 50%;
@@ -3300,10 +3300,6 @@ div#horizontalTab1 ul {
 	.w3agile_newsletter_right input[type="email"] {
 		width: 82%;
 	}
-	
-	.single-left {
-		width: 100%;
-	}
 	.easyWizardButtons .prev, .easyWizardButtons .next, .easyWizardButtons .submit, .checkout-wizard-content .register input[type="button"] {
 	    height: auto;
 	    width: 85px;
@@ -3424,12 +3420,5 @@ div#horizontalTab1 ul {
 	}
 	.color-quality-left h5, .color-quality-right h5, .occasional h5 {
 		font-size: .8em;
-	}
-	.grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
-		font-size: 1.2em;
-	}
-	.contact-left input[type="submit"] {
-		width: 100%;
-		font-size: 14px;
 	}
 }
