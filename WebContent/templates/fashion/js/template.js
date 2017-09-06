@@ -50,7 +50,6 @@ const saveOrder = function() {
 
 page.displayProducts = function() {
 	app.get("commerce/products",function(products){
-		page.wait();
 		page.render($("#products"),products,function(div){
 			const details = $("#product-details");
 			$.each($(".tabs",div),function(index,element){
@@ -165,10 +164,9 @@ page.displayProducts = function() {
 			        $(".total",cart).html(total.toLocaleString("fr-FR"));
 				}
 			});
-			page.loadImages($("#checkout-wizard"));
-			page.release();
 		});
 	});
+	page.loadImages($("#checkout-wizard"));
 };
 
 $(document).ready(function(){
@@ -378,12 +376,14 @@ $(document).ready(function(){
 		  const top = $(this).scrollTop();
 		  $.each($(".tabs"),function(index,element){
 			const tabs = $(element);
-			if(top >= tabs.position().top-400) {
+			if(tabs.length){
+			 if(top >= tabs.position().top-400) {
 				const div = $('.tab-content .tab-pane:eq(0)',tabs);
 				page.loadImages(div,function(){
 					div.addClass("active in");
 				});
 			 }
+			}
 		  });
 		  var div = $("#deal");
 		  if(top >= div.position().top-400) {
