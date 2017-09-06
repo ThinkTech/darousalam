@@ -764,9 +764,9 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Nos Articles</h3>
 					<ul class="info"> 
-						<li><a href="#gender-female" class="scroll"><i class="fa fa-female" aria-hidden="true"></i>Pour Femmes</a></li>
-						<li><a href="#gender-male" class="scroll"><i class="fa fa-male" aria-hidden="true"></i>Pour Hommes</a></li>
-						<li><a href="#gender-child" class="scroll"><i class="fa fa-child" aria-hidden="true"></i>Pour Enfants</a></li>
+						<li><a href="#female" class="scroll"><i class="fa fa-female" aria-hidden="true"></i>Pour Femme</a></li>
+						<li><a href="#male" class="scroll"><i class="fa fa-male" aria-hidden="true"></i>Pour Homme</a></li>
+						<li><a href="#child" class="scroll"><i class="fa fa-child" aria-hidden="true"></i>Pour Enfant</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
