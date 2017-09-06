@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Habillements, Jeans, Fashion" />
-<link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/bundle.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
@@ -802,9 +801,7 @@
 	 <div class="clearfix"> </div>
 <!-- //footer -->
 <i id="offline-message" data-info="pas de connexion internet"></i>
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script src="templates/fashion/js/bundle.js"></script> 
-<script type="text/javascript" src="js/metamorphosis.js"></script>
 <script type="text/javascript" src="templates/fashion/js/template.js" async defer></script>
 </body>
 </html>
