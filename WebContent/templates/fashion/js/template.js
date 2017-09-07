@@ -352,13 +352,17 @@ $(document).ready(function(){
 		}
 	});
     const contactForm = $("#contact-form > form");
-	contactForm.submit(function(event){
+	$("#contact-form img").click(function(){
+		$(this).parent().fadeOut();
+	});
+	$("#contact-form > form, #login form").submit(function(event){
 		event.preventDefault();
 		var valid = true;
-        $('input,textarea',contactForm).each(function(index,element) {
+		const form = $(this);
+        $('input,textarea',form).each(function(index,element) {
         	const val = $(element).val();
 			if(val.trim() == '') {
-				const message = $(this).next().attr("data-info");
+				const message = "entrer votre " + $(this).attr("placeholder");
 				alert(message,function(){
 					$(element).focus();
 				});
@@ -367,15 +371,12 @@ $(document).ready(function(){
         });
         if(!valid) return valid;
 		$.ajax({
-			url: contactForm.attr('action'),
+			url: form.attr('action'),
 			type : 'POST',
-			data : contactForm.serialize()
+			data : form.serialize()
 		}).done(function(data){
 			$("input[type=text],input[type=email],textarea",contactForm).val("");
 		});
-	});
-	$("#contact-form img").click(function(){
-		$(this).parent().fadeOut();
 	});
 	$(window).scroll(function(){
 		  const top = $(this).scrollTop();

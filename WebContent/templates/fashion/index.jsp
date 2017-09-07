@@ -38,8 +38,8 @@
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">			
-													<input name="Email" placeholder="email" type="text" required="">						
-													<input name="Password" placeholder="mot de passe" type="password" required="">										
+													<input name="Email" placeholder="email" type="email">						
+													<input name="Password" placeholder="mot de passe" type="password">										
 													<div class="sign-up">
 														<input type="submit" value="Connexion"/>
 														<a title="mot de passe oublié"><i class="fa fa-key" aria-hidden="true"></i>mot de passe oublié?</a>
@@ -53,10 +53,10 @@
 										<div class="facts">
 											<div class="register">
 												<form action="#" method="post">			
-													<input placeholder="nom complet" name="nom" type="text" required="">
-													<input placeholder="email" name="email" type="email" required="">	
-													<input placeholder="mot de passe" name="password" type="password" required="">	
-													<input placeholder="confirmer" name="password" type="password" required="">
+													<input placeholder="nom complet" name="nom" type="text">
+													<input placeholder="email" name="email" type="email">	
+													<input placeholder="mot de passe" name="password" type="password">	
+													<input placeholder="confirmation" name="password" type="password">
 													<div class="captcha">
 		     											<div class="g-recaptcha" data-sitekey="6LfcIBwUAAAAAMpRV6hzY9LHZJWbGyO4k668VXP1"></div>
 		    										</div> 
@@ -726,14 +726,10 @@
      <img class="close" src="templates/fashion/images/close.png"/>
      <h1><i class="fa fa-envelope"></i>Contact</h1>
      <form  action="contact" method="post">
-		  <input id="name" name="mail.author"  type="text" placeholder="nom complet">
-		  <i data-info="entrer votre nom complet"></i>	  
+		  <input id="name" name="mail.author"  type="text" placeholder="nom complet"> 
 		  <input id="email" name="mail.address" type="email" placeholder="email">
-		  <i data-info="entrer votre email"></i>
 	   	  <input id="subject" name="mail.subject" type="text" placeholder="sujet">
-	   	  <i data-info="entrer votre sujet"></i>
 		  <textarea id="message" name="mail.content"  placeholder="message"></textarea>
-		  <i data-info="entrer votre message"></i>
 		  <input id="submit" type="submit" value="Envoyer">
 	</form>
    </div> 
