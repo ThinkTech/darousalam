@@ -3,7 +3,7 @@ const payment = {};
 page.animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'rollIn', 'zoomIn', 'slideInUp', 'pulse',
 				'rubberBand', 'shake', 'headshake', 'jackInTheBox',
-				'flash', 'swing', 'fadeInUpBig', 'rotateInDownLeft',
+				'flash', 'swing', 'rotateInDownLeft',
 				'rotateInDownRight', 'rotateInUpLeft', 'rotateInUpRight',
 				'zoomInDown', 'zoomInLeft', 'zoomInRight', 'zoomInUp',
 				'bounceIn', 'bounceInDown', 'bounceInLeft',
