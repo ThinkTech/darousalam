@@ -697,7 +697,7 @@
 			</div>
 			<div class="col-md-6 w3agile_newsletter_right">
 				<form action="#" method="post">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="email" name="email" placeholder="email">
 					<input type="submit" value="Abonner" />
 				</form>
 			</div>
@@ -723,7 +723,7 @@
 		</div>
    </div>
    <div id="contact-form">
-     <img class="close" src="templates/fashion/images/close.png"/>
+     <img class="close" data-src="templates/fashion/images/close.png"/>
      <h1><i class="fa fa-envelope"></i>Contact</h1>
      <form  action="contact" method="post">
 		  <input id="name" name="mail.author"  type="text" placeholder="nom complet"> 

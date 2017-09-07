@@ -355,7 +355,7 @@ $(document).ready(function(){
 	$("#contact-form img").click(function(){
 		$(this).parent().fadeOut();
 	});
-	$("#contact-form > form, #login form").submit(function(event){
+	$("#contact-form > form, #login form, .newsletter form").submit(function(event){
 		event.preventDefault();
 		var valid = true;
 		const form = $(this);
@@ -375,7 +375,7 @@ $(document).ready(function(){
 			type : 'POST',
 			data : form.serialize()
 		}).done(function(data){
-			$("input[type=text],input[type=email],textarea",contactForm).val("");
+			$("input[type=text],input[type=email],textarea",form).val("");
 		});
 	});
 	$(window).scroll(function(){
