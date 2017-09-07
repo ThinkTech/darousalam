@@ -191,7 +191,7 @@ label.icon-search {
 	overflow: hidden;
 	width: 20px;
 	height:0px;
-	background:#212121;
+	background:#000;
 	transition: height 0.2s ease-out 0.5s , top 0.2s ease-out 0.5s, padding 0.2s ease-out 0.5s, width 0.3s ease-out 0.2s;
 	-webkit-transition: height 0.2s ease-out 0.5s , top 0.2s ease-out 0.5s, padding 0.2s ease-out 0.5s, width 0.3s ease-out 0.2s;
 }
@@ -2968,7 +2968,10 @@ div#horizontalTab1 ul {
 	}
 	.box_1 {right: 40px;}
 	.search_box:checked~.search_form {
-		width: 440px;
+		width: 75%;
+        position: fixed;
+        top: 150px;
+        right: 10px;
 	}
 	#products .container .gender {
 	    font-size : 1.1em;
@@ -3166,7 +3169,7 @@ div#horizontalTab1 ul {
 	.register input[type="submit"] {height:30px}
 	.register input[type="text"],.checkout-left-basket ul li,.agileinfo_banner_bottom1_grid_left h3,.search_form input[type='text'], .register input[type="email"], .register input[type="password"] {
 		font-size: 13px;
-		width : 68%;
+		width : 60%;
 	}
 	.captcha {height : 60px;}
 }
@@ -3212,6 +3215,9 @@ div#horizontalTab1 ul {
 	.shopping-amount b{font-size: 11px;}
 }
 @media (max-width:480px){
+	.search_box:checked~.search_form {
+		width: 96%;
+	}
 	.shoppingCart li span span {width: 195px;}
 	.w3l_logo h1 a {
     font-size: .6em;
