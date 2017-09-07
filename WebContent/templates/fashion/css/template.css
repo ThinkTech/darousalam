@@ -2024,6 +2024,9 @@ ul.wmuSliderPagination {
 	display : inline-block;
 }
 
+.share-this {
+	min-height : 30px;
+}
 
 /*-- //footer --*/
 /*-- login --*/
