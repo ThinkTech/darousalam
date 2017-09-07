@@ -111,7 +111,7 @@ class ModuleAction extends ActionSupport {
        gender.categories << category
        genders << gender
      
-       
+       response.addHeader("Access-Control-Allow-Origin","*")
        response.writer.write(json(genders))
     }
     
