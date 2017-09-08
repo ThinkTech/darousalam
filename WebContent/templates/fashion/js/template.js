@@ -11,7 +11,7 @@ page.animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 page.loadImages = function(div,callback) {
 	if(!div.data("loaded")) {
 		div.attr("data-loaded","true");
-	    $.each($("img",div),function(index,element){
+	    $.each($("img[data-src]",div),function(index,element){
 	        $(element).addClass("loading");
 			const src = $(element).data("src");
 			if(src) {
