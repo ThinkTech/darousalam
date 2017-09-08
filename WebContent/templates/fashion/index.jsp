@@ -1,6 +1,8 @@
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <!DOCTYPE html>
 <html>
 <head>
+<base href="${path}"/>
 <title>Darou Salam Fashion</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
@@ -23,7 +25,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<span class="close" title="fermer" data-dismiss="modal" aria-hidden="true"></span>
-					<h4 class="modal-title" id="product-detailsLabel"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h4>
+					<h4 class="modal-title"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h4>
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
@@ -430,79 +432,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- banner-bottom -->
-	<div id="products" class="container-bg banner-bottom">	
-	  <template  type="text/x-dust-template">
-	    <div class="container">
-	       <div class="genders">
-	          {#.}
-	          <a  data-href="{type}"><i class="fa fa-{type}" aria-hidden="true"></i></a>
-	          {/.}
-	       </div>
-		    <h3>Nos Articles</h3>
-		    {#.}
-		    <h4 id="{type}" class="gender"><i class="fa fa-{type}" aria-hidden="true"></i>Pour {label}</h4>
-			<div  class="col-md-12 wthree_banner_bottom_right">
-				<div class="tabs">
-					<ul  class="nav nav-tabs">
-					    {#categories}
-						  <li><a><i class="fa fa-star-o" aria-hidden="true"></i>{name}</a></li>
-						{/categories}
-					</ul>
-					<div class="tab-content">
-					    {#categories}
-						<div class="tab-pane">
-							<div class="agile_ecommerce_tabs">
-								{#products}
-								<div class="col-md-4 agile_ecommerce_tab_left">
-									<div class="hs-wrapper">
-										<img data-delay="true" data-src="templates/fashion/images/{image}" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-											<ul>
-												<li>
-													<a><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<h5><a>{name}</a></h5>
-									<div class="rating">
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="clearfix"> </div>
-									</div>
-									<div class="simpleCart_shelfItem">
-										<p><span>{price} CFA</span> <i class="item_price">{price} CFA</i></p>
-										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
-									</div>
-								</div>
-								{/products}
-							</div>
-						</div>
-						{/categories}
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-			{/.}
-			</div>
-			<div class="clearfix"> </div>
-	   </template>
-	</div>
-	
+	<tiles:insertAttribute name="content"/>
 		<!--modal-video-->
 				<div class="modal video-modal fade" id="product-details" tabindex="-1" role="dialog" aria-labelledby="product-details">
 					<div class="modal-dialog" role="document">

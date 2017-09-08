@@ -49,129 +49,129 @@ const saveOrder = function() {
 };
 
 page.displayProducts = function() {
-	app.get("commerce/products",function(products){
-		page.render($("#products"),products,function(div){
-			const details = $("#product-details");
-			$.each($(".tabs",div),function(index,element){
-				const tabs = $(element);
-				const nav = $(".nav-tabs",tabs);
-				$("a",nav).click(function(){
-					$("li",nav).removeClass("active");
-					const parent = $(this).parent();
-					parent.addClass("active");
-					const index = parent.index();
-					$(".tab-content > div",tabs).removeClass("active in");
-					const div = $(".tab-content .tab-pane:eq("+index+")",tabs).addClass("fade active in");
-					page.loadImages(div);
-				});
-				$('.item_show',tabs).click(function(){
-					const link = $(this).parent().parent().parent().find("li a");
-					const src = link.closest(".hs-wrapper").find("img").attr("src");
-					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
-					$(".modal_body_left img",details).attr("src",src);
-					$(".modal_body_right h4",details).html(item);
-					$("input",details).val("1");
-					$(".shop",details).data("name",item).removeAttr("disabled");
-					details.addClass("in").show();
-				});	
-	            $(".w3_hs_bottom a",tabs).click(function(){
-	            	const link = $(this);
-					const src = link.closest(".hs-wrapper").find("img").attr("src");
-					const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
-					$(".modal_body_left img",details).attr("src",src);
-					$(".modal_body_right h4",details).html(item);
-					("input",details).val("1");
-					$(".shop",details).data("name",item).removeAttr("disabled");
-					details.addClass("in").show();
-	            });
-	            $(".nav-tabs li:first",tabs).addClass("active");
-			});
-			$(".genders a",div).click(function(){
-				const target = "#"+$(this).data("href");
-				$('html,body').animate({scrollTop:$(target).offset().top},600);
-			});
-			$('.shop',details).on('click', function() {
-				const link = $(this);
-				if(!link.attr("disabled")) {
-					link.attr("disabled", "disabled");
-					const content = link.closest(".modal-content");
-					const src = $("#product-details .modal_body_left img").attr("src");
-					content.find(".close").click();
-					var total = 0;
-					const cart = $("#cart");
-					const ul = $("ul",cart);
-					const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
-					const number = content.find("input").val();
-					const price = 13500;
-					const name = link.data("name");
-			        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
-			        span.attr("data-src",src);
-			        span.on("touchstart",function(){
-			        	const div = $(".product-view");
-			        	div.css("top",cart.position().top+50);
-			        	if(div.css("position")=="fixed") {
-			        		div.css("left",10);
-			        	}else {
-			        	    div.css("left",cart.position().left-cart.width()-50);
-			        	}
-			        	$("img",div).attr("src",$(this).data("src"));
-			        	div.show();
-			        	return false;
-			        });
-			        span.mouseover(function(){
-			        	const div = $(".product-view");
-			        	div.css("top",cart.position().top+50);
-			        	if(div.css("position")=="fixed") {
-			        		div.css("left",10);
-			        	}else {
-			        	    div.css("left",cart.position().left-cart.width()-50);
-			        	}
-			        	$("img",div).attr("src",$(this).data("src"));
-			        	div.show();
-			        });
-			        span.mouseout(function(){
-			        	$(".product-view").hide();
-			        });
-			        li.find(".eye").click(function(){
-			        	const div = $(".product-view");
-			        	div.css("top",cart.position().top+50);
-			        	if(div.css("position")=="fixed") {
-			        		div.css("left",10);
-			        	}else {
-			        	    div.css("left",cart.position().left-cart.width()-50);
-			        	}
-			        	$("img",div).attr("src",span.data("src"));
-			        	div.show();
-			        	return false;
-			    	});
-			        const amount = parseInt(number) * parseInt(price);
-			        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
-			        li.find(".trash").click(function(){
-			        	const message = "voulez-vous supprimer cet article?";
-			    		confirm(message, function() {
-			    			li.remove();
-			    			$(".simpleCart_quantity").html(ul.find("li").length);
-			    			total = 0;
-			    			$.each($("li .price",ul),function(index,element){
-			                	total += parseInt($(element).attr("amount"));
-			                });
-			                $(".total",cart).html(total.toLocaleString("fr-FR"));
-			    		});
-			    	});
-			        ul.append(li);
-			        ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
-			        $(".simpleCart_quantity").html(ul.find("li").length);
-			        $.each($("li .price",ul),function(index,element){
-			        	total += parseInt($(element).attr("amount"));
-			        });
-			        $(".total",cart).html(total.toLocaleString("fr-FR"));
-				}
-			});
-		});
-	});
+	
 	setTimeout(function(){
 		page.loadImages($("#checkout-wizard"));	
 	},10000);
+	
+	const div = $("#products");
+	const details = $("#product-details");
+	$.each($(".tabs",div),function(index,element){
+		const tabs = $(element);
+		const nav = $(".nav-tabs",tabs);
+		$("a",nav).click(function(){
+			$("li",nav).removeClass("active");
+			const parent = $(this).parent();
+			parent.addClass("active");
+			const index = parent.index();
+			$(".tab-content > div",tabs).removeClass("active in");
+			const div = $(".tab-content .tab-pane:eq("+index+")",tabs).addClass("fade active in");
+			page.loadImages(div);
+		});
+		$('.item_show',tabs).click(function(){
+			const link = $(this).parent().parent().parent().find("li a");
+			const src = link.closest(".hs-wrapper").find("img").attr("src");
+			const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+			$(".modal_body_left img",details).attr("src",src);
+			$(".modal_body_right h4",details).html(item);
+			$("input",details).val("1");
+			$(".shop",details).data("name",item).removeAttr("disabled");
+			details.addClass("in").show();
+		});	
+        $(".w3_hs_bottom a",tabs).click(function(){
+        	const link = $(this);
+			const src = link.closest(".hs-wrapper").find("img").attr("src");
+			const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+			$(".modal_body_left img",details).attr("src",src);
+			$(".modal_body_right h4",details).html(item);
+			("input",details).val("1");
+			$(".shop",details).data("name",item).removeAttr("disabled");
+			details.addClass("in").show();
+        });
+        $(".nav-tabs li:first",tabs).addClass("active");
+        
+        $(".genders a",div).click(function(){
+			const target = "#"+$(this).data("href");
+			$('html,body').animate({scrollTop:$(target).offset().top},600);
+		});
+		$('.shop',details).on('click', function() {
+			const link = $(this);
+			if(!link.attr("disabled")) {
+				link.attr("disabled", "disabled");
+				const content = link.closest(".modal-content");
+				const src = $("#product-details .modal_body_left img").attr("src");
+				content.find(".close").click();
+				var total = 0;
+				const cart = $("#cart");
+				const ul = $("ul",cart);
+				const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+				const number = content.find("input").val();
+				const price = 13500;
+				const name = link.data("name");
+		        const span = li.find('span span').html(number+" "+name).attr("title","prix : "+price);
+		        span.attr("data-src",src);
+		        span.on("touchstart",function(){
+		        	const div = $(".product-view");
+		        	div.css("top",cart.position().top+50);
+		        	if(div.css("position")=="fixed") {
+		        		div.css("left",10);
+		        	}else {
+		        	    div.css("left",cart.position().left-cart.width()-50);
+		        	}
+		        	$("img",div).attr("src",$(this).data("src"));
+		        	div.show();
+		        	return false;
+		        });
+		        span.mouseover(function(){
+		        	const div = $(".product-view");
+		        	div.css("top",cart.position().top+50);
+		        	if(div.css("position")=="fixed") {
+		        		div.css("left",10);
+		        	}else {
+		        	    div.css("left",cart.position().left-cart.width()-50);
+		        	}
+		        	$("img",div).attr("src",$(this).data("src"));
+		        	div.show();
+		        });
+		        span.mouseout(function(){
+		        	$(".product-view").hide();
+		        });
+		        li.find(".eye").click(function(){
+		        	const div = $(".product-view");
+		        	div.css("top",cart.position().top+50);
+		        	if(div.css("position")=="fixed") {
+		        		div.css("left",10);
+		        	}else {
+		        	    div.css("left",cart.position().left-cart.width()-50);
+		        	}
+		        	$("img",div).attr("src",span.data("src"));
+		        	div.show();
+		        	return false;
+		    	});
+		        const amount = parseInt(number) * parseInt(price);
+		        li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
+		        li.find(".trash").click(function(){
+		        	const message = "voulez-vous supprimer cet article?";
+		    		confirm(message, function() {
+		    			li.remove();
+		    			$(".simpleCart_quantity").html(ul.find("li").length);
+		    			total = 0;
+		    			$.each($("li .price",ul),function(index,element){
+		                	total += parseInt($(element).attr("amount"));
+		                });
+		                $(".total",cart).html(total.toLocaleString("fr-FR"));
+		    		});
+		    	});
+		        ul.append(li);
+		        ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
+		        $(".simpleCart_quantity").html(ul.find("li").length);
+		        $.each($("li .price",ul),function(index,element){
+		        	total += parseInt($(element).attr("amount"));
+		        });
+		        $(".total",cart).html(total.toLocaleString("fr-FR"));
+			}
+		});
+	});
 };
 
 $(document).ready(function(){
