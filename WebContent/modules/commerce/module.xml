@@ -3,6 +3,5 @@
   <url>commerce</url>
   <actions>
    	<action url="saveOrder" method="saveOrder"/>
-   	<action url="products" method="getProducts"/>
   </actions>
 </module>

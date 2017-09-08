@@ -1,5 +1,4 @@
 import org.metamorphosis.core.ActionSupport 
-import static groovy.json.JsonOutput.toJson as json
 
 class Gender {
   def type
@@ -21,10 +20,6 @@ class Product {
 class ModuleAction extends ActionSupport {
 
     def genders = [] 
-    
-    def saveOrder() {
-       response.writer.write(json([status: "1"]))
-    }
     
     def String execute(){
        loadProducts()
