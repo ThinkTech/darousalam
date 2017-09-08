@@ -30,10 +30,6 @@ html, body{
 	overflow-x : hidden;
 }
 
-body {
-	opacity : 0;
-}
-
 .container-bg {
     background:#BEE5E2;
 }
@@ -459,7 +455,6 @@ a .total {
 	width: 100%;
     height: 100%;
     position: absolute;
-    top : 0;
     z-index: 99999;
     background: rgba(100, 100, 100, 0.5);
 }

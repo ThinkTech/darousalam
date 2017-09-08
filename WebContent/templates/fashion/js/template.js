@@ -182,7 +182,7 @@ $(document).ready(function(){
 		}
 	});
 	
-	$("body").css("opacity",1).click(function(){
+	$("body").click(function(){
 		$(".product-view").hide();
 	});
 	
@@ -254,7 +254,7 @@ $(document).ready(function(){
 			cart.hide();
 			payment.done = false;
 			const height = $(document).height() + $("#footer").height();
-		    const wizard = $("#checkout-wizard").css("height",height);
+		    const wizard = $("#checkout-wizard").css("top","0").css("height",height);
 		    const top = $(".cart").offset().top;
 		    page.wait({top : top});
 		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
