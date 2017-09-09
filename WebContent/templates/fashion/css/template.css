@@ -457,6 +457,7 @@ a .total {
     position: absolute;
     z-index: 99999;
     background: rgba(100, 100, 100, 0.5);
+    display : none;
 }
 
 #checkout-wizard fieldset{

@@ -25,7 +25,7 @@ function onVisaCheckoutReady(){
   });
   V.on("payment.success", function(response){
 	payment.done = true;
-	saveOrder();
+	app.saveOrder();
   });
   V.on("payment.cancel", function(response){ 
   });

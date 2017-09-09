@@ -21,7 +21,7 @@
     },
     onAuthorize: function(data, actions) {
     	return actions.payment.execute().then(function(payment) {
-    		saveOrder();
+    		app.saveOrder();
         });
    }
 }, '#paypal-button');

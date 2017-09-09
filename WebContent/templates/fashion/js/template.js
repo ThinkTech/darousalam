@@ -28,7 +28,7 @@ page.loadImages = function(div,callback) {
 	  }
 };
 
-const saveOrder = function() {
+app.saveOrder = function() {
 	const wizard = $("#checkout-wizard");
 	const form = $("form",wizard);
 	app.post(form.attr("action"),form.serialize(),function(response) {
@@ -249,17 +249,16 @@ $(document).ready(function(){
 		}else {
 			cart.hide();
 			payment.done = false;
-			const height = $(document).height() + $("#footer").height();
-		    const wizard = $("#checkout-wizard").css("top","0").css("height",height);
 		    const top = $(".cart").offset().top;
 		    page.wait({top : top});
-		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+		    head.load("templates/fashion/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 					"templates/fashion/js/social.js",
 					"https://www.google.com/recaptcha/api.js",
 			  function() {
+		    	const wizard = $("#checkout-wizard");
 		    	$("> div",wizard).css("top",top);
-		    	page.release();
 		    	wizard.show();
+		    	page.release();
 		    	$('html,body').animate({scrollTop:top},1);
 		    });
 		}
@@ -270,79 +269,6 @@ $(document).ready(function(){
 			$(element).removeClass("in").hide();
 		});
 	});
-	const form = $(".checkout-wizard-steps > form");
-	form.easyWizard({
-	    prevButton: "Pr\u0117c\u0117dent",
-	    nextButton: "Suivant",
-	    submitButtonText: "Terminer",
-	    before: function(wizardObj,currentStep,nextStep) {
-	    	//if(!user) {
-	    		//alert("vous devez vous connecter");
-	    		//return false;
-	    	//}
-	    },
-	    after: function(wizardObj,prevStep,currentStep) {
-	    	const div = $(".shopping-payment",currentStep);
-	    	if(div.length) {
-	    		$(".payment",currentStep).hide();
-	    		var input = prevStep.find("input[name='payment']:checked");
-	    		var val = input.val();
-	    		if(val=="online") {
-	    			input = prevStep.find("select[name='method']");
-	    			val = input.val();
-	    			payment.done = false;
-                    if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-                      page.wait({top : currentStep.offset().top-50});
-                      head.load("templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",function(){
-                    	  page.release(); 
-                      });
-      	    		}else if(val == "paypal") {
-                      page.wait({top : currentStep.offset().top-50});
-                      head.load("https://www.paypalobjects.com/api/checkout.js","templates/fashion/js/paypal.js",function(){
-                      	  page.release(); 
-                      });
-        	    	} 	
-	    		}else {
-	    			payment.done = true;
-	    		}
-	    		$("."+val+"-payment",div).show();
-	    	}
-	    },
-	    beforeSubmit: function() {
-	    	if(payment.done) {
-	    		confirm("\u00E9tes-vous sur de vouloir faire cet achat?",function(){
-	    			saveOrder();
-	    		})
-	    	}else {
-	    		const radio = form.find("input[name='payment'][value='online']");
-	    		const checked = radio.is(":checked");
-	    		if(checked) {
-	    		  const select = form.find("select[name='method']")
-	    		  const val = select.val();
-	    		  if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-	    			  alert("vous devez effectuer le paiement",function(){
-	    				  $("."+val+"-payment .v-button",form).trigger("click");  
-	    			  });
-	    		  }else{
-	    			  alert("vous devez effectuer le paiement");
-	    		  }    		  
-	    		}else {
-	    			saveOrder();
-	    		}
-	    	}
-	    	return false;
-	    }
-	});
-    form.find("select[name='method']").click(function(){
-		form.find("input[name='payment'][value='online']").prop("checked",true);
-	});
-    form.find("section:nth-child(2) label").click(function(){
-		$(this).prev().prop("checked",true);
-	});
-	$("#checkout-wizard").hide();	
-	$(".wizard-close").click(function(){
-		  const wizard = $("#checkout-wizard").fadeOut(100);
-	});	
 	$("#confirmation-close").click(function(){
     	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
