@@ -4,6 +4,10 @@
     	sandbox : "ARW3EYvptYs6ObbH4FHOqd6Fs0gapxI8_Eme3SzIlPxJbUtu-1FVNsperN-VKssBzbZ91g_jkFJpvOKb"
     },
     commit: true,
+    locale: 'fr_FR',
+    style : {
+     label : 'pay'
+    },
     payment: function(data,actions) {
     	return actions.payment.create({
             payment: {
