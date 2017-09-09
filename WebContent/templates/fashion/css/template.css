@@ -2944,7 +2944,7 @@ div#horizontalTab1 ul {
 	}
 }
 @media (max-width:667px){
-	#checkout-wizard fieldset {box-shadow : none;border : 1px solid #ffa709;padding: 0px;padding-bottom: 0;}
+	#checkout-wizard fieldset {box-shadow : none;padding: 0px;padding-bottom: 0;}
 	.checkout-wizard-content fieldset h4 {margin-bottom: 3px;}
 	.paypal-payment{height:70px;overflow:hidden}
 	.shopping-amount > span {line-height: 12px;}
@@ -3011,10 +3011,10 @@ div#horizontalTab1 ul {
     .checkout-wizard-content p{font-size:9px;margin:0;margin-left:10px;margin-top:10px;margin-right:5px}
     .checkout-wizard-content .register input[type="text"], .checkout-wizard-content .register input[type="email"], .checkout-wizard-content .register input[type="password"] {
       padding: 0px;
-      padding-left: 2px;
-      font-size: 11px;
-      margin-bottom: 1px;
-      height : 30px;
+      padding-left: 4px;
+      font-size: 10px;
+      margin-bottom: 6px;
+      height: 27px;
     }
     .checkout-wizard-content .register a, .checkout-wizard-content .register a:visited {
       font-size: 11px;
