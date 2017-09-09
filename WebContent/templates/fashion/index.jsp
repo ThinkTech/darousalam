@@ -213,18 +213,6 @@
 			</p>
 		</div>
    </div>
-    <div id="order-confirmation">
-	   <div>
-	     <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation de l'achat</h1>
-	     <p><i class="fa fa-info-circle" aria-hidden="true"></i> Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
-	     connecter à votre compte pour suivre son évolution ou pour consulter l'historique de vos commandes. 
-	     </p>
-	     <div>
-	        <a title="mon compte"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</a>
-	        <a id="confirmation-close" title="fermer"><i class="fa fa-close" aria-hidden="true"></i>Fermer</a>
-	     </div>
-	   </div>
-	</div>
 	<tiles:insertAttribute name="content"/>
 		<!--modal-video-->
 				<div class="modal video-modal fade" id="product-details" tabindex="-1" role="dialog" aria-labelledby="product-details">

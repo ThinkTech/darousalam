@@ -251,7 +251,7 @@ $(document).ready(function(){
 			payment.done = false;
 		    const top = $(".cart").offset().top;
 		    page.wait({top : top});
-		    head.load("templates/fashion/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+		    head.load("templates/fashion/css/wizard.css","templates/fashion/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 					"templates/fashion/js/social.js",
 					"https://www.google.com/recaptcha/api.js",
 			  function() {
