@@ -23,12 +23,12 @@ const form = $(".checkout-wizard-steps > form",wizard);
 	    			val = input.val();
 	    			payment.done = false;
                     if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-                      page.wait({top : currentStep.offset().top-50});
+                      page.wait({top : currentStep.offset().top});
                       head.load("templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",function(){
                     	  page.release(); 
                       });
       	    		}else if(val == "paypal") {
-                      page.wait({top : currentStep.offset().top-50});
+                      page.wait({top : currentStep.offset().top});
                       head.load("https://www.paypalobjects.com/api/checkout.js","templates/fashion/js/paypal.js",function(){
                       	  page.release(); 
                       });
