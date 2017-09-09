@@ -213,11 +213,11 @@ label.icon-search {
     background: none;
     display: inline-block;
     color: #fff;
-    font-size: 14px;
+    font-size: 11px;
     border: 1px solid #999;
     text-transform: uppercase;
-    padding: 6px 16px;
-    width : auto;
+    padding: 6px 10px;
+    width: auto;
 }
 .search_form input[type='submit']:hover{
 	background:#fff;
@@ -2758,8 +2758,7 @@ div#horizontalTab1 ul {
 		width: 286px;
 	}
 	.search_form input[type='submit'] {
-		font-size: 13px;
-		padding: 10px 15px;
+		font-size: 10px;
 	}
 	.search_form input[type='text'] {
 		width: 160px;
