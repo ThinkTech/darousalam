@@ -109,8 +109,8 @@
 				<label class="icon-search" for="search_box"><i class="fa fa-search" aria-hidden="true"></i></label>
 				<div class="search_form">
 					<form action="#" method="post">
-						<input type="text" name="Search" placeholder="Rechercher...">
-						<input type="submit" value="Envoyer">
+						<input type="text" name="Search" placeholder="articles...">
+						<input type="submit" value="Rechercher">
 					</form>
 				</div>
 			</div>
