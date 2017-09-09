@@ -1,6 +1,7 @@
 <module>
   <type>front-end</type>
-  <url>commerce</url>
+  <main>true</main>
+  <cached>true</cached>
   <actions>
    	<action url="saveOrder" method="saveOrder"/>
   </actions>
