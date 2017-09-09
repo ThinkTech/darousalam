@@ -1606,7 +1606,7 @@ h2.resp-accordion {
     font-weight: bold;
     color: #ff9b05;
     padding: 5px;
-    padding-left: 1em;
+    padding-left : 12px;
     width : 80%;
 }
 .register input[type="text"],.register input[type="email"],.register input[type="password"]{
@@ -2448,7 +2448,7 @@ div#horizontalTab1 ul {
 	.banner{background:none}
 	.modal-title {
 		font-size: 1.3em;
-		padding-left: 1em;
+		padding-left: 7px;
 	}
     .modal_body_right h4.other-nw {
       margin-bottom: 6px;
