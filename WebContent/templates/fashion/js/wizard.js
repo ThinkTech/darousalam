@@ -73,4 +73,8 @@ form.find("section:nth-child(2) label").click(function(){
 $(".wizard-close",wizard).click(function(){
 	wizard.fadeOut(100);
 });
+$("#confirmation-close").click(function(){
+	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
+    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
+});
 wizard.hide().css("opacity","1");

@@ -48,6 +48,75 @@ app.saveOrder = function() {
 	page.wait({top : top+50});
 };
 
+page.displayLogin = function(){
+	$(".w3l_login a").click(function(event){
+		if(!$(this).data("loaded")) {
+			$(this).attr("data-loaded","true");
+			page.wait();
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default',            
+				width: 'auto', 
+				fit: true  
+			});
+			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+			  "templates/fashion/js/social.js",
+			  "https://www.google.com/recaptcha/api.js",function(){
+				$("#login").show();
+				page.release();
+			});
+		}else {
+			$("#login").show();
+		}
+	});
+	
+	$(".tab_item-1").click(function(){
+		$("#login .modal_body_right").removeClass("social-login");
+	});
+	
+	$(".tab_item-2").click(function(){
+		$("#login .modal_body_right").addClass("social-login");
+	});
+};
+
+page.displayCart = function() {
+	$(".cart a").click(function(){
+		const cart = $("#cart");
+		cart.css("top",-50);
+		cart.toggle();
+	});
+	
+	$("#cart .close").click(function(){
+		$("#cart").slideUp(100);
+	});
+	
+	$(".checkout").click(function(){
+		const cart = $("#cart"); 
+		const count = $("ul li",cart).length;
+		const message = "votre panier est vide";
+		if(!count) {
+			cart.hide();
+			alert(message);
+		}else {
+			cart.hide();
+			payment.done = false;
+		    const top = $(".cart").offset().top;
+		    page.wait({top : top});
+		    head.load("templates/fashion/css/wizard.css","templates/fashion/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+					"templates/fashion/js/social.js",
+					"https://www.google.com/recaptcha/api.js",
+			  function() {
+		    	const wizard = $("#checkout-wizard");
+		    	$("> div",wizard).css("top",top);
+		    	wizard.show();
+		    	page.release();
+		    	$('html,body').animate({scrollTop:top},1);
+		    });
+		}
+		return false;
+	});
+	
+};
+
 page.displayProducts = function() {
 	
 	const div = $("#products");
@@ -170,108 +239,32 @@ page.displayProducts = function() {
 	});
 };
 
-$(document).ready(function(){
-	
+page.display = function(){
 	$('.wmuSlider').each(function(index,element){
 		if($(element).is(":visible")){
 			$(element).wmuSlider();
 		}
 	});
-	
 	$("body").click(function(){
 		$(".product-view").hide();
-	});
-	
-	page.displayProducts();
-	
-	$(".w3l_login a").click(function(event){
-		if(!$(this).data("loaded")) {
-			$(this).attr("data-loaded","true");
-			page.wait();
-			$('#horizontalTab').easyResponsiveTabs({
-				type: 'default',            
-				width: 'auto', 
-				fit: true  
-			});
-			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-			  "templates/fashion/js/social.js",
-			  "https://www.google.com/recaptcha/api.js",function(){
-				$("#login").show();
-				page.release();
-			});
-		}else {
-			$("#login").show();
-		}
-	});
-	
-	$(".tab_item-1").click(function(){
-		$("#login .modal_body_right").removeClass("social-login");
-	});
-	
-	$(".tab_item-2").click(function(){
-		$("#login .modal_body_right").addClass("social-login");
-	});
-	
+	});	
 	$(".scroll").click(function(event){		
 		event.preventDefault();
 		$('html,body').animate({scrollTop:$(this.hash).offset().top},600);
 	});
-	
 	$(".w3l_logo h1").addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
 	$(".banner a h4").addClass("animated zoomIn");
 	$(".banner h6").addClass("animated zoomIn");
-	
-	const counterTop = $('#counterTop');
-	
+    const counterTop = $('#counterTop');
 	if(counterTop.is(":visible")){
 		counterTop.countdown({
 			timestamp : (new Date()).getTime() + 11*24*60*60*1000
 		});	
 	}
-	
-	$(".cart a").click(function(){
-		const cart = $("#cart");
-		cart.css("top",-50);
-		cart.toggle();
-	});
-	
-	$("#cart .close").click(function(){
-		$("#cart").slideUp(100);
-	});
-	
-	$(".checkout").click(function(){
-		const cart = $("#cart"); 
-		const count = $("ul li",cart).length;
-		const message = "votre panier est vide";
-		if(!count) {
-			cart.hide();
-			alert(message);
-		}else {
-			cart.hide();
-			payment.done = false;
-		    const top = $(".cart").offset().top;
-		    page.wait({top : top});
-		    head.load("templates/fashion/css/wizard.css","templates/fashion/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-					"templates/fashion/js/social.js",
-					"https://www.google.com/recaptcha/api.js",
-			  function() {
-		    	const wizard = $("#checkout-wizard");
-		    	$("> div",wizard).css("top",top);
-		    	wizard.show();
-		    	page.release();
-		    	$('html,body').animate({scrollTop:top},1);
-		    });
-		}
-		return false;
-	});
 	$.each($("#product-details,#login"),function(index,element){
 		$(".close",element).click(function(){
 			$(element).removeClass("in").hide();
 		});
-	});
-	$("#confirmation-close").click(function(){
-    	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
-	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 	});
 	$(".contact").click(function(event){
 		const div = $("#contact-form");
@@ -394,5 +387,11 @@ $(document).ready(function(){
 	setTimeout(function(){
 		page.loadImages($("#checkout-wizard"));	
 	},10000);
-	
+	page.displayLogin();
+	page.displayProducts();
+	page.displayCart();	
+};
+
+$(document).ready(function(){
+     page.display();
 });
