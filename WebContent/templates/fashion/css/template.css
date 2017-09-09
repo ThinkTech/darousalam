@@ -2608,7 +2608,14 @@ div#horizontalTab1 ul {
     font-size: 10px;
     width: 168px;
     display: block;
-}
+  }
+   .register input[type="submit"] {
+      height: 28px;
+      width: 112px;
+      font-size: 10px;
+      font-weight: bold;
+      margin: 1em 0 0;
+    }
 	.search_box:checked~.search_form {
 		width: 96%;
 	}
