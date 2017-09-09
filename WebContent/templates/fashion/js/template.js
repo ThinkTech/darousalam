@@ -50,10 +50,6 @@ const saveOrder = function() {
 
 page.displayProducts = function() {
 	
-	setTimeout(function(){
-		page.loadImages($("#checkout-wizard"));	
-	},10000);
-	
 	const div = $("#products");
 	const details = $("#product-details");
 	$.each($(".tabs",div),function(index,element){
@@ -259,7 +255,7 @@ $(document).ready(function(){
 		    page.wait({top : top});
 		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 					"templates/fashion/js/social.js",
-					"https://www.google.com/recaptcha/api.js","templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",
+					"https://www.google.com/recaptcha/api.js",
 			  function() {
 		    	$("> div",wizard).css("top",top);
 		    	page.release();
@@ -295,10 +291,21 @@ $(document).ready(function(){
 	    			input = prevStep.find("select[name='method']");
 	    			val = input.val();
 	    			payment.done = false;
+                    if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
+                      page.wait({top : currentStep.offset().top-50});
+                      head.load("templates/fashion/js/visa.js","https://sandbox-assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js",function(){
+                    	  page.release(); 
+                      });
+      	    		}else if(val == "paypal") {
+                      page.wait({top : currentStep.offset().top-50});
+                      head.load("https://www.paypalobjects.com/api/checkout.js","templates/fashion/js/paypal.js",function(){
+                      	  page.release(); 
+                      });
+        	    	} 	
 	    		}else {
 	    			payment.done = true;
 	    		}
-	    		$("."+val+"-payment",currentStep).show();
+	    		$("."+val+"-payment",div).show();
 	    	}
 	    },
 	    beforeSubmit: function() {
@@ -313,9 +320,11 @@ $(document).ready(function(){
 	    		  const select = form.find("select[name='method']")
 	    		  const val = select.val();
 	    		  if(val == "visa" || val == "mastercard" || val == "express" || val == "discover") {
-	    			  $("."+val+"-payment .v-button",form).trigger("click"); 
-	    		  }else {
-	    			  saveOrder();
+	    			  alert("vous devez effectuer le paiement",function(){
+	    				  $("."+val+"-payment .v-button",form).trigger("click");  
+	    			  });
+	    		  }else{
+	    			  alert("vous devez effectuer le paiement");
 	    		  }    		  
 	    		}else {
 	    			saveOrder();
@@ -455,4 +464,9 @@ $(document).ready(function(){
 			}
 		});	
 	}
+	
+	setTimeout(function(){
+		page.loadImages($("#checkout-wizard"));	
+	},10000);
+	
 });

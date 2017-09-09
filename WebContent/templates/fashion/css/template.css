@@ -2945,7 +2945,8 @@ div#horizontalTab1 ul {
 }
 @media (max-width:667px){
 	#checkout-wizard fieldset {box-shadow : none;border : 1px solid #ffa709;padding: 0px;padding-bottom: 0;}
-	.checkout-wizard-content fieldset h4 {margin-bottom: 0px;}
+	.checkout-wizard-content fieldset h4 {margin-bottom: 3px;}
+	.paypal-payment{height:70px;overflow:hidden}
 	.shopping-amount > span {line-height: 12px;}
 	.banner,#about,#top-brands,#footer,#schedules,.w3agile_special_deals_grids {display:none}
 	.navbar-nav > li > a {font-size: 14px}

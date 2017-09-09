@@ -179,7 +179,7 @@
 										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<img alt="Visa Checkout" class="v-button img-responsive" role="button"
-										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
+										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
 								</div>
 								<div class="payment mastercard-payment">
 									<h4>
@@ -253,6 +253,8 @@
 									<ol>
 
 									</ol>
+									<div id="paypal-button"></div>
+									
 								</div>
 								<div class="payment delivery-payment">
 									<h4>
