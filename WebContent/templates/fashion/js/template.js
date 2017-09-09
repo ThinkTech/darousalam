@@ -139,7 +139,7 @@ page.displayProducts = function() {
 			const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 			$(".modal_body_left img",details).attr("src",src);
 			$(".modal_body_right h4",details).html(item);
-			$("input",details).val("1");
+			$("input",details).val(1);
 			$(".shop",details).data("name",item).removeAttr("disabled");
 			details.addClass("in").show();
 		});	
@@ -149,7 +149,7 @@ page.displayProducts = function() {
 			const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 			$(".modal_body_left img",details).attr("src",src);
 			$(".modal_body_right h4",details).html(item);
-			("input",details).val("1");
+			$("input",details).val(1);
 			$(".shop",details).data("name",item).removeAttr("disabled");
 			details.addClass("in").show();
         });
