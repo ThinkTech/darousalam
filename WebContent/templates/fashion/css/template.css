@@ -61,7 +61,14 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-
+.navbar-nav>li {
+	border: 1px solid #ff9b05;
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-right : 10px;
+    margin-bottom : 15px;
+}
 .w3l_login{
 	float:left;
 }
@@ -2380,14 +2387,14 @@ div#horizontalTab1 ul {
 		padding-right: 3em;
 	}
 	.navbar-nav > li > a {
-		padding: 15px 0px !important;
+		padding: 11px 12px !important;
 	}
 	.row {
 		margin: 0;
 	}
 	.navbar-nav > li {
      display : inline-block;
-     margin-right : 2em;
+     margin-bottom : 15px;
    }
 }
 @media (max-width:736px){
