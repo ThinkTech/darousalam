@@ -2,7 +2,7 @@ const wizard = $("#checkout-wizard").css("opacity","0").show();
 const height = $(document).height() + $("#footer").height();
 wizard.css("top","0").css("height",height);
 const form = $(".checkout-wizard-steps > form",wizard);
-	form.easyWizard({
+form.easyWizard({
 	    prevButton: "Pr\u0117c\u0117dent",
 	    nextButton: "Suivant",
 	    submitButtonText: "Terminer",
