@@ -74,7 +74,7 @@ body a:hover{
 }
 .w3l_logo h1 a{
 	font-size:1.1em;
-	color:#212121;
+	color:#000;
 	text-decoration:none;
 }
 .w3l_logo h1 a span{
@@ -103,12 +103,12 @@ body a:hover{
     font-size: 1.1em;
     padding: 11px;
     padding-right: 13px;
-    color: #000;
+    color: #fff;
     width: 160px;
     margin-top: 49px;
-    border: 3px solid #ff9b05;
+    border: 2px solid #ff9b05;
     border-radius: 38px;
-    background: #fff;
+    background: #000;
     font-weight: bold;
     font-family: Open Sans;
     text-align: center;
@@ -141,13 +141,13 @@ body a:hover{
 
 .w3l_login a {
    font-size: 2em;
-    color: #212121;
+    color: #000;
     width: 50px;
     height: 50px;
     display: block;
     text-align: center;
     padding-left : 5px;
-    border: 1px solid #212121;
+    border: 1px solid #000;
     cursor : pointer;
 }
 
@@ -176,7 +176,7 @@ a.act {
     margin:1.5em 0 0 3.5em;
 }
 label.icon-search {
-    color: #212121;
+    color: #000;
 	cursor: pointer;
 }
 .search_form{
@@ -222,7 +222,7 @@ label.icon-search {
 .search_form input[type='submit']:hover{
 	background:#fff;
 	border:1px solid #fff;
-	color:#212121;
+	color:#000;
 }
 .search_box{
 	visibility: hidden;
@@ -440,7 +440,7 @@ a .total {
 /*-- //header --*/
 /*-- navigation --*/
 .navbar-default .navbar-nav > li > a {
-    color: #212121;
+    color: #000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
@@ -861,11 +861,11 @@ a .total {
     text-decoration: none;
 }
 .agile_ecommerce_tab_left h5 a:hover{
-	color:#212121;
+	color:#000;
 }
 .simpleCart_shelfItem p{
 	font-size: 1.2em;
-    color: #212121;
+    color: #000;
     margin: 0.5em 0 1em;
     font-weight: bold;
 }
@@ -881,14 +881,14 @@ a .total {
 }
 .simpleCart_shelfItem p a{
     font-size: 14px;
-    color: #000;
+    color: #fff;
     margin: 0;
     text-decoration: none;
     text-transform: uppercase;
     padding: .5em 2em;
     border: 2px solid #ff9b05;
     border-radius: 25px;
-    background: #fff;
+    background: #000;
 }
 
 /*-- image-hover --*/
@@ -924,7 +924,7 @@ a .total {
 }
 .w3_hs_bottom ul li a,.flex_ecommerce a{
 	font-size:1em;
-	color:#212121;
+	color:#000;
 	text-decoration:none;
 	padding: .5em;
     background: #fff;
@@ -960,7 +960,7 @@ a .total {
 }
 .modal_body_right_cart p {
     font-size: 1.2em;
-    color: #212121;
+    color: #000;
 	margin: 1em 0 1em;
 }
 .modal_body_right h5{
@@ -1077,7 +1077,7 @@ a .total {
 .special-deals h2,.container-bg h3,.top-brands h3,.w3l_related_products h3,.team h3,.mail h3{
 	font-size:2.5em;
 	font-weight : bold;
-	color:#212121;
+	color:#000;
 	position:relative;
 	padding-bottom:1em;
 	margin-top: -10px;
@@ -1099,7 +1099,7 @@ a .total {
     position: absolute;
     bottom: 79%;
     right: 43%;
-    background: #212121;
+    background: #000;
     height: 1px;
     width: 10%;
     transform: rotate(135deg);
@@ -1166,7 +1166,7 @@ a .total {
 }
 .w3agile_special_deals_grid_left_grid_pos1 h5{
 	font-size: 1.2em;
-    color: #212121;
+    color: #000;
     text-align: center;
     padding: 1.5em 0 0;
 }
@@ -1281,7 +1281,7 @@ ul.wmuSliderPagination {
 }
 .agileinfo_banner_bottom1_grid_left h3{
 	font-size: 18px;
-    color: #212121;
+    color: #000;
     text-transform: lowercase;
     margin-bottom: 4em;
     font-weight : bold;
@@ -1294,7 +1294,7 @@ ul.wmuSliderPagination {
     color: #ff9b05;
 }
 .agileinfo_banner_bottom1_grid_left h3 span i{
-	color:#212121;
+	color:#000;
 }
 .agileinfo_banner_bottom1_grid_left a,.team-bottom a{
 	text-align: right;
@@ -1327,10 +1327,10 @@ ul.wmuSliderPagination {
     font-size: 1em;
     font-weight : bold;
     letter-spacing: 2px;
-    background: #212121;
+    background: #000;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid;
+    border: 2px solid #ff9b05;
     white-space: nowrap;
 }
 /* -- timer -- */
@@ -1361,8 +1361,9 @@ ul.wmuSliderPagination {
     display:inline-block;
 	width: 90px;
     height: 90px;
-    background:#FF9B05;
+    background:#000;
     border-radius : 10%;
+    border : 1px solid #FF9B05;
 }
 .points {
 	float: left;
@@ -1380,7 +1381,7 @@ ul.wmuSliderPagination {
 	float: left;
 	width: 100%;
 	font-size: 14px;
-    color: #000;
+    color: #fff;
 	font-style:italic;
 	font-weight: 500;
 	clear: both;
@@ -1388,7 +1389,7 @@ ul.wmuSliderPagination {
 }
 
 .digit {
-	color : #000;
+	color : #fff;
 	font-weight : bold;
 }
 
@@ -1409,7 +1410,7 @@ ul.wmuSliderPagination {
 }
 .w3agile_newsletter_left h3{
 	font-size: 2em;
-    color: #212121;
+    color: #000;
     font-weight: bold;
 }
 .w3agile_newsletter_left p{
@@ -1419,7 +1420,7 @@ ul.wmuSliderPagination {
 .w3agile_newsletter_right input[type="email"]{
 	outline: none;
     padding: 6.45px;
-    color: #212121;
+    color: #000;
     font-size: 14px;
     width: 70%;
     background: #fff;
@@ -1494,7 +1495,7 @@ ul.wmuSliderPagination {
     cursor : pointer;
 }
 .w3_footer_grid ul li a:hover {
-	color:#212121;
+	color:#000;
 }
 .w3_footer_grid h4{
 	margin:1em 0 1em;
@@ -1561,7 +1562,7 @@ ul.wmuSliderPagination {
 }
 .resp-tab-item{
 	border:none;
-	color: #212121;
+	color: #000;
     font-size:1em;
     font-family : Open Sans;
     font-weight : bold;
@@ -1613,7 +1614,7 @@ h2.resp-accordion {
 	border:1px solid #ff9b05;
 	background:#fff;
 	padding:7px;
-	color:#212121;
+	color:#000;
 	width:92.2%;
 	font-size:14px;
 }
@@ -1621,7 +1622,7 @@ h2.resp-accordion {
 	margin:1em 0 0;
 }
 ::-webkit-input-placeholder{
-	color:#212121 !important;
+	color:#000 !important;
 }
 .register input[type="submit"]{
 	outline: none;
@@ -1652,7 +1653,7 @@ div#OR {
 }
 h3.other-nw {
     font-size: 1.2em;
-    color: #212121;
+    color: #000;
     text-align: right;
 }
 
@@ -1724,7 +1725,7 @@ h3.other-nw {
   border: 1px solid #ff9b05;
   background: #fff;
   padding: 10px;
-  color: #212121;
+  color: #000;
   font-size: 14px;
   display : inline-block;
 }
@@ -1747,7 +1748,7 @@ h3.other-nw {
   border: 1px solid #ff9b05;
   background: #fff;
   padding: 10px;
-  color: #212121;
+  color: #000;
   font-size: 14px;
   display : inline-block;
 }

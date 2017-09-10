@@ -180,7 +180,9 @@
 											PayPal</b>
 									</h4>
 									<ol>
-
+										<li>Cliquer sur le bouton PayPal Express Checkout.</li>
+										<li>Effectuer le paiement de votre commande.</li>
+										<li>Réception SMS de la confirmation de paiement.</li>
 									</ol>
 									<div id="paypal-button"></div>
 									
