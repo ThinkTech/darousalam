@@ -291,7 +291,7 @@ a .total {
 
 .shoppingCart{
       position:absolute;
-      min-width : 300px;
+      min-width : 350px;
       box-shadow:0 2px 3px 1px rgba(0,0,0,0);
       right : -3px;
       display : none;
@@ -365,7 +365,7 @@ a .total {
 }
 
 .shoppingCart li span span { 
-	width : 185px;
+	width : 225px;
 }
 
 .shoppingCart li strong {
@@ -850,8 +850,7 @@ a .total {
 	text-align: center;
 }
 .agile_ecommerce_tabs {
-    padding: 0.3em 0 0;
-    width: 103.3%;
+    width: 101.55%;
 }
 .agile_ecommerce_tab_left h5{
 	margin:1.3em 0 0;
@@ -2434,7 +2433,7 @@ div#horizontalTab1 ul {
 		padding: 10px 14px;
 	}
 	.agile_ecommerce_tabs {
-		padding: 1em 0 0;
+		width : 102.5%;
 	}
 	.w3l_logo {
 		margin-left: 9em;
@@ -2598,6 +2597,7 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	.shoppingCart{min-width:300px;max-width:300px;}
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
     padding: 3px;
     margin-bottom: 0px;
