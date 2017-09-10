@@ -390,18 +390,19 @@
 #order-confirmation a {
 	font-size: 0.97em;
     padding: 9px;
-    color: #fefefe;
+    color: #fff;
     width: 152px;
     display : inline-block;
-    border: 2px solid #fff;
-    border-radius: 38px;
-    background: #ff9b05;
     font-weight : bold;
     margin-right : 3px;
     text-align : center;
     cursor : pointer;
     font-family : Exo;
     user-select : none;
+    border: 2px solid #ff9b05;
+    border-radius: 25px;
+    background: #000;
+    
 }
 
 
@@ -439,9 +440,9 @@
     cursor: pointer;
     width: 80px;
     border-radius: 2px;
-    border: 2px solid #fff;
+    border: 2px solid #ff9b05;
     border-radius: 5px;
-    background: #ff9b05;
+    background: #000;
     color: white;
     padding: 7px;
     width : 100px;
@@ -457,9 +458,9 @@
 	width : 80px;
 	border-radius : 2px;
 	margin-bottom : 20px;
-	border: 2px solid #fff;
+	border: 2px solid #ff9b05;
     border-radius: 5px;
-    background: #ff9b05;
+    background: #000;
     color: white;
     padding: 7px;
     width : 100px;

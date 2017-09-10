@@ -1564,7 +1564,7 @@ ul.wmuSliderPagination {
 .resp-tab-item{
 	border:none;
 	color: #000;
-    font-size:1em;
+    font-size:0.9em;
     font-family : Open Sans;
     font-weight : bold;
     text-transform: uppercase;
@@ -1627,7 +1627,6 @@ h2.resp-accordion {
 }
 .register input[type="submit"]{
 	outline: none;
-    border: 1px solid #ff9b05;
     background: #ff9b05;
     height: 38px;
     color: #fff;
@@ -1636,6 +1635,9 @@ h2.resp-accordion {
     font-weight: bold;
     text-transform: uppercase;
     margin: 1.2em 0 0;
+    border: 2px solid #ff9b05;
+    background: #000;
+    
 }
 
 div#OR {
@@ -1756,8 +1758,8 @@ h3.other-nw {
 
 
 #contact-form #submit {
- padding: 0;
- width: 100%;
+  padding: 0;
+  width: 100%;
   margin: -5px 0px 0px 0px;
   font-size: 0.875em;
   outline:none;
@@ -1765,8 +1767,9 @@ h3.other-nw {
   height: 50px;
   text-transform: uppercase;
   font-weight: bold;
-  background: #ff9b05;
   color : #fff;
+  border: 2px solid #ff9b05;
+  background: #000;
 }
 
 #flexiselDemo2{
