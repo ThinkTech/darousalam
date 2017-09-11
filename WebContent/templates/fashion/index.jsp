@@ -187,7 +187,7 @@
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
 									    <h4>Livraison Gratuite</h4>
-										<p>Nos frais de livraison varient en fonction de votre domiciliation. Pour toute commande dont le montant est supérieur à <b>50 000 CFA</b>, la livraison est gratuite</p>
+										<p>Nos frais de livraison varient en fonction de votre domiciliation. Pour toute commande dont le montant est supérieur à <b>50 000</b>, la livraison est gratuite</p>
 									</div>
 								</div>
 							</article>
