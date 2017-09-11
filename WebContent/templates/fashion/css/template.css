@@ -2403,7 +2403,7 @@ div#horizontalTab1 ul {
 	.navbar-nav > li > a {font-size: 14px}
 	.navbar-nav > li:nth-child(1) {display:none;}
 	.navbar-nav > li:nth-child(3) {display:none;}
-	#navigation{margin-top: -20px;}
+	#navigation{margin-top: -6px; margin-bottom: 3px;}
 	.modal-dialog {
 		width: 630px;
 	}
