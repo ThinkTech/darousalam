@@ -145,6 +145,10 @@ body a:hover{
 
 .banner .w3agile_special_deals_grid_left_grid1 p {
 	color : #fff;
+	background : #000;
+	border : 1px solid #ff9b05;
+	padding : 10px;
+	border-radius : 15px;
 }
 
 .w3l_login a {
