@@ -861,7 +861,7 @@ a .total {
     width: 101.55%;
 }
 .agile_ecommerce_tab_left h5{
-	margin:1.3em 0 0;
+	margin:1em;
 }
 .agile_ecommerce_tab_left h5 a{
 	font-size: 1.2em;
@@ -1087,7 +1087,7 @@ a .total {
 	font-weight : bold;
 	color:#000;
 	position:relative;
-	padding-bottom:1em;
+	padding-bottom:1.5em;
 	margin-top: -10px;
 	text-align:center;
 	text-transform: uppercase;
@@ -2663,16 +2663,6 @@ div#horizontalTab1 ul {
 	}
 	.w3_hs_bottom ul, .flex_ecommerce {
 		padding: 7em 0 0;
-	}
-	.agileinfo_new_products_grid {
-		width: 100%;
-		float: none;
-	}
-	.agile_ecommerce_tab_left h5 {
-		margin: 1.5em 0 0;
-	}
-	.agileinfo_new_products_grid:nth-child(2) {
-		margin: 2em 0;
 	}
 	.w3agile_newsletter_left h3 {
 		font-size: 1.5em;

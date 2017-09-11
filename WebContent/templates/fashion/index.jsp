@@ -249,24 +249,6 @@
 										</div>
 									</div>
 									<h5><a>${product.name}</a></h5>
-									<div class="rating">
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
-											</div>
-											<div class="clearfix"> </div>
-									</div>
 									<div class="simpleCart_shelfItem">
 										<p><span>${product.price}</span> <i class="item_price">${product.price}</i></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
