@@ -200,8 +200,6 @@ label.icon-search {
 	width: 20px;
 	height:0px;
 	background:#000;
-	transition: height 0.2s ease-out 0.5s , top 0.2s ease-out 0.5s, padding 0.2s ease-out 0.5s, width 0.3s ease-out 0.2s;
-	-webkit-transition: height 0.2s ease-out 0.5s , top 0.2s ease-out 0.5s, padding 0.2s ease-out 0.5s, width 0.3s ease-out 0.2s;
 }
 .search_form form{
 	opacity:0;
@@ -2422,7 +2420,7 @@ div#horizontalTab1 ul {
 	.search_box:checked~.search_form {
 		width: 75%;
         position: fixed;
-        top: 150px;
+        top: 68px;
         right: 10px;
 	}
 	#products .container .gender {
