@@ -69,6 +69,7 @@ body a:hover{
     margin-right : 10px;
     margin-bottom : 15px;
 }
+
 .w3l_login{
 	float:left;
 }
@@ -2374,7 +2375,7 @@ div#horizontalTab1 ul {
 		padding-right: 3em;
 	}
 	.navbar-nav > li > a {
-		padding: 11px 12px !important;
+		padding: 11px 6px !important;
 	}
 	.row {
 		margin: 0;
@@ -2388,9 +2389,6 @@ div#horizontalTab1 ul {
 	.modal-dialog {
 		width: 705px;
 	}
-	.nav > li > a {
-		padding: 10px 21px;
-	}
 	.w3l_logo {
 		margin-left: 6em;
 	}
@@ -2400,7 +2398,7 @@ div#horizontalTab1 ul {
     font-size: 11px;
 }
 	.banner,#about,#top-brands,#footer,#schedules,.w3agile_special_deals_grids {display:none}
-	.navbar-nav > li > a {font-size: 14px}
+	.navbar-nav > li > a {font-size: 13px}
 	.navbar-nav > li:nth-child(1) {display:none;}
 	.navbar-nav > li:nth-child(3) {display:none;}
 	#navigation{margin-top: -12px; margin-bottom: 3px;}
@@ -2428,9 +2426,6 @@ div#horizontalTab1 ul {
 	}
 	.resp-tab-item {font-size: 0.65em;width: 119px;}
     .search_form input[type='text'] {width: 300px;}
-	.nav > li > a {
-		padding: 10px 14px;
-	}
 	.agile_ecommerce_tabs {
 		width : 102.5%;
 	}
