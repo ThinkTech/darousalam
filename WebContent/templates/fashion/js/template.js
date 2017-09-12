@@ -59,8 +59,7 @@ page.displayLogin = function(){
 				fit: true  
 			});
 			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-			  "modules/commerce/js/social.js",
-			  "https://www.google.com/recaptcha/api.js",function(){
+			  "modules/commerce/js/social.js",function(){
 				$("#login").show();
 				page.release();
 			});
@@ -75,6 +74,10 @@ page.displayLogin = function(){
 	
 	$(".tab_item-2").click(function(){
 		$("#login .modal_body_right").addClass("social-login");
+		page.wait();
+		head.load("https://www.google.com/recaptcha/api.js",function(){
+			page.release();
+		});
 	});
 };
 
@@ -103,7 +106,6 @@ page.displayCart = function() {
 		    page.wait({top : top});
 		    head.load("modules/commerce/css/wizard.css","modules/commerce/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 					"modules/commerce/js/social.js",
-					"https://www.google.com/recaptcha/api.js",
 			  function() {
 		    	const wizard = $("#checkout-wizard");
 		    	$("> div",wizard).css("top",top);
