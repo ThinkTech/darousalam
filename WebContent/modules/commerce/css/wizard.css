@@ -150,18 +150,6 @@
 }
 
 
-.wizard-close {
-	float: right;
-    position: relative;
-    top: 2px;
-    right: 15px;
-    cursor: pointer;
-    width : 32px;
-    height : 32px;
-    background : url("../../../images/close.png");
-}
-
-
 .checkout-wizard-content .gigya {
 	display : inline-block;
 	vertical-align: top;

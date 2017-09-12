@@ -3,7 +3,7 @@
 			<h4 class="wizard-title">
 				<i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer l'achat
 			</h4>
-			<span title="fermer l'assistant" class="wizard-close"></span>
+			<span title="fermer l'assistant" class="close">X</span>
 			<div class="checkout-wizard-steps">
 				<form action="commerce/saveOrder" method="post">
 					<section class="step" data-step-title="Identification">

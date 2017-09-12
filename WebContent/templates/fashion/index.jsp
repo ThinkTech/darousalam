@@ -125,7 +125,7 @@
 				<div id="cart" class="shoppingCart">
 					  <summary>
 					     <h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
-					     <span class="close" title="fermer"></span>
+					     <span class="close" title="fermer">X</span>
 					   </summary>
 					   <div>
 					       <ul>
@@ -271,7 +271,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<span class="close" title="fermer"></span>						
+								<span class="close" title="fermer">X</span>						
 							</div>
 							<section>
 								<div class="modal-body">
@@ -486,7 +486,7 @@
 		</div>
    </div>
    <div id="contact-form">
-     <img class="close" data-src="images/close.png"/>
+     <span class="close">X</span>
      <h1><i class="fa fa-envelope"></i>Contact</h1>
      <form  action="contact" method="post">
 		  <input id="name" name="mail.author"  type="text" placeholder="nom complet"> 

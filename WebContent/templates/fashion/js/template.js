@@ -282,7 +282,7 @@ page.display = function(){
 		}
 	});
     const contactForm = $("#contact-form > form");
-	$("#contact-form img").click(function(){
+	$("#contact-form .close").click(function(){
 		$(this).parent().fadeOut();
 	});
 	$("#contact-form > form, #login form, .newsletter form").submit(function(event){

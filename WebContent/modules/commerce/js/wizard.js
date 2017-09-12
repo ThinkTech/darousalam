@@ -70,7 +70,7 @@ form.find("select[name='method']").click(function(){
 form.find("section:nth-child(2) label").click(function(){
 	$(this).prev().prop("checked",true);
 });	
-$(".wizard-close",wizard).click(function(){
+$(".close",wizard).click(function(){
 	wizard.fadeOut(100);
 });
 $("#confirmation-close").click(function(){
