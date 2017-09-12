@@ -25,7 +25,7 @@
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
-					<span class="close" title="fermer" data-dismiss="modal" aria-hidden="true"></span>
+					<span class="close" title="fermer">X</span>
 					<h4 class="modal-title"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h4>
 				</div>
 				<div class="modal-body modal-body-sub">
