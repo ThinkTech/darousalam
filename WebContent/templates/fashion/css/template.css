@@ -171,10 +171,8 @@ body a:hover{
 
 .sign-up a, .sign-up a:visited {
 	color: #ff9b05;
-    font-size: 13px;
-    display: block;
-    position: relative;
-    top: 10px;
+    font-size: 12px;
+    display: inline-block;
     cursor : pointer;
 }
 .captcha {
@@ -802,7 +800,7 @@ a .total {
 }
 
 .modal_body_left1 {
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .modal_body_right {

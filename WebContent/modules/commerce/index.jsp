@@ -20,7 +20,7 @@
 									<a title="créér un compte"><i class="fa fa-user"
 										aria-hidden="true"></i>créér un compte</a> 
 										<input name="email" placeholder="email" type="text" required>
-										<input name="password" placeholder="mot de Passe" type="password" required>
+										<input name="password" placeholder="mot de passe" type="password" required>
 									<div>
 										<input type="button" value="Connexion" title="connexion">
 										<a title="mot de passe oublié"><i class="fa fa-key"
