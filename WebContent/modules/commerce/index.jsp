@@ -107,10 +107,6 @@
 										: </span>775593264
 								</h5>
 								<h5>
-									<span><i class="fa fa-envelope" aria-hidden="true"></i>email
-										: </span>lamine.ba@thinktech.sn
-								</h5>
-								<h5>
 									<a>[modifier]</a>
 								</h5>
 							</div>
