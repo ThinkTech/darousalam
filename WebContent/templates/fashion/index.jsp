@@ -99,6 +99,9 @@
 	</div>
 	<div class="header">
 		<div class="container">
+		    <div class="social">
+				<a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			</div>
 		    <div id="navigation">
 					<ul class="nav navbar-nav">
 						<li><a href="#about" class="scroll" title="à propos">À PROPOS</a></li>
@@ -106,7 +109,7 @@
 						<li><a href="#schedules" class="scroll" title="nos horaires">Nos Horaires</a></li>
 						<li><a class="contact" title="contact">Contact</a></li>
 					</ul>
-				</div>
+			</div>
 			<div class="w3l_login">
 				<a><i class="fa fa-user" aria-hidden="true"></i></a>
 			</div>

@@ -69,7 +69,10 @@ body a:hover{
     margin-right : 10px;
     margin-bottom : 15px;
 }
-
+.header .social {
+	float : right;
+	top : 10px;
+}
 .w3l_login{
 	float:left;
 }
@@ -1552,9 +1555,6 @@ ul.wmuSliderPagination {
 	color:#ff9b05;
 	text-decoration:none;
 }
-.footer-copy p a:hover{
-	color:#fff;
-}
 
 .footer-copy {
 	width : 75%;
@@ -2439,6 +2439,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
+	.header .social {top : 0px;}
 	.banner{background:none}
 	.modal-title {
 		font-size: 1.3em;
