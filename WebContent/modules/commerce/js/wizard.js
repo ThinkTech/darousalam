@@ -96,8 +96,8 @@ $(".shipping-address input[type=button]:nth-child(2)",wizard).click(function(){
 
 $(".shopping-payment .help",wizard).click(function(){
 	const div = $(this).parent().parent();
-	div.find("ol").addClass("help-info").toggle();
-	div.find("h6").addClass("help-info").toggle();
+	div.find("ol").addClass("help-info").show();
+	div.find("h6").addClass("help-info").show();
 	return false;
 });
 

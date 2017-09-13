@@ -295,11 +295,15 @@
 
 .shopping-payment .help {
 	display : none;
+	display : block;
+	width : auto;
+	height : auto;
 }
 
 .shopping-payment .help-info {
 	display: block;
     position: absolute;
+    z-index : 9999999999999999;
     background: #fff;
     border: 1px solid #ff9b05;
     padding: 5px;
