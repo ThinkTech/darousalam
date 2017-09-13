@@ -68,6 +68,7 @@ body a:hover{
     margin-top: 8px;
     margin-right : 10px;
     margin-bottom : 15px;
+    min-width : 100px;
 }
 .header .social {
 	float : right;
