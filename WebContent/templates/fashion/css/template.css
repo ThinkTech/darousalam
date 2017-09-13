@@ -715,6 +715,7 @@ a .total {
     font-family: Tahoma;
     font-size: 13px;
     border-top: 1px solid #ffa709;
+    color : #ff9b05;
 }
 
 .product-view p span {
@@ -723,11 +724,12 @@ a .total {
     font-size: 13px;
     font-family : Exo;
     white-space : nowrap;
-    color: #000;
+    color : #ffa709;
 }
 
 .product-view p span:first-child {
 	float: right;
+	color: #000;
 }
 
 .product-view > div:nth-child(1) {
