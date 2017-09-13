@@ -21,7 +21,7 @@
 										placeholder="Email" type="text" required> <input
 										name="password" placeholder="Mot de Passe" type="password"
 										required>
-									<div class="sign-up">
+									<div>
 										<input type="button" value="Connexion" title="connexion">
 										<a title="mot de passe oublié"><i class="fa fa-key"
 											aria-hidden="true"></i>mot de passe oublié?</a>

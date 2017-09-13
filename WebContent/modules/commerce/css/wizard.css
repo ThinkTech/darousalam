@@ -199,11 +199,11 @@
     padding: 8px;
     line-height: 14px;
     height: 39px;
-    width: 100px;
     font-family: Exo;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 8px;
     margin-left: -2px;
+    text-transform : Capitalize;
 }
 
 .checkout-wizard-content .register input[type="button"]:hover {
