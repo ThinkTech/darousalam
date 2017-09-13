@@ -86,12 +86,13 @@
 					<section class="step" data-step-title="Confirmation">
 						<fieldset>
 							<div class="shipping-address">
-							   <div class="details">
-							     <h4>
+							  <h4>
 									<i class="fa fa-motorcycle" aria-hidden="true"></i><b>Adresse
 										de livraison</b>
 								</h4>
-								<h5>
+								
+							   <div class="details">
+							     <h5>
 									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Nord
 										Foire, VDN</span> <span>derrière la Mosquée</span>
 								</h5>
@@ -133,6 +134,7 @@
 									<h4>
 										<i class="fa fa-cc-visa" aria-hidden="true"></i><b>Paiement
 											Visa</b>
+											<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Cliquer sur terminer ou sur le bouton Visa Checkout.</li>
@@ -146,6 +148,7 @@
 									<h4>
 										<i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement
 											MasterCard</b>
+										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton Visa Checkout.</li>
@@ -159,6 +162,7 @@
 									<h4>
 										<i class="fa fa-credit-card" aria-hidden="true"></i><b>Paiement
 											American Express</b>
+										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton Visa Checkout.</li>
@@ -172,6 +176,7 @@
 									<h4>
 										<i class="fa fa-cc-discover" aria-hidden="true"></i><b>Paiement
 											Discover</b>
+										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton Visa Checkout.</li>
@@ -185,6 +190,7 @@
 									<h4>
 										<i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement
 											Orange Money</b>
+										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Composer le #144#391#.</li>
@@ -198,6 +204,7 @@
 									<h4>
 										<i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement
 											Tigo Cash</b>
+										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Entrer votre numéro de téléphone Tigo.</li>
@@ -210,6 +217,7 @@
 									<h4>
 										<i class="fa fa-paypal" aria-hidden="true"></i><b>Paiement
 											PayPal</b>
+										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton PayPal Express Checkout.</li>
@@ -223,17 +231,18 @@
 									<h4>
 										<i class="fa fa-money" aria-hidden="true"></i><b>Paiement
 											à la livraison</b>
+									   <a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
 									</h4>
 									<h6>Ce mode de paiement vous permet de régler le
 										montant de votre commande en espèces, plus les frais de
 										livraison si celle-ci n'est pas gratuite.</h6>
 								</div>
-							</div>
 								<div class="shopping-amount">
 									<span><span>Commande : </span><span><b>30 000</b></span></span> 
 									<span><span>Frais de livraison : </span><span><b>1 500</b></span></span> 
 									<span><span>Total : </span><span><b>31 500</b></span></span>
 								</div>
+							</div>
 						</fieldset>
 					</section>
 				</form>

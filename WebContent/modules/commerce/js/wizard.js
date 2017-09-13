@@ -85,11 +85,20 @@ $(".loginForm a:nth-child(2)",wizard).click(function(){
 $(".shipping-address a",wizard).click(function(){
 	$(".shipping-address .details",wizard).hide();
 	$(".shipping-address .register",wizard).show();
+	$(".shopping-payment").addClass("payment-hide");
 });
 
 $(".shipping-address input[type=button]:nth-child(2)",wizard).click(function(){
 	$(".shipping-address .details",wizard).show();
 	$(".shipping-address .register",wizard).hide();
+	$(".shopping-payment").removeClass("payment-hide");
+});
+
+$(".shopping-payment .help",wizard).click(function(){
+	const div = $(this).parent().parent();
+	div.find("ol").addClass("help-info").toggle();
+	div.find("h6").addClass("help-info").toggle();
+	return false;
 });
 
 $(".recoveryForm input[type=button]:nth-child(2),.registerForm input[type=button]:nth-child(2)",wizard).click(function(){
@@ -101,3 +110,6 @@ $("#confirmation-close").click(function(){
     $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 });
 wizard.hide().css("opacity","1");
+$("body").click(function(){
+	$(".help-info").hide();
+});

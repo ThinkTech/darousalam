@@ -293,11 +293,26 @@
 	margin-left : 38px;
 }
 
+.shopping-payment .help {
+	display : none;
+}
+
+.shopping-payment .help-info {
+	display: block;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ff9b05;
+    padding: 5px;
+    width : 90%;
+}
+
+
 .shopping-payment li {
 	font-size: 13px;
     line-height: 1.7em;
     font-family: Exo;
     text-align : left;
+    margin-left: 15px;
 }
 
 .shopping-payment h4 {
@@ -309,6 +324,7 @@
    font-family : monospace;	
    float: right;
     margin-right: 15px;
+    margin-top : 10px;
 }
 
 .shopping-amount > span {
@@ -332,6 +348,7 @@
     text-align: right;
     white-space: nowrap;
 }
+
 
 #order-confirmation {
 	top : 120px;
@@ -568,8 +585,8 @@
 }
 @media (max-width:667px){
 	#checkout-wizard fieldset {box-shadow : none;padding: 0px;padding-bottom: 0;}
-	.checkout-wizard-content fieldset h4 {margin-bottom: 0px;}
-	.paypal-payment{height:70px;overflow:hidden}
+	.checkout-wizard-content fieldset h4 {margin-bottom: 2px;}
+	.paypal-payment{height:40px;overflow:hidden}
 	.shopping-amount > span {line-height: 12px;}
 	.checkout-wizard-content .register input[type="text"],.checkout-wizard-content .register input[type="email"],.checkout-wizard-content .register input[type="password"] {
      font-size: 11px;
@@ -619,6 +636,7 @@
 }
 @media (max-width:640px){
 	.shopping-payment ol,.delivery-payment h6 {display : none;}
+	.shopping-payment .help {display:inline-block}
 	.shopping-payment{margin-top:-9px}
 	.checkout-wizard-content {width: 98%;padding:0px}
 	}
@@ -641,10 +659,10 @@
 	#order-confirmation > div {width: 430px;}
 	#order-confirmation p {font-size: 0.8em;}
 	.hs-wrapper {height: 250px;}
-	.shopping-amount {margin-top: 0px;}
 	.shopping-amount b{font-size: 11px;}
 }
 @media (max-width:480px){
+	.payment-hide {display:none}
 	.easyWizardButtons .prev, .easyWizardButtons .next, .easyWizardButtons .submit, .checkout-wizard-content .register input[type="button"] {
 	   height: auto;
        width: auto;
