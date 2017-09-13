@@ -49,7 +49,7 @@
 	margin-top: 15px;
     margin-left: 1px;
     font-family: Exo;
-    background: #000;
+    background: #180101;
     padding: 10px;
     color : #fff;
     border: 2px solid #fff;
@@ -196,7 +196,7 @@
     padding: 10px;
     margin-top : 2px;
     margin-bottom: 5px;
-    color: #000;
+    color: #180101;
     width: 100%;
     font-size: 14px;
 }
@@ -217,7 +217,7 @@
 }
 
 .checkout-wizard-content .register input[type="button"]:hover {
-	background: #000;
+	background: #180101;
 }
 
 .checkout-wizard-content .register a, .checkout-wizard-content .register a:visited {
@@ -425,14 +425,14 @@
     user-select : none;
     border: 2px solid #ff9b05;
     border-radius: 25px;
-    background: #000;
+    background: #180101;
     
 }
 
 
 #order-confirmation a:hover,#order-confirmation a:visited {
     border: 2px solid #fff;
-    background: #000;
+    background: #180101;
     color:#fff;
 }
 
@@ -466,7 +466,7 @@
     border-radius: 2px;
     border: 2px solid #ff9b05;
     border-radius: 5px;
-    background: #000;
+    background: #180101;
     color: white;
     padding: 7px;
     width : 100px;
@@ -484,7 +484,7 @@
 	margin-bottom : 20px;
 	border: 2px solid #ff9b05;
     border-radius: 5px;
-    background: #000;
+    background: #180101;
     color: white;
     padding: 7px;
     width : 100px;
