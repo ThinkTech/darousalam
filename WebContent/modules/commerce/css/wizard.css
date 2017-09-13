@@ -662,7 +662,7 @@
     margin-bottom: 10px;}
     #checkout-wizard .shipping-address select {
     font-size: 10px;
-    width: 97.6%;
+    width: 99%;
     margin-top: 4px;
     margin-bottom: 4px;
     padding : 2px;
@@ -671,8 +671,7 @@
 	.checkout-wizard-content fieldset > div h5 {font-size: 9px;}
 	.checkout-wizard-content fieldset h4 {font-size: 10px;}
 	.checkout-wizard-content fieldset h6 {font-size: 9px;}
-	.checkout-wizard-content fieldset > div {margin-left: 9px;padding: 0px;
-    padding-left: 2px;}
+	.checkout-wizard-content fieldset > div {margin-left: 9px;padding: 2px;padding-left: 4px;}
 	#order-confirmation > div {width: 80%;}
 	#order-confirmation p {font-size: 10px;}
 	#order-confirmation a {font-size: 10px;padding: 9px;width : 100px;}
@@ -683,7 +682,7 @@
       margin-bottom : 0px;
       margin-top : 3px;
       font-size : 10px;
-      width: 97.5%;
+      width: 99%;
       display:block;
       height : 22px;
 	}
