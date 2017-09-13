@@ -110,6 +110,7 @@ page.displayCart = function() {
 		if(!count) {
 			cart.hide();
 			alert(message);
+
 		}else {
 			cart.hide();
 			payment.done = false;

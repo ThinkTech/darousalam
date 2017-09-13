@@ -82,6 +82,16 @@ $(".loginForm a:nth-child(2)",wizard).click(function(){
 	$(".recoveryForm",wizard).show();
 });
 
+$(".shipping-address a",wizard).click(function(){
+	$(".shipping-address .details",wizard).hide();
+	$(".shipping-address .register",wizard).show();
+});
+
+$(".shipping-address input[type=button]:nth-child(2)",wizard).click(function(){
+	$(".shipping-address .details",wizard).show();
+	$(".shipping-address .register",wizard).hide();
+});
+
 $(".recoveryForm input[type=button]:nth-child(2),.registerForm input[type=button]:nth-child(2)",wizard).click(function(){
 	$(".wizardForm",wizard).hide();
 	$(".loginForm",wizard).show();

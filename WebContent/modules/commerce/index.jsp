@@ -86,7 +86,8 @@
 					<section class="step" data-step-title="Confirmation">
 						<fieldset>
 							<div class="shipping-address">
-								<h4>
+							   <div class="details">
+							     <h4>
 									<i class="fa fa-motorcycle" aria-hidden="true"></i><b>Adresse
 										de livraison</b>
 								</h4>
@@ -109,6 +110,23 @@
 								<h5>
 									<a>[modifier]</a>
 								</h5>
+								</div>
+								<div class="register" style="display:none">
+								   <div>
+										<input placeholder="adresse" type="text">
+										<select>
+										  <option>Dakar</option>
+										</select>
+										<select>
+										  <option>Fann</option>
+										</select>	
+										<input placeholder="téléphone"  type="text"> 
+									<div>
+										<input type="button" value="Modifier">
+										<input type="button" value="Annuler">
+									</div>
+								 </div>	
+								</div>
 							</div>
 							<div class="shopping-payment">
 								<div class="payment visa-payment">
@@ -206,10 +224,9 @@
 										<i class="fa fa-money" aria-hidden="true"></i><b>Paiement
 											à la livraison</b>
 									</h4>
-									<h6>Payer en toute sécurité avec le paiement à la
-										livraison! Ce mode de paiement vous permet de régler le
+									<h6>Ce mode de paiement vous permet de régler le
 										montant de votre commande en espèces, plus les frais de
-										livraison.</h6>
+										livraison si celle-ci n'est pas gratuite.</h6>
 								</div>
 							</div>
 								<div class="shopping-amount">
