@@ -574,7 +574,7 @@
 	}
 	.shopping-amount > span > span:first-of-type {
        width: 122px;
-       font-size: 11px;
+       font-size: 10px;
     }
     .checkout-wizard-content fieldset h6 {font-size: 11px;}
     .shopping-payment li {font-size: 11px;}
