@@ -16,16 +16,34 @@
 								</div>
 								<div id="or">OU</div>
 								<div class="register">
+								  <div class="wizardForm loginForm">
 									<a title="créér un compte"><i class="fa fa-user"
-										aria-hidden="true"></i>créér un compte</a> <input name="email"
-										placeholder="Email" type="text" required> <input
-										name="password" placeholder="Mot de Passe" type="password"
-										required>
+										aria-hidden="true"></i>créér un compte</a> 
+										<input name="email" placeholder="email" type="text" required>
+										<input name="password" placeholder="mot de Passe" type="password" required>
 									<div>
 										<input type="button" value="Connexion" title="connexion">
 										<a title="mot de passe oublié"><i class="fa fa-key"
 											aria-hidden="true"></i>mot de passe oublié?</a>
 									</div>
+								 </div>
+								 <div class="wizardForm recoveryForm" style="display:none">
+								       <input name="email" placeholder="email" type="text" required>
+									<div>
+										<input type="button" value="Envoyer" title="envoyer">
+										<input type="button" value="Annuler" title="annuler">
+									</div>
+								 </div>
+								 <div class="wizardForm registerForm" style="display:none">
+										<input placeholder="nom complet" name="nom" type="text">
+										<input placeholder="email" name="email" type="email">	
+										<input placeholder="mot de passe" name="password" type="password">	
+										<input placeholder="confirmation" name="password" type="password"> 
+									<div>
+										<input type="button" value="Créér Mon Compte">
+										<input type="button" value="Annuler" title="annuler">
+									</div>
+								 </div>	
 								</div>
 							</div>
 							<div id="profile">

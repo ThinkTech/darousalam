@@ -7,6 +7,10 @@
     display : none;
 }
 
+#checkout-wizard .wizardForm  {
+	margin-top : 10px;
+}
+
 #checkout-wizard select {
 	outline:none;
 	padding:12px 10px;
@@ -22,7 +26,7 @@
 
 #checkout-wizard fieldset{
 	padding: 1em;
-	padding-bottom : 20px;
+	padding-bottom : 30px;
     color: #3a0b03;
     background : #fff;
     font-size: 19px;
@@ -185,8 +189,8 @@
     background: #fff;
     padding: 4px;
     margin-top : 2px;
-    margin-bottom: 12px;
-    color: #212121;
+    margin-bottom: 5px;
+    color: #000;
     width: 100%;
     font-size: 14px;
 }
@@ -588,7 +592,8 @@
     }
     .easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit,.checkout-wizard-content .register input[type="button"] {
       height: 35px;
-      width: 85px;
+      width : auto;
+      min-width: 85px;
       font-size: 13px;
       margin-top : 5px;
     }
@@ -632,7 +637,8 @@
 @media (max-width:480px){
 	.easyWizardButtons .prev, .easyWizardButtons .next, .easyWizardButtons .submit, .checkout-wizard-content .register input[type="button"] {
 	    height: auto;
-	    width: 85px;
+	    width : auto;
+	    min-width: 85px;
 	    font-size: 10px;
 	    margin-top: 4px;
 	    padding-top: 3px;
@@ -644,7 +650,6 @@
 	.checkout-wizard-content{height:320px}
 	#checkout-wizard select {font-size:11px;width:90%;display:block;padding: 9px 10px;margin-top: 10px;
     margin-bottom: 10px;}
-	.easyWizardButtons .prev,.easyWizardButtons .next, .easyWizardButtons .submit {width:70px;font-size:11px}
 	.shipping-address, .shopping-payment {width: 88%;overflow: hidden;}
 	.checkout-wizard-content fieldset > div > h5 {font-size: 9px;}
 	.checkout-wizard-content fieldset h4 {font-size: 10px;}
@@ -658,10 +663,11 @@
 	.checkout-wizard-content .register input[type="text"],.checkout-wizard-content .register input[type="email"],.checkout-wizard-content .register input[type="password"] {
       padding: 3px;
       margin-bottom : 0px;
-      margin-top : 4px;
+      margin-top : 3px;
       font-size : 10px;
       width: 97.5%;
       display:block;
+      height : 22px;
 	}
 	.checkout-wizard-content .register input[type="submit"] {width: 168px;height: 24px;margin : 4px 0 0;font-size:8px}
 }

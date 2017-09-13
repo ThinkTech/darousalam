@@ -73,6 +73,19 @@ form.find("section:nth-child(2) label").click(function(){
 $(".close",wizard).click(function(){
 	wizard.fadeOut(100);
 });
+$(".loginForm a:nth-child(1)",wizard).click(function(){
+	$(".wizardForm",wizard).hide();
+	$(".registerForm",wizard).show();
+});
+$(".loginForm a:nth-child(2)",wizard).click(function(){
+	$(".wizardForm",wizard).hide();
+	$(".recoveryForm",wizard).show();
+});
+
+$(".recoveryForm input[type=button]:nth-child(2),.registerForm input[type=button]:nth-child(2)",wizard).click(function(){
+	$(".wizardForm",wizard).hide();
+	$(".loginForm",wizard).show();
+});
 $("#confirmation-close").click(function(){
 	$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
     $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		

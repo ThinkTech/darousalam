@@ -115,8 +115,8 @@ page.displayCart = function() {
 			payment.done = false;
 		    const top = $(".cart").offset().top;
 		    page.wait({top : top});
-		    head.load("modules/commerce/css/wizard.css","modules/commerce/js/wizard.js","http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-					"modules/commerce/js/social.js",
+		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+					"modules/commerce/js/social.js","modules/commerce/css/wizard.css","modules/commerce/js/wizard.js",
 			  function() {
 		    	const wizard = $("#checkout-wizard");
 		    	$("> div",wizard).css("top",top);
