@@ -20,8 +20,7 @@
 	
 <body>
 <!-- header -->
-	<div class="modal" id="login" tabindex="-1" role="dialog" aria-labelledby="login"
-		aria-hidden="true">
+	<div class="modal" id="login">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -34,13 +33,13 @@
 							<div class="sap_tabs">	
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
-										<li class="resp-tab-item tab_item-1" aria-controls="tab_item-0"><span>Identification</span></li>
-										<li class="resp-tab-item tab_item-2" aria-controls="tab_item-1"><span>Inscription</span></li>
+										<li class="resp-tab-item tab_item-1"><span>Identification</span></li>
+										<li class="resp-tab-item tab_item-2"><span>Inscription</span></li>
 									</ul>		
-									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-										<div class="facts">
-											<div class="register">
-												<form action="#" method="post">			
+									<div class="tab-1 resp-tab-content">
+										<div>
+											<div class="register loginForm">
+												<form>			
 													<input name="Email" placeholder="email" type="email">						
 													<input name="Password" placeholder="mot de passe" type="password">										
 													<div class="sign-up">
@@ -49,11 +48,20 @@
 													</div>
 												</form>
 											</div>
+											<div class="register recoveryForm" style="display:none">
+												<form>			
+													<input name="Email" placeholder="email" type="email">						
+													<div class="sign-up">
+														<input type="submit" value="Envoyer"/>
+														<input type="button" value="Annuler"/>
+													</div>
+												</form>
+											</div>
 										</div> 
 									</div>	
 
-									<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
-										<div class="facts">
+									<div class="tab-2 resp-tab-content">
+										<div>
 											<div class="register">
 												<form action="#" method="post">			
 													<input placeholder="nom complet" name="nom" type="text">

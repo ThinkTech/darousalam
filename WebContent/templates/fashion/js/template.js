@@ -49,6 +49,7 @@ app.saveOrder = function() {
 };
 
 page.displayLogin = function(){
+	const login = $("#login");
 	$(".w3l_login a").click(function(event){
 		if(!$(this).data("loaded")) {
 			$(this).attr("data-loaded","true");
@@ -60,24 +61,34 @@ page.displayLogin = function(){
 			});
 			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			  "modules/commerce/js/social.js",function(){
-				$("#login").show();
+				login.show();
 				page.release();
 			});
 		}else {
-			$("#login").show();
+			login.show();
 		}
 	});
 	
 	$(".tab_item-1").click(function(){
-		$("#login .modal_body_right").removeClass("social-login");
+		$(".modal_body_right",login).removeClass("social-login");
 	});
 	
 	$(".tab_item-2").click(function(){
-		$("#login .modal_body_right").addClass("social-login");
+		$(".modal_body_right",login).addClass("social-login");
 		page.wait();
 		head.load("https://www.google.com/recaptcha/api.js",function(){
 			page.release();
 		});
+	});
+	
+	$(".loginForm a",login).click(function(){
+		$(".loginForm",login).hide();
+		$(".recoveryForm",login).show();
+	});
+	
+	$(".recoveryForm input[type=button]",login).click(function(){
+		$(".loginForm",login).show();
+		$(".recoveryForm",login).hide();
 	});
 };
 
