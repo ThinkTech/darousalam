@@ -698,7 +698,7 @@ a .total {
 }
 
 .product-view {
-	padding : 10px;
+	padding-top : 10px;
 	min-width : 300px;
 	max-width : 300px;
 	min-height : 300px;
@@ -741,6 +741,7 @@ a .total {
 
 .product-view > div img {
 	max-height : 200px;
+	margin-left : 10px;
 }
 
 .zoom {
