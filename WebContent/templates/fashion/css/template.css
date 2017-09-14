@@ -31,7 +31,7 @@ html, body{
 }
 
 .container-bg {
-    background:#BEE5E2;
+    background:#f6d7b6;
 }
 
 .header {padding-bottom: 50px;}
@@ -403,7 +403,7 @@ a .total {
     padding-bottom: 0px;
     height: 45px;
     overflow: hidden;
-    background: #ECECEC;
+    background: #f4efe9;
     font-family: Tahoma;
     font-size: 13px;
     border-top: 1px solid #ffa709;
@@ -608,7 +608,7 @@ a .total {
 	width : 300px;
 	margin : auto;
 	margin-top : 50px;
-	background : #ECECEC;
+	background : #f4efe9;
 	padding : 20px;
 	padding-left : 40px;
 	list-style-position: inside;
@@ -711,7 +711,7 @@ a .total {
     padding-bottom: 0px;
     height: 45px;
     overflow: hidden;
-    background: #ECECEC;
+    background: #f4efe9;
     font-family: Tahoma;
     font-size: 13px;
     border-top: 1px solid #ffa709;
@@ -1427,7 +1427,7 @@ ul.wmuSliderPagination {
 
 /*-- newsletter --*/
 .newsletter{
-	background:#ECECEC;
+	background:#f4efe9;
 	padding:3em 0;
 }
 .w3agile_newsletter_left h3{
@@ -1956,7 +1956,7 @@ div#horizontalTab1 ul {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ECECEC;
+  background: #f4efe9;
 }
 
 ::-webkit-scrollbar-button {
