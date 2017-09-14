@@ -1109,6 +1109,7 @@ a .total {
 	text-align:center;
 	text-transform: uppercase;
 	font-family : Open Sans;
+	text-shadow : 1px 0px #c7821b;
 }
 #deal h2:before,.container-bg h3:before,.top-brands h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before{
 	content: '';
@@ -2620,7 +2621,7 @@ div#horizontalTab1 ul {
 	}
 	.shoppingCart li span span {width: 195px;}
 	.w3l_logo h1 a {
-    font-size: .6em;
+    font-size: .66em;
     }
 	.social-login{display:none}
 	.modal-dialog {
