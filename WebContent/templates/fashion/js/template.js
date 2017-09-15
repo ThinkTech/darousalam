@@ -124,6 +124,12 @@ page.displayCart = function() {
 			  function() {
 		    	const wizard = $("#checkout-wizard");
 		    	$("> div",wizard).css("top",top);
+		    	const order = $(".total",cart).text().replace(/\s/g,'');
+		    	$("#order-amount",wizard).html( $(".total",cart).html());
+		    	const delivery = 2000;
+		    	$("#delivery-amount",wizard).html(delivery.toLocaleString("fr-FR"));
+		    	const total = parseInt(order) + delivery;
+		    	$("#shopping-amount",wizard).html(total.toLocaleString("fr-FR"));
 		    	wizard.show();
 		    	page.release();
 		    	$('html,body').animate({scrollTop:top},1);
@@ -246,7 +252,8 @@ page.addCartItem = function(item){
 	});
     var total = 0;
     const amount = parseInt(item.quantity) * parseInt(item.price);
-    li.find('.price').attr("amount",amount).html(amount.toLocaleString("fr-FR"));
+    li.data("amount",amount)
+    li.find('.price').html(amount.toLocaleString("fr-FR"));
     li.find(".trash").click(function(){
     	const message = "voulez-vous supprimer cet article?";
 		confirm(message, function() {
@@ -254,8 +261,8 @@ page.addCartItem = function(item){
 			li.remove();
 			$(".simpleCart_quantity").html(ul.find("li").length);
 			total = 0;
-			$.each($("li .price",ul),function(index,element){
-            	total += parseInt($(element).attr("amount"));
+			$.each($("li",ul),function(index,element){
+            	total += parseInt($(element).data("amount"));
             });
             $(".total",cart).html(total.toLocaleString("fr-FR"));
             page.cart.splice(index,1);
@@ -265,8 +272,8 @@ page.addCartItem = function(item){
     ul.append(li);
     ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
     $(".simpleCart_quantity").html(ul.find("li").length);
-    $.each($("li .price",ul),function(index,element){
-    	total += parseInt($(element).attr("amount"));
+    $.each($("li",ul),function(index,element){
+    	total += parseInt($(element).data("amount"));
     });
     $(".total",cart).html(total.toLocaleString("fr-FR"));
 };
