@@ -119,7 +119,14 @@
 										  <option>Dakar</option>
 										</select>
 										<select>
+										  <option>Almadies</option>
+										  <option>Centre Ville</option>
 										  <option>Fann</option>
+										  <option>Guediawaye</option>
+										  <option>Keur Massar</option>
+										  <option>Nord Foire</option>
+										  <option>Parcelles</option>
+										  <option>Pikine</option>
 										</select>	
 										<input placeholder="téléphone"  type="text"> 
 									<div>
