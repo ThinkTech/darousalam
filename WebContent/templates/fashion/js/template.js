@@ -314,16 +314,13 @@ page.display = function(){
 				input.focus();
 			});
 		}else{
-			$("#search_box").click();
 			app.post(form.attr("action"),form.serialize(),function(response) {
 				if(response.status==0){
-					alert("aucun article trouv\u0117",function(){
-						$("#search_box").click(); 
-						setTimeout (function(){ 
-						      input.focus().select(); 
-						    },1000);
+					alert("aucun article trouv\u0117",function(){ 
+						input.focus().select(); 
 					});
 				}else{
+					$("#search_box").click();
 					// show articles
 				}
 			}, function(error) {
