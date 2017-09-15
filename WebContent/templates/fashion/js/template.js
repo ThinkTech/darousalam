@@ -305,6 +305,33 @@ page.display = function(){
 			$(element).removeClass("in").hide();
 		});
 	});
+	$(".search form").submit(function(){
+		const form = $(this);
+		const input = $("input[type=text]",form);
+		const val = input.val();
+		if(val.trim()==''){
+			alert("entrer votre recherche",function(){
+				input.focus();
+			});
+		}else{
+			$("#search_box").click();
+			app.post(form.attr("action"),form.serialize(),function(response) {
+				if(response.status==0){
+					alert("aucun article trouv\u0117",function(){
+						$("#search_box").click(); 
+						setTimeout (function(){ 
+						      input.focus().select(); 
+						    },1000);
+					});
+				}else{
+					// show articles
+				}
+			}, function(error) {
+				alert("error");
+			});	
+		}
+		return false;
+	});
 	$(".contact").click(function(event){
 		const div = $("#contact-form");
 		if(div.is(":hidden")) {

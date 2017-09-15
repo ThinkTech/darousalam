@@ -27,8 +27,13 @@ class ModuleAction extends ActionSupport {
        SUCCESS
     }
     
+    def search() {
+       def query = getParameter("query")
+       response.writer.write(json([status: 0]))
+    }
+    
     def saveOrder() {
-       response.writer.write(json([status: "1"]))
+       response.writer.write(json([status: 1]))
     }
     
     def loadProducts() {

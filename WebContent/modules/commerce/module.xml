@@ -4,5 +4,6 @@
   <cached>true</cached>
   <actions>
    	<action url="saveOrder" method="saveOrder"/>
+   	<action url="search" method="search"/>
   </actions>
 </module>
