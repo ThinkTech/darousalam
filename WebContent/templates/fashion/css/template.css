@@ -1232,8 +1232,7 @@ a .total {
     font-size: 0.9em;
     font-weight: bold;
 	line-height:1.8em;
-	height: 120px;
-	overflow: hidden;
+	min-height: 120px;
 }
 .w3agile_special_deals_grid_left_grid1 h4{
 	font-size: 1.5em;
@@ -2030,7 +2029,6 @@ div#horizontalTab1 ul {
     right: 150px;
  }
  .footer-copy {width: 90%;}
- .banner .w3agile_special_deals_grid_left_grid1 p {height: 130px;overflow: hidden}
  .w3_footer_grid ul li {font-size: 11px;}
  .nbs-flexisel-nav-left {
 	   left : -5%;
