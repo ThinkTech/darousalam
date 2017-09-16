@@ -793,9 +793,14 @@ a .total {
 
 /*-- //banner --*/
 /*-- banner-bottom --*/
-.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.top-brands,.dresses,.w3l_related_products{
+.team,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.container-bg,.banner-bottom1,.dresses,.w3l_related_products{
 	padding:4em 0;
 }
+
+.top-brands {
+	padding-bottom : 4em;
+}
+
 
 .banner-bottom{
 	padding:2em 0;
