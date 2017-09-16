@@ -317,7 +317,7 @@ page.display = function(){
 			app.post(form.attr("action"),form.serialize(),function(response) {
 				if(response.status==0){
 					alert("aucun article trouv\u0117",function(){ 
-						input.focus().select(); 
+						input.focus(); 
 					});
 				}else{
 					$("#search_box").click();

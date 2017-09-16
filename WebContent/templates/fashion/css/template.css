@@ -235,11 +235,6 @@ label.icon-search {
     padding: 6px 10px;
     width: auto;
 }
-.search_form input[type='submit']:hover{
-	background:#fff;
-	border:1px solid #fff;
-	color:#180101;
-}
 .search_box{
 	visibility: hidden;
 }
