@@ -40,7 +40,7 @@
 										<div>
 											<div class="register loginForm">
 												<form>			
-													<input name="Email" placeholder="email" type="email">						
+													<input name="Email" placeholder="email" type="email" class="required">						
 													<input name="Password" placeholder="mot de passe" type="password">										
 													<div class="sign-up">
 														<input type="submit" value="Connexion"/>
