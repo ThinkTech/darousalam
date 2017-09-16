@@ -597,11 +597,20 @@ a .total {
 }
 
 #about p, #schedules p {
-	width: 76%;
+	width: 84%;
     margin: auto;
     text-align: justify;
     font-size: 1.2em;
     line-height: 2em;
+    background: #f4efe9;
+    padding: 4%;
+    margin-bottom : 40px;
+    font-family : Exo;
+    border : 1px solid #cfc2b2;
+}
+
+#schedules p {
+	text-align : center;
 }
 
 #schedules ol {
