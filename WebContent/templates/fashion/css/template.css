@@ -36,6 +36,12 @@ html, body{
 
 .header {padding-bottom: 50px;}
 
+.required:before {
+    content: "*";
+    color: red;
+    margin-right: 3px;
+}
+
 a:focus, a:hover {
     color: initial;
     text-decoration: none;
