@@ -431,8 +431,6 @@
 
 
 #order-confirmation a:hover,#order-confirmation a:visited {
-    border: 2px solid #fff;
-    background: #180101;
     color:#fff;
 }
 
