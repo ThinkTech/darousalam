@@ -93,14 +93,10 @@ page.displayCart = function() {
 
 		}else {
 			cart.hide();
-		    const top = $(".cart").offset().top;
-		    page.wait({top : top});
-		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-					"modules/commerce/js/social.js","modules/commerce/css/wizard.css","modules/commerce/js/wizard.js",
+			head.load("modules/commerce/js/wizard.js",
 			  function() {
-		    	page.wizard.show(cart,top);
-		    	page.release();
-		    });
+		   	   page.wizard.show(cart,$(".cart").offset().top);
+			});
 		}
 		return false;
 	});

@@ -116,12 +116,11 @@ page.wizard.initSocialLogin = function(){
 	gigya.socialize.getUserInfo({
 		callback : renderUI
 	});
+	
 };
 page.wizard.init = function(){
 	const wizard = $("#checkout-wizard").css("opacity","0").show();
 	page.loadImages(wizard);	
-	const height = $(document).height() + $("#footer").height();
-	wizard.css("top","0").css("height",height);
 	const form = $(".checkout-wizard-steps > form",wizard);
 	form.easyWizard({
 		    prevButton: "Pr\u0117c\u0117dent",
@@ -230,33 +229,45 @@ page.wizard.init = function(){
 		$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 	});
+	const height = $(document).height() + $("#footer").height();
+	wizard.css("top","0").css("height",height);
 	wizard.hide().css("opacity","1");
 	$("body").click(function(){
 		$(".help-info").hide();
-	});	
+	});
 	$(window).scroll(function(){
 		const div = $("#checkout-wizard");
-		if(top > div.offset().top || div.offset().top > $(this).scrollTop()) {
+		const top = $(this).scrollTop();
+		if(top > div.offset().top || div.offset().top > top) {
 			if(!div.is(":hidden")) {
-			  const top = $(this).scrollTop();
 			  $("> div",div).css("top",top+5);
 			}
 		}
 	});
-	page.wizard.initSocialLogin();
 };
 page.wizard.show = function(cart,top){
-	payment.done = false;
-	const wizard = $("#checkout-wizard");
-	$("> div",wizard).css("top",top);
-	const order = $(".total",cart).text().replace(/\s/g,'');
-	$("#order-amount",wizard).html( $(".total",cart).html());
-	const delivery = 2000;
-	$("#delivery-amount",wizard).html(delivery.toLocaleString("fr-FR"));
-	const total = parseInt(order) + delivery;
-	$("#shopping-amount",wizard).html(total.toLocaleString("fr-FR"));
-	wizard.show();
-	$('html,body').animate({scrollTop:top},1);
+	page.wait({top : top});
+	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+			"modules/commerce/js/social.js","modules/commerce/css/wizard.css",
+	  function() {
+		if(!page.wizard.loaded){
+			page.wizard.init();
+			page.wizard.initSocialLogin();
+			page.wizard.loaded = true;
+		}
+		payment.done = false;
+		const wizard = $("#checkout-wizard");
+		$("> div",wizard).css("top",top);
+		const order = $(".total",cart).text().replace(/\s/g,'');
+		$("#order-amount",wizard).html( $(".total",cart).html());
+		const delivery = 2000;
+		$("#delivery-amount",wizard).html(delivery.toLocaleString("fr-FR"));
+		const total = parseInt(order) + delivery;
+		$("#shopping-amount",wizard).html(total.toLocaleString("fr-FR"));
+		wizard.show();
+		page.release();
+		$('html,body').animate({scrollTop:top},1);
+    });
 };
 page.wizard.submit = function(){
 	const wizard = $("#checkout-wizard");
@@ -282,4 +293,3 @@ page.wizard.submit = function(){
 app.saveOrder = function() {
 	page.wizard.submit();
 };
-page.wizard.init();
