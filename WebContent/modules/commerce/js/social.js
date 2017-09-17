@@ -26,7 +26,12 @@ gigya.socialize.showLoginUI({
 	containerID : 'toploginDiv' // The component will embed itself inside the
 								// loginDiv Div
 	,
-	cid : ''
+	cid : '',
+	onLogin : function(event){
+		app.post("users/login",null,function(response){
+			location.href = response.url;
+        });
+	}
 });
 gigya.socialize.addEventHandlers({
 	onLogin : onLoginHandler,
@@ -114,7 +119,6 @@ function renderUI(res) {
 			$("#photo").attr("src",res.user.thumbnailURL);
 		else
 			$("#photo").attr("src","http://cdn.gigya.com/site/images/bsAPI/Placeholder.gif");
-		$("#login .close").click();
 		user = res.user;
 	}
 }
