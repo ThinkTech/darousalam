@@ -1,5 +1,4 @@
 var user;
-const payment = {};
 page.animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'rollIn', 'zoomIn', 'slideInUp', 'pulse',
 				'rubberBand', 'shake', 'headshake', 'jackInTheBox',
@@ -26,28 +25,6 @@ page.loadImages = function(div,callback) {
 	    });
 	    if(callback) callback();
 	  }
-};
-
-app.saveOrder = function() {
-	const wizard = $("#checkout-wizard");
-	const form = $("form",wizard);
-	app.post(form.attr("action"),form.serialize(),function(response) {
-		$('html,body').animate({scrollTop:0},100,function(){
-			page.cart = [];
-			localStorage.setItem("cart", JSON.stringify(page.cart));
-			$("#cart ul li").remove();
-			$(".simpleCart_quantity").html(0);
-			$("#cart .total").html(0);
-			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
-		});
-	}, function(error) {
-		alert("error");
-	});
-	const top = $("> div",wizard).position().top;
-	wizard.fadeOut(100,function(){
-		$("form",wizard).easyWizard('goToStep', 1);
-	});
-	page.wait({top : top+50});
 };
 
 page.displayLogin = function(){
@@ -116,23 +93,13 @@ page.displayCart = function() {
 
 		}else {
 			cart.hide();
-			payment.done = false;
 		    const top = $(".cart").offset().top;
 		    page.wait({top : top});
 		    head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 					"modules/commerce/js/social.js","modules/commerce/css/wizard.css","modules/commerce/js/wizard.js",
 			  function() {
-		    	const wizard = $("#checkout-wizard");
-		    	$("> div",wizard).css("top",top);
-		    	const order = $(".total",cart).text().replace(/\s/g,'');
-		    	$("#order-amount",wizard).html( $(".total",cart).html());
-		    	const delivery = 2000;
-		    	$("#delivery-amount",wizard).html(delivery.toLocaleString("fr-FR"));
-		    	const total = parseInt(order) + delivery;
-		    	$("#shopping-amount",wizard).html(total.toLocaleString("fr-FR"));
-		    	wizard.show();
+		    	page.wizard.show(cart,top);
 		    	page.release();
-		    	$('html,body').animate({scrollTop:top},1);
 		    });
 		}
 		return false;
@@ -413,13 +380,6 @@ page.display = function(){
 				  div.css("top",top+5);
 				}
 		  }
-		  div = $("#checkout-wizard");
-		  if(top > div.offset().top || div.offset().top > $(this).scrollTop()) {
-				if(!div.is(":hidden")) {
-				  const top = $(this).scrollTop();
-				  $("> div",div).css("top",top+5);
-				}
-		  }
 	});
 	var div = $("#top-brands");
 	if(div.is(":visible")){
@@ -446,10 +406,6 @@ page.display = function(){
 			}
 		});	
 	}
-	
-	setTimeout(function(){
-		page.loadImages($("#checkout-wizard"));	
-	},10000);
 	page.displayLogin();
 	page.displayProducts();
 	page.displayCart();	
