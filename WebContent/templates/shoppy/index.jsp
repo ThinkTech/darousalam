@@ -449,7 +449,7 @@
 		    <div class="menu">
 		      <ul id="menu" >
 		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		            <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		            <li><a><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	<ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a>Articles</a></li>
 			            <li id="menu-academico-boletim" ><a>Commandes</a></li>
