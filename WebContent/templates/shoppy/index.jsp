@@ -8,6 +8,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <link href="templates/shoppy/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- Custom Theme files -->
+<link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="templates/shoppy/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!--js-->
 <script src="templates/shoppy/js/jquery-2.1.1.min.js"></script> 
@@ -28,7 +29,7 @@
 				<div class="header-main">
 					<div class="header-left">
 							<div class="logo-name">
-									 <a><h1>Mon Compte</h1></a> 								
+									 <a><h1><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h1></a> 								
 							</div>
 							<div class="clearfix"> </div>
 						 </div>
@@ -176,7 +177,7 @@
 												<span class="prfil-img"><img src="templates/shoppy/images/p1.png" alt=""> </span> 
 												<div class="user-name">
 													<p>Malorum</p>
-													<span>Administrator</span>
+													<span>Administrateur</span>
 												</div>
 												<i class="fa fa-angle-down lnr"></i>
 												<i class="fa fa-angle-up lnr"></i>
@@ -184,9 +185,8 @@
 											</div>	
 										</a>
 										<ul class="dropdown-menu drp-mnu">
-											<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
-											<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
-											<li> <a href="users/logout"><i class="fa fa-sign-out"></i> Logout</a> </li>
+											<li><a href="#"><i class="fa fa-user"></i>Profil</a> </li> 
+											<li> <a href="users/logout"><i class="fa fa-sign-out"></i>Déconnexion</a> </li>
 										</ul>
 									</li>
 								</ul>
@@ -196,22 +196,6 @@
 				     <div class="clearfix"> </div>	
 				</div>
 <!--heder end here-->
-<!-- script-for sticky-nav -->
-		<script>
-		$(document).ready(function() {
-			 var navoffeset=$(".header-main").offset().top;
-			 $(window).scroll(function(){
-				var scrollpos=$(window).scrollTop(); 
-				if(scrollpos >=navoffeset){
-					$(".header-main").addClass("fixed");
-				}else{
-					$(".header-main").removeClass("fixed");
-				}
-			 });
-			 
-		});
-		</script>
-		<!-- /script-for sticky-nav -->
 <!--inner block start here-->
 <div class="inner-block">
 <!--market updates updates-->
@@ -220,8 +204,7 @@
 				<div class="market-update-block clr-block-1">
 					<div class="col-md-8 market-update-left">
 						<h3>83</h3>
-						<h4>Registered User</h4>
-						<p>Other hand, we denounce</p>
+						<h4>nouveaux inscrits</h4>
 					</div>
 					<div class="col-md-4 market-update-right">
 						<i class="fa fa-file-text-o"> </i>
@@ -233,8 +216,7 @@
 				<div class="market-update-block clr-block-2">
 				 <div class="col-md-8 market-update-left">
 					<h3>135</h3>
-					<h4>Daily Visitors</h4>
-					<p>Other hand, we denounce</p>
+					<h4>Visiteurs</h4>
 				  </div>
 					<div class="col-md-4 market-update-right">
 						<i class="fa fa-eye"> </i>
@@ -246,8 +228,7 @@
 				<div class="market-update-block clr-block-3">
 					<div class="col-md-8 market-update-left">
 						<h3>23</h3>
-						<h4>New Messages</h4>
-						<p>Other hand, we denounce</p>
+						<h4>Nouveaux Messages</h4>
 					</div>
 					<div class="col-md-4 market-update-right">
 						<i class="fa fa-envelope-o"> </i>
@@ -334,7 +315,7 @@
 		<div class="col-md-6 chart-layer1-left"> 
 			<div class="glocy-chart">
 			<div class="span-2c">  
-                        <h3 class="tlt">Sales Analytics</h3>
+                        <h3 class="tlt">Ventes</h3>
                         <canvas id="bar" height="300" width="400" style="width: 400px; height: 300px;"></canvas>
                         <script>
                             var barChartData = {
@@ -362,21 +343,9 @@
 			<div class="malorum-top">				
 			</div>
 			<div class="malorm-bottom">
-				<span class="malorum-pro"> </span>
-			     <h4>unde omnis iste</h4>
-				 <h2>Melorum</h2>
-				<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising.</p>
-				<ul class="malorum-icons">
-					<li><a href="#"><i class="fa fa-facebook"> </i>
-						<div class="tooltip"><span>Facebook</span></div>
-					</a></li>
-					<li><a href="#"><i class="fa fa-twitter"> </i>
-						<div class="tooltip"><span>Twitter</span></div>
-					</a></li>
-					<li><a href="#"><i class="fa fa-google-plus"> </i>
-						<div class="tooltip"><span>Google</span></div>
-					</a></li>
-				</ul>
+			     <h4>Article le plus vendu</h4>
+				 <h2>Polo</h2>
+				<p>200 clients ont acheté cet article and 100 ont payé par Visa.</p>
 			</div>
 		   </div>
 		</div>

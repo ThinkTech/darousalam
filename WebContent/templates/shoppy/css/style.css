@@ -817,7 +817,7 @@ ul.dropdown-menu.drp-mnu li {
 /*--header strip end here-*/
 /*inner-block--*/
 .inner-block {
-    padding: 8em 2em 4em 2em;
+    padding: 1em 2em 4em 2em;
     background: #fafafa;
 }
 .market-update-block {
@@ -934,8 +934,8 @@ ul.dropdown-menu.drp-mnu li {
 
 .glocy-chart {
    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
-        padding: 2em 1em;
-        background: #fff;
+   padding: 1em 0.55em;
+   background: #fff;
 }
 .prograc-blocks {
     padding:2.2em 2em;
@@ -3141,7 +3141,6 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 }
 .logo-name h1 {
     font-size: 2.3em;
-    margin-top: 0.1em;
 }
 #menu .fa {
     margin-bottom: 3px;
@@ -3487,7 +3486,6 @@ div#geoChart {
 }
 .logo-name h1 {
     font-size: 1.7em;
-        margin-top: 0.3em;
 }
 .search-box input[type="text"] {
     width: 80%;
@@ -3843,7 +3841,6 @@ canvas#bar {
 }
 .logo-name h1 {
     font-size: 1.6em;
-    margin-top: 0.35em;
 }
 canvas#line {
     width: 234px !important;
@@ -3876,9 +3873,6 @@ canvas#pie {
 }
 .logo-name h1 {
     font-size: 2em;
-}
-.inner-block {
-    padding: 10em 2em 2em 2em;
 }
 .chart-layer1-left {
     padding: 0em 0em 2em 0em;
@@ -4035,7 +4029,10 @@ canvas#line {
 }
 .market-update-gd {
     float: none;
-    width: 100%;	
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    margin-bottom: 10px;	
 }
 .left-content {
     width: 87%;
@@ -4055,9 +4052,7 @@ canvas#bar {
 .page-container {
     min-width: 480px;
 }
-.inner-block {
-    padding: 10em 1em 2em 1em;
-}
+
 .chit-chat-layer1 {
     margin: 1em 0em;
 }
@@ -4260,7 +4255,7 @@ canvas#bar {
     margin-top: 0em;
 }
 canvas#bar {
-    width: 255px !important;
+    width: 230px !important;
 }
 .popular-bran-left p {
     font-size: 0.8em;
