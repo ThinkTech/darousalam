@@ -817,7 +817,7 @@ ul.dropdown-menu.drp-mnu li {
 /*--header strip end here-*/
 /*inner-block--*/
 .inner-block {
-    padding: 1em 2em 4em 2em;
+    padding: 2em 2em 2em 2em;
     background: #fafafa;
 }
 .market-update-block {
@@ -1270,6 +1270,7 @@ span.malorum-pro {
     font-weight: 700;
     color: #5F5D5D;
     text-transform: uppercase;
+    margin-bottom: 5px;
    font-family: 'Carrois Gothic', sans-serif;
 }
 .work-progres {

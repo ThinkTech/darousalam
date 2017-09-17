@@ -244,7 +244,7 @@
 	<div class="col-md-12 chit-chat-layer1-left">
                <div class="work-progres">
                             <div class="chit-chat-heading">
-                                  Commandes Récentes
+                                  Commandes
                             </div>
                             <div class="table-responsive">
                                 <table class="table table-hover">
@@ -253,8 +253,8 @@
                                       <th>#</th>
                                       <th>Nom Complet</th>
                                       <th>Date</th>                                                             
-                                      <th>Status</th>
-                                      <th>Progress</th>
+                                      <th>Statut</th>
+                                      <th>Progression</th>
                                   </tr>
                               </thead>
                               <tbody>
@@ -262,42 +262,42 @@
                                   <td>1</td>
                                   <td>Mamadou Lamine Ba</td>
                                   <td>17/09/2017</td>                                        
-                                  <td><span class="label label-danger">in progress</span></td>
+                                  <td><span class="label label-danger">en cours</span></td>
                                   <td><span class="badge badge-info">50%</span></td>
                               </tr>
                               <tr>
                                   <td>2</td>
                                   <td>Issa Ba</td>
                                   <td>17/09/2017</td>                  
-                                  <td><span class="label label-success">completed</span></td>
+                                  <td><span class="label label-success">terminé</span></td>
                                   <td><span class="badge badge-success">100%</span></td>
                               </tr>
                               <tr>
                                   <td>3</td>
                                   <td>Moussa Diallo</td>
                                   <td>17/09/2017</td> 
-                                  <td><span class="label label-warning">in progress</span></td>
+                                  <td><span class="label label-warning">en cours</span></td>
                                   <td><span class="badge badge-warning">75%</span></td>
                               </tr>
                               <tr>
                                   <td>4</td>
                                   <td>Seydou Ka</td>
                                   <td>17/09/2017</td>            
-                                  <td><span class="label label-info">in progress</span></td>
+                                  <td><span class="label label-info">en cours</span></td>
                                   <td><span class="badge badge-info">65%</span></td>
                               </tr>
                               <tr>
                                   <td>5</td>
                                   <td>Fallou Sy</td>
                                   <td>17/09/2017</td>                 
-                                  <td><span class="label label-warning">in progress</span></td>
+                                  <td><span class="label label-warning">en cours</span></td>
                                   <td><span class="badge badge-danger">95%</span></td>
                               </tr>
                               <tr>
                                   <td>6</td>
                                   <td>Aida Thiam</td>
                                   <td>17/09/2017</td>           
-                                  <td><span class="label label-info">in progress</span></td>
+                                  <td><span class="label label-info">en cours</span></td>
                                   <td><span class="badge badge-success">95%</span></td>
                               </tr>
                           </tbody>
@@ -352,58 +352,6 @@
 	 <div class="clearfix"> </div>
   </div>
  </div>
-<!--main page chart layer2-->
-<div class="chart-layer-2">
-	
-	<div class="col-md-6 chart-layer2-right">
-			<div class="prograc-blocks">
-		     <!--Progress bars-->
-	        <div class="home-progres-main">
-	           <h3>Total Sales</h3>
-	         </div>
-	        <div class='bar_group'>
-					<div class='bar_group__bar thin' label='Rating' show_values='true' tooltip='true' value='343'></div>
-					<div class='bar_group__bar thin' label='Quality' show_values='true' tooltip='true' value='235'></div>
-					<div class='bar_group__bar thin' label='Amount' show_values='true' tooltip='true' value='550'></div>
-					<div class='bar_group__bar thin' label='Farming' show_values='true' tooltip='true' value='456'></div>
-		    </div>
-				<script src="templates/shoppy/js/bars.js"></script>
-
-	      <!--//Progress bars-->
-	      </div>
-	</div>
-	<div class="col-md-6 chart-layer2-left">
-		<div class="content-main revenue">			
-					<h3>Total Revenue</h3>
-					<canvas id="radar" height="300" width="300" style="width: 300px; height: 300px;"></canvas>
-						<script>
-							var radarChartData = {
-								labels : ["","","","","","",""],
-								datasets : [
-									{
-										fillColor : "rgba(104, 174, 0, 0.83)",
-										strokeColor : "#68ae00",
-										pointColor : "#68ae00",
-										pointStrokeColor : "#fff",
-										data : [65,59,90,81,56,55,40]
-									},
-									{
-										fillColor : "rgba(236, 133, 38, 0.82)",
-										strokeColor : "#ec8526",
-										pointColor : "#ec8526",
-										pointStrokeColor : "#fff",
-										data : [28,48,40,19,96,27,100]
-									}
-								]
-								
-							};
-							new Chart(document.getElementById("radar").getContext("2d")).Radar(radarChartData);
-						</script>
-		</div>
-	</div>
-  <div class="clearfix"> </div>
-</div>
-
 </div>
 <!--inner block end here-->
 <!--copy rights start here-->
@@ -422,6 +370,7 @@
 		         	<ul id="menu-academico-sub" >
 			            <li id="menu-academico-avaliacoes" ><a>Articles</a></li>
 			            <li id="menu-academico-boletim" ><a>Commandes</a></li>
+			            <li id="menu-academico-boletim" ><a>Ventes</a></li>
 		             </ul>
 		         </li>
 		      </ul>
