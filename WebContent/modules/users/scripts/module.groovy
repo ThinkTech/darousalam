@@ -8,13 +8,12 @@ class ModuleAction extends ActionSupport {
 	
 	def login()  {
 	    session.setAttribute("user",user)
-		def url = request.contextPath+"/management"
+		def url = request.contextPath+"/dashboard"
 		response.writer.write(json([url: url]))
 	}
 	
 	def logout() {
 	    session.removeAttribute("user")
-	    println "removing"
 		def url = request.contextPath+"/"
 		response.sendRedirect(url)
 	}
