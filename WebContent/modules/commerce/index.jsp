@@ -12,7 +12,7 @@
 								<p>Identifier vous rapidement avec les réseaux sociaux ou
 									avec votre compte client.</p>
 								<div class="gigya">
-								  <div id="loginDiv"></div>
+								  <div id="wizardLogin"></div>
 								</div>
 								<div id="or">OU</div>
 								<div class="register">
