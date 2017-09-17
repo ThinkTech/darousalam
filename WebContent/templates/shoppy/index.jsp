@@ -251,7 +251,7 @@
                                   <thead>
                                     <tr>
                                       <th>#</th>
-                                      <th>Nom Complet</th>
+                                      <th>Client</th>
                                       <th>Date</th>                                                             
                                       <th>Statut</th>
                                       <th>Progression</th>
