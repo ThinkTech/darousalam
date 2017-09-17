@@ -253,7 +253,7 @@
                                       <th>#</th>
                                       <th>Client</th>
                                       <th>Date</th>                                                             
-                                      <th>Statut</th>
+                                      <th>Traitement</th>
                                       <th>Progression</th>
                                   </tr>
                               </thead>
