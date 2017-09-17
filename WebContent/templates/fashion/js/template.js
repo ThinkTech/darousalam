@@ -328,13 +328,12 @@ page.display = function(){
 			}
         });
         if(!valid) return valid;
-		$.ajax({
-			url: form.attr('action'),
-			type : 'POST',
-			data : form.serialize()
-		}).done(function(data){
+        app.post(form.attr('action'),form.serialize(),function(response){
+			if(form.attr('action')=="users/login"){
+				location.href = response.url;
+			}
 			$("input[type=text],input[type=email],textarea",form).val("");
-		});
+        });
 	});
 	$(window).scroll(function(){
 		  const top = $(this).scrollTop();

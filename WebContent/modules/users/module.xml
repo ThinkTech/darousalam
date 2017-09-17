@@ -1,0 +1,19 @@
+<module>
+	<name>users</name>
+	<type>back-end</type>
+	<visible>false</visible>
+	<administrable>false</administrable>
+	<author>Mamadou Lamine Ba</author>
+	<authorEmail>laminba2003@yahoo.fr</authorEmail>
+	<description>module to manage users</description>
+	<creationDate>2016-09-01</creationDate>
+	<copyright>© 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<actions>
+		<action name="login"  url="login"  method="login" />
+		<action name="logout" url="logout"  method="logout">
+			<result type="redirect">/</result>
+		</action>
+	</actions>
+</module>
