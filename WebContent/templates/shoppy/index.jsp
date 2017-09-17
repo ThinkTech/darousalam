@@ -4,10 +4,7 @@
 <base href="${path}"/>
 <title>Darou Salam Fashion</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <link href="templates/shoppy/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- Custom Theme files -->
@@ -22,81 +19,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--static chart-->
 <script src="templates/shoppy/js/Chart.min.js"></script>
 <!--//charts-->
-<!-- geo chart -->
-    <script src="//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-    <script>window.modernizr || document.write('<script src="lib/modernizr/modernizr-custom.js"><\/script>')</script>
-    <!--<script src="lib/html5shiv/html5shiv.js"></script>-->
-     <!-- Chartinator  -->
-    <script src="templates/shoppy/js/chartinator.js" ></script>
-    <script type="text/javascript">
-        jQuery(function ($) {
-
-            var chart3 = $('#geoChart').chartinator({
-                tableSel: '.geoChart',
-
-                columns: [{role: 'tooltip', type: 'string'}],
-         
-                colIndexes: [2],
-             
-                rows: [
-                    ['China - 2015'],
-                    ['Colombia - 2015'],
-                    ['France - 2015'],
-                    ['Italy - 2015'],
-                    ['Japan - 2015'],
-                    ['Kazakhstan - 2015'],
-                    ['Mexico - 2015'],
-                    ['Poland - 2015'],
-                    ['Russia - 2015'],
-                    ['Spain - 2015'],
-                    ['Tanzania - 2015'],
-                    ['Turkey - 2015']],
-              
-                ignoreCol: [2],
-              
-                chartType: 'GeoChart',
-              
-                chartAspectRatio: 1.5,
-             
-                chartZoom: 1.75,
-             
-                chartOffset: [-12,0],
-             
-                chartOptions: {
-                  
-                    width: null,
-                 
-                    backgroundColor: '#fff',
-                 
-                    datalessRegionColor: '#F5F5F5',
-               
-                    region: 'world',
-                  
-                    resolution: 'countries',
-                 
-                    legend: 'none',
-
-                    colorAxis: {
-                       
-                        colors: ['#679CCA', '#337AB7']
-                    },
-                    tooltip: {
-                     
-                        trigger: 'focus',
-
-                        isHtml: true
-                    }
-                }
-
-               
-            });                       
-        });
-    </script>
-<!--geo chart-->
-
-<!--skycons-icons-->
-<script src="templates/shoppy/js/skycons.js"></script>
-<!--//skycons-icons-->
 </head>
 <body>	
 <div class="page-container">	
@@ -338,19 +260,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--market updates end here-->
 <!--mainpage chit-chating-->
 <div class="chit-chat-layer1">
-	<div class="col-md-6 chit-chat-layer1-left">
+	<div class="col-md-12 chit-chat-layer1-left">
                <div class="work-progres">
                             <div class="chit-chat-heading">
-                                  Recent Followers
+                                  Commandes Récentes
                             </div>
                             <div class="table-responsive">
                                 <table class="table table-hover">
                                   <thead>
                                     <tr>
                                       <th>#</th>
-                                      <th>Project</th>
-                                      <th>Manager</th>                                   
-                                                                        
+                                      <th>Nom Complet</th>
+                                      <th>Date</th>                                                             
                                       <th>Status</th>
                                       <th>Progress</th>
                                   </tr>
@@ -358,49 +279,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                               <tbody>
                                 <tr>
                                   <td>1</td>
-                                  <td>Face book</td>
-                                  <td>Malorum</td>                                 
-                                                             
+                                  <td>Mamadou Lamine Ba</td>
+                                  <td>17/09/2017</td>                                        
                                   <td><span class="label label-danger">in progress</span></td>
                                   <td><span class="badge badge-info">50%</span></td>
                               </tr>
                               <tr>
                                   <td>2</td>
-                                  <td>Twitter</td>
-                                  <td>Evan</td>                               
-                                                                  
+                                  <td>Issa Ba</td>
+                                  <td>17/09/2017</td>                  
                                   <td><span class="label label-success">completed</span></td>
                                   <td><span class="badge badge-success">100%</span></td>
                               </tr>
                               <tr>
                                   <td>3</td>
-                                  <td>Google</td>
-                                  <td>John</td>                                
-                                  
+                                  <td>Moussa Diallo</td>
+                                  <td>17/09/2017</td> 
                                   <td><span class="label label-warning">in progress</span></td>
                                   <td><span class="badge badge-warning">75%</span></td>
                               </tr>
                               <tr>
                                   <td>4</td>
-                                  <td>LinkedIn</td>
-                                  <td>Danial</td>                                 
-                                                             
+                                  <td>Seydou Ka</td>
+                                  <td>17/09/2017</td>            
                                   <td><span class="label label-info">in progress</span></td>
                                   <td><span class="badge badge-info">65%</span></td>
                               </tr>
                               <tr>
                                   <td>5</td>
-                                  <td>Tumblr</td>
-                                  <td>David</td>                                
-                                                                 
+                                  <td>Fallou Sy</td>
+                                  <td>17/09/2017</td>                 
                                   <td><span class="label label-warning">in progress</span></td>
                                   <td><span class="badge badge-danger">95%</span></td>
                               </tr>
                               <tr>
                                   <td>6</td>
-                                  <td>Tesla</td>
-                                  <td>Mickey</td>                                  
-                                                             
+                                  <td>Aida Thiam</td>
+                                  <td>17/09/2017</td>           
                                   <td><span class="label label-info">in progress</span></td>
                                   <td><span class="badge badge-success">95%</span></td>
                               </tr>
@@ -409,91 +324,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                   </div>
              </div>
       </div>
-      <div class="col-md-6 chit-chat-layer1-rit">    	
-      	  <div class="geo-chart">
-					<section id="charts1" class="charts">
-				<div class="wrapper-flex">
-				
-				    <table id="myTable" class="geoChart tableChart data-table col-table" style="display:none;">
-				        <caption>Student Nationalities Table</caption>
-				        <tr>
-				            <th scope="col" data-type="string">Country</th>
-				            <th scope="col" data-type="number">Number of Students</th>
-				            <th scope="col" data-role="annotation">Annotation</th>
-				        </tr>
-				        <tr>
-				            <td>China</td>
-				            <td align="right">20</td>
-				            <td align="right">20</td>
-				        </tr>
-				        <tr>
-				            <td>Colombia</td>
-				            <td align="right">5</td>
-				            <td align="right">5</td>
-				        </tr>
-				        <tr>
-				            <td>France</td>
-				            <td align="right">3</td>
-				            <td align="right">3</td>
-				        </tr>
-				        <tr>
-				            <td>Italy</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Japan</td>
-				            <td align="right">18</td>
-				            <td align="right">18</td>
-				        </tr>
-				        <tr>
-				            <td>Kazakhstan</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Mexico</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Poland</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Russia</td>
-				            <td align="right">11</td>
-				            <td align="right">11</td>
-				        </tr>
-				        <tr>
-				            <td>Spain</td>
-				            <td align="right">2</td>
-				            <td align="right">2</td>
-				        </tr>
-				        <tr>
-				            <td>Tanzania</td>
-				            <td align="right">1</td>
-				            <td align="right">1</td>
-				        </tr>
-				        <tr>
-				            <td>Turkey</td>
-				            <td align="right">2</td>
-				            <td align="right">2</td>
-				        </tr>
-				
-				    </table>
-				
-				    <div class="col geo_main">
-				         <h3 id="geoChartTitle">World Market</h3>
-				        <div id="geoChart" class="chart"> </div>
-				    </div>
-				
-				
-				</div><!-- .wrapper-flex -->
-				</section>				
-			</div>
-      </div>
+      
      <div class="clearfix"> </div>
 </div>
 <!--main page chit chating end here-->
@@ -604,211 +435,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <div class="clearfix"> </div>
 </div>
 
-<!--climate start here-->
-<div class="climate">
-	<div class="col-md-4 climate-grids">
-		<div class="climate-grid1">
-			<div class="climate-gd1-top">
-				<div class="col-md-6 climate-gd1top-left">
-					<h4>Aprill 6-wed</h4>
-					<h3>12:30<span class="timein-pms">PM</span></h3>				
-					<p>Humidity:</p>					
-					<p>Sunset:</p>
-					<p>Sunrise:</p>
-				</div>
-				<div class="col-md-6 climate-gd1top-right">
-					  <span class="clime-icon"> 
-					  	<figure class="icons">
-								<canvas id="partly-cloudy-day" width="64" height="64">
-								</canvas>
-							</figure>
-						<script>
-							 var icons = new Skycons({"color": "#fff"}),
-								  list  = [
-									"clear-night", "partly-cloudy-day",
-									"partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-									"fog"
-								  ],
-								  i;
-
-							  for(i = list.length; i--; )
-								icons.set(list[i], list[i]);
-
-							  icons.play();
-						</script>					  
-				   </span>					
-					  <p>88%</p>					
-					  <p>5:40PM</p>
-					   <p>6:30AM</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="climate-gd1-bottom">
-				<div class="col-md-4 cloudy1">
-						<h4>Hongkong</h4>
-						  <figure class="icons">
-							<canvas id="sleet" width="58" height="58">
-							</canvas>
-					       </figure>
-					       <script>
-								 var icons = new Skycons({"color": "#fff"}),
-									  list  = [
-										"clear-night", "clear-day",
-										"partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-										"fog"
-									  ],
-									  i;
-	
-								  for(i = list.length; i--; )
-									icons.set(list[i], list[i]);
-	
-								  icons.play();
-							</script>
-						<h3>10c</h3>
-					</div>
-					<div class="col-md-4 cloudy1">
-						<h4>UK</h4>
-						<figure class="icons">
-					<canvas id="cloudy" width="58" height="58"></canvas>
-				</figure>					
-					<script>
-							 var icons = new Skycons({"color": "#fff"}),
-								  list  = [
-									"clear-night", "cloudy",
-									"partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-									"fog"
-								  ],
-								  i;
-
-							  for(i = list.length; i--; )
-								icons.set(list[i], list[i]);
-
-							  icons.play();
-						</script>
-						<h3>6c</h3>
-					</div>
-					<div class="col-md-4 cloudy1">
-						<h4>USA</h4>
-						<figure class="icons">
-							<canvas id="snow" width="58" height="58">
-							</canvas>
-						</figure>
-				        <script>
-							 var icons = new Skycons({"color": "#fff"}),
-								  list  = [
-									"clear-night", "clear-day",
-									"partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-									"fog"
-								  ],
-								  i;
-
-							  for(i = list.length; i--; )
-								icons.set(list[i], list[i]);
-
-							  icons.play();
-						</script>
-						<h3>10c</h3>
-					</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 climate-grids">
-		<div class="climate-grid2">
-			<span class="shoppy-rate"><h4>$180</h4></span>
-			<ul>
-				<li> <i class="fa fa-credit-card"> </i> </li>
-				<li> <i class="fa fa-usd"> </i> </li>
-			</ul>
-		</div>
-		<div class="shoppy">
-		<h3>Those Who Hate Shopping?</h3>
-		</div>
-	</div>
-	<div class="col-md-4 climate-grids">
-		<div class="climate-grid3">
-			<div class="popular-brand">
-				<div class="col-md-6 popular-bran-left">
-				     <h3>Popular</h3>
-				     <h4>Brand of this month</h4>
-				     <p> Duis aute irure  in reprehenderit.</p>
-				</div>
-				<div class="col-md-6 popular-bran-right">
-					<h3>Polo</h3>
-				</div>
-			  <div class="clearfix"> </div>
-			</div>
-			<div class="popular-follow">
-				<div class="col-md-6 popular-follo-left">
-					<p>Lorem ipsum dolor sit amet, adipiscing elit.</p>
-				</div>
-				<div class="col-md-6 popular-follo-right">
-					<h4>Follower</h4>
-					<h5>2892</h5>
-				</div>
-			  <div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"> </div>
-</div>
-<!--climate end here-->
 </div>
 <!--inner block end here-->
 <!--copy rights start here-->
 <div class="copyrights">
-	 <p>Â© 2016 Shoppy. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+	 <p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
 </div>	
 <!--COPY rights end here-->
 </div>
 </div>
 <!--slider menu-->
-    <div class="sidebar-menu">
-		  	<div class="logo"> <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo" ></span> 
-			      <!--<img id="logo" src="" alt="Logo"/>--> 
-			  </a> </div>		  
+    <div class="sidebar-menu">		  
 		    <div class="menu">
 		      <ul id="menu" >
-		        <li id="menu-home" ><a href="index.html"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-		        <li><a href="#"><i class="fa fa-cogs"></i><span>Components</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul>
-		            <li><a href="grids.html">Grids</a></li>
-		            <li><a href="portlet.html">Portlets</a></li>		            
-		          </ul>
-		        </li>
-		        <li id="menu-comunicacao" ><a href="#"><i class="fa fa-book nav_icon"></i><span>Element</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul id="menu-comunicacao-sub" >
-		            <li id="menu-mensagens" style="width: 120px" ><a href="buttons.html">Buttons</a>		              
-		            </li>
-		            <li id="menu-arquivos" ><a href="typography.html">Typography</a></li>
-		            <li id="menu-arquivos" ><a href="icons.html">Icons</a></li>
-		          </ul>
-		        </li>
-		          <li><a href="maps.html"><i class="fa fa-map-marker"></i><span>Maps</span></a></li>
-		        <li id="menu-academico" ><a href="#"><i class="fa fa-file-text"></i><span>Pages</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		          <ul id="menu-academico-sub" >
-		          	 <li id="menu-academico-boletim" ><a href="login.html">Login</a></li>
-		            <li id="menu-academico-avaliacoes" ><a href="signup.html">Sign Up</a></li>		           
-		          </ul>
-		        </li>
-		        
-		        <li><a href="charts.html"><i class="fa fa-bar-chart"></i><span>Charts</span></a></li>
-		        <li><a href="#"><i class="fa fa-envelope"></i><span>Mailbox</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		        	 <ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="inbox.html">Inbox</a></li>
-			            <li id="menu-academico-boletim" ><a href="inbox-details.html">Compose email</a></li>
-		             </ul>
-		        </li>
-		         <li><a href="#"><i class="fa fa-cog"></i><span>System</span><span class="fa fa-angle-right" style="float: right"></span></a>
-		         	 <ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="404.html">404</a></li>
-			            <li id="menu-academico-boletim" ><a href="blank.html">Blank</a></li>
-		             </ul>
-		         </li>
-		         <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		        <li id="menu-home" ><a href="dashboard"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
+		            <li><a href="#"><i class="fa fa-shopping-cart"></i><span>E-Commerce</span><span class="fa fa-angle-right" style="float: right"></span></a>
 		         	<ul id="menu-academico-sub" >
-			            <li id="menu-academico-avaliacoes" ><a href="product.html">Product</a></li>
-			            <li id="menu-academico-boletim" ><a href="price.html">Price</a></li>
+			            <li id="menu-academico-avaliacoes" ><a>Articles</a></li>
+			            <li id="menu-academico-boletim" ><a>Commandes</a></li>
 		             </ul>
 		         </li>
 		      </ul>
@@ -816,30 +460,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 </div>
 	<div class="clearfix"> </div>
 </div>
-<!--slide bar menu end here-->
-<script>
-var toggle = true;
-            
-$(".sidebar-icon").click(function() {                
-  if (toggle)
-  {
-    $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
-    $("#menu span").css({"position":"absolute"});
-  }
-  else
-  {
-    $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
-    setTimeout(function() {
-      $("#menu span").css({"position":"relative"});
-    }, 400);
-  }               
-                toggle = !toggle;
-            });
-</script>
-<!--scrolling js-->
-		<script src="templates/shoppy/js/jquery.nicescroll.js"></script>
-		<script src="templates/shoppy/js/scripts.js"></script>
-		<!--//scrolling js-->
 <script src="templates/shoppy/js/bootstrap.js"> </script>
 <!-- mother grid end here-->
 </body>
