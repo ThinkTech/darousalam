@@ -240,7 +240,7 @@
 				<div class="tabs">
 					<ul  class="nav nav-tabs">
 					    <s:iterator value="#gender.categories" var="category">
-						  <li><a><i class="fa fa-star-o" aria-hidden="true"></i>${category.name}</a></li>
+						  <li><a>${category.name}</a></li>
 						</s:iterator>
 					</ul>
 					<div class="tab-content">
