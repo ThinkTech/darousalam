@@ -11,9 +11,7 @@
 	<license>GNU/GPL</license>
 	<version>1.0</version>
 	<actions>
-		<action name="login"  url="login"  method="login" />
-		<action name="logout" url="logout"  method="logout">
-			<result type="redirect">/</result>
-		</action>
+		<action  url="login"  method="login" />
+		<action  url="logout"  method="logout"/>
 	</actions>
 </module>

@@ -1,6 +1,5 @@
 <module>
   <type>back-end</type>
-  <main>true</main>
   <actions>
   </actions>
 </module>

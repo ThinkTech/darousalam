@@ -13,7 +13,10 @@ class ModuleAction extends ActionSupport {
 	}
 	
 	def logout() {
-		SUCCESS
+	    session.removeAttribute("user")
+	    println "removing"
+		def url = request.contextPath+"/"
+		response.sendRedirect(url)
 	}
 	
 }
