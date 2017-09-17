@@ -263,7 +263,7 @@
 	     connecter à votre compte pour suivre son évolution ou pour consulter l'historique de vos commandes. 
 	     </p>
 	     <div>
-	        <a title="mon compte"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</a>
+	        <a title="mon compte" href="dashboard"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</a>
 	        <a id="confirmation-close" title="fermer"><i class="fa fa-close" aria-hidden="true"></i>Fermer</a>
 	     </div>
 	   </div>
