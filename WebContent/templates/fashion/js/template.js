@@ -369,9 +369,8 @@ page.display = function(){
 			}
 		  }
 		  div = $("#contact-form");
-		  if(top > div.offset().top || div.offset().top > $(this).scrollTop()) {
+		  if(top > div.offset().top || div.offset().top > top) {
 				if(!div.is(":hidden")) {
-				  const top = $(this).scrollTop();
 				  div.css("top",top+5);
 				}
 		  }
