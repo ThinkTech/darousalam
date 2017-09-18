@@ -83,7 +83,14 @@ body a:hover{
 .w3l_login{
 	float:left;
 }
-
+.modal-title .fa-user {
+	border: 1px solid;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 7px;
+    background : #fff;
+}
 .w3l_logo{
 	float: left;
     margin-left: 15em;
