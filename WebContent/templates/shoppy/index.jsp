@@ -38,7 +38,7 @@
 										<ul class="dropdown-menu">
 											<li>
 												<div class="notification_header">
-													<h3>You have 3 new messages</h3>
+													<h3>Vous avez 3 nouveaux messages</h3>
 												</div>
 											</li>
 											<li><a href="#">
@@ -67,7 +67,7 @@
 											</a></li>
 											<li>
 												<div class="notification_bottom">
-													<a href="#">See all messages</a>
+													<a href="#">Voir messages</a>
 												</div> 
 											</li>
 										</ul>
@@ -77,7 +77,7 @@
 										<ul class="dropdown-menu">
 											<li>
 												<div class="notification_header">
-													<h3>You have 3 new notification</h3>
+													<h3>Vous avez 3 nouvelles notifications</h3>
 												</div>
 											</li>
 											<li><a href="#">
@@ -106,7 +106,7 @@
 											 </a></li>
 											 <li>
 												<div class="notification_bottom">
-													<a href="#">See all notifications</a>
+													<a href="#">Voir notifications</a>
 												</div> 
 											</li>
 										</ul>
@@ -116,7 +116,7 @@
 										<ul class="dropdown-menu">
 											<li>
 												<div class="notification_header">
-													<h3>You have 8 pending task</h3>
+													<h3>Vous avez 8 tâches en attente</h3>
 												</div>
 											</li>
 											<li><a href="#">
@@ -157,7 +157,7 @@
 											</a></li>
 											<li>
 												<div class="notification_bottom">
-													<a href="#">See all pending tasks</a>
+													<a href="#">Voir tâches</a>
 												</div> 
 											</li>
 										</ul>
@@ -241,7 +241,7 @@
 	<div class="col-md-12 chit-chat-layer1-left">
                <div class="work-progres">
                             <div class="chit-chat-heading">
-                                  Commandes
+                                  <h3 class="tlt"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Commandes</h3>
                             </div>
                             <div class="table-responsive">
                                 <table class="table table-hover">
@@ -312,7 +312,7 @@
 		<div class="col-md-6 chart-layer1-left"> 
 			<div class="glocy-chart">
 			<div class="span-2c">  
-                        <h3 class="tlt">Ventes</h3>
+                        <h3 class="tlt"><i class="fa fa-money" aria-hidden="true"></i> Ventes</h3>
                         <canvas id="bar" height="300" width="400" style="width: 400px; height: 300px;"></canvas>
                         <script>
                             var barChartData = {
@@ -342,7 +342,7 @@
 			<div class="malorm-bottom">
 			     <h4>Article le plus vendu</h4>
 				 <h2>Polo</h2>
-				<p>200 clients ont acheté cet article and 100 ont payé par Visa.</p>
+				<p>200 clients ont acheté cet article and 100 ont payé par carte de crédit Visa.</p>
 			</div>
 		   </div>
 		</div>
@@ -368,6 +368,7 @@
 			            <li id="menu-academico-avaliacoes" ><a>Articles</a></li>
 			            <li id="menu-academico-boletim" ><a>Commandes</a></li>
 			            <li id="menu-academico-boletim" ><a>Ventes</a></li>
+			            <li id="menu-academico-boletim" ><a>Statistiques</a></li>
 		             </ul>
 		         </li>
 		      </ul>
