@@ -266,7 +266,7 @@ td{
 .logo-name {
     float: left;
     width: 30%;
-    margin: 0% 3% 0% 2%;
+    margin: 0% 3% 0% 3%;
 }
 .logo-name h1 {
     font-size: 2.3em;
@@ -818,7 +818,7 @@ ul.dropdown-menu.drp-mnu li {
 .user-name span {
     font-size: .75em;
     font-style: italic;
-    color: #424f63;
+    color: #180101;
     font-weight: normal;
     margin-top: .3em;
 }
