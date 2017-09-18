@@ -12,11 +12,7 @@
 <link href="templates/shoppy/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!--js-->
 <script src="templates/shoppy/js/jquery-2.1.1.min.js"></script> 
-<!--icons-css-->
-<link href="templates/shoppy/css/font-awesome.css" rel="stylesheet"> 
-<!--Google Fonts-->
-<link href='//fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Exo|Open+Sans" rel="stylesheet" type="text/css" media="all" />
 <!--static chart-->
 <script src="templates/shoppy/js/Chart.min.js"></script>
 <!--//charts-->

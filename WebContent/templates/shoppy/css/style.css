@@ -9,7 +9,7 @@ h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
    font-size: 100%;
    background:#fff; 
    overflow-x : hidden;
@@ -162,7 +162,7 @@ td{
     z-index: 2;
     font-size: 1.12em;
     text-align: left;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 #menu li a:hover {
   color:#fdbb30;
@@ -269,13 +269,24 @@ td{
     margin: 0% 3% 0% 2%;
 }
 .logo-name h1 {
-    font-size: 2.5em;
-    color: #FC8213;
+    font-size: 2.3em;
+    color: #180101;
     margin: 0em;
     font-weight: 700;
     white-space: nowrap;
     text-decoration: none;
+    font-family: Exo;
+    text-shadow: 1px 0px #fc8213;
 }
+
+.logo-name h1 .fa-user {
+	border: 1px solid;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 7px;
+}
+
 .logo-name  h1 a{
 	 color: #910048;
 }
@@ -827,13 +838,13 @@ ul.dropdown-menu.drp-mnu li {
 .market-update-block h3 {
     color: #fff;
     font-size: 2.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .market-update-block h4 {
 	font-size: 1.2em;
     color: #fff;
     margin: 0.3em 0em;
-   font-family: 'Carrois Gothic', sans-serif;
+   font-family: 'Exo', sans-serif;
 }
 .market-update-block p {
     color: #fff;
@@ -950,9 +961,9 @@ h3.tlt {
     font-size: 1.3em;
     margin-bottom: 0.8em;
     font-weight: 700;
-    color: #5F5D5D;
+    color: #180101;
     text-transform: uppercase;
-   font-family: 'Carrois Gothic', sans-serif;
+   font-family: 'Exo', sans-serif;
 }
 /*--chart-layer1-right start--*/
 .home-progres-main {
@@ -962,9 +973,9 @@ h3.tlt {
 .home-progres-main h3 {
 	font-size: 1.3em;
     font-weight: 700;
-    color: #5F5D5D;
+    color: #180101;
     text-transform: uppercase;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .home-progress {
     height: 21px;
@@ -1070,10 +1081,10 @@ h3.tlt {
 .chart-layer2-left h3 {
     font-size: 1.3em;
     font-weight: 700;
-    color: #5F5D5D;
+    color: #180101;
     text-align: left;
     text-transform: uppercase;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 canvas#radar {
    width: 565px !important;
@@ -1109,17 +1120,17 @@ span.malorum-pro {
     color:#68AE00;
     text-align: center;
     margin-bottom: 0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .malorm-bottom h4 {
     font-size: 1em;
     margin: 0.5em 0em;
     color:#FC8213;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .malorm-bottom p {
     font-size: 1em;
-    color: #000;
+    color: #180101;
     line-height: 1.8em;
     text-align: center;
     width: 70%;
@@ -1268,10 +1279,10 @@ span.malorum-pro {
 .chit-chat-heading {
     font-size: 1.2em;
     font-weight: 700;
-    color: #5F5D5D;
+    color: #180101;
     text-transform: uppercase;
     margin-bottom: 5px;
-   font-family: 'Carrois Gothic', sans-serif;
+   font-family: 'Exo', sans-serif;
 }
 .work-progres {
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
@@ -1300,9 +1311,9 @@ div#geoChart {
 h3#geoChartTitle {
     font-size: 1.3em;
     font-weight: 700;
-    color: #5F5D5D;
+    color: #180101;
     text-transform: uppercase;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 /*--climate start here--*/
 .climate-grid1 {
@@ -1315,13 +1326,13 @@ h3#geoChartTitle {
     font-size: 1.2em;
     color: #fff;
     margin-bottom: 0.5em;
-        font-family: 'Carrois Gothic', sans-serif;
+        font-family: 'Exo', sans-serif;
 }
 .climate-gd1top-left h3 {
     font-size: 2em;
     color:#FC8213;
     margin-bottom: 0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .climate-gd1top-left p {
     font-size: 1em;
@@ -1435,12 +1446,12 @@ span.shoppy-rate h4 {
     font-size: 1.2em;
     line-height: 3.5em;
     color: #fff;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .shoppy h3 {
     font-size: 1.2em;
     color: #68AE00;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .popular-brand {
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
@@ -1457,7 +1468,7 @@ span.shoppy-rate h4 {
     font-size: 1.2em;
     color:#68AE00;
     margin-bottom: 0.2em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .popular-bran-left h4 {
     font-size: 0.9em;
@@ -1480,7 +1491,7 @@ span.shoppy-rate h4 {
     -moz-border-radius:62px;
     -o-border-radius:62px;
     border: 3px solid #fff;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .popular-follo-left {
     background: #FDBB30;
@@ -1507,7 +1518,7 @@ span.shoppy-rate h4 {
     font-size: 1.5em;
     color:#FC8213;
     margin-bottom: 0.3em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .popular-follo-right h5 {
     font-size: 1em;
@@ -1515,7 +1526,7 @@ span.shoppy-rate h4 {
 }
 .popular-bran-left p {
     font-size: 1em;
-    color: #000;
+    color: #180101;
     margin-top: 1.3em;
     line-height: 1.5em;
 }
@@ -1527,7 +1538,7 @@ span.shoppy-rate h4 {
 #style-2::-webkit-scrollbar-thumb
 {
 
-background-color:#000;
+background-color:#180101;
 }
 /*--copyrights start here--*/
 .copyrights {
@@ -1537,10 +1548,10 @@ background-color:#000;
 }
 .copyrights p {
     font-size: 1em;
-    color: #000;
+    color: #180101;
 }
 .copyrights p a{
-    color: #000;
+    color: #180101;
 }
 .copyrights p a:hover{
     color:#68AE00;
@@ -1550,7 +1561,7 @@ background-color:#000;
     font-size: 2em;
     color: #68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 /*-- grids --*/
 .mb40 {
@@ -1598,7 +1609,7 @@ code {
     font-size: 2em;
     color:#68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 /*--portlet end here--*/
 /*--button start here--*/
@@ -1612,13 +1623,13 @@ code {
     font-size: 2em;
     color: #68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .button-heading h4 {
     font-size: 1.8em;
     color:#337AB7;
     margin-bottom: 0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 /*--button end here--*/
 /*--icons --*/
@@ -1626,7 +1637,7 @@ code {
     font-size: 2em;
     color: #68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .boost-icons-list ul {
     list-style: none;
@@ -1640,7 +1651,7 @@ code {
     padding: 3em 0.5em;
     text-align: center;
     background: #FFFFFF;
-    color:#000;
+    color:#180101;
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
 }
 i.glyphicon {
@@ -1653,7 +1664,7 @@ i.glyphicon {
 /*--//icons--*/
 /*--typography--*/
 .typography {
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 p.grid1 {
     margin-bottom: 1em;
@@ -1720,7 +1731,7 @@ p.grid1 {
 }
 .tab-content p {
     font-size: 1em;
-    color: #000;
+    color: #180101;
     line-height: 1.8em;
 }
 .col-lg-6.mb-60 h4 {
@@ -1749,7 +1760,7 @@ p.grid1 {
      color:#FFF;
     padding: 1em 0em 0em 0em;
     text-align: center;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .login-block {
     padding: 4em 2em;
@@ -1780,7 +1791,7 @@ p.grid1 {
     padding: 0.5em 1em;
     font-size: 1em;
     display: block;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .login-block input[type="submit"]:hover{
 	background:#68AE00;
@@ -1822,7 +1833,7 @@ p.grid1 {
 	font-size:0.875em;
 	margin:1.2em 0;
 	text-align:center;
-	font-family: 'Carrois Gothic', sans-serif;
+	font-family: 'Exo', sans-serif;
 }
 /*--*/
 .login-icons ul {
@@ -1902,10 +1913,10 @@ p.grid1 {
 }
 .login-block h3 {
     font-size: 1em;
-    color: #000;
+    color: #180101;
     text-align: center;
     margin-top: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .login-block h3 a{
 	color:#337AB7;
@@ -1917,7 +1928,7 @@ p.grid1 {
     font-size: 1em;
     text-align: right;
     margin-top: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .login-block h5 a {
     color: #FC8213;
@@ -1950,7 +1961,7 @@ p.grid1 {
     color:#FFF;
     padding: 1em 0em 0em 0em;
     text-align: center;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .signup-block {
     padding: 4em 2em;
@@ -1981,7 +1992,7 @@ p.grid1 {
     padding: 0.5em 1em;
     font-size: 1em;
     display: block;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .signup-block input[type="submit"]:hover{
 	background:#68AE00;
@@ -1993,13 +2004,13 @@ p.grid1 {
 }
 .sign-down h4 {
     font-size: 1em;
-    color: #000;
+    color: #180101;
     text-align: center;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .sign-down h4 a {
     font-size: 1em;
-    color: #000;
+    color: #180101;
     text-align: center;
     margin-top: 1em;
     display: inline-block;;
@@ -2011,7 +2022,7 @@ p.grid1 {
     font-size: 1em;
     text-align: center;
     margin-top: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .sign-down h5 a {
     color: #337AB7;
@@ -2031,7 +2042,7 @@ p.grid1 {
     font-size: 2em;
     color: #68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 #map1a,
 #panorama {
@@ -2050,7 +2061,7 @@ p.grid1 {
     font-size: 2em;
     color: #68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .blankpage-main {
     padding: 2em 2em;
@@ -2060,16 +2071,16 @@ p.grid1 {
 }
 .blankpage-main p {
     font-size: 1.1em;
-    color: #000;
+    color: #180101;
     line-height: 1.8em;
 }
 /*--blank page end here--*/
 /*--charts start here--*/
 .dygno h2 {
     font-size:1.5em;
-    color: #000;
+    color: #180101;
     margin-bottom:0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .line-chart {
     padding: 2em 2em;
@@ -2084,22 +2095,22 @@ p.grid1 {
 }
 .line-chart h3 {
     font-size: 1.5em;
-    color: #000;
-    font-family: 'Carrois Gothic', sans-serif;
+    color: #180101;
+    font-family: 'Exo', sans-serif;
     margin-bottom: 0.5em;
 }
 .chart-other h3 {
     font-size: 1.5em;
-    color: #000;
+    color: #180101;
     margin-bottom: 0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .polararea h3 {
     font-size: 1.5em;
-    color: #000;
+    color: #180101;
     text-align: left;
     margin-bottom:0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .dygno {
     padding: 2em 2em;
@@ -2140,7 +2151,7 @@ canvas#pie {
     font-size:3em;
     color:#FC8213;
     margin: 0.5em 0em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .error-404 a {
     font-size: 1em;
@@ -2159,7 +2170,7 @@ canvas#pie {
 }
 .error-right h4 {
     font-size: 1.3em;
-    color: #000;
+    color: #180101;
 }
 /*--inbox start here--*/
 .float-left {
@@ -2222,7 +2233,7 @@ table.table.tab-border {
 .mailer-name h5 {
     font-size: 1.1em;
     margin-bottom: 0.3em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .mailer-name h5 a{
 	color: #fff;
@@ -2230,13 +2241,13 @@ table.table.tab-border {
 .mailer-name h6 {
     font-size: 0.8em;
     margin-bottom: 0.3em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .mailer-name h6 a{
 	color: #fff;
 }
 .mailer-name h6 a:hover {
-    color: #000;
+    color: #180101;
 }
 .compose-block {
     padding: 1.5em 1em;
@@ -2264,7 +2275,7 @@ table.table.tab-border {
     display: block;
     font-size: 1em;
     color: #797878;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .compose-bottom ul li a.hilate{
 	background:#C5C5C5;
@@ -2312,7 +2323,7 @@ ul.nav.tabs li a span {
     font-size: 2em;
     color: #68AE00;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 /*--inbox end here--*/
 /*--inbox details--*/
@@ -2342,7 +2353,7 @@ ul.nav.tabs li a span {
 }
 .inbox-details-default {
     background: #fff;
-        font-family: 'Carrois Gothic', sans-serif;
+        font-family: 'Exo', sans-serif;
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.15);
 }
 .compose-right .btn.btn-file>input[type='file'] {
@@ -2378,7 +2389,7 @@ ul.nav.tabs li a span {
     -webkit-appearance: none;
     resize: none;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .inbox-details-body textarea{
 	border: 1px solid #ccc;
@@ -2394,7 +2405,7 @@ ul.nav.tabs li a span {
     -webkit-appearance: none;
     resize: none;
     margin-bottom: 1em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .compose-right input[type="submit"] {
     font-size: 0.9em;
@@ -2426,7 +2437,7 @@ ul.nav.tabs li a span {
     font-size: 2em;
     color: #68AE00;
     margin:0em 0em 1em 0.4em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .produ-cost {
     padding: 0.8em 1.5em;
@@ -2436,12 +2447,12 @@ ul.nav.tabs li a span {
     font-size: 1.2em;
     color: #fff;
     margin-bottom: 0.5em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .produ-cost h5 {
     font-size: 1em;
     color: #fff;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 /*--light-box--*/
 .project-eff:hover span.rollover1 {
@@ -2473,7 +2484,7 @@ ul.nav.tabs li a span {
     font-size: 2em;
     color: #68AE00;
     margin:0em 0em 1em 0.4em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .price-list ul {
     padding: 0px;
@@ -2490,13 +2501,13 @@ ul.nav.tabs li a span {
     padding: 0.4em 1em;
     background:#467501;
     border-radius: 5px 5px 0px 0px;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .price-gd-top h3 {
     padding: 0.4em 0em;
     font-size: 3.3em;
     color: #fff;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 span.usa-dollar {
     font-size: 0.4em;
@@ -2509,7 +2520,7 @@ span.per-month {
     font-size: 1em;
     color: #fff;
     padding: 0.2em 0em 0.8em 0em;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 .price-gd-bottom {
     background: #fff;
@@ -2577,7 +2588,7 @@ a.popup-with-zoom-anim {
 	margin: 10px 0;
 	font-size: 1.5em;
     color: #337AB7;
-    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 
 #small-dialog,#small-dialog1,#small-dialog2,#small-dialog3,#small-dialog4,#small-dialog5{
@@ -3140,9 +3151,7 @@ canvas#radar {
 li.dropdown.head-dpdn a.dropdown-toggle {
     margin: 1em 1.8em;
 }
-.logo-name h1 {
-    font-size: 2.3em;
-}
+
 #menu .fa {
     margin-bottom: 3px;
 }
