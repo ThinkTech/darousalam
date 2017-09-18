@@ -201,7 +201,7 @@
 				<div class="market-update-block clr-block-1">
 					<div class="col-md-8 market-update-left">
 						<h3>83</h3>
-						<h4>nouveaux inscrits</h4>
+						<h4>nouveaux clients</h4>
 					</div>
 					<div class="col-md-4 market-update-right">
 						<i class="fa fa-file-text-o"> </i>
@@ -224,7 +224,7 @@
 			<div class="col-md-4 market-update-gd">
 				<div class="market-update-block clr-block-3">
 					<div class="col-md-8 market-update-left">
-						<h3>23</h3>
+						<h3>3</h3>
 						<h4>Nouveaux Messages</h4>
 					</div>
 					<div class="col-md-4 market-update-right">

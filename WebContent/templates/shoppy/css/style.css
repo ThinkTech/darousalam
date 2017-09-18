@@ -804,8 +804,8 @@ ul.dropdown-menu {
 .profile_details ul li ul.dropdown-menu.drp-mnu {
     padding: 1em;
     min-width: 190px;
-    top: 122%;
-    left:0%;
+    top: 56%;
+    left: -16%;
 }
 ul.dropdown-menu.drp-mnu li {
     list-style-type: none;
@@ -4248,7 +4248,7 @@ canvas#bar {
     width: 83%;
 }
 .logo-name h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-top: 0em;
 }
 canvas#bar {
