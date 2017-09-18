@@ -5,6 +5,7 @@
 <title>Darou Salam Fashion</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <link href="templates/shoppy/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- Custom Theme files -->
