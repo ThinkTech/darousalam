@@ -25,7 +25,7 @@
 				<div class="header-main">
 					<div class="header-left">
 							<div class="logo-name">
-									 <a><h1><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h1></a> 								
+									 <a href="dashboard"><h1><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h1></a> 								
 							</div>
 							<div class="clearfix"> </div>
 						 </div>

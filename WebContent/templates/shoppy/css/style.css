@@ -133,8 +133,8 @@ td{
   top: 0px;
   left:0px;
   bottom: 0;
-  background-color:#202121;
-  color: #aaabae;
+  background-color:#111;
+  color: #fff;
   z-index: 999;
 }
 #menu {
@@ -163,16 +163,17 @@ td{
     font-size: 1.12em;
     text-align: left;
     font-family: 'Exo', sans-serif;
+    cursor : pointer;
 }
 #menu li a:hover {
   color:#fdbb30;
   transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 #menu li.active > a {
-  background-color: #2b303a;
+  background-color: #111;
   color: #ffffff;
 }
-#menu ul li { background-color:#202121; }
+#menu ul li { background-color:#111; }
 #menu ul {
   list-style-type: none;
   margin: 0;
@@ -183,7 +184,7 @@ td{
   visibility: hidden;
   left: 100%;
   top: 20px;
-  background-color: #2b303a;
+  background-color: #111;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: opacity 0.1s linear;
@@ -877,23 +878,9 @@ ul.dropdown-menu.drp-mnu li {
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
 }
-.market-update-block.clr-block-1:hover {
-    background: #3C3C3C;
+.market-update-block.clr-block-1:hover, .market-update-block.clr-block-2:hover,.market-update-block.clr-block-3:hover{
+    background: #180101;
    transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-}
-.market-update-block.clr-block-2:hover {
-    background: #3C3C3C;
-   transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-}
-.market-update-block.clr-block-3:hover {
-    background:#3C3C3C;
-    transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
