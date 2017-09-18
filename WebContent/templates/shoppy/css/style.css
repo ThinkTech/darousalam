@@ -270,9 +270,10 @@ td{
     margin: 0% 3% 0% 3%;
 }
 .logo-name h1 {
-    font-size: 2.3em;
+    font-size: 2em;
     color: #180101;
     margin: 0em;
+    margin-top : 1px;
     font-weight: 700;
     white-space: nowrap;
     text-decoration: none;
