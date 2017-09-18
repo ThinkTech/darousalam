@@ -273,29 +273,29 @@
                                   <td>3</td>
                                   <td>Moussa Diallo</td>
                                   <td>17/09/2017</td> 
-                                  <td><span class="label label-warning">en cours</span></td>
-                                  <td><span class="badge badge-warning">75%</span></td>
+                                  <td><span class="label label-info">en attente</span></td>
+                                  <td><span class="badge badge-info">0%</span></td>
                               </tr>
                               <tr>
                                   <td>4</td>
                                   <td>Seydou Ka</td>
                                   <td>17/09/2017</td>            
-                                  <td><span class="label label-info">en cours</span></td>
-                                  <td><span class="badge badge-info">65%</span></td>
+                                  <td><span class="label label-info">en attente</span></td>
+                                  <td><span class="badge badge-info">0%</span></td>
                               </tr>
                               <tr>
                                   <td>5</td>
                                   <td>Fallou Sy</td>
                                   <td>17/09/2017</td>                 
-                                  <td><span class="label label-warning">en cours</span></td>
-                                  <td><span class="badge badge-danger">95%</span></td>
+                                  <td><span class="label label-info">en attente</span></td>
+                                  <td><span class="badge badge-info">0%</span></td>
                               </tr>
                               <tr>
                                   <td>6</td>
                                   <td>Aida Thiam</td>
                                   <td>17/09/2017</td>           
-                                  <td><span class="label label-info">en cours</span></td>
-                                  <td><span class="badge badge-success">95%</span></td>
+                                  <td><span class="label label-info">en attente</span></td>
+                                  <td><span class="badge badge-info">0%</span></td>
                               </tr>
                           </tbody>
                       </table>
