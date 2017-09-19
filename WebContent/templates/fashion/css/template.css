@@ -1603,7 +1603,8 @@ ul.wmuSliderPagination {
 }
 
 .share-this {
-	min-height : 30px;
+	height : 30px;
+	overflow : hidden;
 }
 
 /*-- //footer --*/
