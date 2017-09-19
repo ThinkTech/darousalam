@@ -14,16 +14,12 @@ page.wizard.initSocialLogin = function(){
 		containerID : 'wizardLogin' // The component will embed itself inside the
 									// loginDiv Div
 		,
-		cid : ''
-	});
-	gigya.socialize.addEventHandlers({
-		onLogin : onLoginHandler,
-		onLogout : onLogoutHandler,
-		onConnectionAdded : renderUI,
-		onConnectionRemoved : renderUI
+		cid : '',
+		onLogin : onLoginHandler
 	});
 	// onLogin Event handler
 	function onLoginHandler(eventObj) {
+		;
 		// alert(eventObj.context.str + ' ' + eventObj.eventName + ' to ' +
 		// eventObj.provider
 		// + '!\n' + eventObj.provider + ' user ID: ' +
@@ -83,40 +79,34 @@ page.wizard.initSocialLogin = function(){
 
 	// Logout from Gigya platform. This method is activated when "Logout" button is
 	// clicked
-	function logoutFromGS() {
-		gigya.socialize.logout(); // logout from Gigya platform
-	}
 
-	// onLogout Event handler
-	function onLogoutHandler(eventObj) {
-		user = null;
-		$("#profile").hide();
-		$("#socialLogin").show();
-	}
 
 	function renderUI(res) {
+		const wizard = $("#checkout-wizard");
 		if (res.user != null && res.user.isConnected) {
-			$("#name").html(res.user.nickname);
+			$("#profile #name",wizard).html(res.user.nickname);
 			if (res.user.thumbnailURL.length > 0)
-				$("#photo").attr("src",res.user.thumbnailURL);
+				$("#profile #photo",wizard).attr("src",res.user.thumbnailURL);
 			else
-				$("#photo").attr("src","http://cdn.gigya.com/site/images/bsAPI/Placeholder.gif");
+				$("#profile #photo",wizard).attr("src","http://cdn.gigya.com/site/images/bsAPI/Placeholder.gif");
 			user = res.user;
+			$("#profile",wizard).show();
+			$("#socialLogin",wizard).hide();
+			user = res.user;
+		}else {
+			$("#profile",wizard).hide();
+			$("#socialLogin",wizard).show();
 		}
 	}
-
-	// Logout from Gigya platform. This method is activated when "Logout" button is
-	// clicked
-	function logoutFromGS() {
-		gigya.socialize.logout({
-			forceProvidersLogout : true
-		}); // logout from Gigya platform
-	}
-
-	gigya.socialize.getUserInfo({
-		callback : renderUI
-	});
-	
+};
+page.wizard.logout = function(){
+	user = null;
+	const wizard = $("#checkout-wizard");
+	$("#profile",wizard).hide();
+	$("#socialLogin",wizard).show();
+	gigya.socialize.logout({
+		forceProvidersLogout : true
+	}); 
 };
 page.wizard.init = function(){
 	const wizard = $("#checkout-wizard").css("opacity","0").show();

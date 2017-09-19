@@ -39,7 +39,7 @@ page.displayLogin = function(){
 				fit: true  
 			});
 			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-			  "modules/commerce/js/social.js",function(){
+			  "templates/fashion/js/social.js",function(){
 				login.show();
 				page.release();
 			});

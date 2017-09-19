@@ -53,10 +53,10 @@
 								<div>
 									<img id="photo" src="" width="65px" height="65px" /> <input
 										type="button" title="déconnexion" value="Déconnexion"
-										onclick="logoutFromGS()" />
+										onclick="page.wizard.logout()" />
 								</div>
 								<h5>Cliquer sur le bouton déconnexion pour changer
-									d'utilisateur.</h5>
+									de compte ou d'utilisateur.</h5>
 							</div>
 						</fieldset>
 
