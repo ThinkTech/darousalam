@@ -48,7 +48,7 @@ td{
 }
 .left-content {
     float: right;
-    width: 80%;
+    width: 85%;
 }
 .page-container.sidebar-collapsed {
   transition: all 100ms linear;
@@ -129,7 +129,7 @@ td{
 .sidebar-menu {
   position: absolute;
   float: left;
-  width: 220px;
+  width: 15%;
   top: 0px;
   left:0px;
   bottom: 0;
@@ -3109,9 +3109,6 @@ p.bottom {
 .page-container.sidebar-collapsed-back .sidebar-menu {
     width: 190px;
 }
-.sidebar-menu {
-    width: 190px;
-}
 .logo {
     left: 130px;
 }
@@ -3168,6 +3165,12 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 }
 }
 @media (max-width:1280px){
+.left-content {
+    width: 80%;
+}
+.sidebar-menu{
+	width : 20%;
+}
 .market-update-block p {
     font-size: 0.75em;
 }
@@ -3475,6 +3478,12 @@ div#geoChart {
 }
 }
 @media (max-width:991px){
+.left-content {
+    width: 75%;
+}
+.sidebar-menu{
+	width : 25%;
+}
 .market-update-gd {
     float: left;
     width: 33%;
@@ -3870,7 +3879,7 @@ canvas#pie {
 }
 .header-right {
     float: none;
-    width: 100%;
+    width: 95%;
 }
 .logo-name h1 {
     font-size: 1.9em;
@@ -4030,7 +4039,7 @@ canvas#line {
 }
 .market-update-gd {
     float: none;
-    width: 100%;
+    width: 90%;
     height: 90px;
     overflow: hidden;
     margin-bottom: 10px;	
@@ -4085,7 +4094,8 @@ span.malorum-pro {
     margin-top: 1em;
 }
 .profile_details li a i.fa.lnr {
-    right: 5%;
+    right: 15%;
+    top: 45px;
 }
 .cols-grids {
     padding: 0em 0em;
@@ -4216,6 +4226,9 @@ canvas#line {
 }
 }
 @media (max-width:414px){
+ .profile_details li a i.fa.lnr {
+    top: 30px;
+}
 .page-container {
     min-width: 410px;
 }
@@ -4276,9 +4289,6 @@ canvas#bar {
 }
 ul.dropdown-menu {
     min-width: 198px;
-}
-.profile_details li a i.fa.lnr {
-    right: -5%;
 }
 canvas#line {
     width: 252px !important;
@@ -4358,6 +4368,7 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 }
 .profile_details li a i.fa.lnr {
     right: 1%;
+     top: 45px;
 }
 .chit-chat-heading {
     font-size: 1em;
