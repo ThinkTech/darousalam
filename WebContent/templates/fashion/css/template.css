@@ -514,7 +514,7 @@ a .total {
     padding: 29px 18px 0;
 }
 .navbar-nav > li > a {
-    padding: 20px 30px;
+    padding: 15px 30px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -2071,7 +2071,7 @@ div#horizontalTab1 ul {
 		margin-left: 13em;
 	}
 	.navbar-nav > li:nth-child(1) {
-		margin-left: 6em;
+		margin-left: 5em;
 	}
 	.banner h3 {
 		width: 40%;
@@ -2081,7 +2081,7 @@ div#horizontalTab1 ul {
 		min-height: 500px;
 	}
 	.nav > li > a {
-		padding: 10px 10px;
+		padding: 15px 20px;
 	}
 	.nav-tabs > li > a {
 		font-size: 1.2em;
@@ -2129,43 +2129,6 @@ div#horizontalTab1 ul {
 	.w3_footer_grid {
 		padding-left: 0;
 	}
-	.navbar-nav > li > a {
-		padding: 20px 30px !important;
-	}
-	.banner1, .banner2, .banner3, .banner4, .banner5, .banner6, .banner7, .banner8, .banner9 {
-		min-height: 320px;
-	}
-	.banner1 h2, .banner2 h2, .banner3 h2, .banner4 h2, .banner5 h2, .banner6 h2, .banner7 h2, .banner8 h2, .banner9 h2 {
-		font-size: 1.6em;
-	}
-	.w3ls_dresses_grid_left_grid_sub {
-		width: 75%;
-	}
-	.dresses_grid_pos h6 {
-		font-size: .8em;
-	}
-	.dresses_grid_pos {
-		width: 42px;
-		height: 42px;
-	}
-	.w3_hs_bottom_sub1 ul {
-		padding: 6em 0 0 !important;
-	}
-	.w3l_related_products h3:before {
-		left: 19% !important;
-	}
-	.flex_ecommerce {
-		padding: 8em 0 0 !important;
-	}
-	.review_grids form {
-		width: 85%;
-	}
-	.wthree_team_grids {
-		margin: 2em 0 0;
-	}
-	.w3l_faq_grids {
-		width: 85%;
-	}
 	.contact-left input[type="text"], .contact-left input[type="email"] {
 		width: 32.6%;
 	}
@@ -2208,7 +2171,7 @@ div#horizontalTab1 ul {
 	.w3_footer_grid ul li {font-size: 15px;}
 	#about p, #schedules p {width: 100%;}
 	.banner .w3agile_special_deals_grid_left_grid1 p {height: 123px;overflow: hidden;font-size: 12px;}
-	.banner .bannerSlider {right : -7%;width:40%}
+	.banner .bannerSlider {right : -7%;width:39%}
 	.banner div.shopping {top: -50px;}
 	.hs-wrapper { height: 200px;}
 	.footer-copy {width: 76%;}
@@ -2224,14 +2187,8 @@ div#horizontalTab1 ul {
 	.w3l_logo {
 		margin-left: 9em;
 	}
-	.navbar-nav > li > a {
-		padding: 20px 20px !important;
-	}
 	.banner h3 {
 		font-size: 1.4em;
-	}
-	.nav > li > a {
-		padding: 10px 24px;
 	}
 	.nav-tabs > li > a {
 		font-size: 1em;
@@ -2585,9 +2542,6 @@ div#horizontalTab1 ul {
 	.modal-dialog {
 		width: 560px;
 	}
-	.nav > li > a {
-		padding: 10px 11px;
-	}
 	.banner h3 {
 		width: 55%;
 	}
@@ -2615,9 +2569,6 @@ div#horizontalTab1 ul {
 	}
 	.w3agile_special_deals_grid_right {
 		width: 82%;
-	}
-	.nav > li > a {
-		padding: 6px 8px;
 	}
 	.simpleCart_shelfItem p a {
 		padding: .5em 1.9em;
