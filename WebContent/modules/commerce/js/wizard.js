@@ -300,7 +300,7 @@ page.wizard.init = function(){
 page.wizard.show = function(cart,top){
 	page.wait({top : top});
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
-			"modules/commerce/js/social.js","modules/commerce/css/wizard.css",
+			"modules/commerce/css/wizard.css",
 	  function() {
 		if(!page.wizard.loaded){
 			page.wizard.init();
