@@ -235,6 +235,21 @@ page.showProduct = function(src){
 	div.show();
 };
 
+page.validateForm = function(form){
+	var valid = true;
+	$('input[type=text],input[type=email],input[type=password],textarea',form).each(function(index,element) {
+    	const val = $(element).val();
+		if(val.trim() == '') {
+			const message = "entrer votre " + $(this).attr("placeholder");
+			alert(message,function(){
+				$(element).focus();
+			});
+		    return valid = false;
+		}
+    });
+    return valid;
+};
+
 page.display = function(){
 	$('.wmuSlider').each(function(index,element){
 		if($(element).is(":visible")){
@@ -304,26 +319,16 @@ page.display = function(){
 		$(this).parent().fadeOut();
 	});
 	$("#contact-form > form, #login form, .newsletter form").submit(function(event){
-		event.preventDefault();
-		var valid = true;
 		const form = $(this);
-        $('input,textarea',form).each(function(index,element) {
-        	const val = $(element).val();
-			if(val.trim() == '') {
-				const message = "entrer votre " + $(this).attr("placeholder");
-				alert(message,function(){
-					$(element).focus();
-				});
-			    return valid = false;
-			}
-        });
-        if(!valid) return valid;
-        app.post(form.attr('action'),form.serialize(),function(response){
+		if(page.validateForm(form)) {
+		  app.post(form.attr('action'),form.serialize(),function(response){
 			if(form.attr('action')=="users/login"){
 				location.href = response.url;
 			}
 			$("input[type=text],input[type=email],textarea",form).val("");
-        });
+          });
+		}
+		return false;
 	});
 	$(window).scroll(function(){
 		  const top = $(this).scrollTop();

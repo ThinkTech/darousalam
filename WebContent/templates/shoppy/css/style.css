@@ -48,7 +48,7 @@ td{
 }
 .left-content {
     float: right;
-        width: 86.5%;
+    width: 80%;
 }
 .page-container.sidebar-collapsed {
   transition: all 100ms linear;
@@ -254,7 +254,6 @@ td{
 .header-main {
     background:#fff;
     padding: 1em 2em;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
 .header-right {
     float: right;
@@ -3139,9 +3138,6 @@ canvas#bar {
 .popular-bran-left h4 {
     font-size: 0.8em;
 }
-.left-content {
-    width: 86%;
-}
 #menu li a {
     padding: 12px 20px;
 }
@@ -3172,9 +3168,6 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 }
 }
 @media (max-width:1280px){
-.left-content {
-    width: 85%;
-}
 .market-update-block p {
     font-size: 0.75em;
 }
@@ -3234,9 +3227,7 @@ canvas#pie {
 }
 }
 @media (max-width:1024px){
-.page-container {
-    min-width: 990px;
-}
+
 .logo-name {
     float: left;
     width: 30%;
@@ -3304,9 +3295,6 @@ canvas#bar {
 }
 span.malorum-pro {
     left: 145px;
-}
-.left-content {
-    width: 82%;
 }
 .chit-chat-layer1-rit {
     padding:0em 0em 0em 0.5em;
@@ -3518,7 +3506,7 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 }
 .market-update-gd {
     float: left;
-    width: 33%;
+    width: 30%;
     text-align: center;
 }
 .market-update-block {
@@ -3763,8 +3751,8 @@ span.malorum-pro {
 	width: 170px;
 }
 .left-content {
-	float: right;
-    width: 92%;
+    width: 91%;
+    margin-right: 2%;
 }
 .page-container.sidebar-collapsed {
 	transition: all 100ms linear;
@@ -3967,9 +3955,6 @@ canvas#line {
 }
 .project-eff:hover span.rollover1 {
     width: 253px;
-}
-.left-content {
-    width:90%;
 }
 canvas#bar {
     width: 475px !important;
