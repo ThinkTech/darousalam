@@ -3085,6 +3085,25 @@ p.bottom {
 	color: #999;
 	font-size: 14px;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ff9b05;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4efe9;
+}
+
+::-webkit-scrollbar-button {
+  background: #ff9b05;
+  height: 15px;
+  border-radius: 50%;
+}
+
 /*--prices end here--*/
 /*--meadia quiries start here--*/
 @media (max-width:1440px){
