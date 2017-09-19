@@ -19,8 +19,8 @@
 								  <div class="wizardForm loginForm">
 									<a title="créér un compte"><i class="fa fa-user"
 										aria-hidden="true"></i>créér un compte</a> 
-										<input name="email" placeholder="email" type="text" required>
-										<input name="password" placeholder="mot de passe" type="password" required>
+										<input name="email" placeholder="email" type="email">
+										<input name="password" placeholder="mot de passe" type="password">
 									<div>
 										<input type="button" value="Connexion" title="connexion">
 										<a title="mot de passe oublié"><i class="fa fa-key"
@@ -28,7 +28,7 @@
 									</div>
 								 </div>
 								 <div class="wizardForm recoveryForm" style="display:none">
-								       <input name="email" placeholder="email" type="text" required>
+								       <input name="email" placeholder="email" type="email">
 									<div>
 										<input type="button" value="Envoyer" title="envoyer">
 										<input type="button" value="Annuler" title="annuler">

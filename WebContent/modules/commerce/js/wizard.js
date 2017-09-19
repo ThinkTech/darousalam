@@ -179,8 +179,20 @@ page.wizard.init = function(){
 	form.find("section:nth-child(2) label").click(function(){
 		$(this).prev().prop("checked",true);
 	});	
-	$(".close",wizard).click(function(){
-		wizard.fadeOut(100);
+	$(".loginForm input[type=button]").click(function(event){
+		var valid = true;
+		const div = $(".loginForm",wizard);
+        $('input[type=email],input[type=password]',div).each(function(index,element) {
+        	const val = $(element).val();
+			if(val.trim() == '') {
+				const message = "entrer votre " + $(this).attr("placeholder");
+				alert(message,function(){
+					$(element).focus();
+				});
+			    return valid = false;
+			}
+        });
+        if(!valid) return valid;
 	});
 	$(".loginForm a:nth-child(1)",wizard).click(function(){
 		$(".wizardForm",wizard).hide();
@@ -190,6 +202,41 @@ page.wizard.init = function(){
 		$(".wizardForm",wizard).hide();
 		$(".recoveryForm",wizard).show();
 	});
+	
+	$(".recoveryForm input[type=button]:nth-child(2),.registerForm input[type=button]:nth-child(2)",wizard).click(function(){
+		$(".wizardForm",wizard).hide();
+		$(".loginForm",wizard).show();
+	});
+	
+	$(".registerForm input[type=button]:nth-child(1)").click(function(event){
+		var valid = true;
+		const div = $(".registerForm",wizard);
+        $('input[type=text],input[type=email],input[type=password]',div).each(function(index,element) {
+        	const val = $(element).val();
+			if(val.trim() == '') {
+				const message = "entrer votre " + $(this).attr("placeholder");
+				alert(message,function(){
+					$(element).focus();
+				});
+			    return valid = false;
+			}
+        });
+        if(!valid) return valid;
+	});
+	
+	$(".recoveryForm input[type=button]:nth-child(1)",wizard).click(function(){
+		const element = $(".recoveryForm input[type=email]");
+		const val = element.val();
+		var valid = true;
+		if(val.trim() == '') {
+			const message = "entrer votre " + $(element).attr("placeholder");
+			alert(message,function(){
+				$(element).focus();
+			});
+			return valid = false;
+	    }
+        if(!valid) return valid;
+	});
 
 	$(".shipping-address a",wizard).click(function(){
 		$(".shipping-address .details",wizard).hide();
@@ -197,6 +244,23 @@ page.wizard.init = function(){
 		$(".shopping-payment").addClass("payment-hide");
 	});
 
+	$(".shipping-address input[type=button]:nth-child(1)",wizard).click(function(){
+		var valid = true;
+		const div = $(".shipping-address",wizard);
+        $('input[type=text]',div).each(function(index,element) {
+        	const val = $(element).val();
+			if(val.trim() == '') {
+				const message = "entrer votre " + $(this).attr("placeholder");
+				alert(message,function(){
+					$(element).focus();
+				});
+			    return valid = false;
+			}
+        });
+        if(!valid) return valid;
+        $(".shipping-address input[type=button]:nth-child(2)",wizard).click();
+	});
+	
 	$(".shipping-address input[type=button]:nth-child(2)",wizard).click(function(){
 		$(".shipping-address .details",wizard).show();
 		$(".shipping-address .register",wizard).hide();
@@ -210,13 +274,12 @@ page.wizard.init = function(){
 		return false;
 	});
 
-	$(".recoveryForm input[type=button]:nth-child(2),.registerForm input[type=button]:nth-child(2)",wizard).click(function(){
-		$(".wizardForm",wizard).hide();
-		$(".loginForm",wizard).show();
-	});
 	$("#confirmation-close").click(function(){
 		$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
+	});
+	$(".close",wizard).click(function(){
+		wizard.fadeOut(100);
 	});
 	const height = $(document).height() + $("#footer").height();
 	wizard.css("top","0").css("height",height);
