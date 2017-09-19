@@ -182,7 +182,7 @@
 											</div>	
 										</a>
 										<ul class="dropdown-menu drp-mnu">
-											<li><a href="#"><i class="fa fa-user"></i>Profil</a> </li> 
+											<li><a><i class="fa fa-user"></i>Profil</a> </li> 
 											<li> <a href="users/logout"><i class="fa fa-sign-out"></i>Déconnexion</a> </li>
 										</ul>
 									</li>
