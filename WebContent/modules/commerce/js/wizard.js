@@ -19,7 +19,6 @@ page.wizard.initSocialLogin = function(){
 	});
 	// onLogin Event handler
 	function onLoginHandler(eventObj) {
-		;
 		// alert(eventObj.context.str + ' ' + eventObj.eventName + ' to ' +
 		// eventObj.provider
 		// + '!\n' + eventObj.provider + ' user ID: ' +
