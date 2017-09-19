@@ -227,8 +227,8 @@ page.showProduct = function(src){
 	    div.css("left",cart.position().left-cart.width()-50);
 	}
 	const img = $("img",div).attr("src",src).addClass("loading");
-	$(img).on("load",function(){
-		$(img).removeClass("loading");
+	img.on("load",function(){
+		img.removeClass("loading");
 	}).each(function() {
 		  if(this.complete) $(this).trigger("load");
 	});
