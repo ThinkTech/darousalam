@@ -517,7 +517,7 @@ a .total {
     padding: 15px 30px;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.7px;
     color: #ff9b05;
     font-weight: bold;
     cursor : pointer;
@@ -2412,7 +2412,7 @@ div#horizontalTab1 ul {
 	.search_box:checked~.search_form {
 		width: 75%;
         position: fixed;
-        top: 68px;
+        top: 140px;
         right: 10px;
 	}
 	#products .container .gender {
@@ -2710,6 +2710,11 @@ div#horizontalTab1 ul {
    .sign-up a, .sign-up a:visited {font-size: 10px;}
 }
 
+@media (max-width:354px){
+ .search_box:checked~.search_form {
+    top: 50px;
+ }
+}
 
 @media (max-width:320px){
 	.modal-dialog {
