@@ -157,6 +157,8 @@
 			            <p><span>Bleu</span>Couleur</p>
 			            <p><span>XL</span>Taille</p>
 			            <p><span>13500</span>Prix</p>
+			            <p><span>13500</span>Quantité</p>
+			            <p><span>13500</span>Total</p>
 			         </div>
 			    </div>
 			</div>	

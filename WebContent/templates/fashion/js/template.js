@@ -174,24 +174,26 @@ page.addCartItem = function(item){
 	const ul = $("ul",cart);
 	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 	li.attr("data-src",item.image);
-	const span = li.find('span span').html('<i class="fa fa-shopping-cart" aria-hidden="true"></i>'+item.quantity+" "+item.name).attr("title","prix : "+item.price);
+	const span = li.find('span span').html(item.quantity+" "+item.name).attr("title","prix : "+item.price);
     span.on("touchstart",function(){
-    	page.showProduct(li.data("src"));
+    	page.showProduct(li);
     	return false;
     });
     span.mouseover(function(){
-    	page.showProduct(li.data("src"));
+    	page.showProduct(li);
     });
     span.mouseout(function(){
     	$(".product-view").hide();
     });
     li.find(".eye").click(function(){
-    	page.showProduct(li.data("src"));
+    	page.showProduct(li);
     	return false;
 	});
     var total = 0;
     const amount = parseInt(item.quantity) * parseInt(item.price);
-    li.data("amount",amount)
+    li.data("quantity",item.quantity);
+    li.data("price",item.price);
+    li.data("amount",amount);
     li.find('.price').html(amount.toLocaleString("fr-FR"));
     li.find(".trash").click(function(){
     	const message = "voulez-vous supprimer cet article?";
@@ -217,7 +219,7 @@ page.addCartItem = function(item){
     $(".total",cart).html(total.toLocaleString("fr-FR"));
 };
 
-page.showProduct = function(src){
+page.showProduct = function(li){
 	const cart = $("#cart");
 	const div = $(".product-view");
 	div.css("top",cart.position().top+50);
@@ -226,7 +228,10 @@ page.showProduct = function(src){
 	}else {
 	    div.css("left",cart.position().left-cart.width()-50);
 	}
-	const img = $("img",div).attr("src",src).addClass("loading");
+	$("p:nth-child(3) span",div).html(li.data("price").toLocaleString("fr-FR"));
+	$("p:nth-child(4) span",div).html(li.data("quantity"));
+	$("p:nth-child(5) span",div).html(li.data("amount").toLocaleString("fr-FR"));
+	const img = $("img",div).attr("src",li.data("src")).addClass("loading");
 	img.on("load",function(){
 		img.removeClass("loading");
 	}).each(function() {
