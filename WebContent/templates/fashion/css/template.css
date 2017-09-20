@@ -395,6 +395,7 @@ a .total {
 
 .shoppingCart li span span { 
 	width : 225px;
+	font-weight : bold;
 }
 
 .shoppingCart li strong {

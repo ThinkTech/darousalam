@@ -174,7 +174,7 @@ page.addCartItem = function(item){
 	const ul = $("ul",cart);
 	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 	li.attr("data-src",item.image);
-	const span = li.find('span span').html(item.quantity+" "+item.name).attr("title","prix : "+item.price);
+	const span = li.find('span span').html('<i class="fa fa-shopping-cart" aria-hidden="true"></i>'+item.quantity+" "+item.name).attr("title","prix : "+item.price);
     span.on("touchstart",function(){
     	page.showProduct(li.data("src"));
     	return false;
