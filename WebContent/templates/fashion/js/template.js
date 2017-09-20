@@ -170,31 +170,28 @@ page.displayProducts = function() {
 };
 
 page.addCartItem = function(item){ 
+	var total = 0;
+	item.amount = parseInt(item.quantity) * parseInt(item.price);
 	const cart = $("#cart");
 	const ul = $("ul",cart);
 	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
-	li.attr("data-src",item.image);
+	li.data("item",item);
 	const span = li.find('span span').html(item.quantity+" "+item.name).attr("title","prix : "+item.price);
     span.on("touchstart",function(){
-    	page.showProduct(li);
+    	page.showCartItem(li);
     	return false;
     });
     span.mouseover(function(){
-    	page.showProduct(li);
+    	page.showCartItem(li);
     });
     span.mouseout(function(){
     	$(".product-view").hide();
     });
     li.find(".eye").click(function(){
-    	page.showProduct(li);
+    	page.showCartItem(li);
     	return false;
 	});
-    var total = 0;
-    const amount = parseInt(item.quantity) * parseInt(item.price);
-    li.data("quantity",item.quantity);
-    li.data("price",item.price);
-    li.data("amount",amount);
-    li.find('.price').html(amount.toLocaleString("fr-FR"));
+    li.find('.price').html(item.amount.toLocaleString("fr-FR"));
     li.find(".trash").click(function(){
     	const message = "voulez-vous supprimer cet article?";
 		confirm(message, function() {
@@ -203,7 +200,7 @@ page.addCartItem = function(item){
 			$(".simpleCart_quantity").html(ul.find("li").length);
 			total = 0;
 			$.each($("li",ul),function(index,element){
-            	total += parseInt($(element).data("amount"));
+            	total += parseInt($(element).data("item").amount);
             });
             $(".total",cart).html(total.toLocaleString("fr-FR"));
             page.cart.splice(index,1);
@@ -214,12 +211,12 @@ page.addCartItem = function(item){
     ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
     $(".simpleCart_quantity").html(ul.find("li").length);
     $.each($("li",ul),function(index,element){
-    	total += parseInt($(element).data("amount"));
+    	total += parseInt($(element).data("item").amount);
     });
     $(".total",cart).html(total.toLocaleString("fr-FR"));
 };
 
-page.showProduct = function(li){
+page.showCartItem = function(li){
 	const cart = $("#cart");
 	const div = $(".product-view");
 	div.css("top",cart.position().top+50);
@@ -228,10 +225,11 @@ page.showProduct = function(li){
 	}else {
 	    div.css("left",cart.position().left-cart.width()-50);
 	}
-	$("p:nth-child(3) span",div).html(li.data("price").toLocaleString("fr-FR"));
-	$("p:nth-child(4) span",div).html(li.data("quantity"));
-	$("p:nth-child(5) span",div).html(li.data("amount").toLocaleString("fr-FR"));
-	const img = $("img",div).attr("src",li.data("src")).addClass("loading");
+	const item = li.data("item");
+	$("p:nth-child(3) span",div).html(item.price.toLocaleString("fr-FR"));
+	$("p:nth-child(4) span",div).html(item.quantity);
+	$("p:nth-child(5) span",div).html(item.amount.toLocaleString("fr-FR"));
+	const img = $("img",div).attr("src",item.image).addClass("loading");
 	img.on("load",function(){
 		img.removeClass("loading");
 	}).each(function() {
