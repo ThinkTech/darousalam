@@ -272,7 +272,6 @@ td{
 .logo-name {
     float: left;
     width: 30%;
-    margin: 0% 3% 0% 3%;
 }
 .logo-name h1 {
     font-size: 2em;
@@ -3249,7 +3248,6 @@ canvas#pie {
 .logo-name {
     float: left;
     width: 30%;
-    margin:0% 4% 0% 0%;
 }
 .logo-name {
     width: 37%;
@@ -3507,7 +3505,6 @@ div#geoChart {
 /*--logoname--*/
 .logo-name {
     width: 39%;
-    margin: 0% 1% 0% 0%;
 }
 .search-box {
     width: 60%;
