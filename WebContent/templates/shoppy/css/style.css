@@ -24,6 +24,9 @@ a:hover {
   -o-transition: 0.5s all;
   text-decoration:none;
 }
+a:focus {
+    outline: none;
+}
 .fixed{
 	position: fixed;
 	top: 0;
@@ -162,7 +165,7 @@ td{
     z-index: 2;
     font-size: 1.12em;
     text-align: left;
-    font-family: 'Exo', sans-serif;
+    font-family: Tahoma;
     cursor : pointer;
 }
 #menu li a:hover {
@@ -849,7 +852,7 @@ ul.dropdown-menu.drp-mnu li {
 	font-size: 15px;
     color: #fff;
     margin: 0.3em 0em;
-   font-family: 'Exo', sans-serif;
+   font-family: Tahoma;
 }
 .market-update-block p {
     color: #fff;
@@ -949,12 +952,12 @@ canvas#bar {
     height: 300px !important;
 }
 h3.tlt {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 0.8em;
     font-weight: 700;
     color: #180101;
     text-transform: uppercase;
-   font-family: 'Exo', sans-serif;
+   font-family: Tahoma;
 }
 /*--chart-layer1-right start--*/
 .home-progres-main {
