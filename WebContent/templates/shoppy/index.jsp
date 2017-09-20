@@ -182,7 +182,7 @@
 											</div>	
 										</a>
 										<ul class="dropdown-menu drp-mnu">
-											<li><a><i class="fa fa-user"></i>Profil</a> </li> 
+											<li><a><i class="fa fa-user"></i>Mon Compte</a> </li> 
 											<li> <a href="users/logout"><i class="fa fa-sign-out"></i>Déconnexion</a> </li>
 										</ul>
 									</li>
@@ -369,6 +369,7 @@
 			            <li id="menu-academico-boletim" ><a>Commandes</a></li>
 			            <li id="menu-academico-boletim" ><a>Ventes</a></li>
 			            <li id="menu-academico-boletim" ><a>Statistiques</a></li>
+			             <li id="menu-academico-boletim" ><a>Configuration</a></li>
 		             </ul>
 		         </li>
 		      </ul>
