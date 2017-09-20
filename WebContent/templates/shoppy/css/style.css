@@ -895,7 +895,7 @@ ul.dropdown-menu.drp-mnu li {
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
 }
-.market-update-right i.fa.fa-file-text-o {
+.market-update-right i.fa.fa-user {
     font-size: 3em;
     color:#68AE00;
     width: 80px;
@@ -957,10 +957,10 @@ canvas#bar {
 h3.tlt {
     font-size: 1.2em;
     margin-bottom: 0.8em;
-    font-weight: 700;
+    font-weight: bold;
     color: #180101;
     text-transform: uppercase;
-   font-family: Tahoma;
+   font-family: Arial;
 }
 
 h3 .fa-shopping-cart {
@@ -3283,7 +3283,7 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 .market-update-block {
     padding: 1.5em 1.5em;
 }
-.market-update-right i.fa.fa-file-text-o {
+.market-update-right i.fa.fa-user {
     font-size: 2em;
     width: 60px;
     height: 60px;
@@ -3536,7 +3536,7 @@ li.dropdown.head-dpdn a.dropdown-toggle {
 .market-update-block {
     padding: 1em 1em;
 }
-.market-update-right i.fa.fa-file-text-o {
+.market-update-right i.fa.fa-user {
     font-size: 2em;
     width: 60px;
     height: 60px;

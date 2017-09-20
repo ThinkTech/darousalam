@@ -204,7 +204,7 @@
 						<h4>nouveaux clients</h4>
 					</div>
 					<div class="col-md-4 market-update-right">
-						<i class="fa fa-file-text-o"> </i>
+						<i class="fa fa-user"> </i>
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
