@@ -34,13 +34,8 @@ html, body{
     background:#f6d7b6;
 }
 
-.header {padding-bottom: 50px;}
+.header {padding-bottom: 40px;}
 
-.required:before {
-    content: "*";
-    color: red;
-    margin-right: 3px;
-}
 
 a:focus, a:hover {
     color: initial;
@@ -96,7 +91,6 @@ body a:hover{
 	float: left;
     margin-left: 15em;
     position: relative;
-    top: 7px;
 }
 .w3l_logo h1 a{
 	font-size:1.1em;
