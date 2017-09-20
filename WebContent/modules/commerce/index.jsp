@@ -94,27 +94,43 @@
 							   <div class="details">
 							     <span><input name="shipping" value="home"
 									type="radio" checked><label>Domicile</label></span>
-									<span><input name="shipping" value="home"
+									<span><input name="shipping" value="shop"
 									type="radio"><label>Retirer au magasin</label></span>
-							     <h5>
-									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Nord
-										Foire, VDN</span> <span>derrière la Mosquée</span>
-								</h5>
-								<h5>
-									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Région
-										: </span>Dakar
-								</h5>
-								<h5>
-									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Zone
-										: </span>Fann
-								</h5>
-								<h5>
-									<span><i class="fa fa-mobile" aria-hidden="true"></i>Téléphone
-										: </span>775593264
-								</h5>
-								<h5>
-									<a>[modifier]</a>
-								</h5>
+								<div class="home-address">
+								     <h5>
+										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Parcelles Assainies</span> <span>U20 N54</span>
+									</h5>
+									<h5>
+										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Région
+											: </span>Dakar
+									</h5>
+									<h5>
+										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Zone
+											: </span>Parcelles
+									</h5>
+									<h5>
+										<span><i class="fa fa-mobile" aria-hidden="true"></i>Téléphone
+											: </span>775593264
+									</h5>
+									<h5>
+										<a>[modifier]</a>
+									</h5>
+								</div>
+								<div class="shop-address" style="display:none">
+								     <h5>
+										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Nord
+											Foire, VDN</span> <span>derrière la Mosquée</span>
+									</h5>
+									<h5>
+										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Région
+											: </span>Dakar
+									</h5>
+									<h5>
+										<span><i class="fa fa-mobile" aria-hidden="true"></i>Téléphone
+											: </span>338145725
+									</h5>
+								</div>
+								
 								</div>
 								<div class="register" style="display:none">
 								   <div>

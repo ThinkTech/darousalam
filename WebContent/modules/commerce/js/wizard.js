@@ -128,6 +128,7 @@ page.wizard.init = function(){
 		    		var input = prevStep.find("input[name='payment']:checked");
 		    		var val = input.val();
 		    		if(val=="online") {
+		    			$(".shipping-address input[value='shop']",currentStep).removeAttr("disabled");
 		    			input = prevStep.find("select[name='method']");
 		    			val = input.val();
 		    			payment.done = false;
@@ -143,6 +144,8 @@ page.wizard.init = function(){
 	                      });
 	        	    	} 	
 		    		}else {
+		    			$(".shipping-address input[value='home']",currentStep).click();
+		    			$(".shipping-address input[value='shop']",currentStep).attr("disabled","disabled");
 		    			payment.done = true;
 		    		}
 		    		$("."+val+"-payment",div).show();
@@ -177,7 +180,8 @@ page.wizard.init = function(){
 		form.find("input[name='payment'][value='online']").prop("checked",true);
 	});
 	form.find("section label").click(function(){
-		$(this).prev().prop("checked",true);
+		const radio = $(this).prev();
+		if(!radio.is(":disabled")) radio.click();
 	});	
 	$(".loginForm input[type=button]").click(function(event){
 		if(page.wizard.validateForm($(".loginForm",wizard))){
@@ -211,6 +215,11 @@ page.wizard.init = function(){
 		$(".shipping-address .details",wizard).hide();
 		$(".shipping-address .register",wizard).show();
 		$(".shopping-payment").addClass("payment-hide");
+	});
+	
+	$(".shipping-address input[type=radio]",wizard).click(function(){
+		$(".shipping-address .details > div",wizard).hide();
+		$(".shipping-address .details ."+$(this).val()+"-address",wizard).show();
 	});
 
 	$(".shipping-address input[type=button]:nth-child(1)",wizard).click(function(){
