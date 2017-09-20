@@ -93,7 +93,7 @@
 								
 							   <div class="details">
 							     <span><input name="shipping" value="home"
-									type="radio" checked><label>Domicile</label></span>
+									type="radio" checked><label>Livrer au domicile</label></span>
 									<span><input name="shipping" value="shop"
 									type="radio"><label>Retirer au magasin</label></span>
 								<div class="home-address">
