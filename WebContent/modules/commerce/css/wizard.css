@@ -283,12 +283,12 @@
     top: -2px;
     left : -6px;
     width:auto;
+    margin-right : 4px;
 }
 
 .checkout-wizard-content fieldset .shipping-address input[type=radio]{
    position: relative;
    left: -2px;
-   margin-bottom : 6px;
 }
 
 #checkout-wizard .shipping-address select {
@@ -342,7 +342,6 @@
    font-family : monospace;	
    float: right;
     margin-right: 15px;
-    margin-top : 10px;
 }
 
 .shopping-amount > span {
