@@ -4046,10 +4046,13 @@ canvas#line {
 .page-container {
     min-width: 495px;
 }
+.market-update-block h3 {
+    font-size: 1em;
+}
 .market-update-gd {
     float: none;
-    width: 90%;
-    height: 90px;
+    width: 70%;
+    height: 65px;
     overflow: hidden;
     margin-left : auto;
     margin-right : auto;
@@ -4075,7 +4078,7 @@ canvas#bar {
 }
 
 .chit-chat-layer1 {
-    margin: 1em 0em;
+    margin: 0.5em 0em;
 }
 .chit-chat-layer1-left {
     padding: 0em 0em 1em 0em;
@@ -4719,9 +4722,6 @@ ul.dropdown-menu {
 }
 .page-container.sidebar-collapsed .sidebar-menu {
     width: 130px;
-}
-.market-update-block h3 {
-    font-size: 1.7em;
 }
 .forgot a {
     font-size: 0.65em;
