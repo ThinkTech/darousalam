@@ -128,7 +128,7 @@
     top: 0px;
     font-family: Exo;
     letter-spacing: 0;
-    color: #903417;
+    color: #ff9b05;
     width: 165px;
 }
 
@@ -276,6 +276,19 @@
     width: 40%;
     border: 1px solid #ff9b05;
     margin-bottom : 10px;
+}
+
+.checkout-wizard-content fieldset .shipping-address label {
+    font-size: 16px;
+    top: -2px;
+    left : -6px;
+    width:auto;
+}
+
+.checkout-wizard-content fieldset .shipping-address input[type=radio]{
+   position: relative;
+   left: -2px;
+   margin-bottom : 6px;
 }
 
 #checkout-wizard .shipping-address select {
@@ -633,6 +646,7 @@
       font-size: 12px;
       width: 94px;
     }
+    .checkout-wizard-content fieldset .shipping-address label{font-size: 12px;top:-3px}
     .checkout-wizard-steps {padding: 0px;}
     .shopping-payment ol {margin-left: 9px;}
     .shopping-payment li {font-size: 9px;}
@@ -659,6 +673,7 @@
 	    margin-right: auto;
 	}
 	.checkout-wizard-content fieldset label {font-size: 10px;width: 84px;}
+	.checkout-wizard-content fieldset .shipping-address label{font-size: 10px;top:-3px}
 	#order-confirmation > div {width: 430px;}
 	#order-confirmation p {font-size: 0.8em;}
 	.hs-wrapper {height: 250px;}

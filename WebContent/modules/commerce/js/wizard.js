@@ -176,7 +176,7 @@ page.wizard.init = function(){
 	form.find("select[name='method']").click(function(){
 		form.find("input[name='payment'][value='online']").prop("checked",true);
 	});
-	form.find("section:nth-child(2) label").click(function(){
+	form.find("section label").click(function(){
 		$(this).prev().prop("checked",true);
 	});	
 	$(".loginForm input[type=button]").click(function(event){

@@ -92,6 +92,8 @@
 								</h4>
 								
 							   <div class="details">
+							     <span><input name="shipping" value="home"
+									type="radio" checked><label>Domiciliation</label></span>
 							     <h5>
 									<span><i class="fa fa-map-marker" aria-hidden="true"></i>Nord
 										Foire, VDN</span> <span>derrière la Mosquée</span>
@@ -111,6 +113,8 @@
 								<h5>
 									<a>[modifier]</a>
 								</h5>
+								<span><input name="shipping" value="home"
+									type="radio"><label>Retirer au magasin</label></span>
 								</div>
 								<div class="register" style="display:none">
 								   <div>
