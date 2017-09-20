@@ -959,6 +959,11 @@ h3.tlt {
     text-transform: uppercase;
    font-family: Tahoma;
 }
+
+h3 .fa-shopping-cart {
+	position: relative;
+    top: -1px;
+}
 /*--chart-layer1-right start--*/
 .home-progres-main {
     padding-bottom: 9px;

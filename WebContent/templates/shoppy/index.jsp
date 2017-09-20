@@ -174,7 +174,7 @@
 												<span class="prfil-img"><img src="templates/shoppy/images/p1.png" alt=""> </span> 
 												<div class="user-name">
 													<p>Malorum</p>
-													<span>Administrateur</span>
+													<span>administrateur</span>
 												</div>
 												<i class="fa fa-angle-down lnr"></i>
 												<i class="fa fa-angle-up lnr"></i>
@@ -213,7 +213,7 @@
 				<div class="market-update-block clr-block-2">
 				 <div class="col-md-8 market-update-left">
 					<h3>135</h3>
-					<h4>Visiteurs</h4>
+					<h4>visiteurs</h4>
 				  </div>
 					<div class="col-md-4 market-update-right">
 						<i class="fa fa-eye"> </i>
@@ -225,7 +225,7 @@
 				<div class="market-update-block clr-block-3">
 					<div class="col-md-8 market-update-left">
 						<h3>3</h3>
-						<h4>Nouveaux Messages</h4>
+						<h4>nouveaux messages</h4>
 					</div>
 					<div class="col-md-4 market-update-right">
 						<i class="fa fa-envelope-o"> </i>
