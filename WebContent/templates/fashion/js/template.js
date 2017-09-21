@@ -11,17 +11,19 @@ page.loadImages = function(div,callback) {
 	if(!div.data("loaded")) {
 		div.attr("data-loaded","true");
 	    $.each($("img[data-src]",div),function(index,element){
-	        $(element).addClass("loading");
-			const src = $(element).data("src");
-			if(src) {
-				$(element).attr("src",src);
-				$(element).removeAttr("data-src");
-				$(element).on("load",function(){
-					$(element).removeClass("loading");
-				}).each(function() {
-					  if(this.complete) $(this).trigger("load");
-				});
-			}
+	    	if(!$(element).is(":hidden")){
+	    		$(element).addClass("loading");
+				const src = $(element).data("src");
+				if(src) {
+					$(element).attr("src",src);
+					$(element).removeAttr("data-src");
+					$(element).on("load",function(){
+						$(element).removeClass("loading");
+					}).each(function() {
+						  if(this.complete) $(this).trigger("load");
+					});
+				}
+	    	}
 	    });
 	    if(callback) callback();
 	  }
@@ -167,6 +169,7 @@ page.displayProducts = function() {
 			}
 		});
 	});
+	$('.tab-content .tab-pane:eq(0)',div).addClass("active in");
 };
 
 page.addCartItem = function(item){ 
@@ -340,8 +343,41 @@ page.display = function(){
 			if(tabs.length){
 			 if(top >= tabs.position().top-400) {
 				const div = $('.tab-content .tab-pane:eq(0)',tabs);
+				div.addClass("active in");
 				page.loadImages(div,function(){
-					div.addClass("active in");
+					const length = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left:visible",div).length;
+					var index = length;
+					$(".ecommerce_tabs_nav_left",div).click(function(){
+						if(!$(this).hasClass("disabled")){
+							const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
+							elements.hide();
+							index = index - length;
+							const nodes = elements.slice(index-length,index).show();	
+							$.each(nodes,function(index,element){
+								page.loadImages($(element));
+							});
+							if(index<=length) {
+								index = length;
+								$(this).addClass("disabled");
+							}
+							$(".ecommerce_tabs_nav_right",div).removeClass("disabled");
+						}
+					});
+					$(".ecommerce_tabs_nav_right",div).click(function(){
+						if(!$(this).hasClass("disabled")){
+							const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
+							elements.hide();
+							const nodes = elements.slice(index,index + length).show();
+							$.each(nodes,function(index,element){
+								page.loadImages($(element));
+							});
+							index = index + length;
+							if(index>=elements.length) {
+								$(this).addClass("disabled");
+							}
+							$(".ecommerce_tabs_nav_left",div).removeClass("disabled");
+						}
+					});
 				});
 			 }
 			}

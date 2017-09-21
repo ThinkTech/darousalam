@@ -907,6 +907,12 @@ a .total {
 .agile_ecommerce_tabs {
     width: 101.55%;
 }
+
+.agile_ecommerce_tabs .agile_ecommerce_tab_left{display:none}
+.agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(1){display:inline-block}
+.agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(2){display:inline-block}
+.agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(3){display:inline-block}
+	
 .ecommerce_tabs_nav_left {
     font-size: 3em;
     font-weight: bold;
@@ -915,6 +921,9 @@ a .total {
     top: 50%;
     left: -70px;
     cursor : pointer;
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 .tab-pane .disabled,.tab-pane .disabled:hover,.tab-pane .disabled:focus {
 	color : #c3c3c3;
@@ -928,6 +937,9 @@ a .total {
     top: 50%;
     right: -70px;
     cursor : pointer;
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 
 .ecommerce_tabs_nav_left:hover,.ecommerce_tabs_nav_left:focus,.ecommerce_tabs_nav_right:hover,.ecommerce_tabs_nav_right:focus{
@@ -2630,6 +2642,8 @@ div#horizontalTab1 ul {
 @media (max-width:480px){
 	.agile_ecommerce_tabs .agile_ecommerce_tab_left{display:none}
 	.agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(1){display:block}
+	.agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(2){display:none}
+    .agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(3){display:none}
 	.shoppingCart{min-width:300px;max-width:300px;}
 	.product-view p {
     padding: 6px 10px;
