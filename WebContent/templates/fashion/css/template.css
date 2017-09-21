@@ -907,6 +907,24 @@ a .total {
 .agile_ecommerce_tabs {
     width: 101.55%;
 }
+.agile_ecommerce_tabs:before {
+	content: "<";
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff9b05;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+}
+.agile_ecommerce_tabs:after {
+	content: ">";
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff9b05;
+    position: absolute;
+    top: 50%;
+    right: -70px;
+}
 .agile_ecommerce_tab_left h5{
 	margin:1em;
 }
@@ -2040,6 +2058,14 @@ div#horizontalTab1 ul {
 	
 }
 @media (max-width: 1280px){
+	.agile_ecommerce_tabs:before {
+      left: -35px;
+      font-size : 2em;
+    }
+    .agile_ecommerce_tabs:after {
+      right: -35px;
+      font-size : 2em;
+    }
 	.modal-open .modal {width: 98%;margin: auto;}
 	.banner .bannerSlider {right : 0px}
 	.agileinfo_banner_bottom1_grid_left {
@@ -2168,6 +2194,7 @@ div#horizontalTab1 ul {
 	#contact-form {left: 25%;}
 }
 @media (max-width:991px){
+	
 	#products .genders{margin-left : -7px;}
 	#products .genders a {font-size: 16px;}
 	.w3_footer_grid ul li {font-size: 15px;}
@@ -2423,7 +2450,7 @@ div#horizontalTab1 ul {
 	.resp-tab-item {font-size: 0.65em;width: 119px;}
     .search_form input[type='text'] {width: 300px;}
 	.agile_ecommerce_tabs {
-		width : 102.5%;
+		width: 102.5%;
 	}
 	.w3l_logo {
 		margin-left: 9em;
@@ -2434,6 +2461,12 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
+	.agile_ecommerce_tabs:before {
+      left: -10px;
+    }
+    .agile_ecommerce_tabs:after {
+      right: -10px;
+    }
 	.header .social {top : 0px;}
 	.banner{background:none}
 	.modal-title {
@@ -2588,6 +2621,10 @@ div#horizontalTab1 ul {
     padding-bottom: 0px;
     height: 30px;
 }
+    .simpleCart_shelfItem{
+     width : 215px;
+     margin : auto;
+    }
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
     padding: 3px;
     margin-bottom: 0px;

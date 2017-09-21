@@ -269,6 +269,7 @@
 								</div>
 							</s:iterator>
 							</div>
+							<div class="clearfix"> </div>
 						</div>
 						</s:iterator>
 					</div>
