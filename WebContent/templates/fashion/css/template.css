@@ -907,8 +907,7 @@ a .total {
 .agile_ecommerce_tabs {
     width: 101.55%;
 }
-.agile_ecommerce_tabs:before {
-	content: "<";
+.ecommerce_tabs_nav_left {
     font-size: 3em;
     font-weight: bold;
     color: #ff9b05;
@@ -917,7 +916,10 @@ a .total {
     left: -70px;
     cursor : pointer;
 }
-.agile_ecommerce_tabs:after {
+.tab-pane .disabled {
+	color : #c3c3c3;
+}
+.ecommerce_tabs_nav_right {
 	content: ">";
     font-size: 3em;
     font-weight: bold;
@@ -2060,11 +2062,11 @@ div#horizontalTab1 ul {
 	
 }
 @media (max-width: 1280px){
-	.agile_ecommerce_tabs:before {
+	.ecommerce_tabs_nav_left {
       left: -35px;
       font-size : 2em;
     }
-    .agile_ecommerce_tabs:after {
+    .ecommerce_tabs_nav_right {
       right: -35px;
       font-size : 2em;
     }
@@ -2463,10 +2465,10 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
-	.agile_ecommerce_tabs:before {
+	.ecommerce_tabs_nav_left {
       left: -10px;
     }
-    .agile_ecommerce_tabs:after {
+    .ecommerce_tabs_nav_right {
       right: -10px;
     }
 	.header .social {top : 0px;}
