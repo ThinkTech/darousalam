@@ -915,6 +915,7 @@ a .total {
     position: absolute;
     top: 50%;
     left: -70px;
+    cursor : pointer;
 }
 .agile_ecommerce_tabs:after {
 	content: ">";
@@ -924,6 +925,7 @@ a .total {
     position: absolute;
     top: 50%;
     right: -70px;
+    cursor : pointer;
 }
 .agile_ecommerce_tab_left h5{
 	margin:1em;
