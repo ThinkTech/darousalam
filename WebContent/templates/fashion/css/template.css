@@ -2617,6 +2617,8 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	.agile_ecommerce_tabs .agile_ecommerce_tab_left{display:none}
+	.agile_ecommerce_tabs .agile_ecommerce_tab_left:nth-child(1){display:block}
 	.shoppingCart{min-width:300px;max-width:300px;}
 	.product-view p {
     padding: 6px 10px;
