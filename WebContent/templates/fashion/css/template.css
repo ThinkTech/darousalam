@@ -916,7 +916,7 @@ a .total {
     left: -70px;
     cursor : pointer;
 }
-.tab-pane .disabled {
+.tab-pane .disabled,.tab-pane .disabled:hover,.tab-pane .disabled:focus {
 	color : #c3c3c3;
 }
 .ecommerce_tabs_nav_right {
@@ -929,6 +929,14 @@ a .total {
     right: -70px;
     cursor : pointer;
 }
+
+.ecommerce_tabs_nav_left:hover,.ecommerce_tabs_nav_left:focus,.ecommerce_tabs_nav_right:hover,.ecommerce_tabs_nav_right:focus{
+	color: #ff9b05;
+	outline : none;
+	text-decoration : none;
+}
+
+
 .agile_ecommerce_tab_left h5{
 	margin:1em;
 }
