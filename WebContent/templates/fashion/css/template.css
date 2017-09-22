@@ -924,6 +924,7 @@ a .total {
     width: 32px;
     height: 32px;
     display: block;
+    user-select : none;
 }
 .tab-pane .disabled,.tab-pane .disabled:hover,.tab-pane .disabled:focus {
 	color : #c3c3c3;
@@ -940,6 +941,7 @@ a .total {
     width: 32px;
     height: 32px;
     display: block;
+    user-select : none;
 }
 
 .ecommerce_tabs_nav_left:hover,.ecommerce_tabs_nav_left:focus,.ecommerce_tabs_nav_right:hover,.ecommerce_tabs_nav_right:focus{
