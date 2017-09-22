@@ -377,12 +377,6 @@
     z-index : 9999999;
 }
 
-#order-confirmation .close {
-    position: relative;
-    right: 8px;
-    top: -36px;
-}
-
 #order-confirmation > div {
 	width : 500px;
     margin : auto;
