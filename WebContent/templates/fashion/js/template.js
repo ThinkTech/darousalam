@@ -76,7 +76,7 @@ page.displayLogin = function(){
 
 page.displayCart = function() {
 	$(".cart").click(function(){
-		$("#cart").css("top",-50).toggle();
+		$("#cart").css("top",-50).show();
 	});
 	
 	$("#cart .close").click(function(){
