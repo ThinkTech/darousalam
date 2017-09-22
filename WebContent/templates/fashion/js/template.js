@@ -196,7 +196,7 @@ page.displayProducts = function() {
 		if(!link.attr("disabled")){
 			link.attr("disabled", "disabled");
 			const content = link.closest(".modal-content");
-			const src = $("#product-details .modal_body_left img").attr("src");
+			const src = $(".modal_body_left img",details).attr("src");
 			content.find(".close").click();
 			const item = {};
 			item.quantity = content.find("input").val();
