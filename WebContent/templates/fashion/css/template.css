@@ -803,13 +803,6 @@ a .total {
 	z-index : 1;
 }
 
-.agileinfo_new_products_grids .rating,.agile_ecommerce_tabs .rating{
-    margin: auto;
-    width: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .simpleCart_shelfItem {
    background: #f4efe9;
    height: 100px;
