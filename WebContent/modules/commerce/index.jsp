@@ -3,7 +3,7 @@
 			<h4 class="wizard-title">
 				<i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer l'achat
 			</h4>
-			<span title="fermer l'assistant" class="close">X</span>
+			<span title="fermer" class="close">X</span>
 			<div class="checkout-wizard-steps">
 				<form action="commerce/saveOrder" method="post">
 					<section class="step" data-step-title="Identification">
@@ -279,6 +279,7 @@
 <div id="order-confirmation" style="display:none">
 	   <div>
 	     <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation de l'achat</h1>
+	     <span title="fermer" class="close">X</span>
 	     <p><i class="fa fa-info-circle" aria-hidden="true"></i> Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
 	     connecter à votre compte pour suivre son évolution ou pour consulter l'historique de vos commandes. 
 	     </p>

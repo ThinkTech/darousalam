@@ -227,7 +227,7 @@
 	cursor : pointer;
 	font-size : 13px;
 	color: #ff9b05;
-	display : inline-block;
+	display : block;
 }
 
 #profile {
@@ -375,6 +375,12 @@
     width : 100%;
     display : none;	
     z-index : 9999999;
+}
+
+#order-confirmation .close {
+    position: relative;
+    right: 8px;
+    top: -36px;
 }
 
 #order-confirmation > div {
@@ -562,7 +568,8 @@
     padding: 9px;
  }
  #order-confirmation h1 {
-    font-size: 1.15em;
+    font-size: 15px;
+    padding: 11px;
  }
 }
 @media (max-width: 1080px){

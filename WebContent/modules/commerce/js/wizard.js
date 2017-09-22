@@ -241,7 +241,7 @@ page.wizard.init = function(){
 		return false;
 	});
 
-	$("#confirmation-close").click(function(){
+	$("#confirmation-close,#order-confirmation .close").click(function(){
 		$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
 	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 	});
