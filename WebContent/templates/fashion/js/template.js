@@ -109,8 +109,46 @@ page.displayCart = function() {
 	
 };
 
+page.navigate = function(div){
+	const length = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left:visible",div).length;
+	if($(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length<=length){
+		$(".ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right",div).hide();
+	}
+	var index = length;
+	$(".ecommerce_tabs_nav_left",div).click(function(){
+		if(!$(this).hasClass("disabled")){
+			const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
+			elements.hide();
+			index = index - length;
+			const nodes = elements.slice(index-length,index).show();	
+			$.each(nodes,function(index,element){
+				page.loadImages($(element));
+			});
+			if(index<=length) {
+				index = length;
+				$(this).addClass("disabled");
+			}
+			$(".ecommerce_tabs_nav_right",div).removeClass("disabled");
+		}
+	});
+	$(".ecommerce_tabs_nav_right",div).click(function(){
+		if(!$(this).hasClass("disabled")){
+			const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
+			elements.hide();
+			const nodes = elements.slice(index,index + length).show();
+			$.each(nodes,function(index,element){
+				page.loadImages($(element));
+			});
+			index = index + length;
+			if(index>=elements.length) {
+				$(this).addClass("disabled");
+			}
+			$(".ecommerce_tabs_nav_left",div).removeClass("disabled");
+		}
+	});
+};
+
 page.displayProducts = function() {
-	
 	const div = $("#products");
 	const details = $("#product-details");
 	$.each($(".tabs",div),function(index,element){
@@ -120,14 +158,12 @@ page.displayProducts = function() {
 			$("li",nav).removeClass("active");
 			const parent = $(this).parent();
 			parent.addClass("active");
-			const index = parent.index();
 			$(".tab-content > div",tabs).removeClass("active in");
-			const div = $(".tab-content .tab-pane:eq("+index+")",tabs).addClass("fade active in");
-			page.loadImages(div);
-			const length = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left:visible",div).length;
-			if($(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length<=length){
-				$(".ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right",div).hide();
-			}
+			const div = $(".tab-content .tab-pane:eq("+parent.index()+")",tabs).addClass("fade active in");
+			page.loadImages(div,function(){
+				page.navigate(div);
+			});
+			
 		});
 		$('.item_show',tabs).click(function(){
 			const link = $(this).parent().parent().parent().find("li a");
@@ -348,42 +384,7 @@ page.display = function(){
 				const div = $('.tab-content .tab-pane:eq(0)',tabs);
 				div.addClass("active in");
 				page.loadImages(div,function(){
-					const length = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left:visible",div).length;
-					if($(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length<=length){
-						$(".ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right",div).hide();
-					}
-					var index = length;
-					$(".ecommerce_tabs_nav_left",div).click(function(){
-						if(!$(this).hasClass("disabled")){
-							const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
-							elements.hide();
-							index = index - length;
-							const nodes = elements.slice(index-length,index).show();	
-							$.each(nodes,function(index,element){
-								page.loadImages($(element));
-							});
-							if(index<=length) {
-								index = length;
-								$(this).addClass("disabled");
-							}
-							$(".ecommerce_tabs_nav_right",div).removeClass("disabled");
-						}
-					});
-					$(".ecommerce_tabs_nav_right",div).click(function(){
-						if(!$(this).hasClass("disabled")){
-							const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
-							elements.hide();
-							const nodes = elements.slice(index,index + length).show();
-							$.each(nodes,function(index,element){
-								page.loadImages($(element));
-							});
-							index = index + length;
-							if(index>=elements.length) {
-								$(this).addClass("disabled");
-							}
-							$(".ecommerce_tabs_nav_left",div).removeClass("disabled");
-						}
-					});
+					page.navigate(div);
 				});
 			 }
 			}
