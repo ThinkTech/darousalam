@@ -75,7 +75,7 @@ page.displayLogin = function(){
 
 
 page.displayCart = function() {
-	$(".cart a").click(function(){
+	$(".cart").click(function(){
 		const cart = $("#cart");
 		cart.css("top",-50);
 		cart.toggle();

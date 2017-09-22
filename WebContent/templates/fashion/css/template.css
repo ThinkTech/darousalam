@@ -1501,8 +1501,8 @@ ul.wmuSliderPagination {
     margin: 0em 0 0;
 }
 
-#new-products {
-	background : #f4efe9;
+#product-details {
+	z-index: 9999999;
 }
 
 /*-- newsletter --*/
