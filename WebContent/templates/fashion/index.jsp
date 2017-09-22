@@ -264,7 +264,7 @@
 									</div>
 									<h5><a>${product.name}</a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>${product.price}</span> <i class="item_price">${product.price}</i></p>
+										<p><span>${product.price}</span> <span class="item_price">${product.price-((product.price*10)/100)}</span></p>
 										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
@@ -351,7 +351,7 @@
 											  </div>
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
-											<p><span>15000</span> <i class="item_price">13 500</i></p>
+											<p><span class="item_price"></span></p>
 											<p><input  type="number" value="1" min="1"/>&nbsp;<a title="commander" class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 									</div>

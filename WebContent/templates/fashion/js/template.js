@@ -112,6 +112,10 @@ page.navigate = function(div){
 	if($(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length<=length){
 		$(".ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right",div).hide();
 	}
+	$.each($(".simpleCart_shelfItem span",div),function(index,element){
+		const val = parseInt($(this).html());
+		$(this).html(val.toLocaleString("fr-FR"));
+	});
 	var index = length;
 	$(".ecommerce_tabs_nav_left",div).click(function(){
 		if(!$(this).hasClass("disabled")){
@@ -165,22 +169,28 @@ page.displayProducts = function() {
 		});
 		$('.item_show',tabs).click(function(){
 			const link = $(this).parent().parent().parent().find("li a");
-			const src = link.closest(".hs-wrapper").find("img").attr("src");
-			const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
-			$(".modal_body_left img",details).attr("src",src);
-			$(".modal_body_right h4",details).html(item);
 			$("input",details).val(1);
-			$(".shop",details).data("name",item).removeAttr("disabled");
+			const item = {};
+			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+			item.price = link.closest(".agile_ecommerce_tab_left").find(".item_price").text();
+			item.image = link.closest(".hs-wrapper").find("img").attr("src");
+			$(".modal_body_left img",details).attr("src",item.image);
+			$(".modal_body_right h4",details).html(item.name);
+			$(".item_price",details).html(item.price);
+			$(".shop",details).data("item",item).removeAttr("disabled");
 			details.addClass("in").show();
 		});	
         $(".w3_hs_bottom a",tabs).click(function(){
         	const link = $(this);
-			const src = link.closest(".hs-wrapper").find("img").attr("src");
-			const item = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
-			$(".modal_body_left img",details).attr("src",src);
-			$(".modal_body_right h4",details).html(item);
 			$("input",details).val(1);
-			$(".shop",details).data("name",item).removeAttr("disabled");
+			const item = {};
+			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+			item.price = link.closest(".agile_ecommerce_tab_left").find(".item_price").text();
+			item.image = link.closest(".hs-wrapper").find("img").attr("src");
+			$(".modal_body_left img",details).attr("src",item.image);
+			$(".modal_body_right h4",details).html(item.name);
+			$(".item_price",details).html(item.price);
+			$(".shop",details).data("item",item).removeAttr("disabled");
 			details.addClass("in").show();
         });
         $(".nav-tabs li:first",tabs).addClass("active");
@@ -194,14 +204,10 @@ page.displayProducts = function() {
 		if(!link.attr("disabled")){
 			link.attr("disabled", "disabled");
 			const content = link.closest(".modal-content");
-			const src = $(".modal_body_left img",details).attr("src");
 			content.find(".close").click();
-			const item = {};
+			const item = link.data("item");
 			item.quantity = content.find("input").val();
-			item.price = 13500;
-			item.name = link.data("name");
-	        item.image = src;
-	        page.addCartItem(item);
+			page.addCartItem(item);
 	        page.cart.push(item);
 	        localStorage.setItem("cart", JSON.stringify(page.cart));
 		}
@@ -211,7 +217,7 @@ page.displayProducts = function() {
 
 page.addCartItem = function(item){ 
 	var total = 0;
-	item.amount = parseInt(item.quantity) * parseInt(item.price);
+	item.amount = parseInt(item.quantity) * parseInt(item.price.replace(/\s/g,''));
 	const cart = $("#cart");
 	const ul = $("ul",cart);
 	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');

@@ -961,7 +961,7 @@ a .total {
 .simpleCart_shelfItem p{
 	font-size: 1.2em;
     color: #180101;
-    margin: 0.5em 0 1em;
+    margin: 0.2em 0 1em;
     font-weight: bold;
 }
 .simpleCart_shelfItem p span{
@@ -970,10 +970,19 @@ a .total {
     text-decoration: line-through;
     padding-right: 1em;
     font-weight: 300;
+    font-style : italic;
 }
-.agile_ecommerce_tab_left p i{
+.simpleCart_shelfItem p span.item_price{
 	font-style:normal;
+	text-decoration : none;
+	color : #000;
+	font-weight : bold;
 }
+
+.modal_body_right_cart.simpleCart_shelfItem p span{
+	font-size : 1.2em;
+}
+
 .simpleCart_shelfItem p a{
     font-size: 14px;
     color: #fff;
@@ -1146,6 +1155,7 @@ a .total {
     background: #fff;
     padding: 4px;
     border: 1px solid;
+    box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .color-quality ul li a {
     font-size: 14px;
@@ -2644,7 +2654,7 @@ div#horizontalTab1 ul {
 }
 @media (max-width:480px){
 	.agile_ecommerce_tabs {width: 100.5%;padding-left: 0px;padding-right: 0px;}
-	.simpleCart_shelfItem p{margin:0.5em 0 1em}
+	.simpleCart_shelfItem p{margin:0.5em 0 1.5em}
 	.total span:nth-child(2){display:none}
 	.box_1 a {font-size: 13px;}
 	.agile_ecommerce_tabs .agile_ecommerce_tab_left{display:none}
