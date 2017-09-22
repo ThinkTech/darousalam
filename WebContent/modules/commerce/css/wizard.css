@@ -602,7 +602,7 @@
 }
 @media (max-width:667px){
 	#checkout-wizard fieldset {box-shadow : none;padding: 0px;padding-bottom: 0;}
-	.checkout-wizard-content fieldset h4 {margin-bottom: 2px;}
+	.checkout-wizard-content fieldset h4 {margin-bottom: 0px;}
 	.paypal-payment{height:40px;overflow:hidden}
 	.shopping-amount > span {line-height: 12px;}
 	.checkout-wizard-content .register input[type="text"],.checkout-wizard-content .register input[type="email"],.checkout-wizard-content .register input[type="password"] {
