@@ -2644,7 +2644,6 @@ div#horizontalTab1 ul {
 @media (max-width:480px){
 	.simpleCart_shelfItem p a {top: 3px;}
 	.simpleCart_shelfItem p{margin:0.5em 0 1em}
-	.total span {top: 0px;}
 	.total span:nth-child(2){display:none}
 	.box_1 a {font-size: 13px;}
 	.agile_ecommerce_tabs .agile_ecommerce_tab_left{display:none}
