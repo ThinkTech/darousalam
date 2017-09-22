@@ -129,7 +129,7 @@
 			<div class="cart box_1">
 				<a>
 					<div class="total">
-					<span  class="simpleCart_quantity">0</span> articles</div>
+					<span  class="simpleCart_quantity">0</span> <span>articles</span></div>
 					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 				</a>
 				<div class="clearfix"> </div>
