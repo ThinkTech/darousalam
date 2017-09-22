@@ -799,6 +799,10 @@ a .total {
 	background-color: #ff9b05;
 }
 
+.hs-wrapper {
+	z-index : 1;
+}
+
 .agileinfo_new_products_grids .rating,.agile_ecommerce_tabs .rating{
     margin: auto;
     width: 100px;
@@ -1503,7 +1507,7 @@ ul.wmuSliderPagination {
 }
 
 #product-details {
-	z-index: 99;
+	z-index: 9999;
 }
 
 /*-- newsletter --*/
