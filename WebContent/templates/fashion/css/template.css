@@ -985,6 +985,7 @@ a .total {
 
 .modal_body_right_cart.simpleCart_shelfItem p span{
 	font-size : 1.2em;
+	color : #180101;
 }
 
 .simpleCart_shelfItem p a{
@@ -1164,14 +1165,17 @@ a .total {
     font-weight: bold;
     font-size: 12px;
     color: #180101;
-}
-.sizes ul li {
     background: #fff;
     padding: 4px;
     border: 1px solid;
     box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor : pointer;
 }
 
+.sizes ul li.active {
+	background: #ff9b05;
+    color: #fff;
+}
 
 /*-- //banner-bottom --*/
 /*-- special-deals --*/

@@ -337,7 +337,7 @@
 												<h5>Taille</h5>
 												<div class="sizes">
 													<ul>
-														<li>XS</li>
+														<li class="active">XS</li>
 														<li>S</li>
 														<li>M</li>
 														<li>L</li>

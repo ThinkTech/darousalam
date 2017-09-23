@@ -223,6 +223,10 @@ page.displayProducts = function() {
 		const total = $(this).val() * details.data("item").price;
 		$(".item_price",details).html(total.toLocaleString("fr-FR"));
 	});
+	$(".sizes li",details).click(function(){
+		$(".sizes li",details).removeClass("active");
+		$(this).addClass("active");
+	});
 };
 
 page.addCartItem = function(item){ 
