@@ -932,9 +932,9 @@ a .total {
 .tab-pane .counter{
 	position: absolute;
     font-size: 0.80em;
-    margin-top: 1px;
     color: #ff9b05;
     font-family : Exo;
+    right : 0;
 }
 
 .ecommerce_tabs_nav_right {
