@@ -173,12 +173,13 @@ page.displayProducts = function() {
 			const item = {};
 			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 			item.price = link.closest(".agile_ecommerce_tab_left").find(".item_price").text();
+			item.price = parseInt(item.price.replace(/\s/g,''));
 			item.image = link.closest(".hs-wrapper").find("img").attr("src");
 			$(".modal_body_left img",details).attr("src",item.image);
 			$(".modal_body_right h4",details).html(item.name);
 			$(".item_price",details).html(item.price);
-			$(".shop",details).data("item",item).removeAttr("disabled");
-			details.addClass("in").show();
+			$(".shop",details).removeAttr("disabled");
+			details.data("item",item).addClass("in").show();
 		});	
         $(".w3_hs_bottom a",tabs).click(function(){
         	const link = $(this);
@@ -186,12 +187,13 @@ page.displayProducts = function() {
 			const item = {};
 			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 			item.price = link.closest(".agile_ecommerce_tab_left").find(".item_price").text();
+			item.price = parseInt(item.price.replace(/\s/g,''));
 			item.image = link.closest(".hs-wrapper").find("img").attr("src");
 			$(".modal_body_left img",details).attr("src",item.image);
 			$(".modal_body_right h4",details).html(item.name);
 			$(".item_price",details).html(item.price);
-			$(".shop",details).data("item",item).removeAttr("disabled");
-			details.addClass("in").show();
+			$(".shop",details).removeAttr("disabled");
+			details.data("item",item).addClass("in").show();
         });
         $(".nav-tabs li:first",tabs).addClass("active");
         $(".genders a",div).click(function(){
@@ -206,19 +208,26 @@ page.displayProducts = function() {
 			link.attr("disabled", "disabled");
 			const content = link.closest(".modal-content");
 			content.find(".close").click();
-			const item = link.data("item");
+			const item = details.data("item");
 			item.quantity = content.find("input").val();
 			page.addCartItem(item);
 	        page.cart.push(item);
 	        localStorage.setItem("cart", JSON.stringify(page.cart));
 		}
 	});
-	
+	$("input",details).change(function(){
+		const total = $(this).val() * details.data("item").price;
+		$(".item_price",details).html(total.toLocaleString("fr-FR"));
+	});
+	$("input",details).click(function(){
+		const total = $(this).val() * details.data("item").price;
+		$(".item_price",details).html(total.toLocaleString("fr-FR"));
+	});
 };
 
 page.addCartItem = function(item){ 
 	var total = 0;
-	item.amount = parseInt(item.quantity) * parseInt(item.price.replace(/\s/g,''));
+	item.amount = parseInt(item.quantity) * item.price;
 	const cart = $("#cart");
 	const ul = $("ul",cart);
 	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');

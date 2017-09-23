@@ -1142,13 +1142,23 @@ a .total {
 	border : 1px solid #ff9b05;
 }
 
+.modal-dialog select {
+	position: relative;
+    top: -5px;
+    font-weight : bold;
+	background: #fff;
+    border: 1px solid;
+    font-size : 15px;
+	box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
 /*-- //Ratings --*/
 
 .sizes ul {
 	margin-top : -6px;
 }
 
-.sizes ul li,.color-quality ul li {
+.sizes ul li {
    display: inline-block;
     margin-right: 0px;
     font-weight: bold;
@@ -1161,28 +1171,8 @@ a .total {
     border: 1px solid;
     box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-.color-quality ul li a {
-    font-size: 14px;
-    color: #180101;
-    text-decoration: none;
-}
-.color-quality ul li a span {
-    width: 15px;
-    height: 15px;
-    display: block;
-    background: #ff0000;
-    margin: 0 auto .5em;
-	border-radius: 25px;
-}
-.color-quality ul li a.brown span {
-    background: #18010108c;
-}
-.color-quality ul li a.purple span {
-    background: #840084;
-}
-.color-quality ul li a.gray span {
-    background: #ff00ff;
-}
+
+
 /*-- //banner-bottom --*/
 /*-- special-deals --*/
 #deal h2,.container-bg h3,.top-brands h3,.w3l_related_products h3,.team h3,.mail h3{
@@ -1975,15 +1965,6 @@ h3.other-nw {
   visibility: visible;
 }
 
-.color-quality-left{
-	float:left;
-}
-.color-quality-left h5,.color-quality-right h5,.occasional h5{
-	text-transform:uppercase;
-	font-size:1em;
-	color:#FF9B05;
-	margin:0 0 1em;
-}
 
 div#horizontalTab1 ul {
     padding-bottom: 1.5em;
@@ -2772,7 +2753,6 @@ div#horizontalTab1 ul {
 	}
 	.rating{font-size:11px}
 	.modal_body_right h5 {text-align: left;margin-top: 30px;font-size: 12px;}
-	.color-quality{margin-top: -9px;}
     .resp-tab-item {
 		padding: 5px 4px;
         display: inline-block;
@@ -2786,8 +2766,7 @@ div#horizontalTab1 ul {
        margin-top: 5px;
     }
 	.captcha{margin-top:5px;max-width:220px;width:220px;overflow:hidden}
-	.sizes ul li, .color-quality ul li {font-size: 9px;}
-	.color-quality ul li a {font-size: 9px;}
+	.sizes ul li {font-size: 9px;}
 	.modal_body_right1 {padding-bottom: 0em;margin-left: -31px;}
 	.modal-dialog .options > div {margin-right : 0px;display:block}
    .modal_body_right h4.other-nw {margin-top:5px;margin-bottom: 0px;font-size: 11px;}
@@ -2831,7 +2810,4 @@ div#horizontalTab1 ul {
 		margin-top: 23px;
 	}
 
-	.color-quality-left h5, .color-quality-right h5, .occasional h5 {
-		font-size: .8em;
-	}
 }

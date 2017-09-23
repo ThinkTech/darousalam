@@ -327,13 +327,11 @@
 										<div class="options">
 										     <div>
 												<h5>Couleur</h5>
-												<div class="color-quality">
-													<ul>
-														<li><a><span></span>Rouge</a></li>
-														<li><a class="brown"><span></span>Bleu</a></li>
-														<li><a class="gray"><span></span>Violet</a></li>
-													</ul>
-												</div>
+													<select>
+													  <option>rouge</option>
+													  <option>bleu</option>
+													  <option>noir</option>
+													</select>
 											  </div>
 											   <div>
 												<h5>Taille</h5>
