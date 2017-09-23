@@ -712,7 +712,7 @@ a .total {
 
 #products .nav>li>a {
     padding: 6px 11px;
-    text-align : left;
+    text-align : center;
 }
 
 .nav .fa {
@@ -2707,10 +2707,9 @@ div#horizontalTab1 ul {
 	.nav-tabs > li {
 		text-align: left;
 	    display: inline-block;
-	    width: 50%;
+	    width: 33.3%;
 	    margin: 0;
 	    padding: 0;
-	    padding-left: 3px;
 	}
 	.agile_ecommerce_tab_left {
 		float: none;
