@@ -1084,12 +1084,9 @@ a .total {
 }
 
 .modal_body_right p.description{
-   background: #fffbfb;
     font-size: 13px;
     padding: 2px;
     text-align: justify;
-    border: 1px solid #ffffff;
-    box-shadow : 0 2px 0px 0 rgba(0, 0, 0, 0.16), 0 2px 0px 0 rgba(0, 0, 0, 0.12);
 }
 
 .modal_body_right_cart p {
