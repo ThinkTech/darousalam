@@ -931,7 +931,7 @@ a .total {
 
 .tab-pane .counter{
 	position: absolute;
-    font-size: 0.80em;
+    font-size: 1em;
     color: #ff9b05;
     font-family : Exo;
     right : 0;
@@ -1086,7 +1086,7 @@ a .total {
 .modal_body_right p.description{
    background: #fffbfb;
     font-size: 13px;
-    padding: 5px;
+    padding: 4px;
     text-align: justify;
     border: 1px solid #ff9b05;
 }
