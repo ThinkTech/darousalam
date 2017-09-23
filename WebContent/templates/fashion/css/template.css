@@ -31,7 +31,7 @@ html, body{
 }
 
 .container-bg {
-    background:#f6d7b6;
+    background:#ff9b05;
 }
 
 .header {padding-bottom: 40px;}
@@ -804,8 +804,10 @@ a .total {
 	z-index : 1;
 }
 
+.agile_ecommerce_tab_left .simpleCart_shelfItem{
+   background : #ff9b05;
+}
 .simpleCart_shelfItem {
-   background: #f4efe9;
    height: 100px;
    padding-top: 2px;
    margin-top : 5px;
@@ -931,6 +933,7 @@ a .total {
     font-size: 0.70em;
     margin-top: 1px;
     color: #ff9b05;
+    font-family : Exo;
 }
 
 .ecommerce_tabs_nav_right {
@@ -2652,7 +2655,7 @@ div#horizontalTab1 ul {
 }
 @media (max-width:480px){
 	.agile_ecommerce_tabs {width: 100.5%;padding-left: 0px;padding-right: 0px;}
-	.tab-pane .counter {position: absolute;margin-top: -15px;color: #ff9b05;}
+	.tab-pane .counter {position: absolute;margin-top: -15px;}
 	.simpleCart_shelfItem p{margin:0.5em 0 1.5em}
 	.total span:nth-child(2){display:none}
 	.box_1 a {font-size: 13px;}
