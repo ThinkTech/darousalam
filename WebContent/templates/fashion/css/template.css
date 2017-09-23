@@ -806,6 +806,7 @@ a .total {
 
 .agile_ecommerce_tab_left .simpleCart_shelfItem{
    background : #ff9b05;
+   box-shadow : 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .simpleCart_shelfItem {
    height: 100px;
