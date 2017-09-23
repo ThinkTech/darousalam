@@ -2801,7 +2801,7 @@ div#horizontalTab1 ul {
 
 @media (max-width:354px){
  .search_box:checked~.search_form {
-    top: 50px;
+    top: 170px;
  }
 }
 
