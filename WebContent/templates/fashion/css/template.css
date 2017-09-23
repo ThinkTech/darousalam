@@ -1087,6 +1087,7 @@ a .total {
     font-size: 13px;
     padding: 2px;
     text-align: justify;
+    line-height : 1.9em;
 }
 
 .modal_body_right_cart p {
