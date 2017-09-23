@@ -1080,8 +1080,17 @@ a .total {
 	margin:2em 0;
 	line-height:1.8em;
 	color:#180101;
-	font-size: 14px !important;
+	font-size: 14px;
 }
+
+.modal_body_right p.description{
+   background: #fffbfb;
+    font-size: 13px;
+    padding: 5px;
+    text-align: justify;
+    border: 1px solid #ff9b05;
+}
+
 .modal_body_right_cart p {
     font-size: 1.2em;
     color: #180101;

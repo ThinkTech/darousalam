@@ -300,7 +300,7 @@
 									</div>
 									<div class="col-md-7 modal_body_right">
 										<h4></h4>
-										<p>Ut enim ad minim veniam, quis nostrud 
+										<p class="description">Ut enim ad minim veniam, quis nostrud 
 											exercitation ullamco laboris nisi ut aliquip ex ea 
 											commodo consequat.Duis aute irure dolor in 
 											reprehenderit in voluptate velit esse cillum dolore 
