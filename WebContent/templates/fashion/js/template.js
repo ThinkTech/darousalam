@@ -109,8 +109,9 @@ page.displayCart = function() {
 
 page.navigate = function(div){
 	const length = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left:visible",div).length;
-	if($(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length<=length){
-		$(".ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right",div).hide();
+	const total = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length;
+	if(total<=length){
+		$(".counter,.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right",div).hide();
 	}
 	$.each($(".simpleCart_shelfItem span",div),function(index,element){
 		const val = parseInt($(this).html());
@@ -130,6 +131,7 @@ page.navigate = function(div){
 				index = length;
 				$(this).addClass("disabled");
 			}
+			$(".counter",div).html(index+"/"+total);
 			$(".ecommerce_tabs_nav_right",div).removeClass("disabled");
 		}
 	});
@@ -145,9 +147,11 @@ page.navigate = function(div){
 			if(index>=elements.length) {
 				$(this).addClass("disabled");
 			}
+			$(".counter",div).html(index+"/"+total);
 			$(".ecommerce_tabs_nav_left",div).removeClass("disabled");
 		}
 	});
+	$(".counter",div).html(index+"/"+total);
 };
 
 page.displayProducts = function() {

@@ -248,6 +248,7 @@
 					<div class="tab-content">
 					    <s:iterator value="#gender.categories" var="category">
 						<div class="tab-pane">
+						 <span class="counter"></span>
 						 <a class="ecommerce_tabs_nav_left disabled">&lt;</a>
 							<div class="agile_ecommerce_tabs">
 						<s:iterator value="#category.products" var="product">
