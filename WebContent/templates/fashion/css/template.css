@@ -74,6 +74,10 @@ body a:hover{
 .header .social {
 	float : right;
 	top : 10px;
+	right : -10px;
+}
+.header .social a:nth-child(1){
+	display:none;
 }
 .w3l_login{
 	float:left;
@@ -622,6 +626,17 @@ a .total {
     left: 72%;
 }
 
+#about.toggle {
+    width: 102%;
+    margin-left: -6px;
+    position: fixed;
+    z-index: 999999;
+    top: 67px;
+    padding: 0;
+    background : #fff;
+    height : 217px;
+}
+
 #about p, #schedules p {
 	width: 85%;
     margin: auto;
@@ -634,6 +649,17 @@ a .total {
     font-family : Exo;
     border : 1px solid #cfc2b2;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+#about.toggle h3{
+	display : none;
+}
+#about.toggle p{
+	font-size : 11px;
+	line-height: 1.7em;
+	padding: 2%;
+	border : 1px solid #ff9e0d;
+	height: 217px;
+    overflow-y: scroll;
 }
 
 #schedules p {
@@ -2461,14 +2487,15 @@ div#horizontalTab1 ul {
 	}
 }
 @media (max-width:667px){
+	.navbar-nav>li{min-width:0px}
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
-    font-size: 11px;
-}
+    font-size: 11px;}
 	.banner,#about,#top-brands,#footer,#schedules,.w3agile_special_deals_grids {display:none}
+	.header .social a:nth-child(1){display:inline-block}
 	.navbar-nav > li > a {font-size: 13px}
 	.navbar-nav > li:nth-child(1) {display:none;}
 	.navbar-nav > li:nth-child(3) {display:none;}
-	#navigation{margin-top: -12px; margin-bottom: 3px;}
+	#navigation{margin-top: -12px;margin-left:-60px;}
 	.modal-dialog {
 		width: 630px;
 	}
@@ -2513,7 +2540,11 @@ div#horizontalTab1 ul {
     .ecommerce_tabs_nav_right {
       right: -10px;
     }
-	.header .social {top : 0px;}
+	.header .social {
+	  top: 18px;
+      position: absolute;
+      right: 5px;
+	}
 	.banner{background:none}
 	.modal-title {
 		font-size: 1.3em;

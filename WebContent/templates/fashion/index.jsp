@@ -100,6 +100,7 @@
 	<div class="header">
 		<div class="container">
 		    <div class="social">
+		        <a><i class="fa fa-info" aria-hidden="true"></i></a>
 				<a><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			</div>
 		    <div id="navigation">

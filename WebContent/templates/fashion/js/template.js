@@ -412,6 +412,10 @@ page.display = function(){
 		}
 		return false;
 	});
+	$(".header .social a:nth-child(1)").click(function(){
+		$("#about").addClass("toggle").toggle();
+		return false;
+	});
 	$(window).scroll(function(){
 		  const top = $(this).scrollTop();
 		  $.each($(".tabs"),function(index,element){
