@@ -117,6 +117,17 @@ body a:hover{
     margin-top : 10px;
 }
 
+.modal_body_right .actions {
+    position: absolute;
+    right: 80px;
+    top: 8px;
+    display : none;
+}
+
+.modal_body_right a {
+	color : #180101;
+}
+
 .banner div.shopping {
 	width : 200px;
 	margin : auto;
@@ -1067,6 +1078,19 @@ a .total {
 .modal-dialog {
     width: 950px;
 }
+
+.modal_body_left.small {
+	position: absolute;
+    z-index: 99999999999;
+    top: -34px;
+    background: #f4efe9;
+    height : 120%;
+}
+
+.modal_body_left.small .zoom{
+	display : none;
+}
+
 .modal_body_right h4{
 	font-size:2em;
 	font-weight : bold;
@@ -1090,6 +1114,22 @@ a .total {
     line-height : 1.9em;
 }
 
+.modal_body_right p.description.info {
+	left: 2%;
+    font-size: 10px;
+    position: absolute;
+    z-index: 99999999999;
+    background: #fff;
+    border: 1px solid #ff9b05;
+    width: 96%;
+    margin: auto;
+    top: 34px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    line-height: 1.7em;
+}
+
 .modal_body_right_cart p {
     font-size: 1.2em;
     color: #180101;
@@ -1105,48 +1145,6 @@ a .total {
 /*-- Ratings --*/
 .rating-left {
     float: left;
-}
-.rating-left img {
-    margin: .3em 0.1em 0;
-}
-.rating1 {
-    direction:ltr;
-	margin-bottom: 2em;
-}
-.starRating:not(old) {
-    display: inline-block;
-    height: 18px;
-    width:100px;
-    overflow: hidden;
-}
-
-.starRating:not(old) > input{
-  margin-right :-26%;
-  opacity      : 0;
-}
-
-.starRating:not(old) > label {
-    float: right;
-    background: url(../images/star.png);
-    background-size: contain;
-    margin-right: 2px;
-}
-
-.starRating:not(old) > label:before{
-  content         : '';
-  display         : block;
-  width           : 18px;
-  height          : 18px;
-  background      : url(../images/star-.png);
-  background-size : contain;
-  opacity         : 0;
-  transition      : opacity 0.2s linear;
-}
-
-.starRating:not(old) > label:hover:before,
-.starRating:not(old) > label:hover ~ label:before,
-.starRating:not(:hover) > :checked ~ label:before{
-  opacity : 1;
 }
 
 .modal-dialog .options > div {
@@ -2617,7 +2615,8 @@ div#horizontalTab1 ul {
 		left: 25% !important;
 	}
 	.modal_body_right {width: 100%;}
-	#product-details .modal_body_left,#product-details .modal_body_right > p{display:none}
+	.modal_body_right .actions {display:block;}
+	#product-details .modal_body_left,#product-details .modal_body_right p.description{display:none}
 	.modal_body_right h4 {font-size: 1.1em;margin-top: -20px;margin-bottom: 15px;}
 }
 @media (max-width: 600px){
@@ -2818,7 +2817,7 @@ div#horizontalTab1 ul {
 		width: 160px;
 	}
 	.modal_body_right p {
-		font-size: 13px !important;
+		font-size: 13px;
 	}
 	.modal_body_right h4 {
 		font-size: 1.1em;

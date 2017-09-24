@@ -156,9 +156,9 @@
 			         <div>
 			            <p><span>Bleu</span>Couleur</p>
 			            <p><span>XL</span>Taille</p>
-			            <p><span>13500</span>Prix</p>
-			            <p><span>13500</span>Quantité</p>
-			            <p><span>13500</span>Total</p>
+			            <p><span></span>Prix</p>
+			            <p><span></span>Quantité</p>
+			            <p><span></span>Total</p>
 			         </div>
 			    </div>
 			</div>	
@@ -299,6 +299,10 @@
 										</div>
 									</div>
 									<div class="col-md-7 modal_body_right">
+									    <div class="actions">
+									         <a><i class="fa fa-eye" aria-hidden="true"></i></a>
+										    <a><i class="fa fa-info" aria-hidden="true"></i></a>
+										</div>
 										<h4></h4>
 										<p class="description">Ut enim ad minim veniam, quis nostrud 
 											exercitation ullamco laboris nisi ut aliquip ex ea 

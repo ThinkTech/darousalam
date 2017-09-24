@@ -231,6 +231,21 @@ page.displayProducts = function() {
 		$(".sizes li",details).removeClass("active");
 		$(this).addClass("active");
 	});
+	
+	$(".actions a:nth-child(1)",details).click(function(){
+		details.find(".modal_body_left").addClass("small").show();
+		return false;
+	});
+	
+	$(".actions a:nth-child(2)",details).click(function(){
+		details.find(".description").addClass("info").show();
+		return false;
+	});
+	
+	
+	details.click(function(){
+		details.find(".info,.small").hide();
+	});
 };
 
 page.addCartItem = function(item){ 
