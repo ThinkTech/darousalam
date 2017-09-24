@@ -243,7 +243,6 @@ page.displayProducts = function() {
 		return false;
 	});
 	
-	
 	details.click(function(){
 		details.find(".info,.small").hide();
 	});
