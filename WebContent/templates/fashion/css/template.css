@@ -2698,7 +2698,7 @@ div#horizontalTab1 ul {
 	}
 	.shoppingCart li span span {width: 195px;}
 	.w3l_logo h1 a {
-    font-size: .66em;
+    font-size: .6em;
     }
 	.social-login{display:none}
 	.modal-dialog {
@@ -2707,9 +2707,6 @@ div#horizontalTab1 ul {
 	.modal_body_left1 {
 		float: none !important;
 		width: 100% !important;
-	}
-	.hidden-xs {
-		display: none !important;
 	}
 	h3.other-nw {
 		margin:0em 0 2em;
