@@ -249,19 +249,10 @@ page.wizard.init = function(){
 		wizard.fadeOut(100);
 	});
 	const height = $(document).height() + $("#footer").height();
-	wizard.css("top","0").css("height",height);
+	wizard.css("height",height);
 	wizard.hide().css("opacity","1");
 	$("body").click(function(){
 		$(".help-info").hide();
-	});
-	$(window).scroll(function(){
-		const div = $("#checkout-wizard");
-		const top = $(this).scrollTop();
-		if(top > div.offset().top || div.offset().top > top) {
-			if(!div.is(":hidden")) {
-			  $("> div",div).css("top",top+5);
-			}
-		}
 	});
 };
 page.wizard.validateForm = function(form){
@@ -290,7 +281,6 @@ page.wizard.show = function(cart,top){
 		}
 		payment.done = false;
 		const wizard = $("#checkout-wizard");
-		$("> div",wizard).css("top",top);
 		const order = $(".total",cart).text().replace(/\s/g,'');
 		$("#order-amount",wizard).html( $(".total",cart).html());
 		const delivery = 2000;
@@ -299,7 +289,6 @@ page.wizard.show = function(cart,top){
 		$("#shopping-amount",wizard).html(total.toLocaleString("fr-FR"));
 		wizard.show();
 		page.release();
-		$('html,body').animate({scrollTop:top},1);
     });
 };
 page.wizard.submit = function(){
@@ -317,10 +306,10 @@ page.wizard.submit = function(){
 	}, function(error) {
 		alert("error");
 	});
-	const top = $("> div",wizard).position().top;
 	wizard.fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 	});
+	const top = $("> div",wizard).position().top;
 	page.wait({top : top+50});
 };
 app.saveOrder = function() {
