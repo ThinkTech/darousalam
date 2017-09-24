@@ -114,7 +114,7 @@
 				<a><i class="fa fa-user" aria-hidden="true"></i></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="${path}">Darou Salam Fashion<span>For Fashion Lovers</span></a></h1>
+				<h1><a>Darou Salam Fashion<span>For Fashion Lovers</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">

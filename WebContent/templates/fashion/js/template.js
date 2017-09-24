@@ -373,7 +373,7 @@ page.display = function(){
 		if(div.is(":hidden")) {
 		  var top = $(this).offset().top+60;
 		  top = top < window.innerHeight ? top : top-300;
-		  div.css("top",top);
+		  if(div.css("position")!="fixed")div.css("top",top);
 		  div.show();
 		  $("html, body").animate({ scrollTop: div.position().top }, 500);
 		  $("input:first",div).focus();
@@ -436,7 +436,7 @@ page.display = function(){
 		  }
 		  div = $("#contact-form");
 		  if(top > div.offset().top || div.offset().top > top) {
-				if(!div.is(":hidden")) {
+			   if(!div.is(":hidden") && div.css("position")!="fixed") {
 				  div.css("top",top+5);
 				}
 		  }
