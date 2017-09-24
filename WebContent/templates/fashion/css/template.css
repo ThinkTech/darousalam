@@ -2487,7 +2487,7 @@ div#horizontalTab1 ul {
 	.search_box:checked~.search_form {
 		width: 75%;
         position: fixed;
-        top: 140px;
+        top: 130px;
         right: 10px;
 	}
 	#products .container .gender {
@@ -2663,6 +2663,7 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	.search_box:checked~.search_form {top: 44px;}
 	.modal-dialog select{font-size : 13px}
 	.agile_ecommerce_tabs {width: 100.5%;padding-left: 0px;padding-right: 0px;}
 	.tab-pane .counter {position: absolute;margin-top: -15px;}
@@ -2799,11 +2800,6 @@ div#horizontalTab1 ul {
    .sign-up a, .sign-up a:visited {font-size: 10px;}
 }
 
-@media (max-width:354px){
- .search_box:checked~.search_form {
-    top: 170px;
- }
-}
 
 @media (max-width:320px){
 	.modal-dialog {
