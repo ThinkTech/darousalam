@@ -78,6 +78,8 @@ body a:hover{
 }
 .header .social a:nth-child(1){
 	display:none;
+	position: relative;
+    top: 2px;
 }
 .w3l_login{
 	float:left;

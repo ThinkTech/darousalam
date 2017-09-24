@@ -233,6 +233,7 @@ page.displayProducts = function() {
 	});
 	
 	$(".actions a:nth-child(1)",details).click(function(){
+		details.find(".info").hide();
 		details.find(".modal_body_left").addClass("small").show();
 		return false;
 	});
