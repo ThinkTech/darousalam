@@ -9,7 +9,7 @@ page.animations = [ 'rotateIn', 'flipInX', 'lightSpeedIn', 'rotateIn',
 				'bounceInRight'];
 page.loadImages = function(div,callback) {
 	if(!div.data("loaded")) {
-		div.attr("data-loaded","true");
+		div.data("loaded","true");
 	    $.each($("img[data-src]",div),function(index,element){
 	    	if(!$(element).is(":hidden")){
 	    		$(element).addClass("loading");
@@ -20,13 +20,13 @@ page.loadImages = function(div,callback) {
 					$(element).on("load",function(){
 						$(element).removeClass("loading");
 					}).each(function() {
-						  if(this.complete) $(this).trigger("load");
+						  if(this.complete) $(this).removeClass("loading");
 					});
 				}
 	    	}
 	    });
 	    if(callback) callback();
-	  }
+	}
 };
 
 page.displayLogin = function(){
