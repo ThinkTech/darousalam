@@ -92,6 +92,7 @@ page.displayCart = function() {
 		const cart = $("#cart"); 
 		const count = $("ul li",cart).length;
 		const message = "votre panier est vide";
+		$("html,body").css("overflow-y","auto");
 		if(!count) {
 			cart.hide();
 			alert(message);
