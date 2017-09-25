@@ -899,7 +899,7 @@ a .total {
 }
 
 .modal-header .close {
-    margin-top: 5px; 
+    margin-top: 0px; 
     margin-right: 0px;
 }
 
@@ -1114,7 +1114,6 @@ a .total {
 	color:#fff;
 }
 .agile_ecommerce_tab_left:hover .w3_hs_bottom{
-	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
     transition-delay: 0s;
@@ -1129,7 +1128,7 @@ a .total {
     z-index: 99999999999;
     top: -34px;
     background: #f4efe9;
-    height : 120%;
+    height : 122%;
 }
 
 .modal_body_left.small .zoom{
@@ -2668,7 +2667,7 @@ div#horizontalTab1 ul {
 	.modal_body_right {width: 100%;}
 	.modal_body_right .actions {display:block;}
 	#product-details .modal_body_left,#product-details .modal_body_right p.description{display:none}
-	.modal_body_right h4 {font-size: 1.1em;margin-top: -20px;margin-bottom: 15px;}
+	.modal_body_right h4 {font-size: 1.1em;margin-top: -27px;margin-bottom: 15px;}
 }
 @media (max-width: 600px){
 	.captcha{margin-bottom:20px}
