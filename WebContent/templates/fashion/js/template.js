@@ -76,11 +76,16 @@ page.displayLogin = function(){
 
 page.displayCart = function() {
 	$(".cart").click(function(){
-		$("#cart").css("top",-50).show();
+		const div = $("#cart").css("top",-50).show();
+		if(div.css("min-width")=="300px"){
+			$("html,body").css("overflow-y","hidden");
+		}
 	});
 	
 	$("#cart .close").click(function(){
 		$("#cart").slideUp(100);
+		$("html,body").css("overflow-y","auto");
+		return false;
 	});
 	
 	$(".checkout").click(function(){
