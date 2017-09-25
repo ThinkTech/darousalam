@@ -524,7 +524,6 @@
 	 <div class="clearfix"> </div>
 <!-- //footer -->
 <i id="offline-message" data-info="pas de connexion internet"></i>
-<script src="templates/fashion/js/bundle.js"></script> 
 <script type="text/javascript" src="templates/fashion/js/template.js" async defer></script>
 </body>
 </html>
