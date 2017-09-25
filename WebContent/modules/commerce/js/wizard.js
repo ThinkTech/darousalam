@@ -302,6 +302,7 @@ page.wizard.submit = function(){
 			$(".simpleCart_quantity").html(0);
 			$("#cart .total").html(0);
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
+			$("html,body").css("overflow-y","auto");
 		});
 	}, function(error) {
 		alert("error");
