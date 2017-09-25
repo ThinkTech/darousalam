@@ -117,6 +117,21 @@ body a:hover{
     top: 12px;
 }
 
+.thumbnails {
+	padding : 5px;
+	padding-left : 0px;
+}
+
+.modal_body_left .thumbnails img {
+	display : inline-block;
+	width : 32px;
+	height : 32px;
+	min-height : 32px;
+	border : 1px solid #fff;
+	box-shadow : 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	cursor : pointer;
+}
+
 .modal_body_right h4.other-nw {
     font-size: 1.5em;
     margin-bottom: 10px;

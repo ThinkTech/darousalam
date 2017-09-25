@@ -295,6 +295,11 @@
 								<div class="modal-body">
 									<div class="col-md-5 modal_body_left">
 										<img alt=" " class="img-responsive" />
+										<div class="thumbnails">
+									       <img/>
+									       <img/>
+									       <img/>
+									    </div>
 										<div class="zoom">
 										  <a title="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
 										</div>
