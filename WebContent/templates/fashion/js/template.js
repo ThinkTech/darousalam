@@ -413,7 +413,14 @@ page.display = function(){
 		return false;
 	});
 	$(".header .social a:nth-child(1)").click(function(){
-		$("#about").addClass("toggle").toggle();
+		$("#about").addClass("toggle").toggle(1,function(){
+			const div = $(this);
+			if(div.is(":hidden")){
+				$("html,body").css("overflow-y","auto");
+			}else {
+				$("html,body").css("overflow-y","hidden");
+			}
+		});
 	});
 	$(window).scroll(function(){
 		  const top = $(this).scrollTop();
