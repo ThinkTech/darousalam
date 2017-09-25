@@ -248,6 +248,10 @@ page.displayProducts = function() {
 		return false;
 	});
 	
+	$(".thumbnails img",details).click(function(){
+		return false;
+	});
+	
 	details.click(function(){
 		details.find(".info,.small").hide();
 	});
