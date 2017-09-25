@@ -260,6 +260,7 @@
 											<ul>
 												<li>
 													<a><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+													<a><i class="fa fa-share-alt" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -306,8 +307,9 @@
 									</div>
 									<div class="col-md-7 modal_body_right">
 									    <div class="actions">
-									         <a><i class="fa fa-eye" aria-hidden="true"></i></a>
+									        <a><i class="fa fa-eye" aria-hidden="true"></i></a>
 										    <a><i class="fa fa-info" aria-hidden="true"></i></a>
+										    <a><i class="fa fa-share-alt" aria-hidden="true"></i></a>
 										</div>
 										<h4></h4>
 										<p class="description">Ut enim ad minim veniam, quis nostrud 

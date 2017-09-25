@@ -1097,8 +1097,9 @@ a .total {
 	display:inline-block;
 }
 .w3_hs_bottom ul li a{
-	display: block;
+	display: inline-block;
 	cursor : pointer;
+	margin-right : 5px;
 }
 .w3_hs_bottom ul li a,.flex_ecommerce a{
 	font-size:1em;

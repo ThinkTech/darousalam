@@ -185,7 +185,7 @@ page.displayProducts = function() {
 			$(".shop",details).removeAttr("disabled");
 			details.data("item",item).addClass("in").show();
 		});	
-        $(".w3_hs_bottom a",tabs).click(function(){
+        $(".w3_hs_bottom a:nth-child(1)",tabs).click(function(){
         	const link = $(this);
 			$("input",details).val(1);
 			const item = {};
