@@ -1566,10 +1566,6 @@ ul.wmuSliderPagination {
 
 #shareDiv {
 	position : absolute;
-	background: #fff;
-    padding: 10px;
-    width : 32px;
-    padding-bottom: 4px;
 	z-index : 9;
 	visibility : hidden;
 }
