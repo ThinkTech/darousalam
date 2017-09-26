@@ -293,9 +293,9 @@ page.shareItem = function(item,position){
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP"
 			  ,function(){
 				  var act = new gigya.socialize.UserAction();
-				  act.setTitle("MUSHROOM MYSTIQUE");
-				  act.setLinkBack("http://demo.gigya.com/recipe2.php");
-				  act.addMediaItem({ type: 'image', src: 'http://demo.gigya.com/images/recipe2.png', href: 'http://demo.gigya.com/recipe2.php' });
+				  act.setTitle(item.name);
+				  act.setLinkBack(location.href);
+				  act.addMediaItem({ type: 'image', src: location.href+"/"+item.image, href: location.href });
 				  var showShareBarUI_params=
 				  { 
 				  	containerID: 'shareDiv',
