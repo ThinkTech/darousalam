@@ -23,6 +23,9 @@ class ModuleAction extends ActionSupport {
     def genders = [] 
     
     def String execute(){
+       request.setAttribute("name",getParameter("name"))
+       request.setAttribute("image",getParameter("image"))
+       request.setAttribute("description",getParameter("description"))
        loadProducts()
        SUCCESS
     }

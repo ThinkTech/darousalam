@@ -292,11 +292,13 @@ page.shareItem = function(item,position){
 	page.wait({top:position.top-95});
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr"
 			  ,function(){
-				  var act = new gigya.socialize.UserAction();
+				  item.description = "article en solde. Achetez vite";
+				  const act = new gigya.socialize.UserAction();
 				  act.setTitle(item.name);
-				  act.setLinkBack(location.href);
-				  act.addMediaItem({ type: 'image', src: location.href+"/"+item.image, href: location.href });
-				  var showShareBarUI_params=
+				  const href = location.href+"?name="+item.name+"&image="+item.image+"&description="+item.description;
+				  act.setLinkBack(href);
+				  act.addMediaItem({ type: 'image', src: location.href+"/"+item.image, href: href });
+				  const showShareBarUI_params=
 				  { 
 				  	containerID: 'shareDiv',
 				  	shareButtons: [
