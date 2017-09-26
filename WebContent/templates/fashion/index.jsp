@@ -10,6 +10,7 @@
 <meta name="keywords" content="Cosmétiques,Habillements, Jeans, Fashion" />
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
+<link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="${name == null ? 'Darou Salam Fashion' : name}"/>
