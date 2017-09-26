@@ -401,6 +401,14 @@ page.validateForm = function(form){
     return valid;
 };
 
+page.registerServiceWorker = function(){
+	navigator.serviceWorker.register('sw.js')
+	  .then(navigator.serviceWorker.ready)
+	  .then(function(){
+	  }).catch(function (error) {
+	});
+};
+
 page.display = function(){
 	$('.wmuSlider').each(function(index,element){
 		if($(element).is(":visible")){
@@ -563,6 +571,7 @@ page.display = function(){
 	page.displayLogin();
 	page.displayProducts();
 	page.displayCart();	
+	page.registerServiceWorker();
 };
 
 $(document).ready(function(){
