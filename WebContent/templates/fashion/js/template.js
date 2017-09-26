@@ -49,7 +49,7 @@ page.displayLogin = function(){
 				width: 'auto', 
 				fit: true  
 			});
-			head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr",
+			head.load("//cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr",
 			  "templates/fashion/js/social.js",function(){
 				login.show();
 				page.release();
@@ -290,7 +290,7 @@ page.shareItem = function(item,position){
 	div.css("left",position.left-160);
 	div.css("visibility","visible");
 	page.wait({top:position.top-95});
-	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr"
+	head.load("//cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr"
 			  ,function(){
 				  item.description = "article en solde. Achetez vite";
 				  const act = new gigya.socialize.UserAction();
