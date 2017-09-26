@@ -1570,6 +1570,10 @@ ul.wmuSliderPagination {
 	visibility : hidden;
 }
 
+#shareDiv .gig-button {
+	visibility : hidden;
+}
+
 /* -- //timer -- */
 /*-- //banner-bottom1 --*/
 .sliderfig {
