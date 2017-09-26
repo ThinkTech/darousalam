@@ -295,11 +295,10 @@ page.shareItem = function(item,position){
 				  item.description = "article en solde. Achetez vite";
 				  const act = new gigya.socialize.UserAction();
 				  act.setTitle(item.name);
-				  const href = location.href+"?name="+item.name+"&image="+item.image+"&description="+item.description;
+				  const href = encodeURI(location.href+"/"+"?name="+item.name+"&image="+item.image+"&description="+item.description);
 				  act.setLinkBack(href);
 				  act.addMediaItem({ type: 'image', src: location.href+"/"+item.image, href: href });
-				  const showShareBarUI_params=
-				  { 
+				  const params = { 
 				  	containerID: 'shareDiv',
 				  	shareButtons: [
 				    { 
@@ -312,7 +311,7 @@ page.shareItem = function(item,position){
 				  		 page.release();
 				  	}
 				  }
-				  gigya.socialize.showShareBarUI(showShareBarUI_params); 
+				  gigya.socialize.showShareBarUI(params); 
 			});
 };
 
