@@ -284,7 +284,8 @@
 			</s:iterator>
 			</div>
 			<div class="clearfix"> </div>
-</div>
+	</div>
+	<div id="shareDiv"></div>
 <!--modal-video-->
 				<div class="modal video-modal fade" id="product-details" tabindex="-1" role="dialog" aria-labelledby="product-details">
 					<div class="modal-dialog" role="document">

@@ -214,6 +214,13 @@ page.displayProducts = function() {
 			$(".shop",details).removeAttr("disabled");
 			details.data("item",item).addClass("in").show();
         });
+        $(".w3_hs_bottom a:nth-child(2)",tabs).click(function(event){
+        	const link = $(this);
+        	const item = {};
+			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+			item.image = link.closest(".hs-wrapper").find("img").attr("src");
+			page.shareItem(item,{left:event.pageX,top:event.pageY});
+        });
         $(".nav-tabs li:first",tabs).addClass("active");
         $(".genders a",div).click(function(){
 			const target = "#"+$(this).data("href");
@@ -258,6 +265,11 @@ page.displayProducts = function() {
 		return false;
 	});
 	
+	$(".actions a:nth-child(3)",details).click(function(event){
+		page.shareItem(details.data("item"),{left:event.pageX-50,top:event.pageY});
+		return false;
+	});
+	
 	$(".thumbnails img",details).click(function(){
 		return false;
 	});
@@ -265,6 +277,41 @@ page.displayProducts = function() {
 	details.click(function(){
 		details.find(".info,.small").hide();
 	});
+	
+	$("body").click(function(){
+		$("#shareDiv").css("visibility","hidden");
+		return false;
+	});
+};
+
+page.shareItem = function(item,position){
+	const div = $("#shareDiv");
+	div.css("top",position.top);
+	div.css("left",position.left-150);
+	div.css("visibility","visible");
+	page.wait({top:position.top-95});
+	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP"
+			  ,function(){
+				  var act = new gigya.socialize.UserAction();
+				  act.setTitle("MUSHROOM MYSTIQUE");
+				  act.setLinkBack("http://demo.gigya.com/recipe2.php");
+				  act.addMediaItem({ type: 'image', src: 'http://demo.gigya.com/images/recipe2.png', href: 'http://demo.gigya.com/recipe2.php' });
+				  var showShareBarUI_params=
+				  { 
+				  	containerID: 'shareDiv',
+				  	shareButtons: [
+				    { 
+						provider: 'Share',
+						iconImgUp: 'https://cdns.gigya.com/gs/i/sharebar/icons/share3.png'
+					}],
+				  	userAction: act,
+				  	onLoad : function(){
+				  		$("#shareDiv .gig-button").click();
+				  	}
+				  }
+				  gigya.socialize.showShareBarUI(showShareBarUI_params);
+				  page.release(); 
+			});
 };
 
 page.addCartItem = function(item){ 
