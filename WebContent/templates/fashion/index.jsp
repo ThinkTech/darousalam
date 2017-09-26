@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="keywords" content="Cosmétiques,Habillements, Jeans, Fashion" />
-<link href="https://fonts.googleapis.com/css?family=Exo|Open+Sans" rel="stylesheet" type="text/css" media="all" />
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
 <meta property="og:type" content="website"/>
