@@ -270,6 +270,7 @@ page.wizard.validateForm = function(form){
     return valid;
 };
 page.wizard.show = function(cart,top){
+	page.wizard.top = top;
 	page.wait({top : top});
 	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
 			"modules/commerce/css/wizard.css",
@@ -307,11 +308,10 @@ page.wizard.submit = function(){
 	}, function(error) {
 		alert("error");
 	});
+	page.wait({top : page.wizard.top});
 	wizard.fadeOut(100,function(){
 		$("form",wizard).easyWizard('goToStep', 1);
 	});
-	const top = $("> div",wizard).position().top;
-	page.wait({top : top+50});
 };
 app.saveOrder = function() {
 	page.wizard.submit();
