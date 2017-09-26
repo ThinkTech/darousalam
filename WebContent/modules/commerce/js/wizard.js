@@ -272,7 +272,7 @@ page.wizard.validateForm = function(form){
 page.wizard.show = function(cart,top){
 	page.wizard.top = top;
 	page.wait({top : top});
-	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP",
+	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr",
 			"modules/commerce/css/wizard.css",
 	  function() {
 		if(!page.wizard.loaded){
