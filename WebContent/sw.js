@@ -8,13 +8,17 @@ self.addEventListener('install', function(event) {
     })
   );
 });
-self.addEventListener('fetch', function fetcher (event) {
-  const request = event.request;
-    event.respondWith(
-      caches.match(event.request).then(function(response) {
-        return response || fetch(event.request).then(function(response) {
-            return response;
-        });
-      })
-    );
+self.addEventListener('fetch', function(event) {
+	  event.respondWith(
+	    caches.open('assets').then(function(cache) {
+	      return cache.match(event.request).then(function (response) {
+	        return response || fetch(event.request).then(function(response) {
+	          if(event.request.url.indexOf(".jpg")!=-1){
+	        	 cache.put(event.request, response.clone());
+	          }
+	          return response;
+	        });
+	      });
+	    })
+	  );
 });

@@ -402,11 +402,7 @@ page.validateForm = function(form){
 };
 
 page.registerServiceWorker = function(){
-	navigator.serviceWorker.register('sw.js')
-	  .then(navigator.serviceWorker.ready)
-	  .then(function(){
-	  }).catch(function (error) {
-	});
+	navigator.serviceWorker.register('sw.js');
 };
 
 page.display = function(){
@@ -570,8 +566,10 @@ page.display = function(){
 	}
 	page.displayLogin();
 	page.displayProducts();
-	page.displayCart();	
-	page.registerServiceWorker();
+	page.displayCart();
+	if('serviceWorker' in navigator) {
+	   page.registerServiceWorker();
+	}
 };
 
 $(document).ready(function(){
