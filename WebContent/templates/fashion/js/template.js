@@ -307,10 +307,10 @@ page.shareItem = function(item,position){
 				  	userAction: act,
 				  	onLoad : function(){
 				  		$("#shareDiv .gig-button").click();
+				  		 page.release();
 				  	}
 				  }
-				  gigya.socialize.showShareBarUI(showShareBarUI_params);
-				  page.release(); 
+				  gigya.socialize.showShareBarUI(showShareBarUI_params); 
 			});
 };
 
