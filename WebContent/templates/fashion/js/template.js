@@ -29,7 +29,7 @@ page.loadImages = function(div,callback) {
 					$(element).on("load",function(){
 						$(element).removeClass("loading");
 					}).each(function() {
-						  if(this.complete) $(this).removeClass("loading");
+						  if(this.complete) $(this).trigger("load");
 					});
 				}
 	    	}
