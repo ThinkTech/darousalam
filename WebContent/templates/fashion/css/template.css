@@ -1985,7 +1985,7 @@ h3.other-nw {
 	height:40px;
 	position: absolute;
 	cursor: pointer;
-	z-index: 100;
+	z-index: 1;
 }
 .nbs-flexisel-nav-left {
 	left:-4%;
