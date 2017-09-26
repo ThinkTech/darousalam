@@ -220,6 +220,7 @@ page.displayProducts = function() {
 			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
 			item.image = link.closest(".hs-wrapper").find("img").attr("src");
 			page.shareItem(item,{left:event.pageX,top:event.pageY});
+			return false;
         });
         $(".nav-tabs li:first",tabs).addClass("active");
         $(".genders a",div).click(function(){
@@ -280,7 +281,6 @@ page.displayProducts = function() {
 	
 	$("body").click(function(){
 		$("#shareDiv").css("visibility","hidden");
-		return false;
 	});
 };
 
