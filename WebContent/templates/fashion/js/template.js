@@ -287,10 +287,10 @@ page.displayProducts = function() {
 page.shareItem = function(item,position){
 	const div = $("#shareDiv");
 	div.css("top",position.top);
-	div.css("left",position.left-150);
+	div.css("left",position.left-160);
 	div.css("visibility","visible");
 	page.wait({top:position.top-95});
-	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP"
+	head.load("http://cdn.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr"
 			  ,function(){
 				  var act = new gigya.socialize.UserAction();
 				  act.setTitle(item.name);
