@@ -306,6 +306,8 @@ page.shareItem = function(item,position){
 						iconImgUp: 'https://cdns.gigya.com/gs/i/sharebar/icons/share3.png'
 					}],
 				  	userAction: act,
+				  	iconsOnly : true,
+				  	noButtonBorders : true,
 				  	onLoad : function(){
 				  		$("#shareDiv .gig-button").click();
 				  		 page.release();
