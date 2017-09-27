@@ -12,10 +12,11 @@
 <link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
 <link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website"/>
- <meta property="og:url" content="${baseUrl}"/>
+<meta property="og:url" content="${baseUrl}"/>
 <meta property="og:title" content="Darou Salam Fashion"/>
 <meta property="og:description" content="Cosmétiques, Habillement pour femme, homme et enfant | Achats en ligne"/>
 <meta property="og:image" content="templates/fashion/images/banner2.jpg"/>
+<meta name="theme-color" content="#ff9b05"/>
 </head>
 	
 <body>
