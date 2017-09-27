@@ -13,9 +13,9 @@
 <link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website"/>
  <meta property="og:url" content="${baseUrl}"/>
-<meta property="og:title" content="${name == null ? 'Darou Salam Fashion' : name}"/>
-<meta property="og:description" content="${description == null ? 'Cosmétiques, Habillement pour femme, homme et enfant | Achats en ligne' : description}"/>
-<meta property="og:image" content="${baseUrl}/${image == null ? 'templates/fashion/images/banner2.jpg' : image}"/>
+<meta property="og:title" content="Darou Salam Fashion"/>
+<meta property="og:description" content="Cosmétiques, Habillement pour femme, homme et enfant | Achats en ligne"/>
+<meta property="og:image" content="templates/fashion/images/banner2.jpg"/>
 </head>
 	
 <body>
