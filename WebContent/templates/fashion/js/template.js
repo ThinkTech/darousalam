@@ -566,8 +566,7 @@ page.displayElements = function(){
 
 page.display = function(){
 	$(".w3l_logo h1").addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
-	$(".banner a h4").addClass("animated zoomIn");
-	$(".banner h6").addClass("animated zoomIn");
+	$(".banner a h4,.banner h6").addClass("animated zoomIn");
 	page.displayProducts();
 	setTimeout(function(){
 		page.displayElements();
