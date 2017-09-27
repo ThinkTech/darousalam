@@ -13,7 +13,7 @@ self.addEventListener('fetch', function(event) {
 	    caches.open('assets').then(function(cache) {
 	      return cache.match(event.request).then(function (response) {
 	        return response || fetch(event.request).then(function(response) {
-	          if(event.request.url.indexOf(".jpg")!=-1){
+	          if(event.request.url.indexOf("/images/")!=-1){
 	        	 cache.put(event.request, response.clone());
 	          }
 	          return response;
