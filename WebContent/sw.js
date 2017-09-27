@@ -15,12 +15,12 @@ self.addEventListener('fetch', function(event) {
 	      return cache.match(request).then(function (response) {
 	        return response || fetch(request).then(function(response) {
 	          if(request.url.indexOf("/images/")!=-1 
-	          || (request.url.indexOf("gigya.com")!=-1)
-	          || (request.url.indexOf("gstatic.com")!=-1)
-	          || (request.url.indexOf("google.com")!=-1)
-	          || (request.url.indexOf("visa.com")!=-1)
-	          || (request.url.indexOf("googletagmanager.com")!=-1)
-	          || (request.url.indexOf("fonts.googleapis.com")!=-1)
+	          || request.url.indexOf("gigya.com")!=-1
+	          || request.url.indexOf("gstatic.com")!=-1
+	          || request.url.indexOf("google.com")!=-1
+	          || request.url.indexOf("visa.com")!=-1
+	          || request.url.indexOf("googletagmanager.com")!=-1
+	          || request.url.indexOf("fonts.googleapis.com")!=-1)
 	          {
 	        	 cache.put(request, response.clone());
 	          }
