@@ -516,7 +516,7 @@ page.displayElements = function(){
 		    }
 		  }
 		  div = $("#top-brands");
-		  if(top >= div.position().top-400) {
+		  if(top >= div.position().top-800) {
 			if(div.is(":visible")) {
 				page.loadImages(div); 
 			}
@@ -536,9 +536,9 @@ page.displayElements = function(){
 				}
 		  }
 	});
-	var div = $("#top-brands");
+	const div = $("#top-brands");
 	if(div.is(":visible")){
-		$("#flexiselDemo1").flexisel({
+		$("#flexiselDemo1",div).flexisel({
 			visibleItems: 4,
 			animationSpeed: 1000,
 			autoPlay: true,
