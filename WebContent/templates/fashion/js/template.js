@@ -572,12 +572,12 @@ page.display = function(){
 		page.displayElements();
 		page.displayLogin();
 		page.displayCart();
+		if('serviceWorker' in navigator) {
+			page.registerServiceWorker();
+		}
 	},100);
 };
 
-if('serviceWorker' in navigator) {
-	   page.registerServiceWorker();
-	}
 
 $(document).ready(function(){
      page.display();
