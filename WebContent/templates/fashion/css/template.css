@@ -2850,17 +2850,11 @@ div#horizontalTab1 ul {
      font-weight: bold;
      margin: 1em 0 0;
     }
-	.search_box:checked~.search_form {
-		width: 96%;
-	}
+	.search_box:checked~.search_form {width: 96%;}
 	.shoppingCart li span span {width: 195px;}
-	.w3l_logo h1 a {
-    font-size: .66em;
-    }
+	.w3l_logo h1 a {font-size: .8em;}
 	.social-login{display:none}
-	.modal-dialog {
-		width: 92%;
-	}
+	.modal-dialog {width: 92%;}
 	.modal_body_left1 {
 		float: none !important;
 		width: 100% !important;
@@ -2954,6 +2948,9 @@ div#horizontalTab1 ul {
    .sign-up a, .sign-up a:visited {font-size: 10px;}
 }
 
+@media (max-width:360px){
+  .w3l_logo h1 a {font-size: .66em;}
+}
 
 @media (max-width:320px){
 	.modal-dialog {
