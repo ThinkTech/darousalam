@@ -574,7 +574,6 @@ page.display = function(){
 	},100);
 };
 
-
 $(document).ready(function(){
      page.display();
 });
