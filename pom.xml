@@ -43,6 +43,10 @@
 					<cssSourceFiles>
 						<cssSourceFile>fashion/css/template.css</cssSourceFile>
 					</cssSourceFiles>
+					<jsSourceDir>templates</jsSourceDir>
+					<jsSourceFiles>
+						<jsSourceFile>fashion/js/template.js</jsSourceFile>
+					</jsSourceFiles>
 					<nosuffix>true</nosuffix>
 					<webappTargetDir>${project.build.directory}/minify</webappTargetDir>
 				</configuration>

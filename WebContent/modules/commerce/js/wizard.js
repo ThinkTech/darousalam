@@ -242,8 +242,7 @@ page.wizard.init = function(){
 	});
 
 	$("#confirmation-close").click(function(){
-		$(".w3l_logo h1").removeAttr('class').addClass("animated "+ page.animations[Math.floor(Math.random() * page.animations.length)]);
-	    $("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
+		$("#order-confirmation").removeAttr('class').addClass("animated zoomOutUp").fadeOut(1000);		
 	});
 	$(".close",wizard).click(function(){
 		wizard.fadeOut(100);
@@ -273,7 +272,7 @@ page.wizard.show = function(cart,top){
 	page.wizard.top = top;
 	page.wait({top : top});
 	head.load("//cdns.gigya.com/js/gigya.js?apiKey=3_C6n4iWMDYu9SrO2iZbTkUfUglxEXaOEb7FtwnvnkRCw1u3ZgvDbSfUFK_LvlaXfP&lang=fr-fr",
-			"modules/commerce/css/wizard.css",
+			"modules/commerce/js/jquery.easyWizard.js","modules/commerce/css/wizard.css",
 	  function() {
 		if(!page.wizard.loaded){
 			page.wizard.init();
