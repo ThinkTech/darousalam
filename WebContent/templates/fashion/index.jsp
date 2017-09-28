@@ -244,12 +244,12 @@
 				<div class="tabs">
 					<ul  class="nav nav-tabs">
 					    <s:iterator value="#gender.categories" var="category">
-						  <li><a>${category.name}</a></li>
+						  <li class="${category.selected ? 'active' : ''}"><a>${category.name}</a></li>
 						</s:iterator>
 					</ul>
 					<div class="tab-content">
 					    <s:iterator value="#gender.categories" var="category">
-						<div class="tab-pane">
+						<div class="tab-pane ${category.selected ? 'active in' : ''}">
 						 <span class="counter"></span>
 						 <a class="ecommerce_tabs_nav_left disabled">&lt;</a>
 							<div class="agile_ecommerce_tabs">

@@ -9,6 +9,7 @@ class Gender {
 
 class Category {
   def name
+  def selected
   def products = []
 }
 
@@ -38,7 +39,7 @@ class ModuleAction extends ActionSupport {
     
     def loadProducts() {
        def gender = new Gender(type : "female",label : "femme")
-       def category = new Category(name : "T-Shirts")
+       def category = new Category(name : "T-Shirts",selected : true)
        category.products << new Product(name : "T-Shirt",price : 15000,image:"53.jpg")
        category.products << new Product(name : "T-Shirt",price : 15000,image:"54.jpg")
        category.products << new Product(name : "T-Shirt",price : 15000,image:"21.jpg")
@@ -77,7 +78,7 @@ class ModuleAction extends ActionSupport {
        gender.categories << category
        genders << gender
        gender = new Gender(type : "male",label : "homme")
-       category = new Category(name : "T-Shirts")
+       category = new Category(name : "T-Shirts",selected : true)
        category.products << new Product(name : "T-Shirt",price : 15000,image:"53.jpg")
        category.products << new Product(name : "T-Shirt",price : 15000,image:"54.jpg")
        category.products << new Product(name : "T-Shirt",price : 15000,image:"21.jpg")
@@ -116,7 +117,7 @@ class ModuleAction extends ActionSupport {
        gender.categories << category
        genders << gender
        gender = new Gender(type : "child",label : "enfant")
-       category = new Category(name : "T-Shirts")
+       category = new Category(name : "T-Shirts",selected : true)
        category.products << new Product(name : "T-Shirt",price : 15000,image:"53.jpg")
        category.products << new Product(name : "T-Shirt",price : 15000,image:"54.jpg")
        category.products << new Product(name : "T-Shirt",price : 15000,image:"21.jpg")

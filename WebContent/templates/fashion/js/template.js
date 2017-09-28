@@ -180,7 +180,7 @@ page.displayProducts = function() {
 			const parent = $(this).parent();
 			parent.addClass("active");
 			$(".tab-content > div",tabs).removeClass("active in");
-			const div = $(".tab-content .tab-pane:eq("+parent.index()+")",tabs).addClass("fade active in");
+			const div = $(".tab-content .tab-pane:eq("+parent.index()+")",tabs).addClass("active in");
 			page.loadImages(div,function(){
 				page.navigate(div);
 			});
@@ -222,12 +222,10 @@ page.displayProducts = function() {
 			page.shareItem(item,{left:event.pageX,top:event.pageY});
 			return false;
         });
-        $(".nav-tabs li:first",tabs).addClass("active");
         $(".genders a",div).click(function(){
 			const target = "#"+$(this).data("href");
 			$('html,body').animate({scrollTop:$(target).offset().top},600);
 		});
-        $('.tab-content .tab-pane:eq(0)',tabs).addClass("active in");
 	});
 	$('.shop',details).on('click', function() {
 		const link = $(this);
