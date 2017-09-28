@@ -24,11 +24,40 @@
 				</configuration>
 			</plugin>
 			<plugin>
+				<groupId>com.samaxes.maven</groupId>
+				<artifactId>minify-maven-plugin</artifactId>
+				<version>1.7.2</version>
+				<executions>
+					<execution>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>minify</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<charset>UTF-8</charset>
+					<skipMerge>true</skipMerge>
+					<webappSourceDir>WebContent</webappSourceDir>
+					<cssSourceDir>templates</cssSourceDir>
+					<cssSourceFiles>
+						<cssSourceFile>fashion/css/template.css</cssSourceFile>
+					</cssSourceFiles>
+					<nosuffix>true</nosuffix>
+					<webappTargetDir>${project.build.directory}/minify</webappTargetDir>
+				</configuration>
+			</plugin>
+			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<webResources>
+						<resource>
+							<directory>${project.build.directory}/minify</directory>
+						</resource>
+					</webResources>
 				</configuration>
 			</plugin>
 			<plugin>
