@@ -2815,6 +2815,11 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	.shoppingCart h4{font-size: 1em;}
+	.modal-title {font-size: 1.1em;}
+	#contact-form h1 {font-size: 1em;margin-bottom: 7px;}
+	.close {padding:0;width: 23px;height: 23px;top:2px;right:4px}
+	.shoppingCart summary {padding: 6px 0px 8px 1px;}
 	.search_box:checked~.search_form {top: 44px;}
 	.modal-dialog select{font-size : 13px}
 	.agile_ecommerce_tabs {width: 100.5%;padding-left: 0px;padding-right: 0px;}
@@ -2908,7 +2913,7 @@ div#horizontalTab1 ul {
 	}
 	#contact-form {width: 98%;padding: 5px;left:1%;position:fixed;top:1px}
 	#contact-form input {margin-bottom: 4px;padding: 3px;font-size: 13px;}
-	#contact-form textarea {font-size: 13px;height:80px;margin-bottom: 4px;padding: 5px;padding: 3px;}
+	#contact-form textarea {font-size: 13px;height:65px;margin-bottom: 4px;padding: 5px;padding: 3px;}
 	#contact-form #submit {font-size: 12px;height: 40px;}
 	.simpleCart_shelfItem p a {font-size: 11px;}
 	.shoppingCart ul{height : 120px;}
