@@ -669,7 +669,7 @@ a .total {
     margin-left: -6px;
     position: fixed;
     z-index: 999999;
-    top: 67px;
+    top: 62px;
     padding: 0;
     background : #fff;
     height : 217px;
@@ -2847,7 +2847,7 @@ div#horizontalTab1 ul {
 		padding: 5px 4px;
         display: inline-block;
 		width: 79px;
-        font-size: 9px;
+        font-size: 8px;
         text-align: center;
 	}
 	#product-details .modal_body_right_cart p {
