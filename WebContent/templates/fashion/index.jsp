@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="keywords" content="Cosmétiques,Habillements, Jeans, Fashion" />
 <link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="shortcut icon" href="templates/fashion/images/banner2.jpg"  sizes="32x32"/> 
+<link rel="shortcut icon" href="templates/fashion/images/favicon.png"  sizes="16x16"/> 
 <link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="${baseUrl}"/>
