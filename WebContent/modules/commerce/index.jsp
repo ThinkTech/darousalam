@@ -1,8 +1,6 @@
 <div id="checkout-wizard" style="display:none">
 		<div class="checkout-wizard-content">
-			<h4 class="wizard-title">
-				<i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmer l'achat
-			</h4>
+			<h4 class="wizard-title">Confirmer l'achat</h4>
 			<span title="fermer" class="close">X</span>
 			<div class="checkout-wizard-steps">
 				<form action="commerce/saveOrder" method="post">
@@ -17,14 +15,12 @@
 								<div id="or">OU</div>
 								<div class="register">
 								  <div class="wizardForm loginForm">
-									<a title="créér un compte"><i class="fa fa-user"
-										aria-hidden="true"></i>créér un compte</a> 
+									<a title="créér un compte">créér un compte</a> 
 										<input name="email" placeholder="email" type="email">
 										<input name="password" placeholder="mot de passe" type="password">
 									<div>
 										<input type="button" value="Connexion" title="connexion">
-										<a title="mot de passe oublié"><i class="fa fa-key"
-											aria-hidden="true"></i>mot de passe oublié?</a>
+										<a title="mot de passe oublié">mot de passe oublié?</a>
 									</div>
 								 </div>
 								 <div class="wizardForm recoveryForm" style="display:none">
@@ -86,11 +82,7 @@
 					<section class="step" data-step-title="Confirmation">
 						<fieldset>
 							<div class="shipping-address">
-							  <h4>
-									<i class="fa fa-motorcycle" aria-hidden="true"></i><b>Adresse
-										de livraison</b>
-								</h4>
-								
+							  <h4><b>Adresse de livraison</b></h4>
 							   <div class="details">
 							     <span><input name="shipping" value="home"
 									type="radio" checked><label>Livrer au domicile</label></span>
@@ -98,19 +90,16 @@
 									type="radio"><label>Retirer au magasin</label></span>
 								<div class="home-address">
 								     <h5>
-										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Parcelles Assainies</span> <span>U20 N54</span>
+										<span>Parcelles Assainies</span> <span>U20 N54</span>
 									</h5>
 									<h5>
-										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Région
-											: </span>Dakar
+										<span>Région : </span>Dakar
 									</h5>
 									<h5>
-										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Zone
-											: </span>Parcelles
+										<span>Zone : </span>Parcelles
 									</h5>
 									<h5>
-										<span><i class="fa fa-mobile" aria-hidden="true"></i>Téléphone
-											: </span>775593264
+										<span>Téléphone : </span>775593264
 									</h5>
 									<h5>
 										<a>[modifier]</a>
@@ -118,16 +107,13 @@
 								</div>
 								<div class="shop-address" style="display:none">
 								     <h5>
-										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Nord
-											Foire, VDN</span> <span>derrière la Mosquée</span>
+										<span>Nord Foire, VDN</span> <span>derrière la Mosquée</span>
 									</h5>
 									<h5>
-										<span><i class="fa fa-map-marker" aria-hidden="true"></i>Région
-											: </span>Dakar
+										<span>Région : </span>Dakar
 									</h5>
 									<h5>
-										<span><i class="fa fa-mobile" aria-hidden="true"></i>Téléphone
-											: </span>338145725
+										<span>Téléphone : </span>338145725
 									</h5>
 								</div>
 								
@@ -158,10 +144,8 @@
 							</div>
 							<div class="shopping-payment">
 								<div class="payment visa-payment">
-									<h4>
-										<i class="fa fa-cc-visa" aria-hidden="true"></i><b>Paiement
-											Visa</b>
-											<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement Visa</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Cliquer sur terminer ou sur le bouton Visa Checkout.</li>
@@ -172,10 +156,8 @@
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png"/>
 								</div>
 								<div class="payment mastercard-payment">
-									<h4>
-										<i class="fa fa-cc-mastercard" aria-hidden="true"></i><b>Paiement
-											MasterCard</b>
-										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement MasterCard</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton Visa Checkout.</li>
@@ -186,10 +168,8 @@
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 								</div>
 								<div class="payment express-payment">
-									<h4>
-										<i class="fa fa-credit-card" aria-hidden="true"></i><b>Paiement
-											American Express</b>
-										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement American Express</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton Visa Checkout.</li>
@@ -200,10 +180,8 @@
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 								</div>
 								<div class="payment discover-payment">
-									<h4>
-										<i class="fa fa-cc-discover" aria-hidden="true"></i><b>Paiement
-											Discover</b>
-										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement Discover</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton Visa Checkout.</li>
@@ -214,10 +192,8 @@
 										data-delay="true" data-src="https://sandbox.secure.checkout.visa.com/wallet-services-web/xo/button.png" />
 								</div>
 								<div class="payment orange-payment">
-									<h4>
-										<i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement
-											Orange Money</b>
-										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement Orange Money</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Composer le #144#391#.</li>
@@ -228,10 +204,8 @@
 									</ol>
 								</div>
 								<div class="payment tigo-payment">
-									<h4>
-										<i class="fa fa-mobile" aria-hidden="true"></i><b>Paiement
-											Tigo Cash</b>
-										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement Tigo Cash</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Entrer votre numéro de téléphone Tigo.</li>
@@ -241,10 +215,8 @@
 									</ol>
 								</div>
 								<div class="payment paypal-payment">
-									<h4>
-										<i class="fa fa-paypal" aria-hidden="true"></i><b>Paiement
-											PayPal</b>
-										<a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement PayPal</b>
+										<a class="help">?</a>
 									</h4>
 									<ol>
 										<li>Cliquer sur le bouton PayPal Express Checkout.</li>
@@ -255,10 +227,8 @@
 									
 								</div>
 								<div class="payment delivery-payment">
-									<h4>
-										<i class="fa fa-money" aria-hidden="true"></i><b>Paiement
-											à la livraison</b>
-									   <a class="help"><i class="fa fa-question" aria-hidden="true"></i></a>
+									<h4><b>Paiement à la livraison</b>
+									   <a class="help">?</a>
 									</h4>
 									<h6>Ce mode de paiement vous permet de régler le
 										montant de votre commande en espèces, plus les frais de
@@ -278,13 +248,13 @@
 </div>
 <div id="order-confirmation" style="display:none">
 	   <div>
-	     <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i>Confirmation de l'achat</h1>
-	     <p><i class="fa fa-info-circle" aria-hidden="true"></i> Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
+	     <h1>Confirmation de l'achat</h1>
+	     <p>Merci pour votre commande et celle-ci est en cours de traitement. Vous pouvez vous
 	     connecter à votre compte pour suivre son évolution ou pour consulter l'historique de vos commandes. 
 	     </p>
 	     <div>
-	        <a title="mon compte" href="dashboard"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</a>
-	        <a id="confirmation-close" title="fermer"><i class="fa fa-close" aria-hidden="true"></i>Fermer</a>
+	        <a title="mon compte" href="dashboard">Mon Compte</a>
+	        <a id="confirmation-close" title="fermer">Fermer</a>
 	     </div>
 	   </div>
 </div>
