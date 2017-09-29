@@ -107,7 +107,9 @@
 .icon-share-alt:before {
   content: "\f1e0";
 }
-
+.icon-trash:before {
+  content: "\f1f8";
+}
 
 /*!
  * animate.css -//daneden.me/animate
@@ -518,8 +520,6 @@ a .total {
     text-decoration: none;
     border-color: #666;
     margin-left: -5px;
-    position: relative;
-    top: -5px;
 }
 
 .shoppingCart li span {
@@ -839,14 +839,14 @@ a .total {
     padding: 10px;
 }
 
-.gender .fa {
+.gender i {
 	position : relative;
 	left : 4px;
 	top : -1px;
 	margin-right : 12px;
 }
 
-.gender .fa-female, .gender .fa-child {
+.gender .icon-female, .gender .icon-child {
 	left : 3px;
 	margin-right : 9px;
 }

@@ -318,7 +318,7 @@ page.addCartItem = function(item){
 	item.amount = parseInt(item.quantity) * item.price;
 	const cart = $("#cart");
 	const ul = $("ul",cart);
-	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="fa fa-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="fa fa-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
+	const li = $('<li><span><span></span> <a title="voir" class="eye"><i class="icon-eye" aria-hidden="true"></i></a> <a title="supprimer" class="trash"><i class="icon-trash" aria-hidden="true"></i></a></span> <strong class="price"></strong></li>');
 	li.data("item",item);
 	const span = li.find('span span').html(item.quantity+" "+item.name).attr("title","prix : "+item.price);
     span.on("touchstart",function(){
