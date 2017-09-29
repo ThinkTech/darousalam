@@ -1,8 +1,7 @@
 const assets = ["templates/fashion/fonts/fontawesome-webfont.woff2",
 	                "templates/fashion/fonts/exo.woff2",
-	                "templates/fashion/fonts/opensans.woff2",
 	                "templates/fashion/css/template.css",
-	                "templates/fashion/js/template.js",];
+	                "templates/fashion/js/template.js"];
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open("assets").then(function(cache) {
