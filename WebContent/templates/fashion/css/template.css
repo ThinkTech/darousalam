@@ -2790,7 +2790,10 @@ div#horizontalTab1 ul {
 		margin-left: 6em;
 	}
 	.search {
-		margin: 2.2em 0 0 0em;
+		margin: 2.2em 0 0 2px;
+	    position: absolute;
+	    left: 50%;
+	    top: 93px;
 	}
 	.w3agile_special_deals_grid_right {
 		width: 82%;
@@ -2806,8 +2809,8 @@ div#horizontalTab1 ul {
 }
 @media (max-width:480px){
 	.shoppingCart h4{font-size: 1em;}
-	.modal-title {font-size: 1.1em;}
-	#contact-form h1 {font-size: 1em;margin-bottom: 7px;}
+	.modal-title {font-size: 1.1em;top: 6px; position: relative;}
+	#contact-form h1 {font-size: 1em;margin-bottom: 10px;}
 	.close {padding:0;width: 23px;height: 23px;top:2px;right:4px}
 	.shoppingCart summary {padding: 6px 0px 8px 1px;}
 	.search_box:checked~.search_form {top: 44px;}
