@@ -593,7 +593,7 @@ a .total {
     float: left;
 }
 
-.shoppingCart a.checkout .fa {
+.shoppingCart a.checkout .icon-shopping-cart {
 	top : 0px;
 }
 
