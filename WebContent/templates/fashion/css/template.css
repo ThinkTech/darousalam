@@ -2653,9 +2653,9 @@ div#horizontalTab1 ul {
       right: -10px;
     }
 	.header .social {
-	  top: 18px;
+	  top: 10px;
       position: absolute;
-      right: 5px;
+      right: 10px;
 	}
 	.banner{background:none}
 	.modal-title {
@@ -2760,7 +2760,7 @@ div#horizontalTab1 ul {
 	.modal_body_right {width: 100%;}
 	.modal_body_right .actions {display:block;}
 	#product-details .modal_body_left,#product-details .modal_body_right p.description{display:none}
-	.modal_body_right h4 {font-size: 1.1em;margin-top: -27px;margin-bottom: 15px;}
+	.modal_body_right h4 {font-size: 1.1em;margin-top: -27px;}
 }
 @media (max-width: 600px){
 	.captcha{margin-bottom:20px}
@@ -2942,6 +2942,7 @@ div#horizontalTab1 ul {
 
 @media (max-width:360px){
   .w3l_logo h1 a {font-size: .66em;}
+  .header .social {right: 5px}
 }
 
 @media (max-width:320px){
