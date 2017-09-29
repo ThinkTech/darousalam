@@ -1,4 +1,4 @@
-const assets = ["templates/fashion/fonts/fontawesome-webfont.woff,
+const assets = ["templates/fashion/fonts/fontawesome-webfont.woff",
 	                "templates/fashion/fonts/exo.woff",
 	                "templates/fashion/css/template.css",
 	                "templates/fashion/js/template.js"];
