@@ -1,7 +1,4 @@
 const assets = ["templates/fashion/fonts/icomoon.woff",
-                "templates/fashion/fonts/icomoon.eot",
-                "templates/fashion/fonts/icomoon.ttf",
-                "templates/fashion/fonts/icomoon.svg",
 	            "templates/fashion/fonts/exo.woff",
 	            "templates/fashion/css/template.css",
 	            "templates/fashion/js/template.js"];
