@@ -26,7 +26,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<span class="close" title="fermer">X</span>
-					<h4 class="modal-title"><i class="fa fa-user" aria-hidden="true"></i>Mon Compte</h4>
+					<h4 class="modal-title"><i class="icon-user" aria-hidden="true"></i>Mon Compte</h4>
 				</div>
 				<div class="modal-body modal-body-sub">
 					<div class="row">
@@ -45,7 +45,7 @@
 													<input name="Password" placeholder="mot de passe" type="password">										
 													<div class="sign-up">
 														<input type="submit" value="Connexion"/>
-														<a title="mot de passe oublié"><i class="fa fa-key" aria-hidden="true"></i>mot de passe oublié?</a>
+														<a title="mot de passe oublié"><i class="icon-key" aria-hidden="true"></i>mot de passe oublié?</a>
 													</div>
 												</form>
 											</div>
@@ -86,7 +86,7 @@
 						<div class="col-md-4 modal_body_right modal_body_right1">
 							<div class="row text-center sign-with">
 								<div class="col-md-12">
-									<h4 class="other-nw"><i class="fa fa-sign-in" aria-hidden="true"></i>Se connecter avec</h4>
+									<h4 class="other-nw"><i class="icon-sign-in" aria-hidden="true"></i>Se connecter avec</h4>
 								</div>
 								<div class="col-md-12">
 									<div id="toploginDiv"></div>
@@ -101,8 +101,8 @@
 	<div class="header">
 		<div class="container">
 		    <div class="social">
-		        <a><i class="fa fa-info" aria-hidden="true"></i></a>
-				<a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		        <a><i class="icon-info" aria-hidden="true"></i></a>
+				<a><i class="icon-facebook" aria-hidden="true"></i></a>
 			</div>
 		    <div id="navigation">
 					<ul class="nav navbar-nav">
@@ -113,14 +113,14 @@
 					</ul>
 			</div>
 			<div class="w3l_login">
-				<a><i class="fa fa-user" aria-hidden="true"></i></a>
+				<a><i class="icon-user" aria-hidden="true"></i></a>
 			</div>
 			<div class="w3l_logo">
 				<h1><a>Darou Salam Fashion<span>For Fashion Lovers</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
-				<label class="icon-search" for="search_box"><i class="fa fa-search" aria-hidden="true"></i></label>
+				<label class="icon-search" for="search_box"></label>
 				<div class="search_form">
 					<form action="commerce/search" method="post">
 						<input type="text" name="query" placeholder="articles...">
@@ -132,12 +132,12 @@
 				<a>
 					<div class="total">
 					<span  class="simpleCart_quantity">0</span> <span>articles</span></div>
-					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+					<i class="icon-shopping-cart" aria-hidden="true"></i>
 				</a>
 				<div class="clearfix"> </div>
 				<div id="cart" class="shoppingCart">
 					  <summary>
-					     <h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
+					     <h4><i class="icon-shopping-cart" aria-hidden="true"></i>Votre Panier</h4>
 					     <span class="close" title="fermer">X</span>
 					   </summary>
 					   <div>
@@ -147,7 +147,7 @@
 					    </div>
 					    <div>
 					        <p>
-					            <a title="acheter" class="checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Acheter</a> <span>Total : <strong class="total">0</strong></span>
+					            <a title="acheter" class="checkout"><i class="icon-shopping-cart" aria-hidden="true"></i>Acheter</a> <span>Total : <strong class="total">0</strong></span>
 					         </p>
 					    </div> 
 			    </div>
@@ -173,7 +173,7 @@
 		<div class="container">
 		  <br><br>
 		  <div class="banner-deal">
-				<a href="#deal" class="scroll"><h4><i class="fa fa-shopping-cart" aria-hidden="true"></i>hot deal</h4></a>
+				<a href="#deal" class="scroll"><h4><i class="icon-shopping-cart" aria-hidden="true"></i>hot deal</h4></a>
 				<h6>Remise de 10%</h6>
 				<div class="timer_wrap">
 					<div id="counterTop"> </div>
@@ -211,7 +211,7 @@
 			 </div>
 		</div>
 		 <div class="shopping">
-		    <a href="#products" title="commander" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
+		    <a href="#products" title="commander" class="scroll"><i class="icon-shopping-cart" aria-hidden="true"></i><span>Commander</span></a>
 		   </div>
 	</div>
 <!-- //banner -->
@@ -234,12 +234,12 @@
 	   <div class="container">
 	       <div class="genders">
 	          <s:iterator value="genders">
-	          <a  data-href="${type}"><i class="fa fa-${type}" aria-hidden="true"></i></a>
+	          <a  data-href="${type}"><i class="icon-${type}" aria-hidden="true"></i></a>
 	          </s:iterator>
 	       </div>
 		    <h3>Nos Articles</h3>
 		    <s:iterator value="genders" var="gender">
-		    <h4 id="${gender.type}" class="gender"><i class="fa fa-${gender.type}" aria-hidden="true"></i>Pour ${gender.label}</h4>
+		    <h4 id="${gender.type}" class="gender"><i class="icon-${gender.type}" aria-hidden="true"></i>Pour ${gender.label}</h4>
 			<div  class="col-md-12 wthree_banner_bottom_right">
 				<div class="tabs">
 					<ul  class="nav nav-tabs">
@@ -260,8 +260,8 @@
 										<div class="w3_hs_bottom">
 											<ul>
 												<li>
-													<a><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-													<a><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+													<a><i class="icon-shopping-cart" aria-hidden="true"></i></a>
+													<a><i class="icon-share-alt" aria-hidden="true"></i></a>
 												</li>
 											</ul>
 										</div>
@@ -269,7 +269,7 @@
 									<h5><a>${product.name}</a></h5>
 									<div class="simpleCart_shelfItem">
 										<p><span>${product.price}</span> <span class="item_price">${product.price-((product.price*10)/100)}</span></p>
-										<p><a class="item_add item_show"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+										<p><a class="item_add item_show"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
 								</div>
 							</s:iterator>
@@ -304,14 +304,14 @@
 									       <img/>
 									    </div>
 										<div class="zoom">
-										  <a title="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+										  <a title="zoom"><i class="icon-search-plus" aria-hidden="true"></i></a>
 										</div>
 									</div>
 									<div class="col-md-7 modal_body_right">
 									    <div class="actions">
-									        <a><i class="fa fa-eye" aria-hidden="true"></i></a>
-										    <a><i class="fa fa-info" aria-hidden="true"></i></a>
-										    <a><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+									        <a><i class="icon-eye" aria-hidden="true"></i></a>
+										    <a><i class="icon-info" aria-hidden="true"></i></a>
+										    <a><i class="icon-share-alt" aria-hidden="true"></i></a>
 										</div>
 										<h4></h4>
 										<p class="description">Ut enim ad minim veniam, quis nostrud 
@@ -321,19 +321,19 @@
 											eu fugiat nulla pariatur.</p>
 										<div class="rating">
 											<div class="rating-left">
-												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+												<a><i class="icon-star" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+												<a><i class="icon-star" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<a><i class="fa fa-star" aria-hidden="true"></i></a>
+												<a><i class="icon-star" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+												<a><i class="icon-star-o" aria-hidden="true"></i></a>
 											</div>
 											<div class="rating-left">
-												<a><i class="fa fa-star-o" aria-hidden="true"></i></a>
+												<a><i class="icon-star-o" aria-hidden="true"></i></a>
 											</div>
 											<div class="clearfix"> </div>
 										</div>
@@ -363,7 +363,7 @@
 										</div>
 										<div class="modal_body_right_cart simpleCart_shelfItem">
 											<p><span class="item_price"></span></p>
-											<p><input  type="number" value="1" min="1"/>&nbsp;<a title="commander" class="item_add shop" data-name="shirt"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander</a></p>
+											<p><input  type="number" value="1" min="1"/>&nbsp;<a title="commander" class="item_add shop" data-name="shirt"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
 									</div>
 									<div class="clearfix"> </div>
@@ -380,7 +380,7 @@
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
 				<h3>ne ratez surtout pas cette offre alléchante <span>une remise de 10% <i></i></span></h3>
-				<a href="#products" class="scroll"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
+				<a href="#products" class="scroll"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
 				<h4>Offre Valable jusqu'au 03 Septembre</h4>
@@ -453,7 +453,7 @@
    </div>
    <div id="contact-form">
      <span class="close">X</span>
-     <h1><i class="fa fa-envelope"></i>Contact</h1>
+     <h1><i class="icon-envelope"></i>Contact</h1>
      <form  action="contact" method="post">
 		  <input id="name" name="mail.author"  type="text" placeholder="nom complet"> 
 		  <input id="email" name="mail.address" type="email" placeholder="email">
@@ -465,15 +465,15 @@
    <div class="clearfix"> </div>
 <!-- footer -->
 	<div id="footer" class="footer">
-	   <a class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+	   <a class="scrollToTop"><i class="icon-angle-up"></i></a>
 		<div class="container">
 			<div class="w3_footer_grids">
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Contact</h3>
 					<ul class="address">
-						<li><i class="fa fa-map-marker" aria-hidden="true"></i>Nord Foire, VDN</li>
-						<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@darousalamfashion.com">info@darousalamfashion.com</a></li>
-						<li><i class="fa fa-mobile" aria-hidden="true"></i>+221 33 855 10 91</li>
+						<li><i class="icon-map-marker" aria-hidden="true"></i>Nord Foire, VDN</li>
+						<li><i class="icon-info" aria-hidden="true"></i><a href="mailto:info@darousalamfashion.com">info@darousalamfashion.com</a></li>
+						<li><i class="icon-mobile" aria-hidden="true"></i>+221 33 855 10 91</li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
@@ -498,7 +498,7 @@
 					<h4>Suivez-nous</h4>
 					<div class="social agileits_social_button">
 						<ul>
-							<li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a><i class="icon-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 					<h4>Partagez</h4>
