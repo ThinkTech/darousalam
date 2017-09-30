@@ -1279,21 +1279,6 @@ output {
     display : block;
 }
 
-@media (max-width: 667px) {
-.navbar-nav>li>a {
-    font-size: 13px;
-}
-}
-@media (max-width: 767px){
-.navbar-nav>li>a {
-    padding: 11px 9px!important;
-}
-}
-@media (max-width: 1080px){
-.nav>li>a {
-    padding: 15px 20px;
-}
-}
 .nav-tabs {
     border-bottom: 1px solid #ddd
 }
