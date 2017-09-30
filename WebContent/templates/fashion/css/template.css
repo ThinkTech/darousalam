@@ -1205,6 +1205,7 @@ a .total {
     margin-top : -8px;
     white-space : nowrap;
     width : 80%;
+    text-align : center;
 }
 .modal_body_right p{
 	margin:2em 0;
@@ -2772,6 +2773,7 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	div#OR{display:none}
 	.shoppingCart h4{font-size: 1em;}
 	.modal-title {font-size: 1.1em;top: 6px; position: relative;}
 	#contact-form h1 {font-size: 1em;margin-bottom: 10px;}
