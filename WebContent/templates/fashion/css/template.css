@@ -830,6 +830,7 @@ a .total {
 #products .nav>li>a {
     padding: 6px 11px;
     text-align : center;
+    display : block;
 }
 
 .nav .fa {
