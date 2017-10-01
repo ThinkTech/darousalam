@@ -680,7 +680,7 @@
 	.shopping-amount b{font-size: 11px;}
 }
 @media (max-width:480px){
-	#checkout-wizard {width: 360px}
+	.checkout-wizard-content {width: 360px}
 	.payment-hide {display:none}
 	.wizard-title{padding-top: 2px;padding-left: 0px}
 	.easyWizardButtons .prev, .easyWizardButtons .next, .easyWizardButtons .submit, .checkout-wizard-content .register input[type="button"] {
@@ -726,5 +726,5 @@
 	}
 }
 @media (max-width:360px){
-	#checkout-wizard {width: 100%}
+	.checkout-wizard-content {width: 100%}
 }
