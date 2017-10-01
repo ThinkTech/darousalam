@@ -5,7 +5,8 @@
     z-index: 99999;
     background: rgba(100, 100, 100, 0.5);
     display : none;
-    top : 5px;
+    top : 0px;
+    padding : 5px;
 }
 
 #checkout-wizard .wizardForm  {
@@ -70,7 +71,7 @@
     width: 82%;
     background: #e6dfdf;
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, .2);
+    border: 1px solid #dcbaba;
     border-radius: 6px;
     outline: 0;
 }
@@ -682,7 +683,7 @@
 @media (max-width:480px){
 	.checkout-wizard-content {width: 360px}
 	.payment-hide {display:none}
-	.wizard-title{padding-top: 2px;padding-left: 0px}
+	.wizard-title{padding-top: 2px;padding-left: 4px}
 	.easyWizardButtons .prev, .easyWizardButtons .next, .easyWizardButtons .submit, .checkout-wizard-content .register input[type="button"] {
 	   height: auto;
        width: auto;
