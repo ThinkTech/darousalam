@@ -646,7 +646,10 @@ a .total {
 /*-- //navigation --*/
 /*-- banner --*/
 .banner{
-	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background-image:url('../images/banner.jpg');
+	background-repeat : no-repeat;
+	background-position : 0px 0px;
+	background-color : #fbe0c5;
 	background-size:cover;
 	min-height:700px;
 	vertical-align : top;
