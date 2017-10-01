@@ -181,6 +181,7 @@ body a:hover{
 	text-decoration:none;
 	font-weight : bold;
 	text-shadow : 1px 0px #ff9b05;
+	white-space : nowrap;
 }
 .w3l_logo h1 a span{
 	display: block;
@@ -2659,6 +2660,7 @@ div#horizontalTab1 ul {
 	#deal h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.6em;
 	    margin-top: 10px;
+	    padding-bottom: 0.7em;
 	}
 	.w3agile_special_deals_grid_right {
 		width: 72%;
@@ -2837,9 +2839,9 @@ div#horizontalTab1 ul {
 		width: 70%;
 	}
 	.w3l_logo {
-		margin-left: 0em;
+		margin-left: 2px;
 	}
-	.w3l_login {margin-left: -6px;margin-right: 10px;}
+	.w3l_login {margin-left: -6px;margin-right: 4px;}
 	.nav-tabs > li {
 		text-align: left;
 	    display: inline-block;
@@ -2921,6 +2923,10 @@ div#horizontalTab1 ul {
 	.modal-dialog {
 		width: 290px;
 	}
+	.w3l_logo h1{
+	  width: 224px;
+      overflow: hidden;
+	}
 	.modal_body_right1 {
 		padding-bottom: 0em;
 	}
@@ -2945,7 +2951,6 @@ div#horizontalTab1 ul {
 	
 	#deal h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.3em;
-		margin-top: 23px;
 	}
 
 }
