@@ -139,6 +139,7 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+
 .navbar-nav>li {
 	border: 1px solid #ff9b05;
     border-radius: 5px;
@@ -634,9 +635,7 @@ a .total {
 	text-align:center;
 }
 .navbar-nav {
-    float: none;
-    text-align: center;
-    width: 100%;
+    text-align: left;
     margin: auto;
 }
 .navbar-nav > li:nth-child(1) {
@@ -2580,7 +2579,7 @@ div#horizontalTab1 ul {
 	.navbar-nav > li > a {font-size: 13px}
 	.navbar-nav > li:nth-child(1) {display:none;}
 	.navbar-nav > li:nth-child(3) {display:none;}
-	#navigation{margin-top: -0px;margin-left:-46px;min-width:257px;}
+	#navigation{margin-top: 0px;min-width:257px;margin-left: -6px;}
 	.modal-dialog {
 		width: 630px;
 	}
@@ -2628,12 +2627,7 @@ div#horizontalTab1 ul {
     .ecommerce_tabs_nav_right {
       right: -10px;
     }
-	.header .social {
-	  top: 9px;
-      position: absolute;
-      right: 10px;
-      float : none
-	}
+	.header .social {top: 9px;position: absolute;right: 10px;float : none;width:45px;overflow:hidden}
 	.banner{background:none}
 	.modal-title {
 		font-size: 1.3em;
@@ -2922,7 +2916,7 @@ div#horizontalTab1 ul {
 
 @media (max-width:360px){
   .w3l_logo h1 a {font-size: .66em;}
-  .header .social {right: 5px}
+  .header .social {right: 5px;}
 }
 
 @media (max-width:320px){
