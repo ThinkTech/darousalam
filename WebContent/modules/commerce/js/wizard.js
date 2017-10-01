@@ -247,7 +247,7 @@ page.wizard.init = function(){
 	$(".close",wizard).click(function(){
 		wizard.fadeOut(100);
 	});
-	const height = $(document).height() + $("#footer").height();
+	const height = $(document).height();
 	wizard.css("height",height);
 	wizard.hide().css("opacity","1");
 	$("body").click(function(){
