@@ -3,6 +3,7 @@
   src: url('../fonts/icomoon.woff?wzzw8g') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -145,13 +146,13 @@ body a:hover{
     margin-top: 8px;
     margin-right : 10px;
     margin-bottom : 15px;
-    min-width : 100px;
 }
 .header .social {
 	float : right;
 	top : 10px;
 	right : -10px;
 }
+
 .header .social a:nth-child(1){
 	display:none;
 	position: relative;
@@ -1918,6 +1919,7 @@ h3.other-nw {
 
 .social a {
 	cursor : pointer;
+	display : inline-block;
 }
 
 .social a i {
@@ -2568,7 +2570,6 @@ div#horizontalTab1 ul {
 	}
 }
 @media (max-width:667px){
-	.navbar-nav>li{min-width:0px}
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
     font-size: 11px;}
 	.banner,#about,#top-brands,#footer,#schedules,.w3agile_special_deals_grids {display:none}
@@ -2576,7 +2577,7 @@ div#horizontalTab1 ul {
 	.navbar-nav > li > a {font-size: 13px}
 	.navbar-nav > li:nth-child(1) {display:none;}
 	.navbar-nav > li:nth-child(3) {display:none;}
-	#navigation{margin-top: -18px;margin-left:-46px;}
+	#navigation{margin-top: -0px;margin-left:-46px;min-width:257px;}
 	.modal-dialog {
 		width: 630px;
 	}
@@ -2615,6 +2616,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
+	#navigation {margin-top: -18px;}
 	.thumbnails {position: absolute;top: -3px;}
 	.modal_body_left .thumbnails img {display: block;margin-bottom: 5px;}
 	.ecommerce_tabs_nav_left {
@@ -2627,6 +2629,7 @@ div#horizontalTab1 ul {
 	  top: 9px;
       position: absolute;
       right: 10px;
+      float : none
 	}
 	.banner{background:none}
 	.modal-title {
