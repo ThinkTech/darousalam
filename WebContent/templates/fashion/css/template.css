@@ -2925,7 +2925,6 @@ div#horizontalTab1 ul {
 	}
 	.w3l_logo h1{
 	  width: 224px;
-      overflow: hidden;
 	}
 	.modal_body_right1 {
 		padding-bottom: 0em;
@@ -2947,8 +2946,7 @@ div#horizontalTab1 ul {
 	}
 	.modal_body_right h4 {
 		font-size: 1.1em;
-	}
-	
+	}	
 	#deal h2, .container-bg h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3 {
 		font-size: 1.3em;
 	}
