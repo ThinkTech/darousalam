@@ -415,7 +415,7 @@ a .total {
 	z-index: 999;
     position: absolute;
     right: 8px;
-    top: 6px;
+    top: 7px;
     font-family: Tahoma;
     border: 1px solid #180101;
     padding-top: 4px;
@@ -1942,6 +1942,7 @@ h3.other-nw {
   border : 1px solid;
 }
 
+
 #contact-form input {
   font-size: 0.875em;
   width: 100%;
@@ -2777,7 +2778,8 @@ div#horizontalTab1 ul {
 	.shoppingCart h4{font-size: 1em;}
 	.modal-title {font-size: 1.1em;top: 6px; position: relative;}
 	#contact-form h1 {font-size: 1em;margin-bottom: 10px;}
-	.close {padding:0;width: 23px;height: 23px;top:2px;right:4px}
+	.close {padding:0;width: 23px;height: 23px;top:5px;right:4px}
+	#contact-form .close {top : 2px;}
 	.shoppingCart summary {padding: 6px 0px 8px 1px;}
 	.search_box:checked~.search_form {top: 44px;}
 	.modal-dialog select{font-size : 13px}
