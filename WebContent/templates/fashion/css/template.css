@@ -1097,7 +1097,7 @@ a .total {
     font-size: 2.2em;
 }
 
-.tab-pane a:hover,.tab-pane a:focus{
+.shop:hover,.tab-pane a:hover,.tab-pane a:focus,.shop:focus{
 	color: #ff9b05;
 	outline : none;
 	text-decoration : none;
@@ -1156,6 +1156,7 @@ a .total {
     background: #180101;
     position : relative;
     top : 2px;
+    cursor : pointer;
 }
 
 /*-- image-hover --*/
@@ -2122,9 +2123,8 @@ div#horizontalTab1 ul {
     padding-bottom: 1.5em;
 }
 
-.item_add {
+.shop{
 	cursor : pointer;
-	user-select : none;
 }
 
 .scrollToTop {
