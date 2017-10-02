@@ -252,6 +252,13 @@ body a:hover{
     user-select: none;
 }
 
+.banner div.shopping a.scroll:hover{
+	color: #ff9b05;
+	outline : none;
+	text-decoration : none;
+}
+
+
 .banner .bannerSlider {
 	display: inline-block;
     width: 35%;
