@@ -257,6 +257,8 @@ page.displayProducts = function() {
 	$("body").click(function(){
 		$("#shareDiv").css("visibility","hidden");
 	});
+	
+	$(".nav-tabs li.active:first a",div).trigger("click");
 };
 
 page.showItem = function(details,link){
@@ -551,9 +553,9 @@ page.displayElements = function(){
 };
 
 page.display = function(){
-	page.displayProducts();
 	page.displayElements();
 	page.displayLogin();
+	page.displayProducts();
 	page.displayCart();
 	if('serviceWorker' in navigator) {
 		page.registerServiceWorker();
