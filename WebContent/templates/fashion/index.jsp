@@ -245,6 +245,7 @@
 						<div class="tab-pane ${category.selected ? 'active in' : ''}">
 						 <span class="counter"></span>
 						 <a class="ecommerce_tabs_nav_left disabled">&lt;</a>
+						 <a class="ecommerce_tabs_nav_first disabled"></a>
 							<div class="agile_ecommerce_tabs">
 						<s:iterator value="#category.products" var="product">
 								<div class="col-md-4 agile_ecommerce_tab_left">
@@ -268,6 +269,7 @@
 							</s:iterator>
 							</div>
 							<a class="ecommerce_tabs_nav_right">&gt;</a>
+							 <a class="ecommerce_tabs_nav_last"></a>
 							<div class="clearfix"> </div>
 						</div>
 						</s:iterator>
