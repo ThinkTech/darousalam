@@ -722,11 +722,10 @@ a .total {
 }
 
 #about.toggle {
-    width: 102%;
     margin-left: -6px;
     position: fixed;
     z-index: 999999;
-    top: 55px;
+    top: 60px;
     padding: 0;
     background : #fff;
     height : 217px;
