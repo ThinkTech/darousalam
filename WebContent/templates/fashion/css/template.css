@@ -396,7 +396,7 @@ label.icon-search span {
 
 .box_1 a .icon-shopping-cart {
    position: relative;
-   top: 3.5px;
+   top: 5.5px;
 }
 
 a .total {
@@ -2632,7 +2632,7 @@ div#horizontalTab1 ul {
     .ecommerce_tabs_nav_right {
       right: -10px;
     }
-	.header .social {top: 9px;position: absolute;right: 15px;}
+	.header .social {top: 9px;position: absolute;right: 10px;}
 	.banner{background:none}
 	.modal-title {
 		font-size: 1.3em;
@@ -2785,6 +2785,7 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	.box_1 a .icon-shopping-cart {top: 3.5px;}
 	div#OR{display:none}
 	.shoppingCart h4{font-size: 1em;}
 	.modal-title {font-size: 1.1em;top: 6px; position: relative;}
