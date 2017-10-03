@@ -2919,17 +2919,11 @@ div#horizontalTab1 ul {
 	.wthree_banner_bottom_left,.w3ls_about_grid_left,.wthree_banner_bottom_right,.w3agile_special_deals_grid_left,.w3agile_special_deals_grid_right,.w3agile_newsletter_right,.w3agile_newsletter_left {
 		padding: 0;
 	}
-	.agileinfo_banner_bottom1_grid_left {
-		min-height: 185px;
-	}
-	.agileinfo_banner_bottom1_grid_right h4 {
-		width: 40%;
-	}
-	.modal_body_right h4 {
-		font-size: 15px;
-	}
+	.agileinfo_banner_bottom1_grid_left {min-height: 185px;}
+	.agileinfo_banner_bottom1_grid_right h4 {width: 40%;}
+	.modal_body_right h4 {font-size: 18px;}
 	.rating{font-size:11px}
-	.modal_body_right h5 {text-align: left;margin-top: 30px;font-size: 12px;}
+	.modal_body_right h5 {text-align: left;margin-top: 30px;font-size: 13px;}
     .resp-tab-item {
 		padding: 5px 4px;
         display: inline-block;
