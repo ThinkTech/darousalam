@@ -1225,6 +1225,7 @@ a .total {
     top: -39px;
     background: #f4efe9;
     height : 122%;
+    padding-top: 10px;
 }
 
 .modal_body_left.small .zoom{
@@ -2648,7 +2649,7 @@ div#horizontalTab1 ul {
 }
 @media (max-width:640px){
 	#navigation {margin-top: -18px;}
-	.thumbnails {position: absolute;top: -3px;}
+	.thumbnails {position: absolute;top: 5px;}
 	.modal_body_left .thumbnails img {display: block;margin-bottom: 5px;}
 	.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_first {
       left: -10px;
@@ -2812,7 +2813,8 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
-	.modal {top : 38%;}
+	.modal {top : 25%;}
+	#login.modal {top : 0;}
 	.box_1 a .icon-shopping-cart {top: 3.5px;}
 	div#OR{display:none}
 	.shoppingCart h4{font-size: 1em;}
