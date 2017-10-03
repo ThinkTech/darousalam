@@ -185,10 +185,10 @@ page.displayProducts = function() {
 			});
 			
 		});
-		$('.item_show',tabs).click(function(){
+		$('.item_show',tabs).click(function(event){
 			page.showItem(details,$(this).parent().parent().parent().find("li a"));
 		});	
-        $(".w3_hs_bottom a:nth-child(1)",tabs).click(function(){
+        $(".w3_hs_bottom a:nth-child(1)",tabs).click(function(event){
         	page.showItem(details,$(this));
         });
         $(".w3_hs_bottom a:nth-child(2)",tabs).click(function(event){
