@@ -562,6 +562,4 @@ page.display = function(){
 	}
 };
 
-$(document).ready(function(){
-     page.display();
-});
+page.display();
