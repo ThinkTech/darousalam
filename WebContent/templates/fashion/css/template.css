@@ -899,6 +899,7 @@ a .total {
 
 .product-view > div:nth-child(1) {
 	margin-bottom : 10px;
+	text-align : center;
 }
 
 .product-view > div img {
