@@ -8,7 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="keywords" content="Cosmétiques,Habillements, Jeans, Fashion" />
-<link href="templates/fashion/css/template.css" rel="stylesheet" type="text/css" media="all" />
+<style type="text/css">
+ <%@include file="/templates/fashion/css/template.css"%>
+</style>
 <link rel="shortcut icon" href="templates/fashion/images/favicon.png"  sizes="16x16"/> 
 <link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website"/>
