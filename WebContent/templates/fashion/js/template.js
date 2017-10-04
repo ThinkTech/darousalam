@@ -11,6 +11,8 @@ page.loadImages = function(div,callback) {
 					$(element).removeAttr("data-src");
 					$(element).on("load",function(){
 						$(element).removeClass("loading");
+					}).on("error",function(){
+						$(element).removeClass("loading");
 					}).each(function() {
 						  if(this.complete) $(this).trigger("load");
 					});
