@@ -579,4 +579,6 @@ page.display = function(){
 	}
 };
 
-page.display();
+app.ready(function(){
+	page.display();	
+});
