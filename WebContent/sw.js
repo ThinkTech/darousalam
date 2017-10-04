@@ -1,6 +1,4 @@
-const assets = [".",
-                "index.html",
-	            "templates/fashion/js/template.js"];
+const assets = [".","index.html"];
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open("assets").then(function(cache) {
