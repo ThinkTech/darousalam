@@ -658,7 +658,7 @@ a .total {
 /*-- //navigation --*/
 /*-- banner --*/
 .banner{
-	background-image:url('../images/banner.jpg');
+	background-image:url('templates/fashion/images/banner.jpg');
 	background-repeat : no-repeat;
 	background-position : 0px 0px;
 	background-color : #fbe0c5;
@@ -1575,7 +1575,7 @@ ul.wmuSliderPagination {
 }
 
 .agileinfo_banner_bottom1_grid_right{
-	background:url(../images/45.jpg) no-repeat 0px 0px;
+	background:url(templates/fashion/images/45.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .agileinfo_banner_bottom1_grid_left,.agileinfo_banner_bottom1_grid_right{
