@@ -414,7 +414,6 @@ page.registerServiceWorker = function(){
 };
 
 page.displayElements = function(){
-	$(".banner a h4,.banner h6").addClass("animated zoomIn");
 	const slider = $('.wmuSlider');
 	if(slider.is(":visible")){
 		head.load("templates/fashion/js/jquery.wmuSlider.js","templates/fashion/js/jquery.countdown.js",function(){
