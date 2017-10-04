@@ -1,5 +1,21 @@
 var user;
 page.loadImages = function(div,callback) {
+	$.each($("img.error",div),function(index,element){
+    	if(!$(element).is(":hidden")){
+    		$(element).addClass("loading");
+			const src = $(element).data("src");
+			if(src) {
+				$(element).attr("src",src);
+				$(element).on("load",function(){
+					$(this).removeAttr("data-src").removeClass("error loading");
+				}).on("error",function(){
+					$(this).removeClass("loading");
+				}).each(function() {
+					  if(this.complete) $(this).trigger("load");
+				});
+			}
+    	}
+    });
 	if(!div.data("loaded")) {
 		div.data("loaded","true");
 	    $.each($("img[data-src]",div),function(index,element){
@@ -8,11 +24,10 @@ page.loadImages = function(div,callback) {
 				const src = $(element).data("src");
 				if(src) {
 					$(element).attr("src",src);
-					$(element).removeAttr("data-src");
 					$(element).on("load",function(){
-						$(element).removeClass("loading");
+						$(this).removeAttr("data-src").removeClass("loading");
 					}).on("error",function(){
-						$(element).removeClass("loading");
+						$(this).addClass("error").removeClass("loading");
 					}).each(function() {
 						  if(this.complete) $(this).trigger("load");
 					});
