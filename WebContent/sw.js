@@ -1,6 +1,5 @@
 const assets = [".",
                 "index.html",
-	            "templates/fashion/css/template.css",
 	            "templates/fashion/js/template.js"];
 self.addEventListener('install', function(event) {
   event.waitUntil(
