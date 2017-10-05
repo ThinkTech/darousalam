@@ -5,22 +5,27 @@
 <head>
 <base href="${path}"/>
 <title>Darou Salam Fashion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<meta name="keywords" content="Cosmétiques,Habillements, Jeans, Fashion" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ff9b05">
+<meta name="keywords" content="Cosmétiques,Habillements, Jeans, Fashion">
+<meta property="og:type" content="website">
+<meta name="description" content="Cosmétiques, Habillement pour femme, homme et enfant | Achats en ligne">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@darousalam">
+<meta name="twitter:domain" property="og:site_name" content="darousalam.mircloud.host">
+<meta name="twitter:url" property="og:url" content="${baseUrl}">
+<meta name="twitter:title" property="og:title" content="Darou Salam Fashion">
+<meta name="twitter:description" property="og:description" content="Cosmétiques, Habillement pour femme, homme et enfant | Achats en ligne">
+<meta name="twitter:image" property="og:image" content="templates/fashion/images/banner2.jpg">
+<link rel="shortcut icon" href="templates/fashion/images/favicon.png"  sizes="16x16"> 
+<link rel="manifest" href="manifest.json">
 <style type="text/css">
  <%@include file="/templates/fashion/css/template.css"%>
 </style>
-<link rel="shortcut icon" href="templates/fashion/images/favicon.png"  sizes="16x16"/> 
-<link rel="manifest" href="manifest.json">
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="${baseUrl}"/>
-<meta property="og:title" content="Darou Salam Fashion"/>
-<meta property="og:description" content="Cosmétiques, Habillement pour femme, homme et enfant | Achats en ligne"/>
-<meta property="og:image" content="templates/fashion/images/banner2.jpg"/>
-<meta name="theme-color" content="#ff9b05"/>
 </head>
-	
 <body>
 	<div class="modal" id="login">
 		<div class="modal-dialog modal-lg">
