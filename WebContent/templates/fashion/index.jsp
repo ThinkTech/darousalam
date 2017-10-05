@@ -506,10 +506,10 @@
 			 <img data-delay="true" data-src="templates/fashion/images/payment-methods.png"/>
 			</div>
 			<div>
-				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank">ThinkTech</a></p>
+				<p>&copy;2017 Conçu par <a href="http://w3layouts.com" target="_blank" rel="noopener">W3layouts</a> et <a href="https://www.thinktech.sn" target="_blank" rel="noopener">ThinkTech</a></p>
 			</div>
 			<div>
-			 <p><a target="_blank">Termes d'utilisation</a> | <a target="_blank">Confidentialité</a></p>
+			 <p><a>Termes d'utilisation</a> | <a>Confidentialité</a></p>
 			</div>
 		</div>
 	</div>
