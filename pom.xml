@@ -52,6 +52,28 @@
 				</configuration>
 			</plugin>
 			<plugin>
+				<groupId>com.tunyk.mvn.plugins.htmlcompressor</groupId>
+				<artifactId>htmlcompressor-maven-plugin</artifactId>
+				<version>1.3</version>
+				<executions>
+					<execution>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>html</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<srcFolder>WebContent</srcFolder>
+					<targetFolder>${project.build.directory}/minify</targetFolder>
+					<javascriptHtmlSprite>false</javascriptHtmlSprite>
+					<encoding>ISO-8859-1</encoding>
+					<fileExt>
+						<fileext>jsp</fileext>
+					</fileExt>
+				</configuration>
+			</plugin>
+			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
@@ -75,11 +97,8 @@
 					<api_hoster>app.mircloud.host</api_hoster>
 				</configuration>
 			</plugin>
-
 		</plugins>
-
 	</build>
-
 	<pluginRepositories>
 		<pluginRepository>
 			<id>sonatype-oss-public</id>
