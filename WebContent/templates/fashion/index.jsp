@@ -376,12 +376,12 @@
 	<tiles:insertAttribute name="content"/>	
 	<div id="deal" class="banner-bottom1">
 	     <h2>Hot Deal</h2>
-		<div class="agileinfo_banner_bottom1_grids">
-			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
+		<div class="banner_bottom1_grids">
+			<div class="col-md-7 banner_bottom1_grid_left">
 				<h3>ne ratez surtout pas cette offre alléchante <span>une remise de 10% <i></i></span></h3>
 				<a href="#products" class="scroll"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
 			</div>
-			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
+			<div class="col-md-5 banner_bottom1_grid_right">
 				<h4>Offre Valable jusqu'au 03 Septembre</h4>
 				<div class="timer_wrap">
 					<div id="counter"> </div>
