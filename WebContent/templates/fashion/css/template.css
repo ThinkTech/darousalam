@@ -154,8 +154,7 @@ body a:hover{
 .header .social {
 	float : right;
 	top : 10px;
-	right : -10px;
-	margin-left : 10px;
+	right : -12px;
 }
 
 .header .social a:nth-child(1){
@@ -263,7 +262,7 @@ body a:hover{
 	display: inline-block;
     width: 35%;
     position: relative;
-    right: -80px;
+    right: -84px;
     height : 350px;
     max-height : 350px;
     overflow : hidden;
@@ -383,7 +382,7 @@ label.icon-search span {
 }
 /*--//search--*/
 .box_1 {
-	right: 20px;
+	right: 110px;
     margin-top: 0px;
     position: fixed;
     z-index: 9;
@@ -2175,9 +2174,6 @@ div#horizontalTab1 ul {
 		right: 5%;
 	}
 	
- .box_1 {
-    right: 150px;
- }
  .footer-copy {width: 90%;}
  .w3_footer_grid ul li {font-size: 11px;}
  .nbs-flexisel-nav-left {
@@ -2253,9 +2249,6 @@ div#horizontalTab1 ul {
 	.ecommerce_tab_left h5 a {
 		font-size: 1.15em;
 	}
-	.box_1 {
-     right: 100px;
-   }
   .boxName {
     font-size: 11px;
   }
