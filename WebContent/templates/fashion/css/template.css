@@ -942,10 +942,10 @@ a .total {
 	z-index : 1;
 }
 
-.ecommerce_tab_left .simpleCart_shelfItem{
+.ecommerce_tab_left .cart_item{
    background : #ff9b05;
 }
-.simpleCart_shelfItem {
+.cart_item {
    height: 100px;
    padding-top: 2px;
    margin-top : 5px;
@@ -1122,13 +1122,13 @@ a .total {
 .ecommerce_tab_left h5 a:hover{
 	color:#180101;
 }
-.simpleCart_shelfItem p{
+.cart_item p{
 	font-size: 1.2em;
     color: #180101;
     margin: 0.55em 0 0em;
     font-weight: bold;
 }
-.simpleCart_shelfItem p span{
+.cart_item p span{
 	color: #180101;
     font-size: .9em;
     text-decoration: line-through;
@@ -1138,7 +1138,7 @@ a .total {
     position: relative;
     top: 0.81px;
 }
-.simpleCart_shelfItem p span.item_price{
+.cart_item p span.item_price{
 	font-style:normal;
 	text-decoration : none;
 	color : #000;
@@ -1147,12 +1147,12 @@ a .total {
 	top : 0px;
 }
 
-.modal_body_right_cart.simpleCart_shelfItem p span{
+.modal_body_right_cart.cart_item p span{
 	font-size : 1.2em;
 	color : #180101;
 }
 
-.simpleCart_shelfItem p a{
+.cart_item p a{
     font-size: 14px;
     color: #fff;
     margin: 0;
@@ -2424,14 +2424,14 @@ div#horizontalTab1 ul {
 		width: 70%;
 		margin: 0 auto;
 	}
-	.simpleCart_shelfItem {
+	.cart_item {
        height : 90px;
 	}
-	.simpleCart_shelfItem p {
+	.cart_item p {
         font-size: 11px;
         margin: 1.2em 0 1em;
 	}
-	.simpleCart_shelfItem p a {
+	.cart_item p a {
         font-size: 11px;
         top: 0px;
 	}
@@ -2559,7 +2559,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
-	#navigation {margin-top: -18px;}
+	#navigation {margin-top: -20px;}
 	.thumbnails {position: absolute;top: 5px;}
 	.modal_body_left .thumbnails img {display: block;margin-bottom: 5px;}
 	.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_first {
@@ -2601,7 +2601,7 @@ div#horizontalTab1 ul {
 	#deal h2, .container-bg h3, .top-brands h3{
 		font-size: 1.3em;
 	    margin-top: 5px;
-	    padding-bottom: 0.7em;
+	    padding-bottom: 0.6em;
 	}
 	 .special-deals, .about,.container-bg {
 		padding: 1em 0;
@@ -2679,9 +2679,9 @@ div#horizontalTab1 ul {
 		margin: 2.2em 0 0 2px;
 	    position: absolute;
 	    left: 50%;
-	    top: 87px;
+	    top: 82px;
 	}
-	.simpleCart_shelfItem p a {
+	.cart_item p a {
 		padding: .5em 1.9em;
 	}
 	#deal,.banner-bottom1 {display:none}
@@ -2691,6 +2691,12 @@ div#horizontalTab1 ul {
 	.hs-wrapper {height: 250px;}
 }
 @media (max-width:480px){
+	#products .container .gender {margin-top: 20px;margin-bottom :0px}
+	#products .nav>li>a {padding: 5px 11px;}
+	.cart_item p a {top: -7px;}
+	.modal .cart_item p a {top: 0px;}
+	.ecommerce_tab_left h5 {margin: 0.5em;}
+	.ecommerce_tab_left {margin-top: 0.5em;}
 	.modal {top : 18%;}
 	#login.modal {top : 0;}
 	.box_1 a .icon-shopping-cart {top: 3.5px;}
@@ -2705,7 +2711,7 @@ div#horizontalTab1 ul {
 	.modal-dialog select{font-size : 13px}
 	.ecommerce_tabs {width: 100.5%;padding-left: 0px;padding-right: 0px;}
 	.tab-pane .counter {position: absolute;margin-top: -15px;}
-	.simpleCart_shelfItem p{margin:0.5em 0 1.5em}
+	.cart_item p{margin:0.5em 0 1.5em}
 	.total span:nth-child(2){display:none}
 	.box_1 a {font-size: 13px;}
 	.ecommerce_tabs .ecommerce_tab_left{display:none}
@@ -2714,7 +2720,7 @@ div#horizontalTab1 ul {
     .ecommerce_tabs .ecommerce_tab_left:nth-child(3){display:none}
 	.shoppingCart{min-width:300px;max-width:300px;}
 	.product-view p {padding: 6px 10px;padding-bottom: 0px;height: 30px;}
-    .simpleCart_shelfItem{width : 215px;margin : auto;height : 75px;}
+    .cart_item{width : 215px;margin : auto;height : 65px;}
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {
     padding: 3px;
     margin-bottom: 0px;
@@ -2790,7 +2796,7 @@ div#horizontalTab1 ul {
 	#contact-form input {margin-bottom: 0px;padding: 1px;font-size: 13px;}
 	#contact-form textarea {font-size: 13px;height:45px;margin-bottom: 4px;padding: 5px;padding: 3px;}
 	#contact-form #submit {font-size: 12px;height: 40px;}
-	.simpleCart_shelfItem p a {font-size: 11px;}
+	.cart_item p a {font-size: 11px;}
 	.shoppingCart ul{height : 120px;}
 	.shoppingCart li {padding: 3px 3px;}
 	.captcha{margin-bottom:0px}

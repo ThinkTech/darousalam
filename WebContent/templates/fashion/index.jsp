@@ -268,7 +268,7 @@
 										</div>
 									</div>
 									<h5><a>${product.name}</a></h5>
-									<div class="simpleCart_shelfItem">
+									<div class="cart_item">
 										<p><span>${product.price}</span> <span class="item_price">${product.price-((product.price*10)/100)}</span></p>
 										<p><a class="item_show"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 									</div>
@@ -362,7 +362,7 @@
 												</div>
 											  </div>
 										</div>
-										<div class="modal_body_right_cart simpleCart_shelfItem">
+										<div class="modal_body_right_cart cart_item">
 											<p><span class="item_price"></span></p>
 											<p><input  type="number" value="1" min="1"/>&nbsp;<a title="commander" class="shop" data-name="shirt"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander</a></p>
 										</div>
