@@ -1,3 +1,4 @@
+
 const payment = {};
 page.wizard = {};
 page.wizard.initSocialLogin = function(){
@@ -299,7 +300,7 @@ page.wizard.submit = function(){
 			page.cart = [];
 			localStorage.setItem("cart", JSON.stringify(page.cart));
 			$("#cart ul li").remove();
-			$(".simpleCart_quantity").html(0);
+			$(".cart_items").html(0);
 			$("#cart .total").html(0);
 			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
 			$("html,body").css("overflow-y","auto");

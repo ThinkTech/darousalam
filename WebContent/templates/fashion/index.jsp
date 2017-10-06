@@ -137,7 +137,7 @@
 			<div class="cart box_1">
 				<a>
 					<div class="total">
-					<span  class="simpleCart_quantity">0</span> <span>articles</span></div>
+					<span  class="cart_items">0</span> <span>articles</span></div>
 					<i class="icon-shopping-cart" aria-hidden="true"></i>
 				</a>
 				<div class="clearfix"> </div>
@@ -394,7 +394,7 @@
 		<div class="container">
 			<h3>Top Marques</h3>
 			<div class="sliderfig">
-				<ul id="flexiselDemo1">			
+				<ul id="flexisel">			
 					<li>
 						<img data-delay="true" data-src="templates/fashion/images/4.png" alt=" " class="img-responsive" />
 					</li>

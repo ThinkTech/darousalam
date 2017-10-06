@@ -353,7 +353,7 @@ page.addCartItem = function(item){
 		confirm(message, function() {
 			const index = li.index();
 			li.remove();
-			$(".simpleCart_quantity").html(ul.find("li").length);
+			$(".cart_items").html(ul.find("li").length);
 			total = 0;
 			$.each($("li",ul),function(index,element){
             	total += parseInt($(element).data("item").amount);
@@ -365,7 +365,7 @@ page.addCartItem = function(item){
 	});
     ul.append(li);
     ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
-    $(".simpleCart_quantity").html(ul.find("li").length);
+    $(".cart_items").html(ul.find("li").length);
     $.each($("li",ul),function(index,element){
     	total += parseInt($(element).data("item").amount);
     });
@@ -541,7 +541,7 @@ page.displayElements = function(){
 	const div = $("#top-brands");
 	if(div.is(":visible")){
 		head.load("templates/fashion/js/jquery.flexisel.js",function(){
-			$("#flexiselDemo1",div).flexisel({
+			$("#flexisel",div).flexisel({
 				visibleItems: 4,
 				animationSpeed: 1000,
 				autoPlay: true,
