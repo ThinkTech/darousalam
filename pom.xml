@@ -39,13 +39,17 @@
 					<charset>ISO-8859-1</charset>
 					<skipMerge>true</skipMerge>
 					<webappSourceDir>WebContent</webappSourceDir>
-					<cssSourceDir>templates</cssSourceDir>
+					<cssSourceDir>.</cssSourceDir>
 					<cssSourceFiles>
-						<cssSourceFile>fashion/css/template.css</cssSourceFile>
+						<cssSourceFile>templates/fashion/css/template.css</cssSourceFile>
+						<cssSourceFile>modules/commerce/css/wizard.css</cssSourceFile>
 					</cssSourceFiles>
-					<jsSourceDir>templates</jsSourceDir>
+					<jsSourceDir>.</jsSourceDir>
 					<jsSourceFiles>
-						<jsSourceFile>fashion/js/template.js</jsSourceFile>
+						<jsSourceFile>templates/fashion/js/template.js</jsSourceFile>
+						<jsSourceFile>modules/commerce/js/wizard.js</jsSourceFile>
+						<jsSourceFile>modules/commerce/js/paypal.js</jsSourceFile>
+						<jsSourceFile>modules/commerce/js/visa.js</jsSourceFile>
 					</jsSourceFiles>
 					<nosuffix>true</nosuffix>
 					<webappTargetDir>${project.build.directory}/minify</webappTargetDir>
