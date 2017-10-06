@@ -2629,7 +2629,7 @@ div#horizontalTab1 ul {
 		margin-left: 6em;
 	}
 	.search {
-		margin: 2.2em 0 0 2px;
+		margin: 2.4em 0 0 2px;
 	    position: absolute;
 	    left: 50%;
 	    top: 82px;
@@ -2791,9 +2791,6 @@ div#horizontalTab1 ul {
 	}
 	.modal_body_right1 {
 		padding-bottom: 0em;
-	}
-	.search {
-		margin:2em 0 0 0em;
 	}
 	.search_box:checked~.search_form {
 		width: 286px;
