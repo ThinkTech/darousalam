@@ -123,19 +123,19 @@ page.displayCart = function() {
 };
 
 page.navigate = function(div){
-	const length = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left:visible",div).length;
-	const total = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div).length;
+	const length = $(".ecommerce_tabs .ecommerce_tab_left:visible",div).length;
+	const total = $(".ecommerce_tabs .ecommerce_tab_left",div).length;
 	if(total<=length){
 		$(".counter,.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right,.ecommerce_tabs_nav_first,.ecommerce_tabs_nav_last",div).hide();
 	}
-	$.each($(".simpleCart_shelfItem span",div),function(index,element){
+	$.each($(".cart_item span",div),function(index,element){
 		const val = parseInt($(this).html());
 		$(this).html(val.toLocaleString("fr-FR"));
 	});
 	var index = length;
 	$(".ecommerce_tabs_nav_left",div).click(function(){
 		if(!$(this).hasClass("disabled")){
-			const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
+			const elements = $(".ecommerce_tabs .ecommerce_tab_left",div);
 			elements.hide();
 			index = index - length;
 			const nodes = elements.slice(index-length,index).show();	
@@ -159,7 +159,7 @@ page.navigate = function(div){
 	});
 	$(".ecommerce_tabs_nav_right",div).click(function(){
 		if(!$(this).hasClass("disabled")){
-			const elements = $(".agile_ecommerce_tabs .agile_ecommerce_tab_left",div);
+			const elements = $(".ecommerce_tabs .ecommerce_tab_left",div);
 			elements.hide();
 			const nodes = elements.slice(index,index + length).show();
 			$.each(nodes,function(index,element){
@@ -211,7 +211,7 @@ page.displayProducts = function() {
         $(".w3_hs_bottom a:nth-child(2)",tabs).click(function(event){
         	const link = $(this);
         	const item = {};
-			item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
+			item.name = link.closest(".ecommerce_tab_left").find("h5 a").html();
 			item.image = link.closest(".hs-wrapper").find("img").attr("src");
 			page.shareItem(item,{left:event.pageX,top:event.pageY});
 			return false;
@@ -281,8 +281,8 @@ page.displayProducts = function() {
 page.showItem = function(details,link){
 	$("input",details).val(1);
 	const item = {};
-	item.name = link.closest(".agile_ecommerce_tab_left").find("h5 a").html();
-	item.price = link.closest(".agile_ecommerce_tab_left").find(".item_price").text();
+	item.name = link.closest(".ecommerce_tab_left").find("h5 a").html();
+	item.price = link.closest(".ecommerce_tab_left").find(".item_price").text();
 	item.price = parseInt(item.price.replace(/\s/g,''));
 	item.image = link.closest(".hs-wrapper").find("img").attr("src");
 	$(".modal_body_left img",details).attr("src",item.image);

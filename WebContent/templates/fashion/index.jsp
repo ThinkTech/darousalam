@@ -188,7 +188,7 @@
 						<div class="wmuSliderWrapper">
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
-									<div class="w3agile_special_deals_grid_left_grid1">
+									<div class="special_deals_grid_left_grid1">
 									    <h4>Prix Abordable</h4>
 										<p>Procurez-vous notre gamme de robes, hauts, jeans, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore, à un prix défiant toute compétition</p>
 									</div>
@@ -196,7 +196,7 @@
 							</article>
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
-									<div class="w3agile_special_deals_grid_left_grid1">
+									<div class="special_deals_grid_left_grid1">
 									    <h4>Style Unique</h4>
 										<p>Chaque mois, nous lançons prés de 10 nouveaux styles donc peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons</p>
 									</div>
@@ -204,7 +204,7 @@
 							</article>
 							<article style="position: absolute; width: 100%; opacity: 0;"> 
 								<div class="banner-wrap">
-									<div class="w3agile_special_deals_grid_left_grid1">
+									<div class="special_deals_grid_left_grid1">
 									    <h4>Livraison Gratuite</h4>
 										<p>Nos frais de livraison varient en fonction de votre domiciliation. Pour toute commande dont le montant est supérieur à <b>50 000</b>, la livraison est gratuite</p>
 									</div>
@@ -253,9 +253,9 @@
 						 <span class="counter"></span>
 						 <a class="ecommerce_tabs_nav_left disabled">&lt;</a>
 						 <a class="ecommerce_tabs_nav_first disabled"></a>
-							<div class="agile_ecommerce_tabs">
+							<div class="ecommerce_tabs">
 						<s:iterator value="#category.products" var="product">
-								<div class="col-md-4 agile_ecommerce_tab_left">
+								<div class="col-md-4 ecommerce_tab_left">
 									<div class="hs-wrapper">
 										<img data-delay="true" data-src="templates/fashion/images/${product.image}" alt=" " class="img-responsive" />
 										<div class="w3_hs_bottom">
@@ -376,12 +376,12 @@
 	<tiles:insertAttribute name="content"/>	
 	<div id="deal" class="banner-bottom1">
 	     <h2>Hot Deal</h2>
-		<div class="banner_bottom1_grids">
-			<div class="col-md-7 banner_bottom1_grid_left">
+		<div>
+			<div class="col-md-7 bottom_grid_left">
 				<h3>ne ratez surtout pas cette offre alléchante <span>une remise de 10% <i></i></span></h3>
 				<a href="#products" class="scroll"><i class="icon-shopping-cart" aria-hidden="true"></i>Commander Maintenant</a>
 			</div>
-			<div class="col-md-5 banner_bottom1_grid_right">
+			<div class="col-md-5 bottom_grid_right">
 				<h4>Offre Valable jusqu'au 03 Septembre</h4>
 				<div class="timer_wrap">
 					<div id="counter"> </div>
@@ -416,10 +416,10 @@
 	</div>
 	<div class="newsletter">
 		<div class="container">
-			<div class="col-md-6 w3agile_newsletter_left">
+			<div class="col-md-6 newsletter_left">
 				<h3>Abonnez-vous aux nouvelles</h3>
 			</div>
-			<div class="col-md-6 w3agile_newsletter_right">
+			<div class="col-md-6 newsletter_right">
 				<form action="#" method="post">
 					<input type="email" name="email" placeholder="email">
 					<input type="submit" value="Abonner" />
@@ -488,13 +488,13 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Social</h3>
 					<h4>Suivez-nous</h4>
-					<div class="social agileits_social_button">
+					<div class="social social_button">
 						<ul>
 							<li><a><i class="icon-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 					<h4>Partagez</h4>
-					<div class="agileits_social_button">
+					<div class="social_button">
 						<div class="share-this sharethis-inline-share-buttons"></div>
 					</div>
 				</div>
