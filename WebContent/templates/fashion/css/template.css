@@ -115,7 +115,7 @@ html, body{
     background:#ff9b05;
 }
 
-.header {padding-bottom: 40px;}
+.header {padding-bottom: 30px;}
 
 
 a:focus, a:hover {
@@ -2255,7 +2255,6 @@ div#horizontalTab1 ul {
 	}
 	.box_1 {
      right: 100px;
-     margin-top: 50px;
    }
   .boxName {
     font-size: 11px;
@@ -2267,7 +2266,7 @@ div#horizontalTab1 ul {
     margin-right: -8px;
   }
   .search {
-    margin: 1.1em 0 0 2em;
+    margin: 0.8em 0 0 2em;
   }
 }
 @media (max-width: 1024px){
