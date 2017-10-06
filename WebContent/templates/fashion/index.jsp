@@ -222,7 +222,7 @@
 		<div class="container">
 			<h3>À PROPOS</h3>
 			<p>
-			Bienvenue chez <strong>Darou Salam Fashion</strong>, une boutique de cosmétiques et de prêt à porter offrant les meilleures tendances vêtements pour femmes, hommes et enfants. Procurez-vous notre gamme de robes, hauts, jeans, sacs, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore, 
+			Bienvenue chez <strong>Darou Salam Fashion</strong>, une boutique de cosmétiques et de prêt à porter offrant les meilleures tendances vêtements pour femme, homme et enfant. Procurez-vous notre gamme de robes, hauts, jeans, sacs, chemises, vestes, pulls, manteaux, combinaisons, chaussures, accessoires et plus encore, 
 			à un prix défiant toute compétition. Chaque mois, nous lançons prés de 10 nouveaux styles donc peu importe ce que vous cherchez, nous avons tout ce qu'il vous faut dans nos rayons.
 			Identifier vous rapidement avec les réseaux sociaux ou avec votre compte client pour commander en ligne ou pour suivre l'historique de vos commandes.
 			Nous acceptons les paiements par espèces, par carte de crédit <b>Visa</b>, <b>MasterCard</b>, <b>American Express</b> et <b>Discover</b>, tout comme aussi, vous pouvez utiliser <b>PayPal</b>, <b>Tigo Cash</b> ou <b>Orange Money</b> pour faire vos achats.
