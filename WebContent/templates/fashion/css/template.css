@@ -2642,6 +2642,7 @@ div#horizontalTab1 ul {
 	.resp-tab-item {width: 119px;}
 	#contact-form {width: 380px;padding: 5px;}
 	.hs-wrapper {height: 250px;}
+	.navbar-nav>li {margin-right: 6px;}
 }
 @media (max-width:480px){
 	#products .container .gender {margin-top: 20px;margin-bottom :0px}
