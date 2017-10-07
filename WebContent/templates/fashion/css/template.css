@@ -2094,7 +2094,7 @@ div#horizontalTab1 ul {
 
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 7px;
 }
  
 ::-webkit-scrollbar-thumb {
@@ -2107,7 +2107,7 @@ div#horizontalTab1 ul {
 
 ::-webkit-scrollbar-button {
   background: #ff9b05;
-  height: 5px;
+  height: 7px;
 }
 
 #offline span {
@@ -2629,7 +2629,7 @@ div#horizontalTab1 ul {
 		margin-left: 6em;
 	}
 	.search {
-		margin: 2.4em 0 0 2px;
+		margin: 2.2em 0 0 2px;
 	    position: absolute;
 	    left: 50%;
 	    top: 82px;
