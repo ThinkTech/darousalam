@@ -382,7 +382,7 @@ label.icon-search span {
 }
 /*--//search--*/
 .box_1 {
-	right: 110px;
+	right: 109px;
     margin-top: 0px;
     position: fixed;
     z-index: 9;
@@ -1082,7 +1082,7 @@ a .total {
     font-size: 1em;
     color: #ff9b05;
     font-family : Exo;
-    right : 0;
+    right : -2px;
 }
 
 .ecommerce_tabs_nav_right,.ecommerce_tabs_nav_last {
