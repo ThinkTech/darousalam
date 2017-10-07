@@ -2619,26 +2619,13 @@ div#horizontalTab1 ul {
 }
 }
 @media (max-width:568px){
-	.modal-dialog {
-		width: 535px;
-	}
-	.resp-tab-item {
-		padding: 5px 28px;
-	}
-	.w3l_logo {
-		margin-left: 6em;
-	}
-	.search {
-		margin: 2.2em 0 0 2px;
-	    position: absolute;
-	    left: 50%;
-	    top: 82px;
-	}
-	.cart_item p a {
-		padding: .5em 1.9em;
-	}
+	.modal-dialog {width: 535px;}
+	.resp-tab-item {padding: 5px 28px;}
+	.w3l_logo {margin-left: 6em;}
+	.search {margin: 2.2em 0 0 2px;position: absolute;left: 50%;top: 82px;}
+	.cart_item p a {padding: .5em 1.9em;}
 	#deal,.banner-bottom1 {display:none}
-	.box_1 {right: 14px;padding:8px;padding-top: 2px;padding-bottom: 12px;}
+	.box_1 {right: 14px;padding:8px;padding-top: 2px;padding-bottom: 12px;top:57px}
 	.resp-tab-item {width: 119px;}
 	#contact-form {width: 380px;padding: 5px;}
 	.hs-wrapper {height: 250px;}
