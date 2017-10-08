@@ -2474,39 +2474,17 @@ div#horizontalTab1 ul {
 	.navbar-nav > li:nth-child(1) {display:none;}
 	.navbar-nav > li:nth-child(3) {display:none;}
 	#navigation{margin-top: 0px;margin-left: -6px;}
-	.modal-dialog {
-		width: 630px;
-	}
-	.w3l_logo h1 a {
-		font-size: 25px;
-	}
-	.w3l_logo h1 a span {
-		letter-spacing: 9.5px;
-	}
-	.w3l_logo {
-		margin-left: 5em;
-	}
+	.modal-dialog {width: 630px;}
+	.w3l_logo h1 a {font-size: 25px;}
+	.w3l_logo h1 a span {letter-spacing: 9.5px;}
+	.w3l_logo {margin-left: 5em;}
 	.box_1 {right: 40px;}
-	.search_box:checked~.search_form {
-		width: 75%;
-        position: fixed;
-        top: 130px;
-        right: 10px;
-	}
-	#products .container .gender {
-	    font-size : 1.1em;
-	}
+	.search_box:checked~.search_form {width: 75%;position: fixed;top: 130px;right: 14px;}
+	#products .container .gender {font-size : 1.1em;}
 	.resp-tab-item {font-size: 0.65em;width: 119px;}
     .search_form input[type='text'] {width: 300px;}
-	.ecommerce_tabs {
-		width: 102.5%;
-		padding-left: 10px;
-		padding-right : 0px;
-	}
-	.w3l_logo {
-		margin-left: 9em;
-		margin-top: -10px;
-	}
+	.ecommerce_tabs {width: 102.5%;padding-left: 10px;padding-right : 0px;}
+	.w3l_logo {margin-left: 9em;margin-top: -10px;}
 	.product-view{position : fixed}
     .modal-open .modal{margin-top:-40px}
     .modal-body {padding: 0em 0em 0em;}
