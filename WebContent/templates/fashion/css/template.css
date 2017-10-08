@@ -2572,7 +2572,7 @@ div#horizontalTab1 ul {
 	.close {padding:0;width: 23px;height: 23px;top:5px;right:4px}
 	#contact-form .close {top : 2px;}
 	.shoppingCart summary {padding: 6px 0px 8px 1px;}
-	.search_box:checked~.search_form {top: 44px;}
+	.search_box:checked~.search_form {width: 94%;top: 44px;}
 	.modal-dialog select{font-size : 13px}
 	.ecommerce_tabs {width: 100.5%;padding-left: 0px;padding-right: 0px;}
 	.tab-pane .counter {position: absolute;margin-top: -15px;}
@@ -2602,61 +2602,24 @@ div#horizontalTab1 ul {
      font-weight: bold;
      margin: 1em 0 0;
     }
-	.search_box:checked~.search_form {width: 96%;}
 	.shoppingCart li span span {width: 195px;}
 	.w3l_logo h1 a {font-size: .8em;}
 	.social-login{display:none}
 	.modal-dialog {width: 290px;}
-	.modal_body_left1 {
-		float: none !important;
-		width: 100% !important;
-	}
-	h3.other-nw {
-		margin:0em 0 2em;
-		text-align: left;
-	}
-	.modal_body_right1 {
-		float: none !important;
-		width: 100% !important;
-		text-align: left;
-	}
-	.banner h3 {
-		width: 70%;
-	}
-	.w3l_logo {
-		margin-left: 2px;
-	}
+	.modal_body_left1 {float: none !important;width: 100% !important;}
+	h3.other-nw {margin:0em 0 2em;text-align: left;}
+	.modal_body_right1 {float: none !important;width: 100% !important;text-align: left;}
+	.banner h3 {width: 70%;}
+	.w3l_logo {margin-left: 2px;}
 	.w3l_login {margin-left: -6px;margin-right: 4px;}
-	.nav-tabs > li {
-		text-align: left;
-	    display: inline-block;
-	    width: 33.3%;
-	    margin: 0;
-	    padding: 0;
-	}
-	.ecommerce_tab_left {
-		float: none;
-		width: 100%;
-	}
-	.w3_hs_bottom ul, .flex_ecommerce {
-		padding: 7em 0 0;
-	}
-	.newsletter_left h3 {
-		font-size: 1.5em;
-	}
-	.newsletter {
-		padding: 2em 0;
-	}
-	.newsletter_right {
-		width: 100%;
-	}
-	.newsletter_right input[type="submit"] {
-		width: 23%;
-		font-size: 10px;
-	}
-	.newsletter_right input[type="email"] {
-		width: 76%;
-	}
+	.nav-tabs > li {text-align: left;display: inline-block;width: 33.3%;margin: 0;padding: 0;}
+	.ecommerce_tab_left {float: none;width: 100%;}
+	.w3_hs_bottom ul, .flex_ecommerce {padding: 7em 0 0;}
+	.newsletter_left h3 {font-size: 1.5em;}
+	.newsletter {padding: 2em 0;}
+	.newsletter_right {width: 100%;}
+	.newsletter_right input[type="submit"] {width: 23%;font-size: 10px;}
+	.newsletter_right input[type="email"] {width: 76%;}
 	#contact-form {width: 310px;margin: auto;padding: 5px;left: 0;right: 0;top: 1px;position:fixed}
 	#contact-form input {margin-bottom: 0px;padding: 1px;font-size: 13px;}
 	#contact-form textarea {font-size: 13px;height:45px;margin-bottom: 4px;padding: 5px;padding: 3px;}
