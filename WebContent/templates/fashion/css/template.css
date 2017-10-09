@@ -822,6 +822,7 @@ a .total {
 }
 
 #products .container .gender {
+	margin-left : -2px;
 	margin-top : 25px;
 	margin-bottom: 5px;
     font-size: 1.3em;
@@ -2280,7 +2281,7 @@ div#horizontalTab1 ul {
 	.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right{top:50%}
 	.ecommerce_tabs_nav_first,.ecommerce_tabs_nav_last{top:65%}
 	.ecommerce_tabs {width: 106.55%;padding-right:10px}
-	#products .genders{margin-left : -7px;}
+	#products .genders{margin-left : -1px;}
 	#products .genders a {font-size: 16px;}
 	.w3_footer_grid ul li {font-size: 15px;}
 	#about p, #schedules p {width: 100%;}
