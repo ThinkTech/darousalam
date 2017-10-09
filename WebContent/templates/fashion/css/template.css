@@ -159,8 +159,6 @@ body a:hover{
 
 .offline {
 	display : none;
-	top: -13px;
-    position: relative;
     color: #ff9b05;
     float: right;
     animation: blink 1s step-start 0s infinite;
