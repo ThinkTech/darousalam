@@ -848,6 +848,7 @@ a .total {
     text-transform : uppercase;
     background: #180101;
     padding: 10px;
+    padding-left : 5px;
 }
 
 .gender i {
