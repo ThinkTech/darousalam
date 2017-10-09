@@ -163,6 +163,18 @@ body a:hover{
     position: relative;
     color: #ff9b05;
     float: right;
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
 }
 
 .header .social a:nth-child(1){
