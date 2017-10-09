@@ -167,6 +167,7 @@ body a:hover{
 .offline i {
 	position: relative;
     top: 1px;
+    margin-right : 0;
 }
 
 @keyframes blink {
