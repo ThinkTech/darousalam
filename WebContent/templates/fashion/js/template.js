@@ -573,8 +573,19 @@ page.display = function(){
 	page.displayLogin();
 	page.displayProducts();
 	page.displayCart();
-	if('serviceWorker' in navigator) {
-		page.registerServiceWorker();
+	if('serviceWorker' in navigator) page.registerServiceWorker();	
+	const elements = "#cart a,.w3l_login,.search,.nav li:last-of-type,.w3_hs_bottom li a:last-of-type,.newsletter";
+	window.addEventListener("offline",function(){
+		$(elements).hide();
+		$('.offline').show();
+	});
+	window.addEventListener("online",function(){
+		$(elements).show();
+		$('.offline').hide();
+	});
+	if(!navigator.onLine) {
+		$(elements).hide();
+		$('.offline').show();
 	}
 };
 

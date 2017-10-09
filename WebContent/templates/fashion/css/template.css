@@ -157,6 +157,14 @@ body a:hover{
 	right : -12px;
 }
 
+.offline {
+	display : none;
+	top: -13px;
+    position: relative;
+    color: #ff9b05;
+    float: right;
+}
+
 .header .social a:nth-child(1){
 	display:none;
 	position: relative;
