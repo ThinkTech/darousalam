@@ -2290,57 +2290,22 @@ div#horizontalTab1 ul {
 	.banner div.shopping {top: -50px;}
 	.hs-wrapper { height: 200px;}
 	.footer-copy {width: 76%;}
-	.bottom_grid_left h3{
-	   text-align : center;
-	}
-	.w3l_logo h1 a {
-		font-size: .9em;
-	}
-	.w3l_logo h1 a span {
-		letter-spacing: 10.5px;
-	}
-	.w3l_logo {
-		margin-left: 9em;
-	}
-	.banner h3 {
-		font-size: 1.4em;
-	}
-	.nav-tabs > li > a {
-		font-size: 1em;
-	}
-	.nbs-flexisel-nav-left {
-	   left : -7%;
-	}
-	.nbs-flexisel-nav-right {
-	   right : -10%;
-	}
-	.w3_footer_grid h3 {
-    font-size: 1.3em;
-    }
-	.ecommerce_tab_left {
-		float: left;
-		width: 32%;
-	}
-	.w3_hs_bottom ul {
-		padding: 6em 0 0;
-	}
-	.modal_body_left {
-		float: left;
-		width: 40%;
-	}
-	.modal_body_right {
-		float: right;
-		width: 60%;
-	}
-	.bottom_grid_left {
-		background-position: 0px 0px;
-	}
-	.bottom_grid_right {
-		margin: 2em 0 0;
-	}
-	.bottom_grid_left, .bottom_grid_right {
-		min-height: 385px;
-	}
+	.bottom_grid_left h3{text-align : center;}
+	.w3l_logo h1 a {font-size: .9em;}
+	.w3l_logo h1 a span {letter-spacing: 10.5px;}
+	.w3l_logo {margin-left: 9em;}
+	.banner h3 {font-size: 1.4em;}
+	.nav-tabs > li > a {font-size: 1em;}
+	.nbs-flexisel-nav-left {left : -7%;}
+	.nbs-flexisel-nav-right {right : -10%;}
+	.w3_footer_grid h3 {font-size: 1.3em;}
+	.ecommerce_tab_left {float: left;width: 32%;}
+	.w3_hs_bottom ul {padding: 6em 0 0;}
+	.modal_body_left {float: left;width: 40%;}
+	.modal_body_right {float: right;width: 60%;}
+	.bottom_grid_left {background-position: 0px 0px;}
+	.bottom_grid_right {margin: 2em 0 0;}
+	.bottom_grid_left, .bottom_grid_right {min-height: 385px;}
 	.banner-bottom, .team,  .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .container-bg, .banner-bottom1, .top-brands, .dresses, .w3l_related_products {
 		padding: 3em 0;
 	}
@@ -2350,9 +2315,7 @@ div#horizontalTab1 ul {
 	#deal h2:before, .container-bg h3:before, .top-brands h3:before, .w3l_related_products h3:before, .team h3:before, .mail h3:before {
 		left: 18%;
 	}
-	.special_deals_grids {
-		margin: 2em 0 0;
-	}
+	.special_deals_grids {margin: 2em 0 0;}
 	.special_deals_grid_right {
 		padding-right: 1em;
 		width: 60%;
