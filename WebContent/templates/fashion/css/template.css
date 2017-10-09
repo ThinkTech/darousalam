@@ -6,7 +6,6 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -14,8 +13,6 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  margin-right : 3px;
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -162,6 +159,8 @@ body a:hover{
     color: #ff9b05;
     float: right;
     animation: blink 1s step-start 0s infinite;
+    position: relative;
+    top: -3px;
 }
 
 @keyframes blink {
@@ -2471,7 +2470,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
-	#navigation {margin-top: -20px;}
+	#navigation {margin-top: -18px;}
 	.thumbnails {position: absolute;top: 5px;}
 	.modal_body_left .thumbnails img {display: block;margin-bottom: 5px;}
 	.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_first { left: -10px;}

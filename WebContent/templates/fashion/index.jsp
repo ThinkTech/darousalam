@@ -117,7 +117,7 @@
 						<li><a href="#schedules" class="scroll" title="nos horaires">Nos Horaires</a></li>
 						<li><a class="contact" title="contact">Contact</a></li>
 					</ul>
-					<span class="offline">hors-ligne</span>
+					<span class="offline"><i class="icon-user" aria-hidden="true"></i> hors-ligne</span>
 			</div>
 			<div class="w3l_login">
 				<a><i class="icon-user" aria-hidden="true"></i></a>
