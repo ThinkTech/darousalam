@@ -419,7 +419,7 @@ page.displayElements = function(){
 		head.load("templates/fashion/js/bundle.js",function(){
 			slider.wmuSlider();
 			$('#counterTop').countdown({timestamp : (new Date()).getTime() + 11*24*60*60*1000});
-			$("#flexisel",div).flexisel({
+			$("#flexisel").flexisel({
 				visibleItems: 4,
 				animationSpeed: 1000,
 				autoPlay: true,
