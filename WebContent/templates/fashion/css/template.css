@@ -162,7 +162,8 @@ body a:hover{
     float: right;
     animation: blink 1s step-start 0s infinite;
     position: relative;
-    top: -3px;
+    top: 0px;
+    right: 250px;
 }
 
 .offline i {
@@ -2225,7 +2226,7 @@ div#horizontalTab1 ul {
 		min-height: 500px;
 	}
 	.nav > li > a {
-		padding: 15px 20px;
+		padding: 15px 15px;
 	}
 	.nav-tabs > li > a {
 		font-size: 1.2em;
@@ -2295,6 +2296,7 @@ div#horizontalTab1 ul {
 	#contact-form {left: 25%;}
 }
 @media (max-width:991px){
+	.offline{top: -3px;right:150px}
 	.ecommerce_tabs_nav_left,.ecommerce_tabs_nav_right{top:50%}
 	.ecommerce_tabs_nav_first,.ecommerce_tabs_nav_last{top:65%}
 	.ecommerce_tabs {width: 106.55%;padding-right:10px}
@@ -2363,6 +2365,7 @@ div#horizontalTab1 ul {
 	.register input[type="text"], .register input[type="email"], .register input[type="password"] {font-size: 14px;}
 }
 @media (max-width:768px){
+	.offline{top: -3px;right:-12px}
 	.product-view > div img {max-height: 125px;}
 	.special_deals_grid_left {padding-left: 1em;}
 	.banner .bannerSlider {right: 0%;}
@@ -2410,6 +2413,7 @@ div#horizontalTab1 ul {
     .modal-body {padding: 0em 0em 0em;}
 }
 @media (max-width:640px){
+	.offline{top: -3px;right:0px}
 	#navigation {margin-top: -18px;}
 	.thumbnails {position: absolute;top: 5px;}
 	.modal_body_left .thumbnails img {display: block;margin-bottom: 5px;}
