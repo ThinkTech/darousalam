@@ -1,7 +1,4 @@
-const assets = [".",
-                "templates/fashion/js/jquery.flexisel.js",
-                "templates/fashion/js/jquery.wmuSlider.js",
-                "templates/fashion/js/jquery.countdown.js"];
+const assets = [".","templates/fashion/js/bundle.js"];
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open("assets").then(function(cache) {

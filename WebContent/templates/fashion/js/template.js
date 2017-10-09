@@ -416,10 +416,32 @@ page.registerServiceWorker = function(){
 page.displayElements = function(){
 	const slider = $('.wmuSlider');
 	if(slider.is(":visible")){
-		head.load("templates/fashion/js/jquery.wmuSlider.js","templates/fashion/js/jquery.countdown.js",function(){
+		head.load("templates/fashion/js/bundle.js",function(){
 			slider.wmuSlider();
-			$('#counterTop').countdown({timestamp : (new Date()).getTime() + 11*24*60*60*1000});	
-		});
+			$('#counterTop').countdown({timestamp : (new Date()).getTime() + 11*24*60*60*1000});
+			$("#flexisel",div).flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 1
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems:2
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 3
+					}
+				}
+		   });	
+	   });
 	}
 	$("body").click(function(){$(".product-view").hide();});	
 	$(".scroll").click(function(event){		
@@ -535,37 +557,9 @@ page.displayElements = function(){
 		  if(top > div.offset().top || div.offset().top > top) {
 			   if(!div.is(":hidden") && div.css("position")!="fixed") {
 				  div.css("top",top+5);
-				}
+			   }
 		  }
 	});
-	const div = $("#top-brands");
-	if(div.is(":visible")){
-		head.load("templates/fashion/js/jquery.flexisel.js",function(){
-			$("#flexisel",div).flexisel({
-				visibleItems: 4,
-				animationSpeed: 1000,
-				autoPlay: true,
-				autoPlaySpeed: 3000,    		
-				pauseOnHover: true,
-				enableResponsiveBreakpoints: true,
-				responsiveBreakpoints: { 
-					portrait: { 
-						changePoint:480,
-						visibleItems: 1
-					}, 
-					landscape: { 
-						changePoint:640,
-						visibleItems:2
-					},
-					tablet: { 
-						changePoint:768,
-						visibleItems: 3
-					}
-				}
-			});	
-		});
-	}
-	
 };
 
 page.display = function(){
