@@ -1043,6 +1043,7 @@ a .total {
 	max-height : 375px;
 	min-height : 200px;
 	border : 1px solid #ff9b05;
+	width : 65%;
 }
 
 .nav-tabs > li > a {
@@ -2503,7 +2504,7 @@ div#horizontalTab1 ul {
 	.footer-copy-pos {right: 4%;}
 	.modal_body_left {float: none;width: 100%;}
 	#contact-form {left: 11%;}
-	.modal_body_left img{margin:0 auto;max-height: 200px;}
+	.modal_body_left img{margin:0 auto;max-height: 200px;width:68%}
 	.modal_body_left1 {float: left !important;}
 	.modal_body_right1 {float: right !important;}
 	#deal h2:before, .container-bg h3:before, .top-brands h3:before{left:18%;}
