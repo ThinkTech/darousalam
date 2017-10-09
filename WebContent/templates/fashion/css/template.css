@@ -163,6 +163,11 @@ body a:hover{
     top: -3px;
 }
 
+.offline i {
+	position: relative;
+    top: 1px;
+}
+
 @keyframes blink {
   50% {
     opacity: 0.0;
