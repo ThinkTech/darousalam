@@ -277,15 +277,23 @@ page.displayProducts = function() {
 	
 	$(".nav-tabs li.active:first a",div).trigger("click");
 	
+	var top = 0;
+	
+	$("img,.w3_hs_bottom",div).on('touchstart', function(event) {
+		top = $(window).scrollTop();
+	    event.preventDefault();
+	});
+	
 	$("img,.w3_hs_bottom",div).on('touchend', function(event) {
 		const tab = $(this).closest(".tab-pane");
 	    const touch = event.changedTouches[event.changedTouches.length-1];
 	    const x = touch.pageX;
-	   if(x>$(this).width()+60){
+	    if(x>$(this).width()+60){
 	    	$(".ecommerce_tabs_nav_right",tab).click();
 	    }else if(x<30){
 	    	$(".ecommerce_tabs_nav_left",tab).click();
 	    }
+	    $('html,body').animate({scrollTop:top},0);
 	    event.preventDefault();
 	});
 };
