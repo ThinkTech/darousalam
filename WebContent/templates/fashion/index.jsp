@@ -178,7 +178,7 @@
 		<div class="container">
 		  <br><br>
 		  <div class="banner-deal">
-				<a href="#deal" class="scroll"><h4><i class="icon-shopping-cart" aria-hidden="true"></i>hot deal</h4></a>
+				<h4><i class="icon-shopping-cart" aria-hidden="true"></i>hot deal</h4>
 				<h6>Remise de 10%</h6>
 				<div class="timer_wrap">
 					<div id="counterTop"> </div>
