@@ -290,9 +290,9 @@ page.displayProducts = function() {
 	    const touch = event.changedTouches[event.changedTouches.length-1];
 	    x2 = touch.pageX;
 	    if(y>touch.pageY-30 || y<touch.pageY-30) {
-	      if(x2>x1+30){
+	      if(x2>x1+10){
 	    	$(".ecommerce_tabs_nav_right",tab).click();
-	      }else if(x2<x1-30){
+	      }else if(x2<x1-10){
 	    	$(".ecommerce_tabs_nav_left",tab).click();
 	      }
 	    }
