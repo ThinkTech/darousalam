@@ -276,6 +276,23 @@ page.displayProducts = function() {
 	});
 	
 	$(".nav-tabs li.active:first a",div).trigger("click");
+	
+	var x1,x2 = 0;
+	
+	$("img,.w3_hs_bottom",div).on('touchstart', function(event) {
+		x1 = x2 = event.touches[0].pageX;
+	});
+	
+	$("img,.w3_hs_bottom",div).on('touchend', function(event) {
+		const tab = $(this).closest(".tab-pane");
+	    const touch = event.changedTouches[event.changedTouches.length-1];
+	    x2 = touch.pageX;
+	    if(x2>x1+10){
+	    	$(".ecommerce_tabs_nav_right",tab).click();
+	    }else if(x2<x1){
+	    	$(".ecommerce_tabs_nav_left",tab).click();
+	    }
+	});
 };
 
 page.showItem = function(details,link){
