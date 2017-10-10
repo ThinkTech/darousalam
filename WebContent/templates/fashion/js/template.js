@@ -568,17 +568,20 @@ page.display = function(){
 	page.displayProducts();
 	page.displayCart();
 	if('serviceWorker' in navigator) page.registerServiceWorker();	
-	const elements = "#cart a.checkout,.w3l_login,.search,#contact-form input[type=submit],.w3_hs_bottom li a:last-of-type,.actions a:last-of-type,.newsletter";
+	const elements = "#cart a.checkout,.w3l_login,.search,.w3_hs_bottom li a:last-of-type,.actions a:last-of-type,.newsletter";
 	window.addEventListener("offline",function(){
 		$(elements).hide();
+		$('#contact-form input[type=submit]').attr("disabled","disabled");
 		$('.offline').show();
 	});
 	window.addEventListener("online",function(){
 		$(elements).show();
+		$('#contact-form input[type=submit]').removeAttr("disabled");
 		$('.offline').hide();
 	});
 	if(!navigator.onLine) {
 		$(elements).hide();
+		$('#contact-form input[type=submit]').attr("disabled","disabled");
 		$('.offline').show();
 	}
 };

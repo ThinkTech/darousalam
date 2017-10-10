@@ -1967,8 +1967,12 @@ h3.other-nw {
   text-transform: uppercase;
   font-weight: bold;
   color : #fff;
-  border: 2px solid #ff9b05;
+  border: 1px solid #ff9b05;
   background: #180101;
+}
+
+#contact-form #submit[disabled] {
+	background : #ddd;
 }
 
 
