@@ -2488,7 +2488,7 @@ div#horizontalTab1 ul {
 	.ecommerce_tab_left h5 {margin: 0.5em;}
 	.ecommerce_tab_left {margin-top: 0.5em;}
 	.modal {padding-top : 18%;}
-	#login.modal {top : 0;}
+	#login.modal {padding-top : 0;}
 	.box_1 a .icon-shopping-cart {top: 3.5px;}
 	div#OR{display:none}
 	.shoppingCart h4{font-size: 1em;}

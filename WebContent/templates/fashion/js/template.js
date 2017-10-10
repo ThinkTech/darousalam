@@ -65,7 +65,8 @@ page.displayLogin = function(){
 	
 	$(".tab_item-2").click(function(){
 		$(".modal_body_right",login).addClass("social-login");
-		page.wait();
+		const top = $("#login").offset().top;
+		page.wait({top : top+50});
 		head.load("https://www.google.com/recaptcha/api.js",function(){
 			page.release();
 		});
