@@ -1975,7 +1975,7 @@ h3.other-nw {
 }
 
 #contact-form #submit[disabled] {
-	background : #ddd;
+	background : #f4efe9;
 }
 
 
@@ -2548,7 +2548,7 @@ div#horizontalTab1 ul {
 	#contact-form {width: 310px;margin: auto;padding: 5px;left: 0;right: 0;top: 1px;position:fixed}
 	#contact-form input {margin-bottom: 0px;padding: 1px;font-size: 13px;}
 	#contact-form textarea {font-size: 13px;height:45px;margin-bottom: 4px;padding: 5px;padding: 3px;}
-	#contact-form #submit {font-size: 12px;height: 40px;}
+	#contact-form #submit {font-size: 12px;height: 36px;}
 	.cart_item p a {font-size: 11px;}
 	.shoppingCart ul{height : 120px;}
 	.shoppingCart li {padding: 3px 3px;}
