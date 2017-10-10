@@ -290,7 +290,10 @@ page.displayProducts = function() {
 	    }else if(x<30){
 	    	$(".ecommerce_tabs_nav_left",tab).click();
 	    }
-	    $("html,body").css("overflow-y","auto");
+	    setTimeout(function(){
+	    	$("html,body").css("overflow-y","auto");
+	    },2000);
+	    event.preventDefault();
 	});
 };
 
