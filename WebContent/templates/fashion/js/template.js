@@ -276,6 +276,18 @@ page.displayProducts = function() {
 	});
 	
 	$(".nav-tabs li.active:first a",div).trigger("click");
+	
+	$("img",div).on('touchend', function(event) {
+		const tab = $(this).closest(".tab-pane");
+	    const touch = event.changedTouches[event.changedTouches.length-1];
+	    const x = touch.pageX;
+	    if(x>0){
+	    	$(".ecommerce_tabs_nav_right",tab).click();
+	    }else{
+	    	$(".ecommerce_tabs_nav_left",tab).click();
+	    }
+	    event.preventDefault();
+	});
 };
 
 page.showItem = function(details,link){
