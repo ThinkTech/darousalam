@@ -1016,6 +1016,9 @@ a .total {
     margin-right: 0px;
 }
 
+.modal {
+	background : rgba(100, 100, 100, 0.5);
+}
 /*--banner-modal--*/
 .modal-open .modal {
     z-index: 99999;
@@ -1042,8 +1045,8 @@ a .total {
 }
 
 .modal_body_left img {
-	max-height : 375px;
-	min-height : 200px;
+	max-height : 300px;
+	min-height : 300px;
 	border : 1px solid #ff9b05;
 	width : 65%;
 }
@@ -2443,7 +2446,7 @@ div#horizontalTab1 ul {
 	.footer-copy-pos {right: 4%;}
 	.modal_body_left {float: none;width: 100%;}
 	#contact-form {left: 11%;}
-	.modal_body_left img{margin:0 auto;max-height: 200px;width:68%}
+	.modal_body_left img{margin:0 auto;min-height: 200px;max-height: 200px;width:68%}
 	.modal_body_left1 {float: left !important;}
 	.modal_body_right1 {float: right !important;}
 	#deal h2:before, .container-bg h3:before, .top-brands h3:before{left:18%;}
