@@ -277,11 +277,8 @@ page.displayProducts = function() {
 	
 	$(".nav-tabs li.active:first a",div).trigger("click");
 	
-	var top = 0;
-	
 	$("img,.w3_hs_bottom",div).on('touchstart', function(event) {
-		top = $(window).scrollTop();
-	    event.preventDefault();
+		$("html,body").css("overflow-y","hidden");;
 	});
 	
 	$("img,.w3_hs_bottom",div).on('touchend', function(event) {
@@ -293,8 +290,7 @@ page.displayProducts = function() {
 	    }else if(x<30){
 	    	$(".ecommerce_tabs_nav_left",tab).click();
 	    }
-	    $('html,body').animate({scrollTop:top},0);
-	    event.preventDefault();
+	    $("html,body").css("overflow-y","auto");
 	});
 };
 
