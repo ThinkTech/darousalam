@@ -276,25 +276,6 @@ page.displayProducts = function() {
 	});
 	
 	$(".nav-tabs li.active:first a",div).trigger("click");
-	
-	$("img,.w3_hs_bottom",div).on('touchstart', function(event) {
-		$("html,body").css("overflow-y","hidden");;
-	});
-	
-	$("img,.w3_hs_bottom",div).on('touchend', function(event) {
-		const tab = $(this).closest(".tab-pane");
-	    const touch = event.changedTouches[event.changedTouches.length-1];
-	    const x = touch.pageX;
-	    if(x>$(this).width()+60){
-	    	$(".ecommerce_tabs_nav_right",tab).click();
-	    }else if(x<30){
-	    	$(".ecommerce_tabs_nav_left",tab).click();
-	    }
-	    setTimeout(function(){
-	    	$("html,body").css("overflow-y","auto");
-	    },2000);
-	    event.preventDefault();
-	});
 };
 
 page.showItem = function(details,link){
