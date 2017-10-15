@@ -1915,7 +1915,7 @@ h3.other-nw {
   background: #f4efe9;
   z-index: 9999999999999;
   display : none;
-  left : 50%;
+  left : 30%;
   padding: 10px;
   border : 1px solid;
 }
