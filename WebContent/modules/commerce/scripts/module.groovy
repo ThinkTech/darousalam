@@ -33,7 +33,7 @@ class ModuleAction extends ActionSupport {
        response.writer.write(json([status: 0]))
     }
     
-    def saveOrder() {
+    def order() {
        response.writer.write(json([status: 1]))
     }
     

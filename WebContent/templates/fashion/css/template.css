@@ -1898,11 +1898,6 @@ h3.other-nw {
     font-size : 2em;
 }
 
-#contact-form .info, #contact-form .voice {
-	vertical-align : top;
-	cursor : pointer;
-	margin-top: 9px;
-}
 
 #contact-form form {
 	clear : right;

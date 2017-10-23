@@ -3,7 +3,7 @@
 			<h4 class="wizard-title">Confirmer l'achat</h4>
 			<span title="fermer" class="close">X</span>
 			<div class="checkout-wizard-steps">
-				<form action="commerce/saveOrder" method="post">
+				<form action="commerce/order" method="post">
 					<section class="step" data-step-title="Identification">
 						<fieldset>
 							<div id="socialLogin">

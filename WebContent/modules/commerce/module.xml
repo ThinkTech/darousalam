@@ -3,7 +3,7 @@
   <main>true</main>
   <cached>true</cached>
   <actions>
-   	<action url="saveOrder" method="saveOrder"/>
+   	<action url="order"  method="order"/>
    	<action url="search" method="search"/>
   </actions>
 </module>
