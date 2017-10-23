@@ -1,6 +1,5 @@
 <module>
+  <name>dashboard</name>
+  <url>dashboard</url>
   <type>back-end</type>
-  <actions>
-		
-	</actions>
 </module>

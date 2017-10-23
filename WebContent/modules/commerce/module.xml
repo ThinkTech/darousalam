@@ -1,4 +1,6 @@
 <module>
+  <name>commerce</name>
+  <url>commerce</url>
   <type>front-end</type>
   <main>true</main>
   <cached>true</cached>
