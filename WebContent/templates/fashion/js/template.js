@@ -483,7 +483,11 @@ page.displayElements = function(){
 				input.focus();
 			});
 		}else{
-			app.post(form.attr("action"),form.serialize(),function(response) {
+			fetch(form.attr("action"),{
+				method:"POST",body:form.serialize()
+			}).then(function(response) {
+			      return response.json();
+			}).then(function(response){
 				if(response.status==0){
 					alert("aucun article trouv\u0117",function(){ 
 						input.focus(); 
@@ -492,7 +496,7 @@ page.displayElements = function(){
 					$("#search_box").click();
 					// show articles
 				}
-			}, function(error) {
+			}).catch(function(error){
 				alert("error");
 			});	
 		}
@@ -518,12 +522,18 @@ page.displayElements = function(){
 	$("#contact-form > form, #login form, .newsletter form").submit(function(event){
 		const form = $(this);
 		if(page.validateForm(form)) {
-		  app.post(form.attr('action'),form.serialize(),function(response){
-			if(form.attr('action')=="users/login"){
-				location.href = response.url;
-			}
-			$("input[type=text],input[type=email],textarea",form).val("");
-          });
+		  fetch(form.attr("action"),{
+				method:"POST",body:form.serialize()
+			}).then(function(response) {
+			      return response.json();
+			}).then(function(response){
+				if(form.attr('action')=="users/login"){
+					location.href = response.url;
+				}
+				$("input[type=text],input[type=email],textarea",form).val("");
+			}).catch(function(error){
+				alert("error");
+			});	
 		}
 		return false;
 	});
