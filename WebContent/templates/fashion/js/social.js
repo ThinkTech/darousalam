@@ -13,9 +13,14 @@ gigya.socialize.showLoginUI({
 	,
 	cid : '',
 	onLogin : function(event){
-		app.post("users/login",null,function(response){
-			$("#login .close").click();
-			location.href = response.url;
-        });
+		$.ajax({
+			  type: "POST",
+			  url: "users/login",
+			  success: function(response) {
+				 $("#login .close").click();
+				 location.href = response.url;
+			  },
+			  dataType: "json"
+		});
 	}
 });
