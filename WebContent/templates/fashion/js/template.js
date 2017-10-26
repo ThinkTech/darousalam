@@ -386,7 +386,9 @@ page.addCartItem = function(item){
 	});
     ul.append(li);
     ul.animate({scrollTop: ul.prop("scrollHeight")}, 500);
-    $(".cart_items").html(ul.find("li").length);
+    const length = ul.find("li").length;
+    if(length==1) $(".cart").click();
+    $(".cart_items").html(length);
     $.each($("li",ul),function(index,element){
     	total += parseInt($(element).data("item").amount);
     });
