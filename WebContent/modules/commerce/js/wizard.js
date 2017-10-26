@@ -295,18 +295,23 @@ page.wizard.show = function(cart,top){
 page.wizard.submit = function(){
 	const wizard = $("#checkout-wizard");
 	const form = $("form",wizard);
-	app.post(form.attr("action"),form.serialize(),function(response) {
-		$('html,body').animate({scrollTop:0},100,function(){
-			page.cart = [];
-			localStorage.setItem("cart", JSON.stringify(page.cart));
-			$("#cart ul li").remove();
-			$(".cart_items").html(0);
-			$("#cart .total").html(0);
-			$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
-			$("html,body").css("overflow-y","auto");
-		});
-	}, function(error) {
-		alert("error");
+	$.ajax({
+		  type: "POST",
+		  url: form.attr("action"),
+		  data :form.serialize(),
+		  success: function(response) {
+			  page.release();
+			  $('html,body').animate({scrollTop:0},100,function(){
+				    page.cart = [];
+					localStorage.setItem("cart", JSON.stringify(page.cart));
+					$("#cart ul li").remove();
+					$(".cart_items").html(0);
+					$("#cart .total").html(0);
+					$("#order-confirmation").fadeIn(100).removeAttr('class').addClass("animated zoomInDown");
+					$("html,body").css("overflow-y","auto");
+				});
+		  },
+		  dataType: "json"
 	});
 	page.wait({top : page.wizard.top});
 	wizard.fadeOut(100,function(){
