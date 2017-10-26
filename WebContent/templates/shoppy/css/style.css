@@ -690,7 +690,7 @@ h3 .fa-shopping-cart {
 /* Magnific Popup CSS */
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 7px;
 }
  
 ::-webkit-scrollbar-thumb {
@@ -703,8 +703,7 @@ h3 .fa-shopping-cart {
 
 ::-webkit-scrollbar-button {
   background: #ff9b05;
-  height: 15px;
-  border-radius: 50%;
+  height: 7px;
 }
 
 /*--prices end here--*/

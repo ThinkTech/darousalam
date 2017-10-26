@@ -9,6 +9,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <link href="templates/shoppy/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- Custom Theme files -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/metamorphosis.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="templates/shoppy/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!--js-->

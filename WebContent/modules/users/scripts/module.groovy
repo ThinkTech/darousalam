@@ -4,9 +4,8 @@ import static groovy.json.JsonOutput.toJson as json
 
 class ModuleAction extends ActionSupport {
 
-	def login()  {
-	    def user = new User()
-	    session.setAttribute("user",user)
+	def login() {
+	    session.setAttribute("user",new User())
 		def url = request.contextPath+"/dashboard"
 		response.writer.write(json([url: url]))
 	}
