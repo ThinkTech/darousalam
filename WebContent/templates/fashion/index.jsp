@@ -47,8 +47,8 @@
 										<div>
 											<div class="register loginForm">
 												<form action="users/login" method="post">			
-													<input name="Email" placeholder="email" type="email">						
-													<input name="Password" placeholder="mot de passe" type="password">										
+													<input name="email" placeholder="email" type="email">						
+													<input name="password" placeholder="mot de passe" type="password">										
 													<div class="sign-up">
 														<input type="submit" value="Connexion"/>
 														<a title="mot de passe oublié"><i class="icon-key" aria-hidden="true"></i>mot de passe oublié?</a>

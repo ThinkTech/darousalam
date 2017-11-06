@@ -1,11 +1,13 @@
 import org.metamorphosis.core.ActionSupport
 import org.metamorphosis.core.User
 import static groovy.json.JsonOutput.toJson as json
+import groovy.json.JsonSlurper
+
 
 class ModuleAction extends ActionSupport {
 
 	def login() {
-	    session.setAttribute("user",new User())
+	    def user = new JsonSlurper().parse(request.inputStream) 
 		def url = request.contextPath+"/dashboard"
 		response.writer.write(json([url: url]))
 	}

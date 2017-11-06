@@ -524,15 +524,19 @@ page.displayElements = function(){
 	$("#contact-form > form, #login form, .newsletter form").submit(function(event){
 		const form = $(this);
 		if(page.validateForm(form)) {
+			const user = {};
+			user.email = form.find("input[name=email]").val();
+			user.password = form.find("input[name=password]").val();
 			$.ajax({
 				  type: "POST",
 				  url: form.attr("action"),
-				  data: form.serialize(),
+				  data: JSON.stringify(user),
+				  contentType : "application/json",
 				  success: function(response) {
 					if(form.attr('action')=="users/login"){
 						location.href = response.url;
 					}
-					$("input[type=text],input[type=email],textarea",form).val("");
+					$("input[type=text],input[type=password],input[type=email],textarea",form).val("");
 				  },
 				  dataType: "json"
 			});
